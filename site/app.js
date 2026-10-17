@@ -115,9 +115,10 @@
     $('#search').value='';$('#country').value='';$('#region').value='';$('#level').value='';$('#from').value='';$('#to').value='';$('#upcoming').checked=true;$('#official').checked=false;$('#favorites').checked=false;$('#sort').value='date';selectedDay='';count=25;regionOptions();refresh();
   }
   async function start(){
+    let data;
     try{
       const doc=window.__KART_ATLAS_EMBEDDED__ || (async () => { const r=await fetch('/events.json',{cache:'no-cache'});if(!r.ok)throw Error(r.status);return r.json(); })();
-      const data=await doc;events=data.events||[];snapshot=data.updated||'';
+      data=await doc;events=data.events||[];snapshot=data.updated||'';
     }catch(err){$('#result-context').textContent='Could not load the event directory. Please check your connection and reload.';console.error(err);return;}
     $('#stat-races').textContent=events.length;
     $('#stat-tracks').textContent=new Set(events.map(e=>e.venue).filter(Boolean)).size;
