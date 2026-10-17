@@ -247,6 +247,50 @@
       "url": "https://www.uspks.com/2026-recap-a-letter-from-the-race-director/",
       "mode": "watch",
       "auto_import": false
+    },
+    {
+      "id": "mka-home",
+      "club": "Manitoba Karting Association",
+      "country": "Canada",
+      "region": "MB",
+      "city": "Gimli",
+      "venue": "Gimli Motorsports Park",
+      "url": "https://www.manitobakarting.ca/",
+      "mode": "watch",
+      "auto_import": false
+    },
+    {
+      "id": "rmc-canada",
+      "club": "Rotax MAX Challenge Canada",
+      "country": "Canada",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://maxchallenge.ca/events2/",
+      "mode": "watch",
+      "auto_import": false
+    },
+    {
+      "id": "kartstars-canada",
+      "club": "KartStars Canada",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://kartsportcanada.ca/bulletins/",
+      "mode": "watch",
+      "auto_import": false
+    },
+    {
+      "id": "kartstars-regulations",
+      "club": "KartStars Canada supplementary regulations",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Canada-Karting-Championship-Supplementary-Regulations-5-3-2026.pdf",
+      "mode": "watch",
+      "auto_import": false
     }
   ]
 }
