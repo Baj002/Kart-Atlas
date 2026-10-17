@@ -20,13 +20,16 @@
   function getFilters(){return {
     q:$('#search').value.trim().toLowerCase(),country:$('#country').value,region:$('#region').value,level:$('#level').value,
     from:$('#from').value,to:$('#to').value,upcoming:$('#upcoming').checked,official:$('#official').checked,
-    favorites:$('#favorites').checked,sort:$('#sort').value
+    favorites:$('#favorites').checked,kartClass:$('#class-filter').value,sort:$('#sort').value
   };}
+  const CLASS_PATTERNS={briggs:/\b(briggs|lo\s*206|206|four[ -]?cycle|4[ -]?cycle)\b/i,rotax:/\brotax\b|\b(dd2|max\s*challenge)\b/i,rok:/\brok\b/i,iame:/\b(iame|x30|ka100|ka 100)\b/i,shifter:/\b(shifter|kz2?|icc|125\s*cc\s*gearbox)\b/i,kid:/\b(kid\s*kart|bambino|micro\s*swift)\b/i};
+  function classMatch(e,value){const classes=String(e.classes||'').trim();if(!classes)return false;if(value==='other')return !Object.values(CLASS_PATTERNS).some(re=>re.test(classes));return !!(CLASS_PATTERNS[value]&&CLASS_PATTERNS[value].test(classes));}
   function filtered(){const f=getFilters();let a=events.filter(e=>{
     if(f.q&&!([e.name,e.organizer,e.venue,e.city,e.region,e.classes,e.format].join(' ').toLowerCase().includes(f.q)))return false;
     if(f.country && e.country!==f.country)return false;
     if(f.region && e.region!==f.region)return false;
     if(f.level && e.level!==f.level)return false;
+    if(f.kartClass && !classMatch(e,f.kartClass))return false;
     if(f.from && e.end<f.from)return false;
     if(f.to && e.start>f.to)return false;
     if(f.upcoming && e.end<today())return false;
@@ -126,7 +129,7 @@
     if(mode==='month')calendarView(a);
   }
   function reset(){
-    $('#search').value='';$('#country').value='';$('#region').value='';$('#level').value='';$('#from').value='';$('#to').value='';$('#upcoming').checked=true;$('#official').checked=false;$('#favorites').checked=false;$('#sort').value='date';selectedDay='';count=25;regionOptions();refresh();
+    $('#search').value='';$('#country').value='';$('#region').value='';$('#level').value='';$('#class-filter').value='';$('#from').value='';$('#to').value='';$('#upcoming').checked=true;$('#official').checked=false;$('#favorites').checked=false;$('#sort').value='date';selectedDay='';count=25;regionOptions();refresh();
   }
   async function start(){
     let data;
@@ -141,7 +144,7 @@
     $('#snapshot').textContent=`Original research: ${snapshot} · Auto-imported feed events: ${data.auto_imported||0}. Other clubs require review.`;
     fetch('/monitor_status.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(status=>{if(status&&status.last_attempt){const date=new Date(status.last_attempt).toLocaleDateString();$('#snapshot').textContent+=` Last monitored: ${date} · ${status.checked}/${status.total} sources reached.`;}}).catch(()=>{});
     regionOptions();
-    for(const id of ['search','country','region','level','from','to','upcoming','official','favorites','sort']){
+    for(const id of ['search','country','region','level','class-filter','from','to','upcoming','official','favorites','sort']){
       const element=$('#'+id);element.addEventListener(id==='search'?'input':'change',()=>{if(id==='country')regionOptions();count=25;selectedDay='';refresh();});
     }
     $('#reset').onclick=reset;$('#empty-reset').onclick=reset;
