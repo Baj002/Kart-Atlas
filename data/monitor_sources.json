@@ -291,6 +291,50 @@
       "url": "https://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Canada-Karting-Championship-Supplementary-Regulations-5-3-2026.pdf",
       "mode": "watch",
       "auto_import": false
+    },
+    {
+      "id": "amka-schedule",
+      "club": "Atlantic Motorsport Karters Association",
+      "country": "Canada",
+      "region": "NS",
+      "city": "Halifax",
+      "venue": "Kartbahn Racing",
+      "url": "https://www.amka.ca/race-schedule",
+      "mode": "watch",
+      "auto_import": false
+    },
+    {
+      "id": "mka-registration",
+      "club": "Manitoba Karting Association",
+      "country": "Canada",
+      "region": "MB",
+      "city": "Gimli",
+      "venue": "Gimli Motorsports Park",
+      "url": "https://www.motorsportreg.com/orgs/manitoba-karting-association",
+      "mode": "watch",
+      "auto_import": false
+    },
+    {
+      "id": "ckna-canada",
+      "club": "Cup Karts North America Canada",
+      "country": "Canada",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://www.cupkarts.com/schedule/",
+      "mode": "watch",
+      "auto_import": false
+    },
+    {
+      "id": "kartstars-schedule",
+      "club": "KartStars Canada",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://kartsportcanada.ca/schedule-2/",
+      "mode": "watch",
+      "auto_import": false
     }
   ]
 }
