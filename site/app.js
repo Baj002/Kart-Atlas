@@ -40,9 +40,22 @@
   if(f.sort==='latest')a.sort((a,b)=>b.start.localeCompare(a.start));
   if(f.sort==='date')a.sort((a,b)=>a.start.localeCompare(b.start));
   return a;}
+  const REGIONS={
+    Canada:{AB:'Alberta',BC:'British Columbia',MB:'Manitoba',NB:'New Brunswick',NL:'Newfoundland and Labrador',NT:'Northwest Territories',NS:'Nova Scotia',NU:'Nunavut',ON:'Ontario',PE:'Prince Edward Island',QC:'Quebec',SK:'Saskatchewan',YT:'Yukon'},
+    USA:{AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',DC:'District of Columbia'},
+    Mexico:{AGU:'Aguascalientes',BCN:'Baja California',BCS:'Baja California Sur',CAM:'Campeche',CHP:'Chiapas',CHH:'Chihuahua',COA:'Coahuila',COL:'Colima',DUR:'Durango',GUA:'Guanajuato',GRO:'Guerrero',HID:'Hidalgo',JAL:'Jalisco',MEX:'Estado de México',MIC:'Michoacán',MOR:'Morelos',NAY:'Nayarit',NLE:'Nuevo León',OAX:'Oaxaca',PUE:'Puebla',QUE:'Querétaro',ROO:'Quintana Roo',SLP:'San Luis Potosí',SIN:'Sinaloa',SON:'Sonora',TAB:'Tabasco',TAM:'Tamaulipas',TLA:'Tlaxcala',VER:'Veracruz',YUC:'Yucatán',ZAC:'Zacatecas',CMX:'Mexico City'}
+  };
   function regionOptions(){const choose=$('#region'),val=choose.value,country=$('#country').value;
-    const regions=[...new Set(events.filter(e=>!country||e.country===country).map(e=>e.region).filter(x=>x && x!=='TBA'))].sort(sortRegion);
-    choose.replaceChildren(new Option('Everywhere',''),...regions.map(x=>new Option(x,x)));choose.value=regions.includes(val)?val:'';
+    const options=[];
+    for(const nation of (country?[country]:['Canada','USA','Mexico'])){
+      const known=REGIONS[nation]||{};
+      for(const [code,name] of Object.entries(known))options.push({code,label:country?name+' ('+code+')':name+' ('+code+', '+nation+')',country:nation});
+    }
+    const regions=[...new Set(events.filter(e=>!country||e.country===country).map(e=>e.region).filter(x=>x&&x!=='TBA'&&x!=='Multi'))];
+    for(const code of regions)if(!options.some(o=>o.code===code&&(country||o.country===country)))options.push({code,label:code,country:country||''});
+    options.sort((a,b)=>sortRegion(a.label,b.label));
+    choose.replaceChildren(new Option('All states / provinces',''),...options.map(o=>new Option(o.label,o.code)));
+    choose.value=options.some(o=>o.code===val)?val:'';
   }
   function makeTag(name,extra){return el('span',`tag ${extra||''}`,name);}
   function addButton(title,symbol,handler,cls){const b=el('button','icon-btn '+(cls||''),symbol);b.type='button';b.setAttribute('aria-label',title);b.title=title;b.onclick=handler;return b;}
@@ -106,6 +119,7 @@
     const a=filtered();$('#result-count').textContent=a.length;$('#result-context').textContent=(selectedDay?`Selected day: ${fmtDate(selectedDay)} · `:'')+`${a.length} matching races · Listings checked against organizer sources where available · Not a complete North American inventory`;
     $('#cards').replaceChildren(...a.slice(0,count).map(makeCard));
     $('#empty').classList.toggle('hidden',a.length!==0);
+    if(!a.length)$('#empty').querySelector('p').textContent='No races currently indexed for these filters. This does not mean there are no races in this location; coverage is still expanding.';
     $('#more').classList.toggle('hidden',a.length<=count);
     $('#more').textContent=`Show more races (${Math.min(a.length-count,25)} of ${a.length-count} remaining) ↓`;
     $('#calendar').classList.toggle('hidden',mode!=='month');
