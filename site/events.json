@@ -89,6 +89,23 @@
       "id": "5568dba30793"
     },
     {
+      "start": "2026-05-15",
+      "end": "2026-05-17",
+      "name": "CKNA 2026 Canadian Four-Cycle National",
+      "organizer": "Cup Karts North America",
+      "venue": "Academie TAG Karting",
+      "city": "Mont-Tremblant",
+      "region": "QC",
+      "country": "Canada",
+      "level": "National",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206",
+      "source": "https://www.cupkarts.com/schedule/",
+      "notes": "2026 official CKNA schedule.",
+      "id": "ca26-qc-20260515-9"
+    },
+    {
       "start": "2026-05-20",
       "end": "2026-05-20",
       "name": "EDKRA DD2 Race 2",
@@ -274,6 +291,23 @@
       "source": "https://www.amka.ca/race-schedule",
       "notes": "Official AMKA 2026 championship calendar; 2026 Briggs LO206 club rule set published. Other classes and participation require organizer confirmation.",
       "id": "ca26-ns-20260531-amka-2026-race-1-don-nickerson-memorial"
+    },
+    {
+      "start": "2026-05-31",
+      "end": "2026-05-31",
+      "name": "Sudbury Kid Kart Series 2026 Race 1",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260531-0"
     },
     {
       "start": "2026-06-06",
@@ -480,6 +514,23 @@
       "id": "dbb80609731f"
     },
     {
+      "start": "2026-06-14",
+      "end": "2026-06-14",
+      "name": "Sudbury Kid Kart Series 2026 Race 2",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260614-1"
+    },
+    {
       "start": "2026-06-17",
       "end": "2026-06-17",
       "name": "EDKRA DD2 Race 5",
@@ -580,6 +631,23 @@
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "c15ed3303036"
+    },
+    {
+      "start": "2026-06-21",
+      "end": "2026-06-21",
+      "name": "Sudbury Kid Kart Series 2026 Race 3",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260621-2"
     },
     {
       "start": "2026-06-24",
@@ -786,6 +854,23 @@
       "id": "5844c27539b6"
     },
     {
+      "start": "2026-07-05",
+      "end": "2026-07-05",
+      "name": "Sudbury Kid Kart Series 2026 Race 4",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260705-3"
+    },
+    {
       "start": "2026-07-08",
       "end": "2026-07-08",
       "name": "EDKRA DD2 Race 7",
@@ -954,6 +1039,23 @@
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "4ceda2cdfc2e"
+    },
+    {
+      "start": "2026-07-19",
+      "end": "2026-07-19",
+      "name": "Sudbury Kid Kart Series 2026 Race 5",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260719-4"
     },
     {
       "start": "2026-07-22",
@@ -1141,6 +1243,23 @@
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "0dc207c848eb"
+    },
+    {
+      "start": "2026-08-09",
+      "end": "2026-08-09",
+      "name": "Sudbury Kid Kart Series 2026 Race 6",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260809-5"
     },
     {
       "start": "2026-08-12",
@@ -1347,6 +1466,23 @@
       "id": "3072e157e613"
     },
     {
+      "start": "2026-08-25",
+      "end": "2026-08-25",
+      "name": "Sudbury Kid Kart Series 2026 Race 7",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260825-6"
+    },
+    {
       "start": "2026-08-26",
       "end": "2026-08-26",
       "name": "EDKRA DD2 Race 13",
@@ -1551,6 +1687,23 @@
       "id": "697c0a9672a2"
     },
     {
+      "start": "2026-09-13",
+      "end": "2026-09-13",
+      "name": "Sudbury Kid Kart Series 2026 Race 8",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260913-7"
+    },
+    {
       "start": "2026-09-18",
       "end": "2026-09-20",
       "name": "MKA 2026 Test & Tune / Race 11",
@@ -1617,6 +1770,23 @@
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "b32dcac7b4fa"
+    },
+    {
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "name": "Sudbury Kid Kart Series 2026 Race 9",
+      "organizer": "Sudbury Kart Club",
+      "venue": "Sudbury Kartways",
+      "city": "Sudbury",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Kid Kart",
+      "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
+      "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
+      "id": "ca26-on-20260920-8"
     },
     {
       "start": "2026-09-26",
