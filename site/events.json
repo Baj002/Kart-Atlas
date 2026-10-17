@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-16",
   "coverage_note": "Research snapshot, not a complete list of North American kart races. Automated additions come only from identified organizer calendar feeds; check organizer before travel.",
   "auto_imported": 2,
   "events": [
@@ -18,7 +18,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260328-037"
+      "id": "1f4f2fd49163"
     },
     {
       "start": "2026-04-18",
@@ -35,7 +35,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260418-038"
+      "id": "5ff72e90d751"
     },
     {
       "start": "2026-05-01",
@@ -52,7 +52,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260501-044"
+      "id": "8c76424b250a"
     },
     {
       "start": "2026-05-09",
@@ -63,13 +63,13 @@
       "city": "Mont-Saint-Hilaire",
       "region": "QC",
       "country": "Canada",
-      "level": "Regional",
+      "level": "Club",
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260509-QC-0"
+      "id": "cf0af4977ace"
     },
     {
       "start": "2026-05-13",
@@ -86,7 +86,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260513-023"
+      "id": "5568dba30793"
     },
     {
       "start": "2026-05-20",
@@ -103,7 +103,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260520-024"
+      "id": "9f4a011c5bd3"
     },
     {
       "start": "2026-05-22",
@@ -120,7 +120,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260522-039"
+      "id": "1b10ccd856a8"
     },
     {
       "start": "2026-05-23",
@@ -137,7 +137,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260523-000"
+      "id": "a2f01c7bf355"
     },
     {
       "start": "2026-05-24",
@@ -154,7 +154,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260524-001"
+      "id": "195394d301b6"
     },
     {
       "start": "2026-05-24",
@@ -171,7 +171,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260524-048"
+      "id": "4c3739168321"
     },
     {
       "start": "2026-05-24",
@@ -188,7 +188,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260524-060"
+      "id": "047e4030a9fd"
     },
     {
       "start": "2026-05-27",
@@ -205,7 +205,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260527-025"
+      "id": "c6dcddcad16d"
     },
     {
       "start": "2026-05-29",
@@ -222,7 +222,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260529-045"
+      "id": "aef17a0d1a98"
     },
     {
       "start": "2026-05-30",
@@ -239,7 +239,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260530-011"
+      "id": "c665c061e10a"
     },
     {
       "start": "2026-06-06",
@@ -256,7 +256,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260606-002"
+      "id": "eba27144d36c"
     },
     {
       "start": "2026-06-06",
@@ -273,7 +273,7 @@
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260606-QC-1"
+      "id": "e2465bcf2c5c"
     },
     {
       "start": "2026-06-07",
@@ -290,7 +290,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260607-003"
+      "id": "4a5a2f1868c6"
     },
     {
       "start": "2026-06-07",
@@ -307,7 +307,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260607-061"
+      "id": "41719da40ab1"
     },
     {
       "start": "2026-06-10",
@@ -324,7 +324,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260610-026"
+      "id": "8769ad444c6f"
     },
     {
       "start": "2026-06-13",
@@ -341,7 +341,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260613-012"
+      "id": "0f3aacfa6fdd"
     },
     {
       "start": "2026-06-13",
@@ -358,7 +358,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260613-049"
+      "id": "a6a3907ca9fe"
     },
     {
       "start": "2026-06-13",
@@ -375,7 +375,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260613-040"
+      "id": "9519aa24cdab"
     },
     {
       "start": "2026-06-14",
@@ -392,7 +392,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260614-013"
+      "id": "d24b80983ce3"
     },
     {
       "start": "2026-06-14",
@@ -409,7 +409,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260614-050"
+      "id": "dbb80609731f"
     },
     {
       "start": "2026-06-17",
@@ -426,7 +426,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260617-027"
+      "id": "589043f2d9f1"
     },
     {
       "start": "2026-06-20",
@@ -443,7 +443,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260620-004"
+      "id": "482ca8272b4a"
     },
     {
       "start": "2026-06-20",
@@ -460,7 +460,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260620-062"
+      "id": "5ea1dec63e76"
     },
     {
       "start": "2026-06-21",
@@ -477,7 +477,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260621-005"
+      "id": "0e379a1ae97e"
     },
     {
       "start": "2026-06-21",
@@ -494,7 +494,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260621-063"
+      "id": "c15ed3303036"
     },
     {
       "start": "2026-06-24",
@@ -511,7 +511,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260624-028"
+      "id": "84f653b8c61f"
     },
     {
       "start": "2026-06-26",
@@ -528,7 +528,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260626-046"
+      "id": "4d285adc17a7"
     },
     {
       "start": "2026-06-27",
@@ -545,7 +545,7 @@
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260627-QC-2"
+      "id": "e6cc64950492"
     },
     {
       "start": "2026-06-27",
@@ -562,7 +562,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260627-051"
+      "id": "fcf956e87fef"
     },
     {
       "start": "2026-07-04",
@@ -579,7 +579,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260704-014"
+      "id": "f6afc5dea382"
     },
     {
       "start": "2026-07-05",
@@ -596,7 +596,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260705-006"
+      "id": "48756b586295"
     },
     {
       "start": "2026-07-05",
@@ -613,7 +613,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260705-015"
+      "id": "4aaa82cf1613"
     },
     {
       "start": "2026-07-05",
@@ -630,7 +630,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260705-052"
+      "id": "1b5eab25beab"
     },
     {
       "start": "2026-07-05",
@@ -647,7 +647,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260705-064"
+      "id": "5844c27539b6"
     },
     {
       "start": "2026-07-08",
@@ -664,7 +664,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260708-029"
+      "id": "38b53537374a"
     },
     {
       "start": "2026-07-10",
@@ -681,7 +681,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260710-041"
+      "id": "4d098b3ac2b0"
     },
     {
       "start": "2026-07-11",
@@ -698,7 +698,7 @@
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260711-QC-3"
+      "id": "4cc608918889"
     },
     {
       "start": "2026-07-15",
@@ -715,7 +715,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260715-030"
+      "id": "b74ceb5404b8"
     },
     {
       "start": "2026-07-18",
@@ -732,7 +732,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260718-016"
+      "id": "5ebdf8c18bbe"
     },
     {
       "start": "2026-07-19",
@@ -749,7 +749,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260719-017"
+      "id": "c623fdc55afe"
     },
     {
       "start": "2026-07-19",
@@ -766,7 +766,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260719-065"
+      "id": "4ceda2cdfc2e"
     },
     {
       "start": "2026-07-22",
@@ -783,7 +783,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260722-031"
+      "id": "32578e12d691"
     },
     {
       "start": "2026-07-25",
@@ -800,7 +800,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260725-018"
+      "id": "6bdb799f8835"
     },
     {
       "start": "2026-07-25",
@@ -817,7 +817,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260725-053"
+      "id": "d16a01600962"
     },
     {
       "start": "2026-07-26",
@@ -834,7 +834,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260726-019"
+      "id": "559de208f516"
     },
     {
       "start": "2026-07-26",
@@ -851,7 +851,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260726-054"
+      "id": "03590aeecdab"
     },
     {
       "start": "2026-07-29",
@@ -868,7 +868,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260729-032"
+      "id": "87682948ef6a"
     },
     {
       "start": "2026-08-07",
@@ -885,7 +885,7 @@
       "classes": "",
       "source": "https://maxchallenge.ca/events2/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260807-AB-7"
+      "id": "fda052603e66"
     },
     {
       "start": "2026-08-09",
@@ -902,7 +902,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260809-055"
+      "id": "8374fde587e4"
     },
     {
       "start": "2026-08-09",
@@ -919,7 +919,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260809-066"
+      "id": "0dc207c848eb"
     },
     {
       "start": "2026-08-12",
@@ -936,7 +936,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260812-033"
+      "id": "3370214067e7"
     },
     {
       "start": "2026-08-14",
@@ -953,7 +953,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260814-047"
+      "id": "03391ce6d007"
     },
     {
       "start": "2026-08-19",
@@ -970,7 +970,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260819-034"
+      "id": "563492a1c194"
     },
     {
       "start": "2026-08-22",
@@ -987,7 +987,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260822-007"
+      "id": "6a0558cf48fb"
     },
     {
       "start": "2026-08-22",
@@ -1004,7 +1004,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260822-020"
+      "id": "0b74ff3f6895"
     },
     {
       "start": "2026-08-22",
@@ -1021,7 +1021,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260822-056"
+      "id": "d4240738d1a1"
     },
     {
       "start": "2026-08-23",
@@ -1038,7 +1038,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260823-008"
+      "id": "a0adee790364"
     },
     {
       "start": "2026-08-23",
@@ -1055,7 +1055,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260823-021"
+      "id": "1fab66faa246"
     },
     {
       "start": "2026-08-23",
@@ -1072,7 +1072,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260823-057"
+      "id": "e5232778a4d1"
     },
     {
       "start": "2026-08-23",
@@ -1089,7 +1089,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260823-067"
+      "id": "3072e157e613"
     },
     {
       "start": "2026-08-26",
@@ -1106,7 +1106,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260826-035"
+      "id": "cd579044f280"
     },
     {
       "start": "2026-08-29",
@@ -1123,7 +1123,7 @@
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260829-QC-4"
+      "id": "b20e62ee90ac"
     },
     {
       "start": "2026-08-29",
@@ -1140,7 +1140,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260829-042"
+      "id": "d6611d3500af"
     },
     {
       "start": "2026-09-02",
@@ -1157,7 +1157,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260902-036"
+      "id": "e2ec83067b57"
     },
     {
       "start": "2026-09-05",
@@ -1174,7 +1174,7 @@
       "classes": "",
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260905-022"
+      "id": "f0ebb21fe767"
     },
     {
       "start": "2026-09-12",
@@ -1191,7 +1191,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260912-009"
+      "id": "cb352b0228b7"
     },
     {
       "start": "2026-09-12",
@@ -1208,7 +1208,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260912-068"
+      "id": "c2663c766bce"
     },
     {
       "start": "2026-09-13",
@@ -1225,7 +1225,7 @@
       "classes": "",
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260913-010"
+      "id": "9fa68637d0a2"
     },
     {
       "start": "2026-09-13",
@@ -1242,7 +1242,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260913-069"
+      "id": "697c0a9672a2"
     },
     {
       "start": "2026-09-19",
@@ -1259,7 +1259,7 @@
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20260919-QC-5"
+      "id": "2f845bd6fab8"
     },
     {
       "start": "2026-09-20",
@@ -1276,7 +1276,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260920-058"
+      "id": "7ce307abcd8d"
     },
     {
       "start": "2026-09-20",
@@ -1293,7 +1293,7 @@
       "classes": "",
       "source": "https://www.sskc.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260920-070"
+      "id": "b32dcac7b4fa"
     },
     {
       "start": "2026-09-26",
@@ -1310,7 +1310,7 @@
       "classes": "",
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260926-043"
+      "id": "01f193b7bc41"
     },
     {
       "start": "2026-09-27",
@@ -1327,7 +1327,7 @@
       "classes": "",
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
-      "id": "west-20260927-059"
+      "id": "8b167d731acb"
     },
     {
       "start": "2026-10-10",
@@ -1344,7 +1344,7 @@
       "classes": "",
       "source": "https://coupedemontreal.com/en/calendar-results/",
       "notes": "Official organizer's 2026 schedule; historical listing.",
-      "id": "ca2026-20261010-QC-6"
+      "id": "f47d326a2a62"
     },
     {
       "start": "2026-10-16",
@@ -1451,23 +1451,6 @@
       "id": "50f9aef1e40e"
     },
     {
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "name": "HRKC Race 19 — Championship Finale",
-      "organizer": "Hamilton Regional Kart Club",
-      "venue": "Hamilton Karting Complex",
-      "city": "Mount Hope",
-      "region": "ON",
-      "country": "Canada",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
-      "notes": "",
-      "id": "f9970013a237"
-    },
-    {
       "id": "auto-636cac60c0cf",
       "uid": "8819-1792281600-1792367999@hamiltonkartingcomplex.com",
       "feed_id": "hamilton-ics",
@@ -1485,6 +1468,23 @@
       "classes": "",
       "source": "https://hamiltonkartingcomplex.com/event/hrkc-race-19-double-points-finale/",
       "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel."
+    },
+    {
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "name": "HRKC Race 19 — Championship Finale",
+      "organizer": "Hamilton Regional Kart Club",
+      "venue": "Hamilton Karting Complex",
+      "city": "Mount Hope",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "notes": "",
+      "id": "f9970013a237"
     },
     {
       "start": "2026-10-18",
@@ -2011,7 +2011,7 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "2027 official organizer schedule.",
-      "id": "usa27-20270116-skusa-winter-series-rounds-1-2"
+      "id": "06eeb999f02d"
     },
     {
       "start": "2027-01-16",
@@ -2096,7 +2096,7 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "2027 official organizer schedule.",
-      "id": "usa27-20270212-skusa-winter-series-rounds-3-4"
+      "id": "1a9b14c91bd1"
     },
     {
       "start": "2027-02-12",
@@ -2181,7 +2181,7 @@
       "classes": "",
       "source": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
       "notes": "Official dates confirmed; venue not yet announced.",
-      "id": "usa27-20270226-rok-florida-winter-tour-round-2"
+      "id": "37b174ec9bb3"
     },
     {
       "start": "2027-02-28",
@@ -2283,7 +2283,7 @@
       "classes": "",
       "source": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
       "notes": "Official dates confirmed; venue not yet announced.",
-      "id": "usa27-20270312-rok-florida-winter-tour-round-3"
+      "id": "f998c938c8b8"
     },
     {
       "start": "2027-03-12",

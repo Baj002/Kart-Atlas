@@ -1134,7 +1134,7 @@
       "schedule_url": "https://rokcupusa.com/calendar/",
       "source_description": "Official website / calendar",
       "notes": "Organizer source",
-      "monitor_id": null
+      "monitor_id": "rok-usa-calendar"
     },
     {
       "id": "bb926de967",
