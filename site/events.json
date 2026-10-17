@@ -55,6 +55,23 @@
       "id": "west-20260501-044"
     },
     {
+      "start": "2026-05-09",
+      "end": "2026-05-10",
+      "name": "Coupe de Montréal Round 1",
+      "organizer": "Coupe de Montréal",
+      "venue": "SH Karting",
+      "city": "Mont-Saint-Hilaire",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260509-QC-0"
+    },
+    {
       "start": "2026-05-13",
       "end": "2026-05-13",
       "name": "EDKRA DD2 Race 1",
@@ -240,6 +257,23 @@
       "source": "https://ckrc.com/event-schedule/",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "west-20260606-002"
+    },
+    {
+      "start": "2026-06-06",
+      "end": "2026-06-07",
+      "name": "Coupe de Montréal Round 2",
+      "organizer": "Coupe de Montréal",
+      "venue": "Karting Trois-Rivières",
+      "city": "Trois-Rivières",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260606-QC-1"
     },
     {
       "start": "2026-06-07",
@@ -498,6 +532,23 @@
     },
     {
       "start": "2026-06-27",
+      "end": "2026-06-28",
+      "name": "Coupe de Montréal Round 3",
+      "organizer": "Coupe de Montréal",
+      "venue": "Académie TAG Karting",
+      "city": "Mont-Tremblant",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260627-QC-2"
+    },
+    {
+      "start": "2026-06-27",
       "end": "2026-06-27",
       "name": "Saskatoon Kart Racers Race Sask Series 1",
       "organizer": "Saskatoon Kart Racers",
@@ -631,6 +682,23 @@
       "source": "https://www.westcoastkartclub.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "west-20260710-041"
+    },
+    {
+      "start": "2026-07-11",
+      "end": "2026-07-12",
+      "name": "Coupe de Montréal Round 4",
+      "organizer": "Coupe de Montréal",
+      "venue": "Académie TAG Karting",
+      "city": "Mont-Tremblant",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260711-QC-3"
     },
     {
       "start": "2026-07-15",
@@ -801,6 +869,23 @@
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "west-20260729-032"
+    },
+    {
+      "start": "2026-08-07",
+      "end": "2026-08-09",
+      "name": "Rotax MAX Challenge Canada Western Final",
+      "organizer": "Rotax MAX Challenge Canada",
+      "venue": "Strathmore Motorsports Park",
+      "city": "Strathmore",
+      "region": "AB",
+      "country": "Canada",
+      "level": "National",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://maxchallenge.ca/events2/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260807-AB-7"
     },
     {
       "start": "2026-08-09",
@@ -1026,6 +1111,23 @@
     {
       "start": "2026-08-29",
       "end": "2026-08-30",
+      "name": "Coupe de Montréal Round 5",
+      "organizer": "Coupe de Montréal",
+      "venue": "SH Karting",
+      "city": "Mont-Saint-Hilaire",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260829-QC-4"
+    },
+    {
+      "start": "2026-08-29",
+      "end": "2026-08-30",
       "name": "WCKC Championship Race 8",
       "organizer": "West Coast Kart Club",
       "venue": "Greg Moore Raceway",
@@ -1143,6 +1245,23 @@
       "id": "west-20260913-069"
     },
     {
+      "start": "2026-09-19",
+      "end": "2026-09-20",
+      "name": "Coupe de Montréal Round 6",
+      "organizer": "Coupe de Montréal",
+      "venue": "SC Performance",
+      "city": "Saint-Célestin",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20260919-QC-5"
+    },
+    {
       "start": "2026-09-20",
       "end": "2026-09-20",
       "name": "Saskatoon Kart Racers Race 12",
@@ -1209,6 +1328,23 @@
       "source": "https://www.nskr.ca/schedule",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "west-20260927-059"
+    },
+    {
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "name": "Coupe de Montréal Round 7",
+      "organizer": "Coupe de Montréal",
+      "venue": "SRA Karting ICAR",
+      "city": "Mirabel",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://coupedemontreal.com/en/calendar-results/",
+      "notes": "Official organizer's 2026 schedule; historical listing.",
+      "id": "ca2026-20261010-QC-6"
     },
     {
       "start": "2026-10-16",
