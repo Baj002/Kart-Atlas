@@ -1,0 +1,26 @@
+name: Add or correct a kart club
+description: Add or correct a North American kart racing club listing
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Club or series name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official club/calendar website
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: City, state/province, country
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Other details

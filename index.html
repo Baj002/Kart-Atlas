@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0c1523">
+  <meta name="description" content="Find competitive kart races across the United States, Canada and Mexico. Search by race date, location, organizer and championship.">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="Kart Atlas — North American Kart Racing Calendar">
+  <meta property="og:description" content="One starting line for club, regional and national kart racing schedules.">
+  <title>Kart Atlas — North American Race Calendar</title>
+  <link rel="icon" href="/assets/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/icon-192.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#race-results">Skip to races</a>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a class="logo" href="/" aria-label="Kart Atlas home">
+        <span class="mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M4 26h28M9 21l5-11h8l5 11M12 19h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="10" cy="27" r="4" fill="currentColor"/><circle cx="26" cy="27" r="4" fill="currentColor"/></svg></span>
+        <span>KART<span class="accent">ATLAS</span></span>
+      </a>
+      <div class="top-right"><a class="nav-link" href="/clubs.html">Club directory ↗</a><span class="status-dot"></span><span>North America / US · CA · MX</span><button id="install-btn" class="install hidden" type="button">Install app <span aria-hidden="true">↗</span></button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="main-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> CLUB TO NATIONAL · ONE STARTING LINE</div>
+        <h1 id="main-title">Find your <em>next race.</em></h1>
+        <p>Club weekends, regional championships, national events. Search North American karting dates in one place, then verify with the organizer before you travel.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#race-results">Explore the calendar <span aria-hidden="true">↘</span></a>
+          <a class="nav-link" href="/clubs.html">Browse 132 club leads ↗</a>
+        </div>
+      </div>
+      <div class="stats" aria-label="Current directory statistics">
+        <div><strong id="stat-races">—</strong><span>Events indexed</span></div>
+        <div><strong id="stat-tracks">—</strong><span>Venues listed</span></div>
+        <div><strong id="stat-countries">—</strong><span>Countries</span></div>
+        <div><strong id="stat-upcoming">—</strong><span>Upcoming dates</span></div>
+      </div>
+    </section>
+
+    <div class="content wrap">
+      <aside class="side" aria-label="Race filters">
+        <div class="side-sticky">
+          <div class="side-head"><div><span class="side-eyebrow">THE PIT WALL</span><h2>Filter races</h2></div><button id="reset" class="text-btn" type="button">Reset all</button></div>
+          <div class="filters">
+            <label class="filter-label" for="search">Search races, clubs or tracks</label>
+            <div class="input-wrap"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" id="search" placeholder="e.g. SKUSA, Phoenix, Kid Kart" autocomplete="off"></div>
+            <div class="filter-two">
+              <div><label class="filter-label" for="country">Country</label><select id="country"><option value="">All countries</option><option>USA</option><option>Canada</option><option>Mexico</option></select></div>
+              <div><label class="filter-label" for="level">Race level</label><select id="level"><option value="">All levels</option><option>Club</option><option>Regional</option><option>National</option></select></div>
+            </div>
+            <label class="filter-label" for="region">State / province</label><select id="region"><option value="">Everywhere</option></select>
+            <div class="filter-two">
+              <div><label class="filter-label" for="from">From date</label><input id="from" type="date"></div>
+              <div><label class="filter-label" for="to">To date</label><input id="to" type="date"></div>
+            </div>
+            <div class="check-stack">
+              <label class="toggle-row"><input type="checkbox" id="upcoming" checked><span>Upcoming only</span></label>
+              <label class="toggle-row"><input type="checkbox" id="official"><span>Organizer-source dates only</span></label>
+              <label class="toggle-row"><input type="checkbox" id="favorites"><span>My saved races</span><span aria-hidden="true">★</span></label>
+            </div>
+          </div>
+          <div class="coverage-card"><span class="coverage-icon" aria-hidden="true">ⓘ</span><strong>Still building the grid</strong><p>This is an evolving research database, not every race in North America. Only trusted organizer calendar feeds can add races automatically; other club schedules are monitored for review. Always confirm before booking travel.</p><div id="snapshot">Initial research snapshot: —</div></div>
+        </div>
+      </aside>
+
+      <section class="results" id="race-results" aria-labelledby="results-title">
+        <div class="results-bar">
+          <div><span class="section-kicker">RACE INTELLIGENCE</span><h2 id="results-title">Upcoming events <span id="result-count" class="count-pill">—</span></h2></div>
+          <div class="result-tools"><button class="view-btn active" id="list-view" aria-pressed="true" title="List view" type="button">☷ List</button><button class="view-btn" id="month-view" aria-pressed="false" title="Month view" type="button">▦ Month</button><select id="sort" aria-label="Sort results"><option value="date">Soonest first</option><option value="latest">Latest first</option><option value="name">Event name</option></select></div>
+        </div>
+        <p class="context-line" id="result-context" aria-live="polite">Loading races…</p>
+        <div id="calendar" class="month-shell hidden" aria-label="Month calendar"></div>
+        <div id="cards" class="cards" aria-live="polite"></div>
+        <div id="empty" class="empty hidden"><div class="empty-flag">⚑</div><h3>Nothing on this grid</h3><p>Try another date, region or event name. A missing listing doesn't necessarily mean there is no race.</p><button id="empty-reset" type="button" class="primary-btn">Clear filters</button></div>
+        <button id="more" class="more-btn hidden" type="button">Show more races ↓</button>
+        <footer class="footer"><div><strong>KART<span class="accent">ATLAS</span></strong><p>Independent race discovery · US / Canada / Mexico · <a href="/clubs.html">Club directory</a></p></div><p>Schedules change. Confirm all event details with the race organizer.<br>Install from your browser's menu to access this directory from your home screen.</p></footer>
+      </section>
+    </div>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

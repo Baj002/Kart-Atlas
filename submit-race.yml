@@ -1,0 +1,45 @@
+name: Submit a race (organizer source required)
+description: Propose a missing competitive karting event for review
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Please share the organizer's published race page. Community submissions are reviewed, not automatically published."
+  - type: input
+    id: name
+    attributes:
+      label: Event name
+      placeholder: "Club Championship Round 4"
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Race date(s)
+      placeholder: "2027-06-12 to 2027-06-13"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Venue, city, state/province, country
+    validations:
+      required: true
+  - type: input
+    id: organizer
+    attributes:
+      label: Club / organizer
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official schedule or registration URL
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: classes
+    attributes:
+      label: Classes and notes (optional)
+      description: Class-specific details must be sourced to the organizer.

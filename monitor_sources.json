@@ -1,0 +1,26 @@
+{
+  "revision": 1,
+  "description": "Official organizer pages monitored for changes; only trusted ICS exports are eligible for automated race additions. Browser-based/CAPTCHA sources are manual-review only.",
+  "sources": [
+    {"id":"goodwood-ics","club":"Toronto Racing Association of Karters / Goodwood Kartways","country":"Canada","region":"ON","city":"Uxbridge","venue":"Goodwood Kartways","url":"https://goodwoodkartways.com/events/?ical=1","mode":"ics","auto_import":true,"level":"Club","category":"Kart-owner club racing only; excludes arrive-and-drive and lapping"},
+    {"id":"hamilton-ics","club":"Hamilton Regional Kart Club / Hamilton Karting Complex","country":"Canada","region":"ON","city":"Mount Hope","venue":"Hamilton Karting Complex","url":"https://hamiltonkartingcomplex.com/events/?ical=1","mode":"ics","auto_import":true,"level":"Club","category":"Exclude Canadian Mini Indy arrive-and-drive events"},
+    {"id":"ckrc","club":"Calgary Kart Racing Club","country":"Canada","region":"AB","city":"Strathmore","venue":"Strathmore Motorsports Park","url":"https://ckrc.com/event-schedule/","mode":"watch","auto_import":false},
+    {"id":"edkra","club":"Edmonton & District Kart Racing Association","country":"Canada","region":"AB","city":"Warburg","venue":"Rotax Mojo Raceway","url":"https://edkra.ca/pages/schedule-events","mode":"watch","auto_import":false},
+    {"id":"wckc","club":"West Coast Kart Club","country":"Canada","region":"BC","city":"Chilliwack","venue":"Greg Moore Raceway","url":"https://www.westcoastkartclub.ca/schedule","mode":"watch","auto_import":false},
+    {"id":"wckc-events","club":"West Coast Kart Club","country":"Canada","region":"BC","city":"Chilliwack","venue":"Greg Moore Raceway","url":"https://www.westcoastkartclub.ca/events","mode":"watch","auto_import":false},
+    {"id":"mka","club":"Manitoba Karting Association","country":"Canada","region":"MB","city":"Gimli","venue":"Manitoba Karting Association","url":"https://www.manitobakarting.ca/blank","mode":"watch","auto_import":false},
+    {"id":"saskatoon","club":"Saskatoon Kart Racers","country":"Canada","region":"SK","city":"Martensville","venue":"Martensville Speedway","url":"https://www.nskr.ca/schedule","mode":"watch","auto_import":false},
+    {"id":"south-sask","club":"South Sask Kart Club","country":"Canada","region":"SK","city":"Regina","venue":"SSKC Race Track","url":"https://www.sskc.ca/schedule","mode":"watch","auto_import":false},
+    {"id":"goodwood-trak","club":"Toronto Racing Association of Karters","country":"Canada","region":"ON","city":"Uxbridge","venue":"Goodwood Kartways","url":"https://goodwoodkartways.com/trak/","mode":"watch","auto_import":false},
+    {"id":"hrkc","club":"Hamilton Regional Kart Club","country":"Canada","region":"ON","city":"Mount Hope","venue":"Hamilton Karting Complex","url":"https://hamiltonkartingcomplex.com/events/list/","mode":"watch","auto_import":false},
+    {"id":"nckc","club":"National Capital Kart Club","country":"Canada","region":"ON","city":"Ottawa","venue":"National Capital Kart Club","url":"https://nckc.net/","mode":"watch","auto_import":false},
+    {"id":"coupe-montreal","club":"Coupe de Montréal","country":"Canada","region":"QC","city":"Montréal","venue":"Various","url":"https://coupedemontreal.com/","mode":"watch","auto_import":false},
+    {"id":"psgka","club":"Puget Sound Go Karting Association","country":"USA","region":"WA","city":"Spanaway","venue":"Mountain Highway Raceway","url":"https://psgka.com/","mode":"watch","auto_import":false},
+    {"id":"pka","club":"Portland Karting Association","country":"USA","region":"OR","city":"Portland","venue":"Pat's Acres / MAC Track","url":"https://raceselect.com/pka/2026","mode":"watch","auto_import":false},
+    {"id":"ntk","club":"North Texas Karters","country":"USA","region":"TX","city":"Denton","venue":"North Texas Karters","url":"https://www.ntkarters.com/calendar.html","mode":"watch","auto_import":false},
+    {"id":"skusa","club":"Superkarts! USA","country":"USA","region":"Multi","city":"Various","venue":"Various","url":"https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html","mode":"watch","auto_import":false},
+    {"id":"uspks","club":"United States Pro Kart Series","country":"USA","region":"Multi","city":"Various","venue":"Various","url":"https://www.uspks.com/schedule/","mode":"watch","auto_import":false},
+    {"id":"pkra","club":"Phoenix Kart Racing Association","country":"USA","region":"AZ","city":"Glendale","venue":"PKRA","url":"https://pkra.com/racing-schedule/","mode":"watch","auto_import":false},
+    {"id":"mexico-champions","club":"Champions of the Future Mexico","country":"Mexico","region":"Multi","city":"Various","venue":"Various","url":"https://www.championskartingamerica.com/mexico-series/","mode":"watch","auto_import":false}
+  ]
+}

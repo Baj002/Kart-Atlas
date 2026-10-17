@@ -1,0 +1,45 @@
+name: Refresh North American kart calendar
+on:
+  schedule:
+    # 13:17 UTC daily; scheduled workflows can be delayed by GitHub.
+    - cron: '17 13 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: kart-atlas-source-monitor
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check allowed organizer calendars and feeds
+        run: python scripts/check_sources.py
+      - name: Regenerate site datasets
+        run: python scripts/build_site.py
+      - name: Validate published races and directory
+        run: python -m unittest discover -s tests -v
+      - name: Commit monitoring results and any safe additions
+        run: |
+          git config user.name 'kart-atlas-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/automated_events.json data/source_state.json reports/latest.json site/events.json site/clubs.json site/monitor_status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: check official karting calendars'
+            git push
+          fi
+      - name: Create review issue when organizer schedule changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if python scripts/generate_issue.py; then
+            gh issue create --title "Kart Atlas schedule review — $(date -u +%Y-%m-%d)" --body-file reports/issue.md
+          else
+            echo 'No schedule review issue needed.'
+          fi

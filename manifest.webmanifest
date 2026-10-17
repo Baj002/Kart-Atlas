@@ -1,0 +1,16 @@
+{
+  "name": "Kart Atlas — North American Race Calendar",
+  "short_name": "Kart Atlas",
+  "description": "Discover kart racing events throughout the United States, Canada, and Mexico.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0c1523",
+  "theme_color": "#0c1523",
+  "icons": [
+    {"src":"/assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
