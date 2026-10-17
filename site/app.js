@@ -137,5 +137,9 @@
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;$('#install-btn').classList.remove('hidden');});
   $('#install-btn').onclick=async()=>{if(!deferredInstall)return;deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$('#install-btn').classList.add('hidden');};
   if('serviceWorker'in navigator && location.protocol==='https:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
-  start();
+  start().catch(err => {
+    console.error('Kart Atlas calendar initialization failed:', err);
+    const context = document.querySelector('#result-context');
+    if (context) context.textContent = 'Calendar display error: ' + (err && err.message ? err.message : String(err)) + '. Please send this message to the site administrator.';
+  });
 })();
