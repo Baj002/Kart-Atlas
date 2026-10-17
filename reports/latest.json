@@ -1,1 +1,57 @@
-{"last_run": null, "changes": [], "issues": [], "errors": []}
+{
+  "last_run": "2026-10-17T07:03:47+00:00",
+  "successful": 17,
+  "attempted": 20,
+  "watch_changes": [],
+  "new_races": [
+    {
+      "name": "TRAK Race 16",
+      "date": "2026-10-17",
+      "club": "Toronto Racing Association of Karters / Goodwood Kartways",
+      "source": "https://goodwoodkartways.com/event/trak-race-1-8-2-3-3-2-2-2-2-2-2-2-2-2-2/"
+    },
+    {
+      "name": "HRKC Race 19 (Double Points Finale)",
+      "date": "2026-10-18",
+      "club": "Hamilton Regional Kart Club / Hamilton Karting Complex",
+      "source": "https://hamiltonkartingcomplex.com/event/hrkc-race-19-double-points-finale/"
+    }
+  ],
+  "possible_date_changes": [],
+  "errors": [
+    {
+      "source_id": "ckrc",
+      "url": "https://ckrc.com/event-schedule/",
+      "error": "ValueError: robots.txt disallows or could not verify automated retrieval"
+    },
+    {
+      "source_id": "coupe-montreal",
+      "url": "https://coupedemontreal.com/",
+      "error": "ValueError: robots.txt disallows or could not verify automated retrieval"
+    },
+    {
+      "source_id": "uspks",
+      "url": "https://www.uspks.com/schedule/",
+      "error": "ValueError: robots.txt disallows or could not verify automated retrieval"
+    }
+  ],
+  "baseline_sources": [
+    "goodwood-ics",
+    "hamilton-ics",
+    "edkra",
+    "wckc",
+    "wckc-events",
+    "mka",
+    "saskatoon",
+    "south-sask",
+    "goodwood-trak",
+    "hrkc",
+    "nckc",
+    "psgka",
+    "pka",
+    "ntk",
+    "skusa",
+    "pkra",
+    "mexico-champions"
+  ]
+}

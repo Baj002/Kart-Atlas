@@ -1,7 +1,7 @@
 {
   "updated": "2026-10-16",
   "coverage_note": "Research snapshot, not a complete list of North American kart races. Automated additions come only from identified organizer calendar feeds; check organizer before travel.",
-  "auto_imported": 0,
+  "auto_imported": 2,
   "events": [
     {
       "start": "2026-10-16",
@@ -72,6 +72,25 @@
       "id": "f9f221e347b6"
     },
     {
+      "id": "auto-5a738b3178cb",
+      "uid": "17896-1792231200-1792252800@goodwoodkartways.com",
+      "feed_id": "goodwood-ics",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "name": "TRAK Race 16",
+      "organizer": "Toronto Racing Association of Karters / Goodwood Kartways",
+      "venue": "Goodwood Kartways",
+      "city": "Uxbridge",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "classes": "",
+      "source": "https://goodwoodkartways.com/event/trak-race-1-8-2-3-3-2-2-2-2-2-2-2-2-2-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel."
+    },
+    {
       "start": "2026-10-18",
       "end": "2026-10-18",
       "name": "Badger Halloween Race",
@@ -87,6 +106,25 @@
       "source": "https://badgerkartclub.com/halloween-race/",
       "notes": "",
       "id": "50f9aef1e40e"
+    },
+    {
+      "id": "auto-636cac60c0cf",
+      "uid": "8819-1792281600-1792367999@hamiltonkartingcomplex.com",
+      "feed_id": "hamilton-ics",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "name": "HRKC Race 19 (Double Points Finale)",
+      "organizer": "Hamilton Regional Kart Club / Hamilton Karting Complex",
+      "venue": "Hamilton Karting Complex",
+      "city": "Mount Hope",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "classes": "",
+      "source": "https://hamiltonkartingcomplex.com/event/hrkc-race-19-double-points-finale/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel."
     },
     {
       "start": "2026-10-18",
