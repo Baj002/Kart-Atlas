@@ -34,6 +34,15 @@ def build(root=ROOT):
     imported=[]
     for e in auto:
         if not is_dup(e,curated) and not is_dup(e,imported):imported.append(e)
+    enrichment_path=root/'data/event_enrichment.json'
+    enrich=json.loads(enrichment_path.read_text()).get('records',{}) if enrichment_path.exists() else {}
+    for e in curated+imported:
+        info=enrich.get(key(e),{})
+        if info.get('status')=='matched':
+            for field in ('registration_url','schedule_url','rules_url','track_map_url'):
+                if info.get(field):e[field]=info[field]
+            e['enrichment_source']='MotorsportReg'
+            e['enrichment_checked_at']=info.get('checked_at','')
     races=sorted(curated+imported,key=lambda e:(e['start'],e['name']))
     snap={'updated':'2026-10-16','coverage_note':'Research snapshot, not a complete list of North American kart races. Automated additions come only from identified organizer calendar feeds; check organizer before travel.', 'auto_imported':len(imported),'events':races}
     (root/'site/events.json').write_text(json.dumps(snap,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
