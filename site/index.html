@@ -12,10 +12,10 @@
   <link rel="icon" href="/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" href="/icon-192.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/styles.css?v=map2">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script defer src="/app.js"></script>
+  <script defer src="/app.js?v=map2"></script>
 </head>
 <body>
   <a class="skip" href="#race-results">Skip to races</a>
@@ -81,7 +81,7 @@
           <div class="result-tools"><button class="view-btn active" id="list-view" aria-pressed="true" title="List view" type="button">☷ List</button><button class="view-btn" id="map-view" aria-pressed="false" title="Map view" type="button">⌖ Map</button><button class="view-btn" id="month-view" aria-pressed="false" title="Month view" type="button">▦ Month</button><select id="sort" aria-label="Sort results"><option value="date">Soonest first</option><option value="latest">Latest first</option><option value="name">Event name</option></select></div>
         </div>
         <p class="context-line" id="result-context" aria-live="polite">Loading races…</p>
-        <div id="map-panel" class="map-panel hidden"><div id="race-map" role="application" aria-label="Map of kart race locations"></div><p id="map-note" class="map-note">Pins show approximate city locations, not verified circuit entrances. Only geolocated events appear on the map.</p></div>
+        <div id="map-panel" class="map-panel hidden"><div id="race-map" style="height:480px;min-height:360px;width:100%;background:#dce5e7" role="application" aria-label="Map of kart race locations"></div><p id="map-note" class="map-note">Pins show approximate city locations, not verified circuit entrances. Only geolocated events appear on the map.</p></div>
         <div id="calendar" class="month-shell hidden" aria-label="Month calendar"></div>
         <div id="cards" class="cards" aria-live="polite"></div>
         <div id="empty" class="empty hidden"><div class="empty-flag">⚑</div><h3>Nothing on this grid</h3><p>Try another date, region or event name. A missing listing doesn't necessarily mean there is no race.</p><button id="empty-reset" type="button" class="primary-btn">Clear filters</button></div>
