@@ -30,7 +30,7 @@ def run():
  for row in rows:
   url=row.get('Source URL','').strip()
   if not msr(url):continue
-  event_id=re.search(r'-(\\d{6})(?:[/?#]|$)',url)
+  event_id=re.search(r'-(\d{6})(?:[/?#]|$)',url)
   key='|'.join([row['Start Date'],row['Race / Event'].casefold().strip(),row['Track / Venue'].casefold().strip()])
   record={'source_url':url,'provider':'MotorsportReg','status':'not_verified'}
   try:
@@ -49,12 +49,12 @@ def run():
    for href,label in page.links:
     dest=urljoin(final,href);txt=label.strip().lower()
     if not dest.startswith('https://') or len(dest)>500:continue
-    if re.search(r'\\b(schedule|timetable)\\b',txt):record.setdefault('schedule_url',dest)
-    if re.search(r'\\b(rulebook|regulations|supplementary rules)\\b',txt):record.setdefault('rules_url',dest)
-    if re.search(r'\\b(track map|paddock map|circuit map)\\b',txt):record.setdefault('track_map_url',dest)
+    if re.search(r'\b(schedule|timetable)\b',txt):record.setdefault('schedule_url',dest)
+    if re.search(r'\b(rulebook|regulations|supplementary rules)\b',txt):record.setdefault('rules_url',dest)
+    if re.search(r'\b(track map|paddock map|circuit map)\b',txt):record.setdefault('track_map_url',dest)
   except Exception as ex:record['reason']=str(ex)[:120]
   output[key]=record
   time.sleep(.8)
- dest=ROOT/'data/event_enrichment.json';dest.write_text(json.dumps({'updated':datetime.now(timezone.utc).isoformat(),'records':output},indent=2)+'\\n')
+ dest=ROOT/'data/event_enrichment.json';dest.write_text(json.dumps({'updated':datetime.now(timezone.utc).isoformat(),'records':output},indent=2)+'\n')
  print('Checked',len(output),'MotorsportReg source URLs;',sum(x['status']=='matched' for x in output.values()),'matched')
 if __name__=='__main__':run()
