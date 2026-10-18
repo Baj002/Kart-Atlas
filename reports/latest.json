@@ -1,8 +1,21 @@
 {
-  "last_run": "2026-10-17T13:41:37+00:00",
-  "successful": 20,
-  "attempted": 26,
-  "watch_changes": [],
+  "last_run": "2026-10-18T13:41:36+00:00",
+  "successful": 25,
+  "attempted": 30,
+  "watch_changes": [
+    {
+      "source_id": "goodwood-ics",
+      "club": "Toronto Racing Association of Karters / Goodwood Kartways",
+      "url": "https://goodwoodkartways.com/events/?ical=1",
+      "note": "Organizer page/feed changed. Review dates; generic HTML changes are not automatically interpreted as races."
+    },
+    {
+      "source_id": "skusa",
+      "club": "Superkarts! USA",
+      "url": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "note": "Organizer page/feed changed. Review dates; generic HTML changes are not automatically interpreted as races."
+    }
+  ],
   "new_races": [],
   "possible_date_changes": [],
   "errors": [
@@ -12,35 +25,30 @@
       "error": "ValueError: robots.txt disallows or could not verify automated retrieval"
     },
     {
-      "source_id": "wckc",
-      "url": "https://www.westcoastkartclub.ca/schedule",
-      "error": "ValueError: Response exceeds 2 MB safe limit"
-    },
-    {
       "source_id": "coupe-montreal",
       "url": "https://coupedemontreal.com/",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "error": "ValueError: Page contains too little usable schedule text"
     },
     {
       "source_id": "uspks",
       "url": "https://www.uspks.com/schedule/",
-      "error": "ValueError: robots.txt disallows or could not verify automated retrieval"
+      "error": "ValueError: Page contains too little usable schedule text"
     },
     {
       "source_id": "uspks-2027-recap",
       "url": "https://www.uspks.com/2026-recap-a-letter-from-the-race-director/",
-      "error": "ValueError: robots.txt disallows or could not verify automated retrieval"
+      "error": "ValueError: Page contains too little usable schedule text"
     },
     {
       "source_id": "rmc-canada",
       "url": "https://maxchallenge.ca/events2/",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
+      "error": "ValueError: Page contains too little usable schedule text"
     }
   ],
   "baseline_sources": [
-    "rok-usa-calendar",
-    "mka-home",
-    "kartstars-canada",
-    "kartstars-regulations"
+    "amka-schedule",
+    "mka-registration",
+    "ckna-canada",
+    "kartstars-schedule"
   ]
 }

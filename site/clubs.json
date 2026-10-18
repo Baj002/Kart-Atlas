@@ -112,7 +112,7 @@
       "schedule_url": "https://www.amka.ca/race-schedule",
       "source_description": "Official website / calendar",
       "notes": "Organizer source",
-      "monitor_id": null
+      "monitor_id": "amka-schedule"
     },
     {
       "id": "d1c9f9004d",

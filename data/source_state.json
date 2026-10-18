@@ -1,150 +1,178 @@
 {
   "sources": {
     "goodwood-ics": {
-      "digest": "2be98fdf1fa163d131546d3f9009e0ddaa9f523f622f8cb4a8ad96ac3f71a6b8",
+      "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "url": "https://goodwoodkartways.com/events/?ical=1",
       "mode": "ics",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "hamilton-ics": {
       "digest": "6ff3801a09e38aff352af3003f543309ef000ac45f13f2029c3e5282558376fe",
       "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
       "mode": "ics",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "edkra": {
       "digest": "163c2933fd42800fe0fbec87e69d6bd2c5274fd3eccfbe9f0eb3e14579e7c426",
       "url": "https://edkra.ca/pages/schedule-events",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "wckc": {
       "digest": "9781e5357522718cf61740c6b751f50bdb41010aa07b936206f7df969d6f4f01",
       "url": "https://www.westcoastkartclub.ca/schedule",
       "mode": "watch",
-      "last_success": "2026-10-17T07:03:47+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "wckc-events": {
       "digest": "af50035fb8e02cc3a284087ea8924f1ae9c20dca7c8d699c507efcb31ac6be2b",
       "url": "https://www.westcoastkartclub.ca/events",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "mka": {
       "digest": "3106b096a4028d33ca5d3cbfc208ae2fe234cbd87a2d719bc73d434678cf3be3",
       "url": "https://www.manitobakarting.ca/blank",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "saskatoon": {
       "digest": "7443a35d967553658c3f177dbd651c13ba6fa66d5d4e0848c5f3e7007da7d372",
       "url": "https://www.nskr.ca/schedule",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "south-sask": {
       "digest": "e11e1fe08d45d1940864d618fbb3b86058a43a3c53f57b4b6f5b62bdd1be5a2c",
       "url": "https://www.sskc.ca/schedule",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "goodwood-trak": {
       "digest": "5f62462234e3fe36fb6037fa6e17d742843d40f6c7238254bcf46a57a89faeda",
       "url": "https://goodwoodkartways.com/trak/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "hrkc": {
       "digest": "b7ced1f4c0ace0a50c1e1d207c3ca7a1dca350fd0e178d70be4a5ee64cad2af2",
       "url": "https://hamiltonkartingcomplex.com/events/list/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "nckc": {
       "digest": "52557d82d643e9ce614c4b2add4da73b079bed15ac2339f5e69b60e724250c9c",
       "url": "https://nckc.net/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "psgka": {
       "digest": "0c2f416ce9dda89fde0713a7657857114f2346a3c103e6c139712656a6f492db",
       "url": "https://psgka.com/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "pka": {
       "digest": "4de114c4df9e5bacb0a9171aa562b08781cdbf149a7f04203229cd48679dd76a",
       "url": "https://raceselect.com/pka/2026",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "ntk": {
       "digest": "fa12348a2b357e98ff9cf5f64431b7de6e71c83bf50ec168ba118b6bb817a628",
       "url": "https://www.ntkarters.com/calendar.html",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "skusa": {
-      "digest": "c01499d9bc6507656498a74ddc04df9d28eb45018541fd26fc2478b9994e2c26",
+      "digest": "d7968783f183f255db7b9cbdf2b0494b334c8e3e9f48297dc54fd8c3d9f5bd49",
       "url": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "pkra": {
       "digest": "3815219f93f2f64c5fa1d7910c249d7e01a0803315d4486910333ce621fe3181",
       "url": "https://pkra.com/racing-schedule/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "mexico-champions": {
       "digest": "ee2fd4e1b554ac12ac93b77cdfb302fba0013a9c5bf51411211c2c8298b3c39b",
       "url": "https://www.championskartingamerica.com/mexico-series/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "rok-usa-calendar": {
       "digest": "7d96bb9f50d1fc9b77da07233346e2d423ae699eba98eb63a7641d785c76f953",
       "url": "https://rokcupusa.com/calendar/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "mka-home": {
       "digest": "707898b35a5dfd6a8d7431d6927a51a907383c6d2aa67fd93dbe9e15245c237b",
       "url": "https://www.manitobakarting.ca/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "kartstars-canada": {
       "digest": "52a867fd3b888d5839b844ba43e47dcb6f5fe0dd04950c405c3cd5f82ca46963",
       "url": "https://kartsportcanada.ca/bulletins/",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     },
     "kartstars-regulations": {
       "digest": "cbe83b01ff0abe8f963b2289d2f48418c937fd3f7a12419fd2ec6e61435a83ae",
       "url": "https://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Canada-Karting-Championship-Supplementary-Regulations-5-3-2026.pdf",
       "mode": "watch",
-      "last_success": "2026-10-17T13:41:37+00:00",
+      "last_success": "2026-10-18T13:41:36+00:00",
+      "last_error": null
+    },
+    "amka-schedule": {
+      "digest": "45b93e2e7c43899ffa61db49afeb47346c2530d9a66ed2899d943bef6a4c3511",
+      "url": "https://www.amka.ca/race-schedule",
+      "mode": "watch",
+      "last_success": "2026-10-18T13:41:36+00:00",
+      "last_error": null
+    },
+    "mka-registration": {
+      "digest": "4b328c952d50cc3e7cab424d66a8e95c06e0e80ce96569f36ccc265b70860347",
+      "url": "https://www.motorsportreg.com/orgs/manitoba-karting-association",
+      "mode": "watch",
+      "last_success": "2026-10-18T13:41:36+00:00",
+      "last_error": null
+    },
+    "ckna-canada": {
+      "digest": "a5c66a4ff406a86101ad765a7e626c9cd8055e368722d09c74159dcd7abca86c",
+      "url": "https://www.cupkarts.com/schedule/",
+      "mode": "watch",
+      "last_success": "2026-10-18T13:41:36+00:00",
+      "last_error": null
+    },
+    "kartstars-schedule": {
+      "digest": "831aa3498f5c55c5d55e5922935a165e25d2c1e73e0ec48ed158465717691634",
+      "url": "https://kartsportcanada.ca/schedule-2/",
+      "mode": "watch",
+      "last_success": "2026-10-18T13:41:36+00:00",
       "last_error": null
     }
   }
