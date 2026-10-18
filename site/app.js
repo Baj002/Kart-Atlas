@@ -20,7 +20,7 @@
     if(!window.L){$('#map-note').textContent='Map tiles could not load. Check your internet connection; List view remains available.';return;}
     if(!raceMap){raceMap=L.map('race-map',{scrollWheelZoom:false}).setView([40,-98],4);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(raceMap);mapLayer=L.layerGroup().addTo(raceMap);}
     mapLayer.clearLayers();const bounds=[];let mapped=0;
-    for(const e of data){const xy=coordinates(e);if(!xy)continue;mapped++;bounds.push(xy);const marker=L.marker(xy).addTo(mapLayer);const popup=document.createElement('div');const title=document.createElement('strong');title.textContent=e.name;const details=document.createElement('p');details.textContent=`${fmtRange(e)} · ${e.venue||'Venue TBA'} · ${e.city}, ${e.region}`;popup.append(title,details);if(safeURL(e.source)){const a=document.createElement('a');a.href=e.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Organizer page ↗';popup.append(a);}marker.bindPopup(popup);}
+    for(const e of data){const xy=coordinates(e);if(!xy)continue;mapped++;bounds.push(xy);const marker=L.marker(xy).addTo(mapLayer);const popup=document.createElement('div');const title=document.createElement('strong');title.textContent=e.name;const details=document.createElement('p');details.textContent=`${fmtRange(e)} · ${e.venue||'Venue TBA'} · ${e.city}, ${e.region}`;popup.append(title,details);if(safeURL(e.source)){const a=document.createElement('a');a.href=e.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Organizer page ↗';popup.append(a);}const more=document.createElement('button');more.type='button';more.textContent='Event details →';more.style.cssText='display:block;margin-top:9px;cursor:pointer';more.onclick=()=>{raceMap.closePopup();showEvent(e);};popup.append(more);marker.bindPopup(popup);}
     $('#map-note').textContent=`${mapped} of ${data.length} matching races mapped. Pins show approximate city centers unless coordinates are provided, not verified track entrances. Unmapped races remain available in List view.`;
     setTimeout(()=>{raceMap.invalidateSize();if(bounds.length)raceMap.fitBounds(bounds,{padding:[30,30],maxZoom:10});else raceMap.setView([40,-98],4);},30);
   }
@@ -81,6 +81,29 @@
   }
   function makeTag(name,extra){return el('span',`tag ${extra||''}`,name);}
   function addButton(title,symbol,handler,cls){const b=el('button','icon-btn '+(cls||''),symbol);b.type='button';b.setAttribute('aria-label',title);b.title=title;b.onclick=handler;return b;}
+  function showEvent(e){
+    const old=document.querySelector('#event-dialog');if(old)old.remove();
+    const dialog=el('dialog','event-dialog');dialog.id='event-dialog';
+    const head=el('div','event-dialog-head');
+    const heading=el('h2','',e.name);const close=el('button','event-close','✕');close.type='button';close.setAttribute('aria-label','Close event details');close.onclick=()=>dialog.close();
+    head.append(heading,close);dialog.append(head);
+    const body=el('div','event-dialog-body');
+    const intro=el('p','event-intro',fmtRange(e)+' · '+[e.venue,e.city,e.region,e.country].filter(Boolean).join(', '));body.append(intro);
+    const meta=el('div','event-detail-tags');[e.level,e.format,e.classes?'Classes: '+e.classes:'Classes not confirmed'].filter(Boolean).forEach(x=>meta.append(makeTag(x)));body.append(meta);
+    const section=(title,description,link,label)=>{
+      const box=el('section','event-detail-section');box.append(el('h3','',title),el('p','',description));
+      if(safeURL(link)){const a=el('a','source-btn',label||'View organizer information ↗');a.href=link;a.target='_blank';a.rel='noopener noreferrer';box.append(a);}
+      body.append(box);
+    };
+    section('Registration & entry fees',e.registration_url?'Registration information from organizer.':'Online registration through Kart Atlas is not available yet. Confirm entry fees and registration with the organizer.',e.registration_url||e.source,e.registration_url?'Open registration ↗':'Check organizer page ↗');
+    section('Race-day schedule',e.schedule_url?'Organizer schedule available.':'Detailed session times have not been added for this event. Check the organizer for the latest timetable.',e.schedule_url||e.source,e.schedule_url?'View race schedule ↗':'Check organizer schedule ↗');
+    section('Rules & regulations',e.rules_url?'Organizer regulations available.':'Event-specific and club regulations have not been verified in Kart Atlas. Always consult the organizer before competing.',e.rules_url||e.source,e.rules_url?'View regulations ↗':'Check organizer rules ↗');
+    section('Track & paddock maps',e.track_map_url?'Track map provided by organizer.':'A verified downloadable track or paddock map has not been added for this event.',e.track_map_url,e.track_map_url?'Open track map ↗':'');
+    if(e.notes)section('Additional information',e.notes);
+    if(safeURL(e.source))section('Original event source',e.verification==='Official'?'Organizer source used for this listing. Reconfirm details before travel.':'Listing source. Details require confirmation.',e.source,'Open event source ↗');
+    const foot=el('div','event-dialog-foot');const cal=el('button','primary-btn','Add to calendar ↓');cal.onclick=()=>downloadICS(e);foot.append(cal);body.append(foot);
+    dialog.append(body);document.body.append(dialog);dialog.addEventListener('close',()=>dialog.remove(),{once:true});dialog.showModal();
+  }
   function makeCard(e){
     const card=el('article','event-card');const date=el('div','date-box');const dt=ymd(e.start);
     date.append(el('span','',monthNames[dt.getMonth()]+' '+dt.getFullYear()),el('b','',String(dt.getDate()).padStart(2,'0')));
@@ -92,6 +115,7 @@
     main.append(badges,name,venue,meta);
     if(e.classes)main.append(el('p','details',`Classes: ${e.classes}`));
     const actions=el('div','event-actions');
+    const detail=el('button','source-btn','Event details →');detail.type='button';detail.onclick=()=>showEvent(e);actions.append(detail);
     const fav=addButton(saved.has(e.id)?'Remove from saved races':'Save race','★',()=>{if(saved.has(e.id))saved.delete(e.id);else saved.add(e.id);persist();refresh();toast(saved.has(e.id)?'Race saved on this device':'Race removed from saved list');},saved.has(e.id)?'saved':'');
     fav.setAttribute('aria-pressed',String(saved.has(e.id)));actions.append(fav);
     actions.append(addButton('Add this race to my calendar','▦',()=>downloadICS(e)));
