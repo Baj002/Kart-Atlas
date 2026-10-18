@@ -4,7 +4,26 @@
   const $all = (s, root = document) => [...root.querySelectorAll(s)];
   const el = (type, cls, text) => { const node=document.createElement(type);if(cls)node.className=cls;if(text!==undefined)node.textContent=text;return node;};
   let events=[], snapshot='', count=25, mode='list', month=new Date(new Date().getFullYear(),new Date().getMonth(),1), selectedDay='';
-  let deferredInstall = null;
+  let deferredInstall = null, raceMap=null, mapLayer=null;
+  const CITY_COORDS={
+    'strathmore|AB':[51.05,-113.39],'warburg|AB':[53.18,-114.32],'chilliwack|BC':[49.16,-121.95],'oliver|BC':[49.18,-119.55],'quesnel|BC':[52.98,-122.49],'martensville|SK':[52.29,-106.67],'regina|SK':[50.45,-104.62],
+    'mont-saint-hilaire|QC':[45.56,-73.19],'trois-rivières|QC':[46.34,-72.55],'mont-tremblant|QC':[46.12,-74.60],'saint-célestin|QC':[46.20,-72.40],'mirabel|QC':[45.65,-74.08],
+    'orlando|FL':[28.54,-81.38],'sebring|FL':[27.50,-81.44],'mooresville|NC':[35.58,-80.81],'lorain|OH':[41.45,-82.18],'shelbyville|TN':[35.48,-86.46],'las vegas|NV':[36.17,-115.14],'pahrump|NV':[36.21,-115.98],
+    'winchester|CA':[33.71,-117.08],'sonoma|CA':[38.29,-122.46],'erda|UT':[40.61,-112.31],'whiteland|IN':[39.55,-86.08],'batavia|OH':[39.08,-84.18],
+    'phoenix|AZ':[33.45,-112.07],'glendale|AZ':[33.54,-112.19],'denton|TX':[33.21,-97.13],'portland|OR':[45.52,-122.68],'spanaway|WA':[47.10,-122.43],
+    'uxbridge|ON':[44.11,-79.12],'mount hope|ON':[43.16,-79.92],'ottawa|ON':[45.42,-75.69],'gimli|MB':[50.63,-96.99],
+    'new castle|IN':[39.93,-85.37],'indianapolis|IN':[39.77,-86.16],'charlotte|NC':[35.23,-80.84],'daytona beach|FL':[29.21,-81.02],'homestead|FL':[25.47,-80.48],'tucson|AZ':[32.22,-110.97],'dallas|TX':[32.78,-96.80],'austin|TX':[30.27,-97.74],'houston|TX':[29.76,-95.37],
+    'los angeles|CA':[34.05,-118.24],'san diego|CA':[32.72,-117.16],'sacramento|CA':[38.58,-121.49],'denver|CO':[39.74,-104.99],'salt lake city|UT':[40.76,-111.89],'new york|NY':[40.71,-74.01],'atlanta|GA':[33.75,-84.39],'chicago|IL':[41.88,-87.63]
+  };
+  const coordinates=e=>{if(Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&e.lat!==undefined&&e.lng!==undefined)return [Number(e.lat),Number(e.lng)];return CITY_COORDS[`${String(e.city||'').trim().toLowerCase()}|${e.region}`]||null;};
+  function renderMap(data){
+    if(!window.L){$('#map-note').textContent='Map tiles could not load. Check your internet connection; List view remains available.';return;}
+    if(!raceMap){raceMap=L.map('race-map',{scrollWheelZoom:false}).setView([40,-98],4);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(raceMap);mapLayer=L.layerGroup().addTo(raceMap);}
+    mapLayer.clearLayers();const bounds=[];let mapped=0;
+    for(const e of data){const xy=coordinates(e);if(!xy)continue;mapped++;bounds.push(xy);const marker=L.marker(xy).addTo(mapLayer);const popup=document.createElement('div');const title=document.createElement('strong');title.textContent=e.name;const details=document.createElement('p');details.textContent=`${fmtRange(e)} · ${e.venue||'Venue TBA'} · ${e.city}, ${e.region}`;popup.append(title,details);if(safeURL(e.source)){const a=document.createElement('a');a.href=e.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Organizer page ↗';popup.append(a);}marker.bindPopup(popup);}
+    $('#map-note').textContent=`${mapped} of ${data.length} matching races mapped. Pins show approximate city centers unless coordinates are provided, not verified track entrances. Unmapped races remain available in List view.`;
+    setTimeout(()=>{raceMap.invalidateSize();if(bounds.length)raceMap.fitBounds(bounds,{padding:[30,30],maxZoom:10});else raceMap.setView([40,-98],4);},30);
+  }
   const today = () => { const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
   let saved = new Set();
   try { saved=new Set(JSON.parse(localStorage.getItem('kart-atlas-favorites')||'[]')); } catch {}
@@ -126,6 +145,10 @@
     $('#more').classList.toggle('hidden',a.length<=count);
     $('#more').textContent=`Show more races (${Math.min(a.length-count,25)} of ${a.length-count} remaining) ↓`;
     $('#calendar').classList.toggle('hidden',mode!=='month');
+    $('#map-panel').classList.toggle('hidden',mode!=='map');
+    $('#cards').classList.toggle('hidden',mode==='map');
+    $('#more').classList.toggle('hidden',mode==='map'||a.length<=count);
+    if(mode==='map')renderMap(a);
     if(mode==='month')calendarView(a);
   }
   function reset(){
@@ -149,7 +172,7 @@
     }
     $('#reset').onclick=reset;$('#empty-reset').onclick=reset;
     $('#more').onclick=()=>{count+=25;refresh();};
-    for(const [id,value] of [['list-view','list'],['month-view','month']]){$('#'+id).onclick=()=>{mode=value;selectedDay='';$all('.view-btn').forEach(b=>{b.classList.toggle('active',b.id===id);b.setAttribute('aria-pressed',String(b.id===id));});refresh();};}
+    for(const [id,value] of [['list-view','list'],['month-view','month'],['map-view','map']]){$('#'+id).onclick=()=>{mode=value;selectedDay='';$all('.view-btn').forEach(b=>{b.classList.toggle('active',b.id===id);b.setAttribute('aria-pressed',String(b.id===id));});refresh();};}
     refresh();
   }
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;$('#install-btn').classList.remove('hidden');});
