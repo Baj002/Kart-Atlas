@@ -7,3 +7,5 @@
 @media(max-width:850px){.club-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){.club-grid{grid-template-columns:1fr}.clubs-head{padding-top:33px}.club-controls{align-items:stretch}.club-controls>label:not(.club-verified){display:none}.club-controls>input{flex:1 1 100%}.club-controls>select{flex:1}.nav-link{font-size:12px}}
 
 .class-note{color:var(--muted);font-size:11px;line-height:1.45;margin:-12px 0 18px}
+
+.map-panel{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:var(--panel)}#race-map{width:100%;height:min(66vh,590px);min-height:360px;z-index:0}.map-note{font-size:12px;color:var(--muted);margin:0;padding:12px 15px;line-height:1.5}.leaflet-popup-content{color:#152133}.leaflet-popup-content p{margin:8px 0}.leaflet-popup-content a{color:#135b86}
