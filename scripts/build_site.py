@@ -21,6 +21,23 @@ def precise_match(e,p):
     refs2={p.get('source'),p.get('registration_url')}-{None,''}
     return bool(event_reference(e) and (event_reference(e)==event_reference(p) or refs.intersection(refs2)))
 
+def merge_curated_duplicates(events):
+    """Merge punctuation-only copies on identical official dates/venue/source.
+
+    Retain every former ID as an alias so saved races survive the correction.
+    Organizer shorthand alone is not evidence; the official source must agree.
+    """
+    result=[];seen={}
+    for event in events:
+        venue=event['venue'].casefold().strip()
+        token=(event['country'],event['region'],event['start'],event['end'],venue,
+            re.sub(r'\W','',event['name'].casefold()),event['source'])
+        existing=seen.get(token) if venue not in ('','various','tba') else None
+        if existing:
+            if event['id']!=existing['id']:existing.setdefault('alias_ids',[]).append(event['id'])
+        else:result.append(event);seen[token]=event
+    return result
+
 def is_dup(e,existing):
     for p in existing:
         if e['country']!=p['country'] or e['region']!=p['region']:continue
@@ -46,18 +63,18 @@ def build(root=ROOT):
             date.fromisoformat(e['start']); e['end']=e['end'] or e['start'];date.fromisoformat(e['end'])
             e['id']=hashlib.sha1(key(e).encode()).hexdigest()[:12]
             original.append(e)
-    originals={(key(e)):e for e in original}; curated=list(originals.values())
+    originals={(key(e)):e for e in original}; curated=merge_curated_duplicates(list(originals.values()))
     auto=json.loads((root/'data/automated_events.json').read_text()).get('events',[])
     imported=[]
     for e in auto:
         e=dict(e,region=region_code(e['region'],e['country']))
-        matches=[p for p in curated if p['id']==e.get('curated_id') or is_dup(e,[p])]
+        matches=[p for p in curated if e.get('curated_id') in [p['id']]+p.get('alias_ids',[]) or is_dup(e,[p])]
         if matches:
             p=matches[0]
             # Exact event-source agreement permits official lifecycle updates while
             # retaining the curated ID (and therefore saved races on user devices).
             specific=bool(event_reference(e))
-            if (e.get('curated_id') and e['curated_id']==p.get('id')) or (specific and precise_match(e,p)):
+            if (e.get('curated_id') and e['curated_id'] in [p['id']]+p.get('alias_ids',[])) or (specific and precise_match(e,p)):
                 for field in ('start','end','status','last_verified','history','registration_url','registration_status'):
                     if field in e:p[field]=e[field]
             continue

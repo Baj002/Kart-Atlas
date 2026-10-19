@@ -23,6 +23,8 @@ Configured organizer sources in `data/monitor_sources.json` are trusted publicat
 
 Stable event identities retain first/last observations and a bounded change history. Explicit organizer date changes, cancellations and postponements update automated events. An event disappearing from a page is **not** treated as cancelled. Curated CSV records keep their saved-race IDs; automatic lifecycle updates apply only when the specific organizer event URL matches. Curated metadata otherwise takes precedence.
 
+Punctuation-only curated copies merge only when the dates, venue, country, region and exact official source agree. Former IDs remain `alias_ids`, so users can still find and remove those races from their saved list. Different events at the same venue are retained.
+
 `python -m scripts.build_site` merges curated and automated races. `python -m scripts.coverage_report` writes diagnostic metrics and per-source failures to `reports/coverage.json`. Inspect the workflow's archived discovery report for regional gaps, date conflicts, review candidates, PDF extraction counts and scan-budget deferrals. The internal dashboard is not a deployed app page. Image/gallery URLs are excluded from the organizer lead inventory and retained in its rejection audit. These measurements are not a claim to have found every race.
 
 ## Run and test
@@ -33,6 +35,7 @@ From the repository root, with Python 3.12 and the pinned PDF text parser:
 python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 node tests/test_coverage_ui.js
+node tests/test_saved_aliases.js
 python -m scripts.discover_events
 python -m scripts.build_site
 python -m scripts.coverage_report

@@ -31,6 +31,7 @@ jobs:
           node --check site/coverage.js
           node --check site/sw.js
           node tests/test_coverage_ui.js
+          node tests/test_saved_aliases.js
       - name: Validate generated site data
         run: python -m scripts.validate_data
   refresh:

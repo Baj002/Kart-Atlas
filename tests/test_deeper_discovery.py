@@ -122,4 +122,16 @@ class AdditionalPdfTests(unittest.TestCase):
         self.assertEqual(lines_to_events(text.replace('Competition Age:','Class Ages:'),dict(SOURCE,pdf_profile=profile)),[])
 
 
+class PublicationDuplicateTests(unittest.TestCase):
+    def test_punctuation_duplicates_preserve_saved_ids_but_not_distinct_races(self):
+        from scripts.build_site import merge_curated_duplicates
+        original={'id':'original-id','name':'Winter Series Rounds 1-2','start':'2027-01-16','end':'2027-01-17','venue':'Orlando Kart Center','country':'USA','region':'FL','organizer':'Superkarts! USA','source':'https://club.example/calendar'}
+        duplicate=dict(original,id='saved-alias',name='Winter Series Rounds 1–2',organizer='SKUSA')
+        different=dict(original,id='other-race',name='Winter Series Rounds 3-4')
+        events=merge_curated_duplicates([original,duplicate,different])
+        self.assertEqual(len(events),2);self.assertEqual(events[0]['id'],'original-id');self.assertEqual(events[0]['alias_ids'],['saved-alias'])
+        for field,value in [('end','2027-01-18'),('venue','Different Track'),('source','https://other.example/calendar')]:
+            self.assertEqual(len(merge_curated_duplicates([dict(original),dict(duplicate,**{field:value})])),2)
+
+
 if __name__=='__main__':unittest.main()

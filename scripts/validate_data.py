@@ -20,6 +20,10 @@ def validate(root=ROOT,live=False):
             if event.get(field):assert clean_url(event[field]),'Invalid '+field
         assert event.get('status','scheduled') in ('scheduled','cancelled','postponed'),'Unknown lifecycle status'
     for event in events:
+        for alias in event.get('alias_ids',[]):
+            assert isinstance(alias,str) and alias and alias not in seen,'Conflicting saved-race alias: '+str(alias)
+            seen.add(alias)
+    for event in events:
         if event.get('curated_id'):assert event['curated_id'] in seen,'Stale curated event mapping: '+event['curated_id']
     if live:
         report=json.loads((root/'reports/discovery.json').read_text())

@@ -61,6 +61,13 @@
   const today = () => { const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
   let saved = new Set();
   try { saved=new Set(JSON.parse(localStorage.getItem('kart-atlas-favorites')||'[]')); } catch {}
+  function isSaved(e){return saved.has(e.id)||(e.alias_ids||[]).some(id=>saved.has(id));}
+  function toggleSaved(e){
+    const wasSaved=isSaved(e);
+    for(const id of [e.id,...(e.alias_ids||[])])saved.delete(id);
+    if(!wasSaved)saved.add(e.id);
+    return !wasSaved;
+  }
   const monthNames=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   const safeURL = s => /^https?:\/\//i.test(s) ? s : '';
   const ymd = s => { const [y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d); };
@@ -84,7 +91,7 @@
     if(f.to && e.start>f.to)return false;
     if(f.upcoming && e.end<today())return false;
     if(f.official && e.verification!=='Official')return false;
-    if(f.favorites&&!saved.has(e.id))return false;
+    if(f.favorites&&!isSaved(e))return false;
     if(mode==='month'){const first=`${month.getFullYear()}-${String(month.getMonth()+1).padStart(2,'0')}-01`;const lastDate=new Date(month.getFullYear(),month.getMonth()+1,0);const last=`${month.getFullYear()}-${String(month.getMonth()+1).padStart(2,'0')}-${String(lastDate.getDate()).padStart(2,'0')}`;if(e.end<first||e.start>last)return false;}
     if(selectedDay && !(e.start<=selectedDay && e.end>=selectedDay))return false;
     return true;
@@ -167,8 +174,8 @@
     if(e.classes)main.append(el('p','details',`Classes: ${e.classes}`));
     const actions=el('div','event-actions');
     const detail=el('button','source-btn','Event details →');detail.type='button';detail.onclick=()=>showEvent(e);actions.append(detail);
-    const fav=addButton(saved.has(e.id)?'Remove from saved races':'Save race','★',()=>{if(saved.has(e.id))saved.delete(e.id);else saved.add(e.id);persist();refresh();toast(saved.has(e.id)?'Race saved on this device':'Race removed from saved list');},saved.has(e.id)?'saved':'');
-    fav.setAttribute('aria-pressed',String(saved.has(e.id)));actions.append(fav);
+    const fav=addButton(isSaved(e)?'Remove from saved races':'Save race','★',()=>{toggleSaved(e);persist();refresh();toast(isSaved(e)?'Race saved on this device':'Race removed from saved list');},isSaved(e)?'saved':'');
+    fav.setAttribute('aria-pressed',String(isSaved(e)));actions.append(fav);
     actions.append(addButton('Add this race to my calendar','▦',()=>downloadICS(e)));
     if(safeURL(e.source)){
       const source=el('a','source-btn','Official page ↗');source.href=e.source;source.target='_blank';source.rel='noopener noreferrer';

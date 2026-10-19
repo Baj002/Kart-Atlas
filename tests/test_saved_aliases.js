@@ -1,0 +1,20 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const source=fs.readFileSync('site/app.js','utf8');
+// Exercise the real saved-race helpers without requiring map or DOM APIs.
+const start=source.indexOf('  function isSaved(');
+const end=source.indexOf('  const monthNames',start);
+assert(start>=0&&end>start,'Saved-race helper block is present');
+const saved=new Set(['old-id','another-race']);
+const {isSaved,toggleSaved}=vm.runInNewContext(source.slice(start,end)+'\n({isSaved,toggleSaved})',{saved});
+const race={id:'canonical-id',alias_ids:['old-id','other-old-id']};
+assert.equal(isSaved(race),true,'An old saved ID still selects the canonical event');
+saved.add('other-old-id');
+assert.equal(toggleSaved(race),false);
+assert.equal(isSaved(race),false,'Removing a saved event clears all aliases');
+assert.deepEqual([...saved],['another-race'],'Other saved races are untouched');
+assert.equal(toggleSaved(race),true);
+assert(saved.has('canonical-id'),'Saving again uses the canonical ID');
+assert.equal(isSaved({id:'unrelated-id'}),false);
+console.log('Saved-race aliases passed: selection, removal, re-save and unrelated favorites.');
