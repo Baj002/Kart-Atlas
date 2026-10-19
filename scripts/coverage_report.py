@@ -2,7 +2,8 @@
 import datetime as dt
 import json
 from scripts.check_sources import ROOT
-from scripts.discovery_engine import dump, host
+from scripts.discovery_engine import dump, host, REGIONS
+from scripts.coverage_audit import regional_coverage,date_conflicts
 
 def build(root=ROOT,today=None):
     today=today or dt.datetime.now(dt.timezone.utc).date()
@@ -17,7 +18,7 @@ def build(root=ROOT,today=None):
         future=[e for e in races if e['country']==country and e['end']>=str(today) and e.get('status') not in ('cancelled','postponed')]
         countries[country]={'sources_attempted':len(local),'sources_reached':sum(bool(s['pages']) for s in local),
             'trusted_sources':sum(s['trusted'] for s in local),'future_races':len(future),
-            'regions_with_races':sorted({e['region'] for e in future}),'directory_leads':sum(c['country']==country for c in clubs)}
+            'regions_with_races':sorted({e['region'] for e in future if e['region'] in REGIONS[country]}),'unresolved_region_races':sum(e['region'] not in REGIONS[country] for e in future),'directory_leads':sum(c['country']==country for c in clubs)}
     def club_monitored(club):
         for source in sources:
             if not source['trusted'] or host(source['url'])!=host(club['schedule_url']):continue
@@ -28,9 +29,17 @@ def build(root=ROOT,today=None):
     unmonitored=[{'id':c['id'],'club':c['name'],'region':c['region'],'country':c['country'],'url':c['schedule_url']}
         for c in clubs if not club_monitored(c)]
     reached=sum(bool(s['pages']) for s in sources);attempted=len(sources)
-    payload={'generated_at':report['checked_at'],'scope':'Canada, USA, Mexico',
+    adapters={}
+    for source in sources:
+        for page in source['pages']:
+            kind=page['parser'];entry=adapters.setdefault(kind,{'responses':0,'race_observations':0,'review_notices':0})
+            entry['responses']+=1;entry['race_observations']+=page['events'];entry['review_notices']+=bool(page.get('notice'))
+    regions=regional_coverage(races,clubs,sources,today)
+    conflicts=date_conflicts(races,report['event_candidates'])
+    payload={'date_conflicts':conflicts,'by_region':regions,'regional_gaps':[r for r in regions if r['directory_leads'] and not r['upcoming_races']],
+        'adapters':adapters,'excluded_asset_leads':len(report.get('rejected_organizer_leads',[])),'generated_at':report['checked_at'],'scope':'Canada, USA, Mexico',
         'coverage_note':'Source reach measures this scan only. Directory leads are not a census of active clubs; race recall is unknown.',
-        'sources_attempted':attempted,'sources_reached':reached,
+        'sources_attempted':attempted,'sources_reached':reached,'unique_hosts_attempted':len({host(s['url']) for s in sources}),'unique_hosts_reached':len({host(s['url']) for s in sources if s['pages']}),
         'source_reach_percent':round(100*reached/attempted,1) if attempted else 0,
         'trusted_sources_reached':sum(s['trusted'] and bool(s['pages']) for s in sources),
         'pages_reached':sum(len(s['pages']) for s in sources),'errors':len(report['errors']),

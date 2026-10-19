@@ -66,12 +66,21 @@ def ics_date(raw,field,source):
         return moment.astimezone(ZoneInfo(source['timezone'])).date()
     return dt.datetime.strptime(value[:8],'%Y%m%d').date()
 
+def matches_home_location(location,source):
+    venue=source.get('venue','');city=source.get('city','')
+    if venue and venue not in ('Various','TBA') and re.search(r'(?<!\w)'+re.escape(venue)+r'(?!\w)',location,re.I):return True
+    return bool(city and city not in ('Various','TBA') and re.search(r'(?:^|[,;])\s*(?:\d{5}(?:-\d{4})?\s+)?'+re.escape(city)+r'\s*(?:[,;]|$)',location,re.I))
+
+def mapping_in_window(source,kind,start):
+    window=source.get(kind+'_mapping_window')
+    return not window or window['start']<=str(start)<=window['end']
+
 def normalized_ics(ics,source,today=None,include_cancelled=False):
     today=today or dt.date.today()
     results=[]
     for raw in parse_ics(ics):
         name=html.unescape(raw.get('SUMMARY','')).strip()
-        if not name or not RACE_TERMS.search(name) or EXCLUDED.search(name):continue
+        if not name or not (RACE_TERMS.search(name) or (source.get('allow_race_description') and RACE_TERMS.search(raw.get('DESCRIPTION','')))) or EXCLUDED.search(name):continue
         if ((raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name)) and not include_cancelled) or raw.get('RRULE') or raw.get('RECURRENCE-ID'):continue
         if re.search(r'instructor.led lapping',raw.get('DESCRIPTION',''),re.I):continue
         if not re.match(r'^\d{8}',raw.get('DTSTART','')):continue
@@ -85,17 +94,20 @@ def normalized_ics(ics,source,today=None,include_cancelled=False):
                 if end<start:end=start
         except ValueError:continue
         if end<today or start>today+dt.timedelta(days=START_WINDOW_DAYS) or (end-start).days>12:continue
+        mapping=next((value for label,value in source.get('feed_events',{}).items() if name==label or name.startswith(label+' ')),{})
+        if mapping.get('name'):name=mapping['name']
         uid=raw.get('UID') or f'{start.isoformat()}|{name}'
         token=f"{source['id']}|{uid}"
         link=raw.get('URL','')
-        if not link.startswith(('https://','http://')):link=source['url'].split('?')[0]
+        if not link.startswith(('https://','http://')):link=source.get('event_url') or source['url'].split('?')[0]
         results.append({'id':'auto-'+hashlib.sha1(token.encode()).hexdigest()[:12],
-           'uid':uid,'feed_id':source['id'],'start':start.isoformat(),'end':end.isoformat(),
+           'uid':uid,'feed_id':source['id'],'curated_id':mapping.get('curated_id') if mapping_in_window(source,'feed',start) else None,'start':start.isoformat(),'end':end.isoformat(),
            'name':name[:180],'organizer':source['club'],'venue':source.get('venue',''),
            'city':source.get('city',''),'region':source.get('region',''),'country':source.get('country',''),
            'level':source.get('level','Club'),'format':'Endurance' if re.search('endur',name,re.I) else 'Sprint','verification':'Automated',
            'status':'cancelled' if raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name) else 'scheduled',
            'status_explicit':bool(raw.get('STATUS','').upper() in ('CANCELLED','CONFIRMED') or CANCEL_TERMS.search(name)),
+           'location_needs_review':bool(raw.get('LOCATION') and not matches_home_location(raw['LOCATION'],source)),
            'timezone_needs_review':raw.get('DTSTART','').endswith('Z') and not bool(source.get('timezone')),
            'classes':'','source':link,'notes':'Imported from organizer calendar feed; check official rules, classes and date before travel.'})
     return results

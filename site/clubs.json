@@ -472,11 +472,11 @@
       "region": "CA",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "2026/27 race listing found",
-      "schedule_url": "https://socal-karting.com/calendar/",
-      "source_description": "Organizer / schedule",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official organizer checked 2026-10-19",
+      "schedule_url": "https://www.cckra.com/",
+      "source_description": "Official organizer website",
+      "notes": "Travelling series; verify event-specific venue.",
+      "monitor_id": "cckra-official"
     },
     {
       "id": "9f9a0ab6e4",
@@ -598,11 +598,11 @@
       "region": "CT",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official schedule and PDF checked 2026-10-19",
+      "schedule_url": "https://www.norwalkkartingassociation.org/schedule",
+      "source_description": "Official organizer schedule",
+      "notes": "Regular race dates; rain and tentative dates excluded.",
+      "monitor_id": "norwalk"
     },
     {
       "id": "03a3aabce6",

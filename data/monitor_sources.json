@@ -194,7 +194,23 @@
       "venue": "North Texas Karters",
       "url": "https://www.ntkarters.com/calendar.html",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "allow_race_description": true,
+      "feed_events": {
+        "Fall 5": {
+          "name": "NTK Fall Race 5",
+          "curated_id": "75745d76873f"
+        },
+        "Fall 6": {
+          "name": "NTK Fall Race 6",
+          "curated_id": "0f56284dab4e"
+        }
+      },
+      "feed_mapping_window": {
+        "start": "2026-08-01",
+        "end": "2026-12-31"
+      }
     },
     {
       "id": "skusa",
@@ -224,10 +240,61 @@
       "country": "USA",
       "region": "AZ",
       "city": "Glendale",
-      "venue": "PKRA",
+      "venue": "PKRA at Adobe Dam",
       "url": "https://pkra.com/racing-schedule/",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "timezone": "America/Phoenix",
+      "table_events": {
+        "Round 1": {
+          "name": "PKRA Winter Championship Round 1",
+          "curated_id": "bf89c2c303a6"
+        },
+        "Round 2": {
+          "name": "PKRA Winter Championship Round 2",
+          "curated_id": "5b1f9274ffb2"
+        },
+        "Round 3": {
+          "name": "PKRA Winter Championship Round 3",
+          "curated_id": "05059067c8df"
+        },
+        "Round 4": {
+          "name": "PKRA Winter Championship Round 4",
+          "curated_id": "4208ae2b35c9"
+        },
+        "Round 5": {
+          "name": "PKRA Winter Championship Round 5",
+          "curated_id": "8eabfebc7421"
+        },
+        "Cactus Cup": {
+          "name": "PKRA Cactus Cup",
+          "curated_id": "78b897cddd42"
+        },
+        "Round 6": {
+          "name": "PKRA Winter Championship Round 6",
+          "curated_id": "90d8ad70ba29"
+        },
+        "Round 7": {
+          "name": "PKRA Winter Championship Round 7",
+          "curated_id": "69ffd03bfac4"
+        },
+        "Round 8": {
+          "name": "PKRA Winter Championship Round 8",
+          "curated_id": "f94f8de53b17"
+        },
+        "Round 9": {
+          "name": "PKRA Winter Championship Round 9",
+          "curated_id": "b4747467fb2a"
+        },
+        "Round 10": {
+          "name": "PKRA Winter Championship Round 10 — Finale",
+          "curated_id": "bed34054b637"
+        }
+      },
+      "table_mapping_window": {
+        "start": "2026-10-01",
+        "end": "2027-05-31"
+      }
     },
     {
       "id": "mexico-champions",
@@ -304,7 +371,8 @@
       "venue": "Various",
       "url": "https://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Canada-Karting-Championship-Supplementary-Regulations-5-3-2026.pdf",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "source_kind": "document_reference"
     },
     {
       "id": "amka-schedule",
@@ -440,6 +508,99 @@
       "mode": "watch",
       "auto_import": false,
       "verified_on": "2026-10-19"
+    },
+    {
+      "id": "norwalk",
+      "club": "Norwalk Karting Association",
+      "url": "https://www.norwalkkartingassociation.org/schedule",
+      "country": "USA",
+      "region": "CT",
+      "city": "Norwalk",
+      "venue": "Calf Pasture Beach Kart Track",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "pdf_profile": {
+        "layout": "date_columns",
+        "auto_import": true,
+        "race_name": "Norwalk Club Race"
+      },
+      "event_namespace": "norwalk",
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "norwalk-pdf",
+      "club": "Norwalk Karting Association",
+      "url": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "country": "USA",
+      "region": "CT",
+      "city": "Norwalk",
+      "venue": "Calf Pasture Beach Kart Track",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "pdf_profile": {
+        "layout": "date_columns",
+        "auto_import": true,
+        "race_name": "Norwalk Club Race"
+      },
+      "event_namespace": "norwalk",
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "cckra-official",
+      "club": "Central California Kart Racing Association",
+      "url": "https://www.cckra.com/",
+      "country": "USA",
+      "region": "CA",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "cckra-registration",
+      "club": "Central California Kart Racing Association",
+      "url": "https://raceselect.com/cckra/2026",
+      "country": "USA",
+      "region": "CA",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "ntk-fall5-export",
+      "club": "North Texas Karters",
+      "country": "USA",
+      "region": "TX",
+      "city": "Denton",
+      "venue": "North Texas Karters",
+      "url": "https://www.ntkarters.com/calendar/g-8-7h9l9il8hh2kand0npb6vgg90s_202610241800.raw",
+      "mode": "ics",
+      "auto_import": true,
+      "timezone": "America/Chicago",
+      "allow_race_description": true,
+      "feed_events": {
+        "Fall 5": {
+          "name": "NTK Fall Race 5",
+          "curated_id": "75745d76873f"
+        },
+        "Fall 6": {
+          "name": "NTK Fall Race 6",
+          "curated_id": "0f56284dab4e"
+        }
+      },
+      "event_url": "https://www.ntkarters.com/calendar/g-8-7h9l9il8hh2kand0npb6vgg90s_202610241800.html",
+      "verified_on": "2026-10-19",
+      "feed_mapping_window": {
+        "start": "2026-08-01",
+        "end": "2026-12-31"
+      }
     }
   ]
 }

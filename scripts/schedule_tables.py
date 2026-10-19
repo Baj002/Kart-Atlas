@@ -40,12 +40,15 @@ def date_range(text,year=None):
         return start,end
     except ValueError:return None
 
-def row_event(cells,year):
-    if len(cells)<2:return None
-    dates=date_range(cells[0],year)
+def row_event(cells,year,columns=None):
+    columns=columns or {'date':0,'event':1}
+    if len(cells)<=max(columns.values()):return None
+    dates=date_range(cells[columns['date']],year)
     if dates is None:return None
-    name=' '.join(cells[1].split())
+    name=' '.join(cells[columns['event']].split())
+    table_key=name
+    if re.match(r'^round\s+\d',name,re.I):name='Championship Race '+name
     # Offsite/combined-hosted rounds cannot inherit the home track's location.
     ambiguous=bool(re.search(r'@|\b(?:held|hosted| at |venue|location)\b',name,re.I))
     return {'@type':'Event','name':name,'startDate':str(dates[0]),'endDate':str(dates[1]),
-            '_parser':'schedule-table','_location_ambiguous':ambiguous}
+            '_parser':'schedule-table','_table_key':table_key,'_location_ambiguous':ambiguous}

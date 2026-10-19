@@ -19,6 +19,8 @@ def validate(root=ROOT,live=False):
         for field in ('registration_url','schedule_url','rules_url','track_map_url'):
             if event.get(field):assert clean_url(event[field]),'Invalid '+field
         assert event.get('status','scheduled') in ('scheduled','cancelled','postponed'),'Unknown lifecycle status'
+    for event in events:
+        if event.get('curated_id'):assert event['curated_id'] in seen,'Stale curated event mapping: '+event['curated_id']
     if live:
         report=json.loads((root/'reports/discovery.json').read_text())
         assert any(s['trusted'] and s['pages'] for s in report['sources']),'No trusted organizer sources reached'

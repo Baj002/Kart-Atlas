@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/**', 'tests/**', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', '.github/workflows/**']
+    paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', '.github/workflows/**']
   pull_request:
-    paths: ['scripts/**', 'tests/**', 'data/**', '.github/workflows/**']
+    paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/**', '.github/workflows/**']
 permissions:
   contents: read
 concurrency:
@@ -21,6 +21,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install PDF text parser
+        run: python -m pip install -r requirements.txt
       - name: Regression tests
         run: python -m unittest discover -s tests -v
       - name: Validate app JavaScript
@@ -28,6 +30,7 @@ jobs:
           node --check site/app.js
           node --check site/coverage.js
           node --check site/sw.js
+          node tests/test_coverage_ui.js
       - name: Validate generated site data
         run: python -m scripts.validate_data
   refresh:
@@ -42,6 +45,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install PDF text parser
+        run: python -m pip install -r requirements.txt
       - name: Discover organizer events, calendars and new clubs
         run: python -m scripts.discover_events
       - name: Regenerate site datasets and coverage

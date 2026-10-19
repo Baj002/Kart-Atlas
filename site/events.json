@@ -2,7 +2,7 @@
   "updated": "2026-10-19",
   "curated_snapshot": "2026-10-16",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
-  "auto_imported": 3,
+  "auto_imported": 8,
   "events": [
     {
       "start": "2026-03-28",
@@ -2076,10 +2076,10 @@
       "country": "USA",
       "level": "Club",
       "format": "Sprint",
-      "verification": "Secondary",
+      "verification": "Official",
       "classes": "",
-      "source": "https://socal-karting.com/calendar/",
-      "notes": "",
+      "source": "https://www.cckra.com/",
+      "notes": "Official organizer schedule checked 2026-10-19. Organizer lists the Oct 23-25 event weekend; RaceSelect lists Oct 24-25 race dates.",
       "id": "9737e6db2c46"
     },
     {
@@ -2114,7 +2114,38 @@
       "classes": "",
       "source": "https://northtexaskarters.wildapricot.org/",
       "notes": "",
-      "id": "75745d76873f"
+      "id": "75745d76873f",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
+    },
+    {
+      "name": "Norwalk Club Race",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "organizer": "Norwalk Karting Association",
+      "venue": "Calf Pasture Beach Kart Track",
+      "city": "Norwalk",
+      "region": "CT",
+      "country": "USA",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "uid": "norwalk|2026|2026-10-24",
+      "feed_id": "norwalk",
+      "status": "scheduled",
+      "status_explicit": false,
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "parser": "pdf-text",
+      "location_needs_review": false,
+      "publication_needs_review": false,
+      "pdf_page": 1,
+      "id": "auto-8238b76b8c8187ca",
+      "first_seen": "2026-10-19T03:05:35+00:00",
+      "last_seen": "2026-10-19T03:05:35+00:00",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2026-10-24",
@@ -2150,7 +2181,7 @@
       "notes": "Registration listed open by organizer; event 9 AM to 5 PM; see organizer for rules and eligibility.",
       "id": "52b68b85126a",
       "status": "scheduled",
-      "last_verified": "2026-10-19T02:37:45+00:00",
+      "last_verified": "2026-10-19T03:05:35+00:00",
       "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632"
     },
     {
@@ -2256,6 +2287,35 @@
       "id": "99fc1dcdc39a"
     },
     {
+      "name": "Norwalk Club Race",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "organizer": "Norwalk Karting Association",
+      "venue": "Calf Pasture Beach Kart Track",
+      "city": "Norwalk",
+      "region": "CT",
+      "country": "USA",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "uid": "norwalk|2026|2026-10-31",
+      "feed_id": "norwalk",
+      "status": "scheduled",
+      "status_explicit": false,
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "parser": "pdf-text",
+      "location_needs_review": false,
+      "publication_needs_review": false,
+      "pdf_page": 1,
+      "id": "auto-021cc4fafc417b71",
+      "first_seen": "2026-10-19T03:05:35+00:00",
+      "last_seen": "2026-10-19T03:05:35+00:00",
+      "last_verified": "2026-10-19T03:05:35+00:00"
+    },
+    {
       "start": "2026-11-01",
       "end": "2026-11-01",
       "name": "OVRP NY State Championship / Club Race #15",
@@ -2287,7 +2347,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "bf89c2c303a6"
+      "id": "bf89c2c303a6",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -2332,6 +2394,35 @@
       "source": "https://northtexaskarters.wildapricot.org/",
       "notes": "",
       "id": "0f56284dab4e"
+    },
+    {
+      "name": "Norwalk Club Race",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "organizer": "Norwalk Karting Association",
+      "venue": "Calf Pasture Beach Kart Track",
+      "city": "Norwalk",
+      "region": "CT",
+      "country": "USA",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "uid": "norwalk|2026|2026-11-07",
+      "feed_id": "norwalk",
+      "status": "scheduled",
+      "status_explicit": false,
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "parser": "pdf-text",
+      "location_needs_review": false,
+      "publication_needs_review": false,
+      "pdf_page": 1,
+      "id": "auto-1b9b2a76931a3cb1",
+      "first_seen": "2026-10-19T03:05:35+00:00",
+      "last_seen": "2026-10-19T03:05:35+00:00",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2026-11-08",
@@ -2385,6 +2476,35 @@
       "id": "9409dda1f951"
     },
     {
+      "name": "Norwalk Club Race",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "organizer": "Norwalk Karting Association",
+      "venue": "Calf Pasture Beach Kart Track",
+      "city": "Norwalk",
+      "region": "CT",
+      "country": "USA",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "uid": "norwalk|2026|2026-11-14",
+      "feed_id": "norwalk",
+      "status": "scheduled",
+      "status_explicit": false,
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "parser": "pdf-text",
+      "location_needs_review": false,
+      "publication_needs_review": false,
+      "pdf_page": 1,
+      "id": "auto-ee0faec5e411a5c8",
+      "first_seen": "2026-10-19T03:05:35+00:00",
+      "last_seen": "2026-10-19T03:05:35+00:00",
+      "last_verified": "2026-10-19T03:05:35+00:00"
+    },
+    {
       "start": "2026-11-15",
       "end": "2026-11-15",
       "name": "PKRA Winter Championship Round 2",
@@ -2399,7 +2519,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "5b1f9274ffb2"
+      "id": "5b1f9274ffb2",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2026-11-21",
@@ -2412,10 +2534,10 @@
       "country": "USA",
       "level": "Club",
       "format": "Sprint",
-      "verification": "Secondary",
+      "verification": "Official",
       "classes": "",
-      "source": "https://socal-karting.com/calendar/",
-      "notes": "Central California Championship per calendar.",
+      "source": "https://www.cckra.com/",
+      "notes": "Official organizer schedule checked 2026-10-19.",
       "id": "d495b8eb3cc8"
     },
     {
@@ -2434,6 +2556,35 @@
       "source": "https://www.fiamexicokarting.org/",
       "notes": "Official site shows November 21/22 but its date rendering is malformed; reconfirm.",
       "id": "f62ab8189e40"
+    },
+    {
+      "name": "Norwalk Club Race",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "organizer": "Norwalk Karting Association",
+      "venue": "Calf Pasture Beach Kart Track",
+      "city": "Norwalk",
+      "region": "CT",
+      "country": "USA",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "uid": "norwalk|2026|2026-11-21",
+      "feed_id": "norwalk",
+      "status": "scheduled",
+      "status_explicit": false,
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "parser": "pdf-text",
+      "location_needs_review": false,
+      "publication_needs_review": false,
+      "pdf_page": 1,
+      "id": "auto-ce9f9a65af37f894",
+      "first_seen": "2026-10-19T03:05:35+00:00",
+      "last_seen": "2026-10-19T03:05:35+00:00",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2026-12-04",
@@ -2467,7 +2618,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "05059067c8df"
+      "id": "05059067c8df",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2026-12-19",
@@ -2501,7 +2654,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "4208ae2b35c9"
+      "id": "4208ae2b35c9",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2026-12-27",
@@ -2552,7 +2707,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "8eabfebc7421"
+      "id": "8eabfebc7421",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-01-16",
@@ -2569,7 +2726,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "Non-championship points event.",
-      "id": "78b897cddd42"
+      "id": "78b897cddd42",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-01-16",
@@ -2654,7 +2813,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "90d8ad70ba29"
+      "id": "90d8ad70ba29",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-02-12",
@@ -2722,7 +2883,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "69ffd03bfac4"
+      "id": "69ffd03bfac4",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-02-26",
@@ -2807,7 +2970,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "f94f8de53b17"
+      "id": "f94f8de53b17",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-03-12",
@@ -2909,7 +3074,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "b4747467fb2a"
+      "id": "b4747467fb2a",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-03-27",
@@ -2994,7 +3161,9 @@
       "classes": "",
       "source": "https://pkra.com/racing-schedule/",
       "notes": "",
-      "id": "bed34054b637"
+      "id": "bed34054b637",
+      "status": "scheduled",
+      "last_verified": "2026-10-19T03:05:35+00:00"
     },
     {
       "start": "2027-04-16",

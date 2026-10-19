@@ -26,7 +26,7 @@ def is_dup(e,existing):
         if e['country']!=p['country'] or e['region']!=p['region']:continue
         # A specific event URL identifies a changed date. A shared schedule URL does not.
         specific=bool(event_reference(e))
-        if specific and precise_match(e,p):return True
+        if (e.get('curated_id') and e['curated_id']==p.get('id')) or (specific and precise_match(e,p)):return True
         if e['start']!=p['start']:continue
         names=SequenceMatcher(None,re.sub(r'[^a-z0-9]','',e['name'].lower()),re.sub(r'[^a-z0-9]','',p['name'].lower())).ratio()
         venue=(e.get('venue') or '').casefold().strip()
@@ -51,14 +51,14 @@ def build(root=ROOT):
     imported=[]
     for e in auto:
         e=dict(e,region=region_code(e['region'],e['country']))
-        matches=[p for p in curated if is_dup(e,[p])]
+        matches=[p for p in curated if p['id']==e.get('curated_id') or is_dup(e,[p])]
         if matches:
             p=matches[0]
             # Exact event-source agreement permits official lifecycle updates while
             # retaining the curated ID (and therefore saved races on user devices).
             specific=bool(event_reference(e))
-            if specific and precise_match(e,p):
-                for field in ('start','end','status','last_verified','history','registration_url'):
+            if (e.get('curated_id') and e['curated_id']==p.get('id')) or (specific and precise_match(e,p)):
+                for field in ('start','end','status','last_verified','history','registration_url','registration_status'):
                     if field in e:p[field]=e[field]
             continue
         if not is_dup(e,imported):imported.append(e)
