@@ -89,6 +89,25 @@ def run(root=ROOT, fetcher=fetch, robots_checker=None, today=None):
     known={s['url'] for s in sources}
     races=json.loads((root/'site/events.json').read_text()).get('events',[])
     existing={(r['start'],re.sub(r'[^a-z0-9]','',r['name'].lower())) for r in races}
+    # Inventory club directory websites not yet included in the monitored sources.
+    # These are research leads only; a directory URL is not proof of ownership.
+    clubs_path=root/'data/clubs.json'
+    organizer_leads=[]
+    if clubs_path.exists():
+        directory=json.loads(clubs_path.read_text()).get('clubs',[])
+        monitored_hosts={urlsplit(u).hostname for u in known}
+        seen_hosts=set()
+        for club in directory:
+            url=club.get('schedule_url') or ''
+            u=urlsplit(url)
+            if u.scheme not in ('https','http') or not u.hostname:continue
+            host=u.hostname.lower().removeprefix('www.')
+            if any(host == (h or '').lower().removeprefix('www.') for h in monitored_hosts):continue
+            if host in seen_hosts:continue
+            seen_hosts.add(host)
+            organizer_leads.append({'club':club.get('name',''),'city':club.get('city',''),
+              'region':club.get('region',''),'country':club.get('country',''),
+              'url':url,'status':'unverified_organizer_source'})
     candidates=[];feeds=[];errors=[];checked=0;cache={}
     for source in sources:
         if source.get('mode')!='watch' or source['url'].lower().split('?')[0].endswith('.pdf'):continue
@@ -108,9 +127,9 @@ def run(root=ROOT, fetcher=fetch, robots_checker=None, today=None):
         except (OSError,ValueError,UnicodeError) as exc:
             errors.append({'source':source['id'],'error':str(exc)[:160]})
     report={'checked_at':dt.datetime.now(dt.timezone.utc).isoformat(),'sources_checked':checked,
-            'event_candidates':candidates,'calendar_feed_candidates':feeds,'errors':errors}
+            'event_candidates':candidates,'calendar_feed_candidates':feeds,'organizer_source_candidates':organizer_leads,'errors':errors}
     (root/'reports/discovery.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
-    print(f"Discovery: {checked} sources, {len(candidates)} new event candidates, {len(feeds)} feed candidates")
+    print(f"Discovery: {checked} sources, {len(candidates)} new event candidates, {len(feeds)} feed candidates, {len(organizer_leads)} organizer leads")
     return report
 
 if __name__=='__main__':run()
