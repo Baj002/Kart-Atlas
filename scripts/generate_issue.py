@@ -4,7 +4,7 @@ import json,sys
 root=Path(__file__).resolve().parents[1]
 r=json.loads((root/'reports/latest.json').read_text())
 changes=r.get('watch_changes',[])+r.get('possible_date_changes',[])
-if not changes:sys.exit(2)
+discovery_path=root/'reports/discovery.json'\ndiscovery=json.loads(discovery_path.read_text()) if discovery_path.exists() else {}\nnew_events=discovery.get('event_candidates',[])\nnew_feeds=discovery.get('calendar_feed_candidates',[])\nif not changes and not new_events and not new_feeds:sys.exit(2)
 lines=['## Kart Atlas schedule-review queue','Organizer-source content changed. Changes to general HTML pages are **not yet verified race changes**.','']
 for c in changes[:20]:
     if 'club' in c:lines.append(f"- **{c['club']}** — {c['url']} — review organizer schedule")
