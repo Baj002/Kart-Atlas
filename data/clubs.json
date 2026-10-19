@@ -53,7 +53,7 @@
       "country": "Canada",
       "kind": "Club / Series",
       "research_status": "2026 checked, 2027 not yet posted",
-      "schedule_url": "https://kartplex.ca/",
+      "schedule_url": "https://kartplex.ca/leagues-club-racing/",
       "source_description": "Official website / calendar",
       "notes": "Organizer source",
       "monitor_id": null
@@ -67,7 +67,7 @@
       "country": "Canada",
       "kind": "Club / Series",
       "research_status": "2026 checked, 2027 not yet posted",
-      "schedule_url": "https://vika.ca/bc-regional-races/",
+      "schedule_url": "https://vika.ca/registration/",
       "source_description": "Official website / calendar",
       "notes": "Organizer source",
       "monitor_id": null
@@ -151,7 +151,7 @@
       "country": "Canada",
       "kind": "Club / Track",
       "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "schedule_url": "https://www.mosportkartingcentre.com/kart-owners",
       "source_description": "Web / PDF / social check",
       "notes": "Legacy community index; not proof this club still races.",
       "monitor_id": null

@@ -143,6 +143,27 @@
     }
   ],
   "reviewed_corrections": [
-    "17f87c6b741a"
-  ]
+    "17f87c6b741a",
+    "5d580cc95177",
+    "e216105cbc71",
+    "1bb0a6b3dee8",
+    "45b67f87c40b",
+    "352646a26717",
+    "94d7a39be9da",
+    "e32c72034c7f"
+  ],
+  "reviewed_duplicates": {
+    "37b174ec9bb3": {
+      "canonical_id": "c221825c977a",
+      "evidence": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
+      "reviewed_on": "2026-10-19",
+      "reason": "Same officially numbered Florida Winter Tour round and dates; both records have unannounced venue."
+    },
+    "f998c938c8b8": {
+      "canonical_id": "f6380f404a97",
+      "evidence": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
+      "reviewed_on": "2026-10-19",
+      "reason": "Same officially numbered Florida Winter Tour round and dates; both records have unannounced venue."
+    }
+  }
 }

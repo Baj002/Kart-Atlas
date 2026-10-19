@@ -1,0 +1,37 @@
+{
+  "reviewed_on": "2026-10-19",
+  "scope": "Owner-kart circuit racing only",
+  "corrections": {
+    "rok_sonoma": {
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "date_windows_corrected": 4,
+      "saved_ids_preserved": true,
+      "details": "Triple Crown 1 rounds corrected to Apr 17–18, May 1–2 and June 5–6. ROK Fest West corrected to July 17–18. Triple Crown 2 uses official global round numbering 4–6."
+    },
+    "florida_winter_tour": {
+      "evidence": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
+      "duplicate_records_merged": 2,
+      "saved_ids_preserved_as_aliases": true
+    }
+  },
+  "automation": {
+    "skusa": "Twelve race weekends parsed from official multi-season announcement; four verified-venue weekends eligible for automatic date refresh, eight unannounced-venue weekends stay in review. Year-specific saved mappings prevent next-season races from overwriting older saves.",
+    "rok_sonoma": "Seven race weekends parsed with stable round identities and saved mappings.",
+    "mika": "Reviewed CMS attributes on official /calendar; filters owner-kart races and excludes rental leagues, practice and other programs. Live current cards were past events; no new future dates invented."
+  },
+  "organizer_verifications": [
+    "Kartplex at Area 27",
+    "Vancouver Island Karting Association",
+    "Mosport International Karting Association",
+    "ROK Sonoma"
+  ],
+  "source_repairs": {
+    "kartplex": "Old club-regional-racing page returns 404; current homepage links to working /leagues-club-racing/ with explicit CKRA owner-kart classes.",
+    "mika": "Replaced generic Kartpulse directory lead with organizer owner-kart page and public calendar."
+  },
+  "unresolved": {
+    "edkra": "Search indexes a historical /pages/club-schedule, but live retrieval returns 404. Existing failing endpoint remains flagged; no false reachability claim.",
+    "kartplex": "Current page instructs contacting organizer for current dates. No public dated schedule verified."
+  },
+  "limitations": "Registry eligibility establishes discipline scope, not a complete or currently announced season. Source reach is not race recall."
+}

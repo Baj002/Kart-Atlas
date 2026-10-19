@@ -39,6 +39,21 @@ def merge_curated_duplicates(events):
         else:result.append(event);seen[token]=event
     return result
 
+def merge_reviewed_duplicates(events, policy):
+    """Merge only explicit reviewed identities, including unknown-venue copies."""
+    records={event['id']:dict(event) for event in events}
+    reviews=policy.get('duplicate_events',{})
+    for duplicate_id,review in reviews.items():
+        canonical_id=review['canonical_id']
+        assert duplicate_id!=canonical_id and canonical_id not in reviews,'Cyclic or chained duplicate mapping'
+        assert canonical_id in records,'Missing canonical race: '+canonical_id
+        if duplicate_id not in records:continue
+        duplicate=records[duplicate_id];canonical=records[canonical_id]
+        assert duplicate['country']==canonical['country'] and duplicate['organizer']==canonical['organizer'],'Reviewed duplicate organizer mismatch'
+        canonical['alias_ids']=list(dict.fromkeys(canonical.get('alias_ids',[])+[duplicate_id]+duplicate.get('alias_ids',[])))
+        del records[duplicate_id]
+    return list(records.values())
+
 def is_dup(e,existing):
     for p in existing:
         if e['country']!=p['country'] or e['region']!=p['region']:continue
@@ -67,7 +82,7 @@ def build(root=ROOT):
             reason=event_scope_reason(e,policy)
             if reason:excluded.append(dict(e,scope_reason=reason));continue
             original.append(e)
-    originals={(key(e)):e for e in original}; curated=merge_curated_duplicates(list(originals.values()))
+    originals={(key(e)):e for e in original}; curated=merge_reviewed_duplicates(merge_curated_duplicates(list(originals.values())),policy)
     auto=json.loads((root/'data/automated_events.json').read_text()).get('events',[])
     imported=[]
     for e in auto:
@@ -83,6 +98,9 @@ def build(root=ROOT):
             if (e.get('curated_id') and e['curated_id'] in [p['id']]+p.get('alias_ids',[])) or (specific and precise_match(e,p)):
                 for field in ('start','end','status','last_verified','history','registration_url','registration_status'):
                     if field in e:p[field]=e[field]
+                if e.get('curated_id') and not e.get('location_needs_review'):
+                    for field in ('venue','city','region','country'):
+                        if e.get(field):p[field]=e[field]
             continue
         if not is_dup(e,imported):imported.append(e)
     enrichment_path=root/'data/event_enrichment.json'
@@ -108,7 +126,7 @@ def build(root=ROOT):
     (root/'site/clubs.json').write_text(json.dumps(directory,ensure_ascii=False,indent=2)+'\n')
     (root/'reports').mkdir(exist_ok=True)
     (root/'reports/scope_audit.json').write_text(json.dumps({'scope':policy.get('scope','Competition circuit karting'),
-        'excluded_events':excluded,'excluded_clubs':excluded_clubs,'reviewed_corrections':list(policy.get('event_overrides',{}))},indent=2,ensure_ascii=False)+'\n')
+        'excluded_events':excluded,'excluded_clubs':excluded_clubs,'reviewed_corrections':list(policy.get('event_overrides',{})),'reviewed_duplicates':policy.get('duplicate_events',{})},indent=2,ensure_ascii=False)+'\n')
     print(f"Built {len(races)} races ({len(curated)} curated + {len(imported)} automated), {len(directory['clubs'])} leads")
     return snap
 if __name__=='__main__':build()

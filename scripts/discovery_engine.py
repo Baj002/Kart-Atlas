@@ -24,7 +24,7 @@ from urllib.robotparser import RobotFileParser
 from scripts.schedule_tables import row_event
 from scripts.pdf_schedules import extract_pdf
 from scripts.platform_calendars import extract_raceselect
-from scripts.text_schedules import extract_text_schedule
+from scripts.text_schedules import extract_text_schedule, extract_attribute_calendar
 from scripts.racing_scope import load_policy,event_scope_reason,source_scope_reason
 from scripts.source_health import update_health
 from scripts.check_sources import AGENT, LIMIT, CANCEL_TERMS, RACE_TERMS, EXCLUDED, normalized_ics, mapping_in_window, visible_text, ROOT
@@ -219,7 +219,7 @@ def normalize_event(e, source, today):
     table_key=e.get('_table_key','')
     mapping=next((value for label,value in source.get('table_events',{}).items() if table_key==label or table_key.startswith(label+' ')),{})
     if mapping.get('name'):name=mapping['name']
-    if not name or not RACING.search(name) or OMIT.search(name):return None
+    if not name or not (RACING.search(name) or (source.get('html_race_pattern') and re.fullmatch(source['html_race_pattern'],name,re.I))) or OMIT.search(name):return None
     if any(re.search(r'\b'+re.escape(term)+r'\b',name,re.I) for term in source.get('excluded_series',[])):return None
     try:
         start=dt.date.fromisoformat(str(e.get('startDate',''))[:10]);end=dt.date.fromisoformat(str(e.get('endDate') or start)[:10])
@@ -257,6 +257,7 @@ def normalize_event(e, source, today):
         'notes':'Imported from structured organizer data. Confirm rules and registration with the organizer.',
         'discovered_from':source['url'],'parser':e.get('_parser','jsonld'),'location_needs_review':bool(e.get('_location_ambiguous')),'publication_needs_review':bool(e.get('_publication_needs_review'))}
     if e.get('_shared_url'):record['shared_source_url']=True
+    if e.get('_curated_id'):record['curated_id']=e['_curated_id']
     if source.get('event_notes'):record['notes']+=' '+source['event_notes']
     if source.get('require_venue_alias') and not venue_alias and e.get('_parser')=='squarespace':record['location_needs_review']=True
     if mapping.get('curated_id') and mapping_in_window(source,'table',start):record['curated_id']=mapping['curated_id']
@@ -274,6 +275,7 @@ def extract_page(raw,source,today):
     p=Parser();p.feed(raw)
     p.events.extend(extract_raceselect(raw,source))
     p.events.extend(extract_text_schedule(raw,source))
+    p.events.extend(extract_attribute_calendar(raw,source))
     # Some organizers assign every round the same series URL. Preserve distinct
     # rounds even when they are duplicated in desktop/mobile JSON-LD graphs.
     shared={}

@@ -65,12 +65,16 @@
       "region": "BC",
       "venue": "Area 27 Kart Track",
       "city": "Oliver",
-      "primary_url": "https://kartplex.ca/",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "primary_url": "https://kartplex.ca/leagues-club-racing/",
+      "source_ids": [
+        "kartplex-owner-racing"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official organizer page confirms owner-kart circuit racing.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://kartplex.ca/leagues-club-racing/"
     },
     {
       "id": "b957637853",
@@ -80,12 +84,16 @@
       "region": "BC",
       "venue": "Vancouver Island Motorsport Circuit",
       "city": "Cowichan",
-      "primary_url": "https://vika.ca/bc-regional-races/",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "primary_url": "https://vika.ca/registration/",
+      "source_ids": [
+        "vika-registration"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official organizer page confirms owner-kart circuit racing.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://vika.ca/registration/"
     },
     {
       "id": "e10cbff088",
@@ -212,12 +220,16 @@
       "region": "ON",
       "venue": "Mosport Karting Centre",
       "city": "Clarington",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "primary_url": "https://www.mosportkartingcentre.com/kart-owners",
+      "source_ids": [
+        "mika-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official organizer page confirms owner-kart circuit racing.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://www.mosportkartingcentre.com/kart-owners"
     },
     {
       "id": "6a07490f0e",
@@ -645,11 +657,11 @@
       "region": "CA",
       "venue": "Sonoma Raceway Karting Center",
       "city": "Sonoma",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "primary_url": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
+      "scope_status": "eligible",
+      "scope_reason": "Organizer confirms circuit ROK competition at Sonoma Raceway; monitored through parent ROK Cup USA.",
+      "verification": "reviewed_organizer",
       "season_declarations": []
     },
     {
@@ -1342,7 +1354,8 @@
       "city": "Multiple",
       "primary_url": "https://rokcupusa.com/calendar/",
       "source_ids": [
-        "rok-usa-calendar"
+        "rok-usa-calendar",
+        "rok-sonoma-2027-official"
       ],
       "scope_status": "eligible",
       "scope_reason": null,
@@ -1361,7 +1374,8 @@
       "city": "Multiple",
       "primary_url": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "source_ids": [
-        "skusa"
+        "skusa",
+        "skusa-official-schedule"
       ],
       "scope_status": "eligible",
       "scope_reason": null,

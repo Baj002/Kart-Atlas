@@ -62,6 +62,84 @@
         "classes": "Briggs LO206; Micro Swift; Mini Swift; KA100",
         "notes": "Circuit-kart race days December 29–30. Move-in December 27; practice and qualifying December 28. Excludes separate dirt and long-circuit road-racing programs."
       }
+    },
+    "5d580cc95177": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "start": "2027-04-17",
+        "end": "2027-04-18",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+        "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition."
+      }
+    },
+    "e216105cbc71": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "start": "2027-05-01",
+        "end": "2027-05-02",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+        "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition."
+      }
+    },
+    "1bb0a6b3dee8": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "start": "2027-06-05",
+        "end": "2027-06-06",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+        "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition."
+      }
+    },
+    "45b67f87c40b": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "start": "2027-07-17",
+        "end": "2027-07-18",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+        "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition."
+      }
+    },
+    "352646a26717": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "name": "ROK Sonoma Triple Crown 2 — Round 4",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/"
+      }
+    },
+    "94d7a39be9da": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "name": "ROK Sonoma Triple Crown 2 — Round 5",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/"
+      }
+    },
+    "e32c72034c7f": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "fields": {
+        "name": "ROK Sonoma Triple Crown 2 — Round 6",
+        "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/"
+      }
+    }
+  },
+  "duplicate_events": {
+    "37b174ec9bb3": {
+      "canonical_id": "c221825c977a",
+      "evidence": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
+      "reviewed_on": "2026-10-19",
+      "reason": "Same officially numbered Florida Winter Tour round and dates; both records have unannounced venue."
+    },
+    "f998c938c8b8": {
+      "canonical_id": "f6380f404a97",
+      "evidence": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
+      "reviewed_on": "2026-10-19",
+      "reason": "Same officially numbered Florida Winter Tour round and dates; both records have unannounced venue."
     }
   }
 }

@@ -29,6 +29,11 @@ def validate(root=ROOT,live=False):
             seen.add(alias)
     for event in events:
         if event.get('curated_id'):assert event['curated_id'] in seen,'Stale curated event mapping: '+event['curated_id']
+    for duplicate_id,review in policy.get('duplicate_events',{}).items():
+        assert clean_url(review['evidence']),'Missing duplicate identity evidence'
+        dt.date.fromisoformat(review['reviewed_on'])
+        canonical=next((e for e in events if e['id']==review['canonical_id']),None)
+        assert canonical and duplicate_id in canonical.get('alias_ids',[]),'Missing reviewed saved-race alias'
     registry_path=root/'data/organizers.json'
     if registry_path.exists():
         organizers=json.loads(registry_path.read_text())['organizers'];ids=set();bindings=set();aliases={}

@@ -3295,24 +3295,10 @@
       "classes": "",
       "source": "https://rokcupusa.com/calendar/",
       "notes": "Venue TBA",
-      "id": "c221825c977a"
-    },
-    {
-      "start": "2027-02-26",
-      "end": "2027-02-28",
-      "name": "ROK Florida Winter Tour Round 2",
-      "organizer": "ROK Cup USA",
-      "venue": "Venue TBA",
-      "city": "Florida",
-      "region": "FL",
-      "country": "USA",
-      "level": "National",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
-      "notes": "Official dates confirmed; venue not yet announced.",
-      "id": "37b174ec9bb3"
+      "id": "c221825c977a",
+      "alias_ids": [
+        "37b174ec9bb3"
+      ]
     },
     {
       "start": "2027-02-28",
@@ -3428,24 +3414,10 @@
       "classes": "",
       "source": "https://rokcupusa.com/calendar/",
       "notes": "Venue TBA",
-      "id": "f6380f404a97"
-    },
-    {
-      "start": "2027-03-12",
-      "end": "2027-03-14",
-      "name": "ROK Florida Winter Tour Round 3",
-      "organizer": "ROK Cup USA",
-      "venue": "Venue TBA",
-      "city": "Florida",
-      "region": "FL",
-      "country": "USA",
-      "level": "National",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://rokcupusa.com/rok-cup-usa-confirms-2027-florida-winter-tour-dates/",
-      "notes": "Official dates confirmed; venue not yet announced.",
-      "id": "f998c938c8b8"
+      "id": "f6380f404a97",
+      "alias_ids": [
+        "f998c938c8b8"
+      ]
     },
     {
       "start": "2027-03-12",
@@ -3463,23 +3435,6 @@
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
       "id": "c36f4da0b2fd"
-    },
-    {
-      "start": "2027-03-20",
-      "end": "2027-03-21",
-      "name": "ROK Sonoma Triple Crown 1 — Round 1",
-      "organizer": "ROK Cup USA",
-      "venue": "Sonoma Raceway",
-      "city": "Sonoma",
-      "region": "CA",
-      "country": "USA",
-      "level": "Regional",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
-      "notes": "",
-      "id": "5d580cc95177"
     },
     {
       "start": "2027-03-21",
@@ -3617,9 +3572,9 @@
       "last_verified": "2026-10-19T18:54:33+00:00"
     },
     {
-      "start": "2027-04-16",
+      "start": "2027-04-17",
       "end": "2027-04-18",
-      "name": "ROK Sonoma Triple Crown 1 — Round 2",
+      "name": "ROK Sonoma Triple Crown 1 — Round 1",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
@@ -3629,9 +3584,10 @@
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
-      "notes": "",
-      "id": "e216105cbc71"
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
+      "id": "5d580cc95177",
+      "last_verified": "2026-10-19"
     },
     {
       "start": "2027-04-24",
@@ -3670,7 +3626,7 @@
     {
       "start": "2027-05-01",
       "end": "2027-05-02",
-      "name": "ROK Sonoma Triple Crown 1 — Round 3",
+      "name": "ROK Sonoma Triple Crown 1 — Round 2",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
@@ -3680,9 +3636,10 @@
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
-      "notes": "",
-      "id": "1bb0a6b3dee8"
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
+      "id": "e216105cbc71",
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Tri-C Club Series Championship Round 4",
@@ -3852,19 +3809,20 @@
     {
       "start": "2027-06-05",
       "end": "2027-06-06",
-      "name": "ROK Fest West",
+      "name": "ROK Sonoma Triple Crown 1 — Round 3",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "level": "National",
+      "level": "Regional",
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
-      "notes": "",
-      "id": "45b67f87c40b"
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
+      "id": "1bb0a6b3dee8",
+      "last_verified": "2026-10-19"
     },
     {
       "name": "Tri-C Club Series Championship Round 5",
@@ -3949,7 +3907,7 @@
     {
       "start": "2027-06-26",
       "end": "2027-06-27",
-      "name": "ROK Sonoma Triple Crown 2 — Round 1",
+      "name": "ROK Sonoma Triple Crown 2 — Round 4",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
@@ -3959,9 +3917,10 @@
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
-      "id": "352646a26717"
+      "id": "352646a26717",
+      "last_verified": "2026-10-19"
     },
     {
       "start": "2027-07-15",
@@ -3996,6 +3955,24 @@
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
       "id": "7866f6399c7c"
+    },
+    {
+      "start": "2027-07-17",
+      "end": "2027-07-18",
+      "name": "ROK Fest West",
+      "organizer": "ROK Cup USA",
+      "venue": "Sonoma Raceway",
+      "city": "Sonoma",
+      "region": "CA",
+      "country": "USA",
+      "level": "National",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
+      "id": "45b67f87c40b",
+      "last_verified": "2026-10-19"
     },
     {
       "start": "2027-07-23",
@@ -4114,7 +4091,7 @@
     {
       "start": "2027-08-07",
       "end": "2027-08-08",
-      "name": "ROK Sonoma Triple Crown 2 — Round 2",
+      "name": "ROK Sonoma Triple Crown 2 — Round 5",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
@@ -4124,9 +4101,10 @@
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
-      "id": "94d7a39be9da"
+      "id": "94d7a39be9da",
+      "last_verified": "2026-10-19"
     },
     {
       "start": "2027-08-14",
@@ -4262,7 +4240,7 @@
     {
       "start": "2027-09-18",
       "end": "2027-09-19",
-      "name": "ROK Sonoma Triple Crown 2 — Round 3",
+      "name": "ROK Sonoma Triple Crown 2 — Round 6",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
@@ -4272,9 +4250,10 @@
       "format": "Sprint",
       "verification": "Official",
       "classes": "",
-      "source": "https://rokcupusa.com/calendar/",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
-      "id": "e32c72034c7f"
+      "id": "e32c72034c7f",
+      "last_verified": "2026-10-19"
     },
     {
       "start": "2027-09-25",

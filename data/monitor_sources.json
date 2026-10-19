@@ -1032,6 +1032,270 @@
       "auto_import": false,
       "timezone": "America/Los_Angeles",
       "event_name_pattern": "COTF|Champions|Championship"
+    },
+    {
+      "id": "skusa-official-schedule",
+      "club": "Superkarts! USA",
+      "url": "https://www.superkartsusa.com/event-schedules.html",
+      "country": "USA",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Various",
+      "level": "National",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19",
+      "text_profile": {
+        "paths": [
+          "/event-schedules.html"
+        ],
+        "sections": [
+          {
+            "start": "^(?P<year>20\\d{2}) SuperNationals (?P<number>\\d+)\\n(?=[A-Z][a-z]+ \\d)",
+            "end": "^20\\d{2} (?:SKUSA EVENT SCHEDULE|Winter Series)",
+            "row": "^(?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})\\n(?P<venue>[^\\n]+)$",
+            "name": "SKUSA SuperNationals {number}",
+            "identity": "SuperNationals-{number}",
+            "auto_import": true,
+            "venues": {
+              "Las Vegas Motor Speedway": {
+                "name": "Las Vegas Motor Speedway Kart Circuit",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "NV",
+                  "addressLocality": "Las Vegas"
+                }
+              },
+              "Orlando Kart Center": {
+                "name": "Orlando Kart Center",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "FL",
+                  "addressLocality": "Orlando"
+                }
+              }
+            },
+            "curated_events": {
+              "2026|SuperNationals-29": "1e2d54f2db40",
+              "2027|SuperNationals-30": "e0b611ca1d97"
+            }
+          },
+          {
+            "start": "^(?P<year>20\\d{2}) Winter Series\\n(?=Round)",
+            "end": "^20\\d{2} Pro Tour",
+            "row": "^Round (?P<event>\\d+/\\d+)\\n(?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})\\n(?P<venue>[^\\n]+)$",
+            "name": "SKUSA Winter Series Rounds {event}",
+            "identity": "Winter-{event}",
+            "auto_import": true,
+            "venues": {
+              "Las Vegas Motor Speedway": {
+                "name": "Las Vegas Motor Speedway Kart Circuit",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "NV",
+                  "addressLocality": "Las Vegas"
+                }
+              },
+              "Orlando Kart Center": {
+                "name": "Orlando Kart Center",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "FL",
+                  "addressLocality": "Orlando"
+                }
+              }
+            },
+            "curated_events": {
+              "2027|Winter-1/2": "7758fddb9bd1",
+              "2027|Winter-3/4": "6622456fede1"
+            }
+          },
+          {
+            "start": "^(?P<year>20\\d{2}) Pro Tour\\n(?=Round)",
+            "end": "^20\\d{2} California ProKart Challenge",
+            "row": "^Round (?P<event>\\d+/\\d+)\\n(?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})\\n(?P<race>[^\\n]+)\\n(?P<venue>[^\\n]+)$",
+            "name": "SKUSA Pro Tour {race} Rounds {event}",
+            "identity": "ProTour-{event}",
+            "auto_import": true,
+            "venues": {
+              "Las Vegas Motor Speedway": {
+                "name": "Las Vegas Motor Speedway Kart Circuit",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "NV",
+                  "addressLocality": "Las Vegas"
+                }
+              },
+              "Orlando Kart Center": {
+                "name": "Orlando Kart Center",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "FL",
+                  "addressLocality": "Orlando"
+                }
+              }
+            },
+            "curated_events": {
+              "2027|ProTour-1/2": "750e3eda7058",
+              "2027|ProTour-3/4": "5ef6b208d776",
+              "2027|ProTour-5/6": "b75f12501217"
+            }
+          },
+          {
+            "start": "^(?P<year>20\\d{2}) California ProKart Challenge\\n(?=Round)",
+            "end": "^All content Copyright",
+            "row": "^Round (?P<event>\\d+(?:/\\d+)?)\\n(?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})\\n(?P<venue>[^\\n]+)$",
+            "name": "SKUSA California ProKart Challenge Round {event}",
+            "identity": "PKC-{event}",
+            "auto_import": true,
+            "venues": {
+              "Las Vegas Motor Speedway": {
+                "name": "Las Vegas Motor Speedway Kart Circuit",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "NV",
+                  "addressLocality": "Las Vegas"
+                }
+              },
+              "Orlando Kart Center": {
+                "name": "Orlando Kart Center",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "FL",
+                  "addressLocality": "Orlando"
+                }
+              }
+            },
+            "curated_events": {
+              "2027|PKC-1/2": "c36f4da0b2fd",
+              "2027|PKC-3": "2ce6eb8ed014",
+              "2027|PKC-4": "9acd0d3268d8",
+              "2027|PKC-5": "1038d9353930",
+              "2027|PKC-6": "4dcc481785ea"
+            }
+          }
+        ]
+      },
+      "html_race_pattern": "SKUSA (?:Winter Series|Pro Tour (?:WinterNationals|SpringNationals|SummerNationals)) Rounds \\d+/\\d+"
+    },
+    {
+      "id": "rok-sonoma-2027-official",
+      "club": "ROK Cup USA",
+      "url": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "country": "USA",
+      "region": "CA",
+      "city": "Sonoma",
+      "venue": "Sonoma Raceway",
+      "level": "Regional",
+      "timezone": "America/Los_Angeles",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19",
+      "text_profile": {
+        "paths": [
+          "/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/"
+        ],
+        "sections": [
+          {
+            "start": "^(?P<year>20\\d{2}) Triple Crown 1$",
+            "end": "^20\\d{2} Triple Crown 2",
+            "row": "^Round (?P<event>\\d+): (?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})$",
+            "name": "ROK Sonoma Triple Crown 1 — Round {event}",
+            "identity": "Sonoma-{event}",
+            "auto_import": true,
+            "curated_events": {
+              "2027|Sonoma-1": "5d580cc95177",
+              "2027|Sonoma-2": "e216105cbc71",
+              "2027|Sonoma-3": "1bb0a6b3dee8"
+            }
+          },
+          {
+            "start": "^(?P<year>20\\d{2}) Triple Crown 2$",
+            "end": "^\\*\\*Each Triple Crown",
+            "row": "^Round (?P<event>\\d+): (?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})$",
+            "name": "ROK Sonoma Triple Crown 2 — Round {event}",
+            "identity": "Sonoma-{event}",
+            "auto_import": true,
+            "curated_events": {
+              "2027|Sonoma-4": "352646a26717",
+              "2027|Sonoma-5": "94d7a39be9da",
+              "2027|Sonoma-6": "e32c72034c7f"
+            }
+          },
+          {
+            "start": "The (?P<year>20\\d{2}) season marks",
+            "end": "ROK Sonoma averaged",
+            "row": "Returning to Sonoma Raceway on (?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2}), ROK Fest West",
+            "name": "ROK Fest West",
+            "identity": "FestWest",
+            "auto_import": true,
+            "curated_events": {
+              "2027|FestWest": "45b67f87c40b"
+            }
+          }
+        ]
+      },
+      "html_race_pattern": "ROK (?:Sonoma Triple Crown [12] — Round \\d+|Fest West)"
+    },
+    {
+      "country": "Canada",
+      "region": "BC",
+      "city": "Oliver",
+      "venue": "Area 27 Kart Track",
+      "id": "kartplex-owner-racing",
+      "club": "Kartplex at Area 27",
+      "url": "https://kartplex.ca/leagues-club-racing/",
+      "event_name_pattern": "CKRA|ROK|Rotax|LO206|Briggs|Club.*Race|Regional.*Race",
+      "timezone": "America/Vancouver",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "country": "Canada",
+      "region": "BC",
+      "city": "Cowichan",
+      "venue": "Vancouver Island Motorsport Circuit",
+      "id": "vika-registration",
+      "club": "Vancouver Island Karting Association",
+      "url": "https://vika.ca/registration/",
+      "event_name_pattern": "VIKA|GAIN Group|Regional.*Race",
+      "timezone": "America/Vancouver",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "country": "Canada",
+      "region": "ON",
+      "city": "Clarington",
+      "venue": "Mosport Karting Centre",
+      "id": "mika-official",
+      "club": "Mosport International Karting Association",
+      "url": "https://www.mosportkartingcentre.com/calendar",
+      "event_name_pattern": "MIKA|KartStars|RMC|Canadian.*Championship",
+      "timezone": "America/Toronto",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19",
+      "attribute_calendar": {
+        "paths": [
+          "/calendar"
+        ],
+        "class": "cal-event-data",
+        "category_attribute": "data-cat",
+        "categories": [
+          "mika",
+          "special",
+          "special event"
+        ],
+        "name_attribute": "cal-event-data",
+        "date_attribute": "data-date",
+        "end_attribute": "data-enddate",
+        "registration_attribute": "data-url",
+        "identity_name_pattern": "MIKA Race\\s*#?\\s*\\d+",
+        "auto_import": true
+      }
     }
   ]
 }
