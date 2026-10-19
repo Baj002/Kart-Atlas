@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T18:54:33+00:00",
+  "generated_at": "2026-10-19T19:11:19+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
     "organizers": 143,
     "by_scope": {
-      "eligible": 43,
-      "needs_review": 98,
+      "eligible": 47,
+      "needs_review": 94,
       "excluded": 2
     },
-    "with_configured_sources": 43,
-    "with_reached_sources": 37,
+    "with_configured_sources": 46,
+    "with_reached_sources": 40,
     "with_health_issues": 8,
     "unmatched_races": 0
   },
@@ -168,16 +168,20 @@
       "organizer_id": "2a75fb40bd",
       "name": "Kartplex at Area 27",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "kartplex-owner-racing"
+      ],
+      "sources_reached": [
+        "kartplex-owner-racing"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -187,7 +191,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -201,16 +205,20 @@
       "organizer_id": "b957637853",
       "name": "Vancouver Island Karting Association",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "vika-registration"
+      ],
+      "sources_reached": [
+        "vika-registration"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -220,7 +228,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -474,16 +482,20 @@
       "organizer_id": "3c78c917ed",
       "name": "Mosport International Karting Association",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "mika-official"
+      ],
+      "sources_reached": [
+        "mika-official"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -493,7 +505,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1463,7 +1475,7 @@
       "organizer_id": "6276266750",
       "name": "ROK Sonoma",
       "country": "USA",
-      "scope_status": "needs_review",
+      "scope_status": "eligible",
       "source_ids": [],
       "sources_reached": [],
       "unhealthy_sources": [],
@@ -1501,7 +1513,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 3,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1519,7 +1531,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3042,10 +3054,12 @@
       "country": "USA",
       "scope_status": "eligible",
       "source_ids": [
-        "rok-usa-calendar"
+        "rok-usa-calendar",
+        "rok-sonoma-2027-official"
       ],
       "sources_reached": [
-        "rok-usa-calendar"
+        "rok-usa-calendar",
+        "rok-sonoma-2027-official"
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
@@ -3068,36 +3082,25 @@
         {
           "year": 2027,
           "status": "indexed_future_events",
-          "indexed_events": 13,
-          "upcoming_events": 13,
-          "recently_verified_upcoming": 0,
+          "indexed_events": 11,
+          "upcoming_events": 11,
+          "recently_verified_upcoming": 7,
           "unconfirmed_future_event_ids": [
             "27401066f4a3",
             "c221825c977a",
-            "37b174ec9bb3",
             "f6380f404a97",
-            "f998c938c8b8",
-            "5d580cc95177",
-            "e216105cbc71",
-            "1bb0a6b3dee8",
-            "45b67f87c40b",
-            "352646a26717",
-            "94d7a39be9da",
-            "e32c72034c7f",
             "5c0bea37776d"
           ],
           "declaration": null,
           "event_ids": [
             "27401066f4a3",
             "c221825c977a",
-            "37b174ec9bb3",
             "f6380f404a97",
-            "f998c938c8b8",
             "5d580cc95177",
             "e216105cbc71",
             "1bb0a6b3dee8",
-            "45b67f87c40b",
             "352646a26717",
+            "45b67f87c40b",
             "94d7a39be9da",
             "e32c72034c7f",
             "5c0bea37776d"
@@ -3111,24 +3114,24 @@
       "country": "USA",
       "scope_status": "eligible",
       "source_ids": [
-        "skusa"
+        "skusa",
+        "skusa-official-schedule"
       ],
       "sources_reached": [
-        "skusa"
+        "skusa",
+        "skusa-official-schedule"
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 8,
       "seasons": [
         {
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 1,
           "upcoming_events": 1,
-          "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "1e2d54f2db40"
-          ],
+          "recently_verified_upcoming": 1,
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "1e2d54f2db40"
@@ -3139,10 +3142,8 @@
           "status": "indexed_future_events",
           "indexed_events": 11,
           "upcoming_events": 11,
-          "recently_verified_upcoming": 0,
+          "recently_verified_upcoming": 3,
           "unconfirmed_future_event_ids": [
-            "7758fddb9bd1",
-            "6622456fede1",
             "c36f4da0b2fd",
             "750e3eda7058",
             "2ce6eb8ed014",
@@ -3150,8 +3151,7 @@
             "b75f12501217",
             "9acd0d3268d8",
             "1038d9353930",
-            "4dcc481785ea",
-            "e0b611ca1d97"
+            "4dcc481785ea"
           ],
           "declaration": null,
           "event_ids": [
@@ -3995,7 +3995,7 @@
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -4011,7 +4011,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5380,13 +5380,13 @@
       "name": "ROK Cup USA",
       "priority": 2,
       "reason": "published_dates_need_reverification",
-      "upcoming_events": 14
+      "upcoming_events": 12
     },
     {
       "organizer_id": "bb926de967",
       "name": "SKUSA",
       "priority": 2,
-      "reason": "published_dates_need_reverification",
+      "reason": "event_review",
       "upcoming_events": 12
     },
     {
@@ -5443,13 +5443,6 @@
       "name": "Oakland Valley Race Park",
       "priority": 2,
       "reason": "published_dates_need_reverification",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "4677186fd6",
-      "name": "Portland Karting Association",
-      "priority": 2,
-      "reason": "event_review",
       "upcoming_events": 1
     },
     {
@@ -5705,13 +5698,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "2a75fb40bd",
-      "name": "Kartplex at Area 27",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "9f9a0ab6e4",
       "name": "Kinsmen Kart Club",
       "priority": 2,
@@ -5791,13 +5777,6 @@
     {
       "organizer_id": "ea5618c0c1",
       "name": "Moore Park Raceway",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "3c78c917ed",
-      "name": "Mosport International Karting Association",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6104,13 +6083,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "b957637853",
-      "name": "Vancouver Island Karting Association",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "a2f436bf07",
       "name": "Vermont Shifter Karts",
       "priority": 2,
@@ -6195,6 +6167,13 @@
       "upcoming_events": 1
     },
     {
+      "organizer_id": "4677186fd6",
+      "name": "Portland Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 1
+    },
+    {
       "organizer_id": "e10cbff088",
       "name": "West Coast Kart Club",
       "priority": 3,
@@ -6223,6 +6202,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "2a75fb40bd",
+      "name": "Kartplex at Area 27",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "b7f285e478",
       "name": "Lombardy Raceway Karting Club",
       "priority": 3,
@@ -6232,6 +6218,13 @@
     {
       "organizer_id": "d86e08e4b8",
       "name": "Manitoba Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "3c78c917ed",
+      "name": "Mosport International Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -6295,6 +6288,13 @@
     {
       "organizer_id": "7cf3364e46",
       "name": "South Sask Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "b957637853",
+      "name": "Vancouver Island Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
