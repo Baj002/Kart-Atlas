@@ -25,7 +25,8 @@ jobs:
         run: python scripts/enrich_motorsportreg.py
       - name: Regenerate site datasets
         run: python scripts/build_site.py
-      - name: Discover structured events and linked calendars\n        run: python -m scripts.discover_events\n      - name: Validate published races and directory
+      - name: Discover structured events and linked calendars
+        run: python -m scripts.discover_events\n      - name: Validate published races and directory
         run: python -m unittest discover -s tests -v
       - name: Commit monitoring results and any safe additions
         run: |
