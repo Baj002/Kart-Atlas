@@ -14,3 +14,33 @@
 .event-dialog{background:#101d2d;color:#eff5fc;border:1px solid #466075;border-radius:17px;padding:0;width:min(94vw,690px);max-height:88vh;box-shadow:0 25px 80px #000b}.event-dialog::backdrop{background:#020914c9}.event-dialog-head{position:sticky;top:0;background:#14263a;padding:18px 20px;border-bottom:1px solid #35485b;display:flex;align-items:start;justify-content:space-between;gap:14px;z-index:1}.event-dialog-head h2{font-size:clamp(19px,3vw,27px);line-height:1.25;margin:0}.event-close{background:#253b4f;border:1px solid #456078;color:white;border-radius:8px;padding:8px 12px}.event-dialog-body{padding:18px 20px 24px}.event-intro{font-size:14px;color:#b9ccda;margin:0 0 12px}.event-detail-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}.event-detail-section{padding:16px 0;border-top:1px solid #32465b}.event-detail-section h3{font-size:16px;margin:0 0 7px}.event-detail-section p{font-size:13px;color:#b4c6d7;line-height:1.6;margin:0 0 11px}.event-detail-section .source-btn{display:inline-flex;width:max-content;max-width:100%;white-space:normal;min-height:36px;height:auto;padding:9px 12px}.event-dialog-foot{padding-top:15px}.event-actions{flex-wrap:wrap}.event-actions .source-btn{cursor:pointer}
 
 .tag.cancelled,.event-status-alert{background:#492026;color:#ffbbc4;border:1px solid #b84a5a;padding:.5rem;border-radius:5px}.coverage-table{width:100%;border-collapse:collapse;margin:1.5rem 0}.coverage-table th,.coverage-table td{padding:12px;text-align:left;border-bottom:1px solid #2a3a4e}.coverage-table th{color:#a9c58b}.coverage-scroll{overflow-x:auto}.coverage-main{padding:40px 0}.coverage-main h1{font-size:2.5rem}.coverage-main p{max-width:80ch;color:#adbdcf}.coverage-main details{padding:16px 0;border-bottom:1px solid #2a3a4e}.coverage-main summary{cursor:pointer}.coverage-error{color:#ffbbc4}
+
+
+/* Race discovery map — polished, compact, mobile-friendly controls and grouped pins. */
+.map-panel{border-radius:18px;border:1px solid rgba(132,153,176,.35);box-shadow:0 14px 36px rgba(0,0,0,.12);overflow:hidden}
+#race-map{height:min(69vh,620px)!important;min-height:420px!important;background:#e7edf0!important}
+.kart-map-marker{background:transparent;border:0}
+.kart-map-pin{display:flex;align-items:center;justify-content:center;position:relative;width:36px;height:36px;border:3px solid #fff;border-radius:50% 50% 50% 9px;transform:rotate(-45deg);background:#172b42;box-shadow:0 3px 12px rgba(8,28,46,.34);color:#fff;font:800 13px/1 system-ui,sans-serif}
+.kart-map-pin::before{content:'';position:absolute;inset:-6px;border:1px solid rgba(22,44,65,.2);border-radius:inherit}
+.kart-map-pin-dot{display:block;width:11px;height:11px;border-radius:50%;background:#f7bb45;transform:rotate(45deg)}
+.kart-map-pin-group{background:#edaa31;color:#13263a;font-size:14px}
+.kart-map-pin-group{font-variant-numeric:tabular-nums}
+.kart-map-marker:has(.kart-map-pin-group) .kart-map-pin{transform:rotate(-45deg)}
+.kart-map-pin-group{line-height:36px}
+.kart-map-pin-group::after{content:''}
+.kart-map-marker .kart-map-pin-group{font-size:0}
+.kart-map-marker .kart-map-pin-group::after{content:attr(data-count);font-size:14px;transform:rotate(45deg)}
+.leaflet-container{font-family:inherit}
+.leaflet-control-zoom{border:0!important;box-shadow:0 4px 18px rgba(22,37,53,.18)!important;border-radius:12px!important;overflow:hidden}
+.leaflet-control-zoom a{width:38px!important;height:38px!important;line-height:38px!important;color:#213a51!important}
+.leaflet-popup-content-wrapper{border-radius:15px!important;box-shadow:0 12px 35px rgba(13,33,53,.23)!important;padding:5px!important}
+.leaflet-popup-content{margin:13px 15px!important}
+.kart-map-popup{max-height:320px;overflow-y:auto;color:#172b42}
+.kart-map-popup-eyebrow{font-size:10px;font-weight:800;letter-spacing:.12em;color:#7b8d9e;margin-bottom:9px}
+.kart-map-popup-event{padding:9px 0;border-top:1px solid #e6ebef;display:flex;flex-direction:column;gap:4px}
+.kart-map-popup-event strong{font-size:13px;line-height:1.35;color:#182d41}
+.kart-map-popup-event span{font-size:11px;color:#66798a}
+.kart-map-popup-action{background:none;border:0;padding:4px 0;color:#12698c;font-weight:800;font-size:12px;text-align:left;cursor:pointer}
+.kart-map-popup-more{font-size:11px;color:#687b8d}
+.map-note{background:var(--panel);font-size:12px;line-height:1.6}
+@media(max-width:640px){#race-map{height:58vh!important;min-height:360px!important}.map-panel{border-radius:14px}.leaflet-popup-content{margin:10px!important}}
