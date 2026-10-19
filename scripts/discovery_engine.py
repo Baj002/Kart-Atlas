@@ -24,6 +24,7 @@ from urllib.robotparser import RobotFileParser
 from scripts.schedule_tables import row_event
 from scripts.pdf_schedules import extract_pdf
 from scripts.platform_calendars import extract_raceselect
+from scripts.text_schedules import extract_text_schedule
 from scripts.check_sources import AGENT, LIMIT, CANCEL_TERMS, RACE_TERMS, EXCLUDED, normalized_ics, mapping_in_window, visible_text, ROOT
 
 COUNTRIES={'CA':'Canada','CANADA':'Canada','US':'USA','USA':'USA','UNITED STATES':'USA','UNITED STATES OF AMERICA':'USA','MX':'Mexico','MEXICO':'Mexico','MÉXICO':'Mexico'}
@@ -70,7 +71,7 @@ def clean_url(url, base=''):
 
 def feed_url(url):
     u=urlsplit(url);q=parse_qs(u.query.lower())
-    return u.path.lower().endswith('.ics') or q.get('ical')==['1'] or q.get('format')==['ical'] or q.get('ical')==['true']
+    return u.path.lower().endswith('.ics') or q.get('ical')==['1'] or q.get('format')==['ical'] or q.get('ical')==['true'] or (q.get('option')==['com_dpcalendar'] and q.get('task')==['ical.download'])
 
 def dump(path, value):
     path.parent.mkdir(parents=True,exist_ok=True)
@@ -131,7 +132,7 @@ class PublicClient:
 
 class Parser(HTMLParser):
     def __init__(self):
-        super().__init__();self.links=[];self.events=[];self.jsonld=None;self.anchor=None;self.card=None;self.card_depth=0;self.title=False;self.title_text='';self.heading=None;self.schedule_year=None;self.table_year=None;self.table=False;self.row=None;self.cell=None;self.table_columns=None
+        super().__init__();self.links=[];self.events=[];self.jsonld=None;self.anchor=None;self.card=None;self.card_depth=0;self.title=False;self.title_text='';self.heading=None;self.last_heading='';self.schedule_year=None;self.table_year=None;self.table=False;self.row=None;self.cell=None;self.table_columns=None
     def handle_starttag(self,tag,attrs):
         a=dict(attrs);classes=a.get('class','').split()
         if tag=='title':self.title=True
@@ -148,12 +149,13 @@ class Parser(HTMLParser):
                 self.card['url']=a.get('href','');self.card['_name']=True;self.card['name']=''
             if tag=='time' and a.get('datetime'):
                 if 'startDate' not in self.card:self.card['startDate']=a['datetime']
-                if 'event-time-localized-end' in classes or 'event-date-end' in classes:self.card['endDate']=a['datetime']
+                elif 'event-date' in classes or 'event-time-localized-end' in classes or 'event-date-end' in classes:self.card['endDate']=a['datetime']
+            if tag=='li' and 'eventlist-meta-address' in classes:self.card['_venue_text']=[]
         if tag in ('iframe','embed','object'):
             embedded=a.get('src') or a.get('data','')
             if urlsplit(embedded).path.lower().endswith('.pdf'):self.links.append({'url':embedded,'label':'Embedded schedule','type':'application/pdf','rel':''})
         if tag in ('a','link') and a.get('href'):
-            link={'url':a['href'],'label':a.get('aria-label') or a.get('title',''),'type':a.get('type',''),'rel':a.get('rel','')}
+            link={'url':a['href'],'label':a.get('aria-label') or a.get('title',''),'type':a.get('type',''),'rel':a.get('rel',''),'context':self.last_heading}
             self.links.append(link)
             if tag=='a':self.anchor=link
             if self.card is not None:self.card['_links'].append(link)
@@ -164,10 +166,12 @@ class Parser(HTMLParser):
         if self.jsonld is not None:self.jsonld.append(data)
         if self.anchor is not None:self.anchor['label']+=data
         if self.card is not None and self.card.get('_name'):self.card['name']+=data
+        if self.card is not None and '_venue_text' in self.card and self.anchor is None:self.card['_venue_text'].append(data)
     def handle_endtag(self,tag):
         if tag=='title':self.title=False
         if tag in ('h1','h2','h3') and self.heading is not None:
             heading=''.join(self.heading);years=re.findall(r'\b(20\d{2})\b',heading)
+            self.last_heading=' '.join(heading.split())[:180]
             if len(set(years))==1 and CALENDAR.search(heading):self.schedule_year=int(years[0])
             self.heading=None
         if tag in ('td','th') and self.cell is not None:
@@ -188,6 +192,8 @@ class Parser(HTMLParser):
         if tag=='a':
             self.anchor=None
             if self.card is not None:self.card['_name']=False
+        if tag=='li' and self.card is not None and '_venue_text' in self.card:
+            self.card['location']={'name':' '.join(''.join(self.card.pop('_venue_text')).split())}
         if tag=='article' and self.card is not None:
             self.card_depth-=1
             if self.card_depth==0:self.events.append(self.card);self.card=None
@@ -225,6 +231,8 @@ def normalize_event(e, source, today):
     location=e.get('location') or {}
     if isinstance(location,list):location=location[0] if location else {}
     if not isinstance(location,dict):location={'name':str(location)}
+    venue_alias=source.get('venue_aliases',{}).get(str(location.get('name') or '').strip())
+    if venue_alias:location=venue_alias
     address=location.get('address') or {}
     if not isinstance(address,dict):address={}
     country=address.get('addressCountry') or fallback.get('country','')
@@ -244,6 +252,9 @@ def normalize_event(e, source, today):
         'level':source.get('level','Club'),'verification':'Automated','classes':'',
         'notes':'Imported from structured organizer data. Confirm rules and registration with the organizer.',
         'discovered_from':source['url'],'parser':e.get('_parser','jsonld'),'location_needs_review':bool(e.get('_location_ambiguous')),'publication_needs_review':bool(e.get('_publication_needs_review'))}
+    if e.get('_shared_url'):record['shared_source_url']=True
+    if source.get('event_notes'):record['notes']+=' '+source['event_notes']
+    if source.get('require_venue_alias') and not venue_alias and e.get('_parser')=='squarespace':record['location_needs_review']=True
     if mapping.get('curated_id') and mapping_in_window(source,'table',start):record['curated_id']=mapping['curated_id']
     if e.get('_registration_status'):record['registration_status']=e['_registration_status']
     if e.get('_registration_url'):record['registration_url']=clean_url(e['_registration_url'],source['url'])
@@ -258,26 +269,45 @@ def normalize_event(e, source, today):
 def extract_page(raw,source,today):
     p=Parser();p.feed(raw)
     p.events.extend(extract_raceselect(raw,source))
+    p.events.extend(extract_text_schedule(raw,source))
+    # Some organizers assign every round the same series URL. Preserve distinct
+    # rounds even when they are duplicated in desktop/mobile JSON-LD graphs.
+    shared={}
+    for event in p.events:
+        url=clean_url(event.get('url',''),source['url'])
+        if url:shared.setdefault(url,set()).add((str(event.get('name','')),str(event.get('startDate',''))[:10],str(event.get('@id',''))))
+    for event in p.events:
+        url=clean_url(event.get('url',''),source['url'])
+        if len(shared.get(url,()))>1:
+            if not event.get('@id'):
+                name=str(event.get('name',''))
+                repeated=len({date for n,date,uid in shared[url] if n==name})>1
+                token=str(event.get('startDate',''))[:10 if repeated else 4]
+                event['@id']=url+'#'+token+'|'+name.casefold()
+            event['_shared_url']=True
     events=[r for e in p.events if (r:=normalize_event(e,source,today))] if not re.search(r'esports?|iracing|simracing',source['url'],re.I) else []
     links=[];feeds=[];leads=[];documents=[];schedule_documents=[]
     for a in p.links:
         url=clean_url(a['url'],source['url'])
         if not url or NON_EVENT_PATH.search(urlsplit(url).path):continue
+        label=a['label'].strip()
+        if re.fullmatch(r'site\s*web|web\s*site|website',label,re.I):label=a.get('context') or label
         if host(url)==host(source['url']):
             if feed_url(url) or a['type']=='text/calendar' or (urlsplit(url).path.endswith('.raw') and re.search(r'outlook|ics|ical',a['label'],re.I)):feeds.append(url)
             elif urlsplit(url).path.lower().endswith('.pdf'):
                 documents.append(url)
                 if CALENDAR.search(a['label']+' '+urlsplit(url).path) or (source.get('pdf_profile') and CALENDAR.search(urlsplit(source['url']).path)):
-                    if not re.search(r'waiver|consent|rulebook|techsheet|standings|pit.?map|configuration',url,re.I):schedule_documents.append(url)
+                    if not re.search(r'waiver|consent|regulations?|rulebook|rules|tech.?sheet|results?|standings|pit.?map|configuration',url+' '+a['label'],re.I):schedule_documents.append(url)
             elif not (host(source['url'])=='raceselect.com' and urlsplit(url).path.lower().endswith('/eventdetails')) and not re.search(r'/feed/?$|\.rss$',urlsplit(url).path,re.I) and CALENDAR.search(urlsplit(url).path+' '+a['label']) and not re.search(r'\.(jpg|png|css|js|zip)$',urlsplit(url).path,re.I):links.append(url)
-        elif source.get('directory') and re.search(r'kart|raceway|speedway|motorplex',a['label']+' '+host(url),re.I):
+        elif source.get('directory') and re.search(r'kart|raceway|speedway|motorplex',label+' '+host(url),re.I):
             if organizer_url(url):
-                leads.append({'url':url,'club':a['label'].strip()[:180] or host(url),'found_on':source['url'],
+                leads.append({'url':url,'club':label[:180] or host(url),'found_on':source['url'],
                     'country':source.get('country',''),'status':'unverified_organizer_source'})
     return {'events':events,'feeds':list(dict.fromkeys(feeds)),'links':list(dict.fromkeys(links)),
             'leads':leads,'documents':list(dict.fromkeys(documents)),'schedule_documents':list(dict.fromkeys(schedule_documents)),'title':p.title_text.strip()}
 
 def event_reference(event):
+    if event.get('shared_source_url'):return ''
     url=clean_url(event.get('source',''))
     path=urlsplit(url).path.rstrip('/')
     tail=path.rsplit('/',1)[-1].lower()

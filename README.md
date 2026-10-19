@@ -12,6 +12,8 @@ Supported data:
 - HTML schedule tables with explicit date/year context, including reordered date columns. Reviewed row mappings connect PKRA rounds to existing saved-race IDs; offsite rounds are deferred for location review.
 - Bounded text-layer PDF schedules. A reviewed layout profile enables automatic import (including Norwalk’s two-column schedule); unprofiled rows, image-only documents and font-layout fallbacks remain review-only. Rain, reserve, practice and tentative dates are excluded.
 - Public RaceSelect calendar cards expose explicit date ranges and registration status. They remain review-only until event location is verified; private event details are never accessed.
+- Reviewed text sections support custom organizer schedules with explicit year headings and section boundaries. Multi-venue rounds require verified venue mappings; unknown tracks and tentative schedules stay in review. Tri-C's 2027 calendar and Monterrey's kart championship use this adapter.
+- Shared series URLs do not collapse distinct JSON-LD rounds. Squarespace multi-day cards retain end dates and use reviewed venue aliases for travelling clubs.
 - Labelled Joomla `.raw` calendar exports, with organizer-specific title/description rules for NTK.
 - Squarespace event listing cards with machine-readable dates and registration links, including WCKC.
 - Public ICS exports, including linked `.ics`, `?ical=1`, and Squarespace `?format=ical` calendars. Exclusive all-day end dates are converted to inclusive race dates. Recurring events/exceptions require review.
@@ -21,7 +23,7 @@ Configured organizer sources in `data/monitor_sources.json` are trusted publicat
 
 Stable event identities retain first/last observations and a bounded change history. Explicit organizer date changes, cancellations and postponements update automated events. An event disappearing from a page is **not** treated as cancelled. Curated CSV records keep their saved-race IDs; automatic lifecycle updates apply only when the specific organizer event URL matches. Curated metadata otherwise takes precedence.
 
-`python -m scripts.build_site` merges curated and automated races. `python -m scripts.coverage_report` writes public coverage metrics and per-source failures. The app's **Discovery coverage** page shows source reach, upcoming races by country/region, unmonitored directory entries, candidates, regional coverage priorities, conflicting date windows, PDF extraction counts and scan-budget deferrals. Image/gallery URLs are excluded from the organizer lead inventory and retained in its rejection audit. These measurements are not a claim to have found every race.
+`python -m scripts.build_site` merges curated and automated races. `python -m scripts.coverage_report` writes diagnostic metrics and per-source failures to `reports/coverage.json`. Inspect the workflow's archived discovery report for regional gaps, date conflicts, review candidates, PDF extraction counts and scan-budget deferrals. The internal dashboard is not a deployed app page. Image/gallery URLs are excluded from the organizer lead inventory and retained in its rejection audit. These measurements are not a claim to have found every race.
 
 ## Run and test
 

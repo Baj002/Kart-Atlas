@@ -90,7 +90,9 @@ class TestBuild(unittest.TestCase):
         self.assertEqual(len({e['id'] for e in db['events']}),len(db['events']))
         self.assertTrue(all(e['start']<=e['end'] for e in db['events']))
         clubs=json.loads((root/'site/clubs.json').read_text())['clubs']
-        self.assertEqual(len(clubs),132)
+        self.assertGreaterEqual(len(clubs),132)
+        self.assertEqual(len({c['id'] for c in clubs}),len(clubs))
+        self.assertTrue({'Canada','USA','Mexico'}.issubset({c['country'] for c in clubs}))
         self.assertTrue(any(c['monitor_id'] for c in clubs))
 
 if __name__=='__main__':unittest.main()

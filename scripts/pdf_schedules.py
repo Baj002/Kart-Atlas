@@ -19,11 +19,27 @@ def schedule_year(text):
     return int(found[0]) if len(set(found))==1 else None
 
 def lines_to_events(text,source,page=1):
+    profile=source.get('pdf_profile') or {}
     year=schedule_year(text)
+    if profile.get('year_pattern'):
+        heading=re.search(profile['year_pattern'],text,re.I|re.M)
+        year=int(heading['year']) if heading else None
     if year is None:return []
-    profile=source.get('pdf_profile') or {};layout=profile.get('layout','named_rows')
+    if profile.get('section_start'):
+        start=re.search(profile['section_start'],text,re.I|re.M)
+        if not start:return []
+        text=text[start.end():]
+        end=re.search(profile['section_end'],text,re.I|re.M)
+        if not end:return []
+        text=text[:end.start()]
+    layout=profile.get('layout','named_rows')
     records=[];month=None
-    for raw in text.splitlines():
+    lines=text.splitlines()
+    if layout=='named_columns':
+        # Reviewed side-by-side schedules: split only before another explicit
+        # month/date, not at the whitespace separating a date from its title.
+        lines=[cell for line in lines for cell in re.split(r'\s{4,}(?=(?:'+MONTH_PATTERN+r')\s+\d)',line,flags=re.I)]
+    for raw in lines:
         line=raw.strip()
         if not line:continue
         if line.lower() in MONTHS:month=line;continue
@@ -46,7 +62,7 @@ def lines_to_events(text,source,page=1):
                 day=re.match(r'^(\d{1,2}(?:st|nd|rd|th)?(?:\s*[-–]\s*\d{1,2}(?:st|nd|rd|th)?)?)\s{2,}(.+)$',line,re.I)
                 if not day or not month:continue
                 date_text=month+' '+day.group(1);tail=day.group(2)
-            name=re.split(r'\s{3,}',tail.strip())[0].strip()
+            name=re.split(r'\s{3,}',tail.strip(' -–—:'))[0].strip()
             if not name or UNCERTAIN.search(name):continue
             dates=date_range(date_text,year)
             if dates:records.append(_record(name,dates,source,page,profile,False))

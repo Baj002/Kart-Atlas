@@ -80,7 +80,7 @@ def normalized_ics(ics,source,today=None,include_cancelled=False):
     results=[]
     for raw in parse_ics(ics):
         name=html.unescape(raw.get('SUMMARY','')).strip()
-        if not name or not (RACE_TERMS.search(name) or (source.get('allow_race_description') and RACE_TERMS.search(raw.get('DESCRIPTION','')))) or EXCLUDED.search(name):continue
+        if not name or not (RACE_TERMS.search(name) or (source.get('allow_race_description') and RACE_TERMS.search(raw.get('DESCRIPTION',''))) or (source.get('feed_race_pattern') and re.fullmatch(source['feed_race_pattern'],name,re.I))) or EXCLUDED.search(name):continue
         if ((raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name)) and not include_cancelled) or raw.get('RRULE') or raw.get('RECURRENCE-ID'):continue
         if re.search(r'instructor.led lapping',raw.get('DESCRIPTION',''),re.I):continue
         if not re.match(r'^\d{8}',raw.get('DTSTART','')):continue
@@ -96,18 +96,22 @@ def normalized_ics(ics,source,today=None,include_cancelled=False):
         if end<today or start>today+dt.timedelta(days=START_WINDOW_DAYS) or (end-start).days>12:continue
         mapping=next((value for label,value in source.get('feed_events',{}).items() if name==label or name.startswith(label+' ')),{})
         if mapping.get('name'):name=mapping['name']
+        # Travelling club feeds may identify the venue in the title rather than
+        # LOCATION. Only reviewed, full-title rules may supply that location.
+        venue_rule=next((rule for rule in source.get('feed_venue_rules',[]) if re.fullmatch(rule['pattern'],raw.get('SUMMARY',''),re.I)),None)
+        place=dict(source,**(venue_rule.get('location',{}) if venue_rule else {}))
         uid=raw.get('UID') or f'{start.isoformat()}|{name}'
         token=f"{source['id']}|{uid}"
         link=raw.get('URL','')
         if not link.startswith(('https://','http://')):link=source.get('event_url') or source['url'].split('?')[0]
         results.append({'id':'auto-'+hashlib.sha1(token.encode()).hexdigest()[:12],
            'uid':uid,'feed_id':source['id'],'curated_id':mapping.get('curated_id') if mapping_in_window(source,'feed',start) else None,'start':start.isoformat(),'end':end.isoformat(),
-           'name':name[:180],'organizer':source['club'],'venue':source.get('venue',''),
-           'city':source.get('city',''),'region':source.get('region',''),'country':source.get('country',''),
+           'name':name[:180],'organizer':source['club'],'venue':place.get('venue',''),
+           'city':place.get('city',''),'region':place.get('region',''),'country':place.get('country',''),
            'level':source.get('level','Club'),'format':'Endurance' if re.search('endur',name,re.I) else 'Sprint','verification':'Automated',
            'status':'cancelled' if raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name) else 'scheduled',
            'status_explicit':bool(raw.get('STATUS','').upper() in ('CANCELLED','CONFIRMED') or CANCEL_TERMS.search(name)),
-           'location_needs_review':bool(raw.get('LOCATION') and not matches_home_location(raw['LOCATION'],source)),
+           'location_needs_review':bool((source.get('require_feed_venue_rule') and not venue_rule) or (raw.get('LOCATION') and not matches_home_location(raw['LOCATION'],place))),
            'timezone_needs_review':raw.get('DTSTART','').endswith('Z') and not bool(source.get('timezone')),
            'classes':'','source':link,'notes':'Imported from organizer calendar feed; check official rules, classes and date before travel.'})
     return results

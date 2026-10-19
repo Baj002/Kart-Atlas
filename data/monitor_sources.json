@@ -601,6 +601,359 @@
         "start": "2026-08-01",
         "end": "2026-12-31"
       }
+    },
+    {
+      "id": "portland-official",
+      "club": "Portland Karting Association",
+      "url": "https://www.portlandkarting.com/events",
+      "country": "USA",
+      "region": "OR",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "require_venue_alias": true,
+      "excluded_series": [
+        "Moto",
+        "OLM",
+        "SFRC"
+      ],
+      "venue_aliases": {
+        "Pats Acres Racing Complex": {
+          "name": "Pats Acres Racing Complex",
+          "address": {
+            "addressCountry": "USA",
+            "addressRegion": "OR",
+            "addressLocality": "Canby"
+          }
+        },
+        "The MAC Track": {
+          "name": "The MAC Track",
+          "address": {
+            "addressCountry": "USA",
+            "addressRegion": "OR",
+            "addressLocality": "McMinnville"
+          }
+        },
+        "MAC Track": {
+          "name": "The MAC Track",
+          "address": {
+            "addressCountry": "USA",
+            "addressRegion": "OR",
+            "addressLocality": "McMinnville"
+          }
+        }
+      }
+    },
+    {
+      "id": "tri-c-official",
+      "club": "Tri-C Karters",
+      "url": "https://www.tri-ckarters.org/",
+      "country": "USA",
+      "region": "CA",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "text_profile": {
+        "paths": [
+          "/"
+        ],
+        "sections": [
+          {
+            "start": "^(?P<year>20\\d{2}) The Club Series$",
+            "end": "^20\\d{2} Tri-C Trifecta$",
+            "row": "^(?P<event>Round \\d+) - Sat/Sun, (?P<date>[^\\n@]+) @ (?P<venue>[^\\n]+)$",
+            "name": "Tri-C Club Series Championship {event}",
+            "auto_import": true,
+            "venues": {
+              "Adams": {
+                "name": "Adams Motorsports Park",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "CA",
+                  "addressLocality": "Riverside"
+                }
+              },
+              "Apex": {
+                "name": "Apex Racing Center",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "CA",
+                  "addressLocality": "Perris"
+                }
+              }
+            }
+          },
+          {
+            "start": "^(?P<year>20\\d{2})-(?P<end_year>\\d{2})$",
+            "end": "^20\\d{2} The Club Series$",
+            "row": "^(?P<event>Blizzard \\d+) - Saturday, (?P<date>[^\\n@]+) @\\n(?P<venue>Apex|Adams)$",
+            "name": "Tri-C Chill Challenge {event}",
+            "auto_import": true,
+            "venues": {
+              "Adams": {
+                "name": "Adams Motorsports Park",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "CA",
+                  "addressLocality": "Riverside"
+                }
+              },
+              "Apex": {
+                "name": "Apex Racing Center",
+                "address": {
+                  "addressCountry": "USA",
+                  "addressRegion": "CA",
+                  "addressLocality": "Perris"
+                }
+              }
+            },
+            "rollover_month": 7,
+            "date_corrections": {
+              "Novmeber": "November"
+            }
+          }
+        ],
+        "image_labels": {
+          "Apex Chill Challenge colors.png": "Apex",
+          "Adams Chill Challenge colors.png": "Adams"
+        }
+      }
+    },
+    {
+      "id": "monterrey-kart",
+      "club": "Autódromo Monterrey / Campeonato Kart Monterrey",
+      "url": "https://autodromomonterrey.com/about",
+      "country": "Mexico",
+      "region": "NLE",
+      "city": "Apodaca",
+      "venue": "Autódromo Monterrey",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Monterrey",
+      "text_profile": {
+        "paths": [
+          "/about"
+        ],
+        "sections": [
+          {
+            "start": "^Fechas del Campeonato Kart Monterrey (?P<year>20\\d{2})\\.$",
+            "end": "^Horario$",
+            "row": "^(?P<event>[A-ZÁÉÍÓÚ]+ ETAPA)\\n(?P<date>\\d{1,2} DE [A-Z]+)$",
+            "name": "Campeonato Kart Monterrey — {event}",
+            "auto_import": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "music-city-series",
+      "club": "Music City Kartplex",
+      "url": "https://musiccitykartplex.com/series",
+      "country": "USA",
+      "region": "TN",
+      "city": "Shelbyville",
+      "venue": "Music City Kartplex",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "excluded_series": [
+        "Rental",
+        "Iron Man"
+      ]
+    },
+    {
+      "id": "gulf-coast-races",
+      "club": "Gulf Coast Karters / Greater Houston Race Series",
+      "url": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
+      "country": "USA",
+      "region": "TX",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "feed_race_pattern": "GHRS (?:Spring|Fall) \\d+ @ (?:SRP|GCKI)(?: (?:CW|CCW))?",
+      "require_feed_venue_rule": true,
+      "feed_venue_rules": [
+        {
+          "pattern": "GHRS (?:Spring|Fall) \\d+ @ SRP(?: (?:CW|CCW))?",
+          "location": {
+            "venue": "Speedsportz Racing Park",
+            "city": "New Caney",
+            "region": "TX",
+            "country": "USA"
+          }
+        },
+        {
+          "pattern": "GHRS (?:Spring|Fall) \\d+ @ GCKI(?: (?:CW|CCW))?",
+          "location": {
+            "venue": "Gulf Coast Karters",
+            "city": "Katy",
+            "region": "TX",
+            "country": "USA"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spring-mountain-pdf",
+      "club": "Spring Mountain Karting Complex",
+      "url": "https://springmountainkarting.com/wp-content/uploads/2025/12/Karting-2026-Race-Schedule.pdf",
+      "country": "USA",
+      "region": "NV",
+      "city": "Pahrump",
+      "venue": "Spring Mountain Karting Complex",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "event_namespace": "spring-mountain",
+      "pdf_profile": {
+        "layout": "date_columns",
+        "auto_import": true,
+        "race_name": "Spring Mountain Karting Series Race"
+      },
+      "excluded_series": [
+        "Rental"
+      ]
+    },
+    {
+      "id": "spring-mountain-schedule",
+      "club": "Spring Mountain Karting Complex",
+      "url": "https://springmountainkarting.com/racing-leagues/",
+      "country": "USA",
+      "region": "NV",
+      "city": "Pahrump",
+      "venue": "Spring Mountain Karting Complex",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "event_namespace": "spring-mountain",
+      "pdf_profile": {
+        "layout": "date_columns",
+        "auto_import": true,
+        "race_name": "Spring Mountain Karting Series Race"
+      },
+      "excluded_series": [
+        "Rental"
+      ]
+    },
+    {
+      "id": "sandy-hook-pdf",
+      "club": "Sandy Hook Speedway",
+      "url": "https://www.sandyhookspeedway.com/uploads/2/5/0/1/25011543/2026_shs_kart_schedule_1.pdf",
+      "country": "USA",
+      "region": "MD",
+      "city": "Street",
+      "venue": "Sandy Hook Speedway",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "event_namespace": "sandy-hook",
+      "pdf_profile": {
+        "layout": "named_columns",
+        "auto_import": true
+      },
+      "excluded_series": [
+        "Moto"
+      ]
+    },
+    {
+      "id": "sandy-hook-schedule",
+      "club": "Sandy Hook Speedway",
+      "url": "https://www.sandyhookspeedway.com/kart-schedule.html",
+      "country": "USA",
+      "region": "MD",
+      "city": "Street",
+      "venue": "Sandy Hook Speedway",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "event_namespace": "sandy-hook",
+      "pdf_profile": {
+        "layout": "named_columns",
+        "auto_import": true
+      },
+      "excluded_series": [
+        "Moto"
+      ]
+    },
+    {
+      "id": "amr-kart-challenge",
+      "club": "AMR Homestead-Miami Motorplex",
+      "url": "https://www.amrmotorplex.com/files/2017/7429/4067/AMR_2026_Class_Structure_V4.pdf",
+      "country": "USA",
+      "region": "FL",
+      "city": "Homestead",
+      "venue": "AMR Homestead-Miami Motorplex",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "event_namespace": "amr-challenge",
+      "event_notes": "IAME Bambino races on the Saturday immediately preceding each listed Sunday; see organizer class structure.",
+      "pdf_profile": {
+        "layout": "date_columns",
+        "auto_import": true,
+        "race_name": "AMR Karting Challenge",
+        "year_pattern": "^\\s*(?P<year>20\\d{2}) Karting Challenge\\s*$",
+        "section_start": "Race Dates:",
+        "section_end": "\\*\\s*IAME Bambino"
+      }
+    },
+    {
+      "id": "amr-official",
+      "club": "AMR Homestead-Miami Motorplex",
+      "url": "https://www.amrmotorplex.com/race-events/",
+      "country": "USA",
+      "region": "FL",
+      "city": "Homestead",
+      "venue": "AMR Homestead-Miami Motorplex",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "ambassador-schedule",
+      "club": "Ambassador Racing School",
+      "url": "https://racingkarts.com/introduction/schedule-2/",
+      "country": "USA",
+      "region": "FL",
+      "city": "Wimauma",
+      "venue": "Ambassador Racing School",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "format": "Asphalt oval",
+      "text_profile": {
+        "paths": [
+          "/introduction/schedule-2/"
+        ],
+        "sections": [
+          {
+            "start": "^AMBASSADOR RACING (?P<year>20\\d{2}) SCHEDULE:$",
+            "end": "^\\*\\*Rain Make Up Dates\\*\\*$",
+            "row": "^(?P<event>Race #\\d+) [–-] (?P<date>[^\\n]+)$",
+            "name": "Ambassador {event}",
+            "auto_import": false
+          }
+        ]
+      },
+      "event_notes": "Organizer labels the schedule tentative; review required before publication."
+    },
+    {
+      "id": "nkc-official",
+      "club": "Northeast Karting Challenge",
+      "url": "https://www.northeastkartchallenge.com/",
+      "country": "USA",
+      "region": "NJ",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York"
     }
   ]
 }
