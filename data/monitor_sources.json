@@ -1,6 +1,6 @@
 {
-  "revision": 1,
-  "description": "Official organizer pages monitored for changes; only trusted ICS exports are eligible for automated race additions. Browser-based/CAPTCHA sources are manual-review only.",
+  "revision": 2,
+  "description": "Verified organizer origins for bounded discovery and structured race publication. auto_import is used only by the legacy check_sources utility.",
   "sources": [
     {
       "id": "goodwood-ics",
@@ -13,7 +13,12 @@
       "mode": "ics",
       "auto_import": true,
       "level": "Club",
-      "category": "Kart-owner club racing only; excludes arrive-and-drive and lapping"
+      "category": "Kart-owner club racing only; excludes arrive-and-drive and lapping",
+      "timezone": "America/Toronto",
+      "excluded_series": [
+        "CRKC",
+        "Canadian Rookie Karting Championship"
+      ]
     },
     {
       "id": "hamilton-ics",
@@ -26,7 +31,8 @@
       "mode": "ics",
       "auto_import": true,
       "level": "Club",
-      "category": "Exclude Canadian Mini Indy arrive-and-drive events"
+      "category": "Exclude Canadian Mini Indy arrive-and-drive events",
+      "timezone": "America/Toronto"
     },
     {
       "id": "ckrc",
@@ -59,7 +65,8 @@
       "venue": "Greg Moore Raceway",
       "url": "https://www.westcoastkartclub.ca/schedule",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "timezone": "America/Vancouver"
     },
     {
       "id": "wckc-events",
@@ -70,7 +77,8 @@
       "venue": "Greg Moore Raceway",
       "url": "https://www.westcoastkartclub.ca/events",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "timezone": "America/Vancouver"
     },
     {
       "id": "mka",
@@ -114,7 +122,12 @@
       "venue": "Goodwood Kartways",
       "url": "https://goodwoodkartways.com/trak/",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "excluded_series": [
+        "CRKC",
+        "Canadian Rookie Karting Championship"
+      ]
     },
     {
       "id": "hrkc",
@@ -125,7 +138,8 @@
       "venue": "Hamilton Karting Complex",
       "url": "https://hamiltonkartingcomplex.com/events/list/",
       "mode": "watch",
-      "auto_import": false
+      "auto_import": false,
+      "timezone": "America/Toronto"
     },
     {
       "id": "nckc",
@@ -335,6 +349,97 @@
       "url": "https://kartsportcanada.ca/schedule-2/",
       "mode": "watch",
       "auto_import": false
+    },
+    {
+      "id": "wrkc",
+      "club": "Waterloo Regional Kart Club",
+      "url": "https://www.wrkc.on.ca/schedule/",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Millgrove",
+      "venue": "Flamboro Speedway",
+      "timezone": "America/Toronto",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "nhka",
+      "club": "New Hampshire Karting Association",
+      "url": "https://nhka.net/schedule/",
+      "country": "USA",
+      "region": "NH",
+      "city": "Canaan",
+      "venue": "Canaan Motor Club",
+      "timezone": "America/New_York",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "ovka",
+      "club": "Ohio Valley Karting Association",
+      "url": "https://ovka.com/schedule/",
+      "country": "USA",
+      "region": "OH",
+      "city": "Camden",
+      "venue": "G&J Kartway",
+      "timezone": "America/New_York",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "badger",
+      "club": "Badger Kart Club",
+      "url": "https://badgerkartclub.com/",
+      "country": "USA",
+      "region": "WI",
+      "city": "Dousman",
+      "venue": "Mill-Rite Raceway",
+      "timezone": "America/Chicago",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "ovrp",
+      "club": "Oakland Valley Race Park",
+      "url": "https://ovrp.net/calendar/list/",
+      "country": "USA",
+      "region": "NY",
+      "city": "Cuddebackville",
+      "venue": "Oakland Valley Race Park",
+      "timezone": "America/New_York",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "fia-mexico",
+      "club": "FIA México National Karting Championship",
+      "url": "https://www.fiamexicokarting.org/",
+      "country": "Mexico",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Various",
+      "timezone": "America/Mexico_City",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
+    },
+    {
+      "id": "edkra-home",
+      "club": "Edmonton & District Kart Racing Association",
+      "url": "https://edkra.ca/",
+      "country": "Canada",
+      "region": "AB",
+      "city": "Warburg",
+      "venue": "Rotax Mojo Raceway",
+      "timezone": "America/Edmonton",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-10-19"
     }
   ]
 }

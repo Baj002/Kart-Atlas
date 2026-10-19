@@ -105,6 +105,8 @@
     const heading=el('h2','',e.name);const close=el('button','event-close','✕');close.type='button';close.setAttribute('aria-label','Close event details');close.onclick=()=>dialog.close();
     head.append(heading,close);dialog.append(head);
     const body=el('div','event-dialog-body');
+    if(e.status==='cancelled'||e.status==='postponed')body.append(el('p','event-status-alert',e.status==='cancelled'?'This event has been cancelled by the organizer.':'This event is postponed. A new date has not been confirmed.'));
+    if(e.last_verified)body.append(el('p','class-note','Organizer data checked '+new Date(e.last_verified).toLocaleDateString()));
     const intro=el('p','event-intro',fmtRange(e)+' · '+[e.venue,e.city,e.region,e.country].filter(Boolean).join(', '));body.append(intro);
     const meta=el('div','event-detail-tags');[e.level,e.format,e.classes?'Classes: '+e.classes:'Classes not confirmed'].filter(Boolean).forEach(x=>meta.append(makeTag(x)));body.append(meta);
     const section=(title,description,link,label)=>{
@@ -125,7 +127,8 @@
     const card=el('article','event-card');const date=el('div','date-box');const dt=ymd(e.start);
     date.append(el('span','',monthNames[dt.getMonth()]+' '+dt.getFullYear()),el('b','',String(dt.getDate()).padStart(2,'0')));
     const main=el('div','event-main');const badges=el('div','event-badges');
-    badges.append(makeTag(e.level,(e.level||'').toLowerCase()),makeTag(e.verification==='Official'?'Reviewed organizer source':e.verification==='Automated'?'Organizer feed · unreviewed':'Secondary listing',e.verification==='Official'?'official':e.verification==='Automated'?'automated':'secondary'));
+    badges.append(makeTag(e.level,(e.level||'').toLowerCase()),makeTag(e.verification==='Official'?'Reviewed organizer source':e.verification==='Automated'?'Organizer data · automated':'Secondary listing',e.verification==='Official'?'official':e.verification==='Automated'?'automated':'secondary'));
+    if(e.status==='cancelled'||e.status==='postponed')badges.append(makeTag(e.status==='cancelled'?'CANCELLED':'POSTPONED','cancelled'));
     if(e.format && e.format!=='Sprint')badges.append(makeTag(e.format));
     const name=el('h3','',e.name);const venue=el('div','venue',`${e.venue || 'Venue TBA'}${e.city?' · '+e.city:''}${e.region?', '+e.region:''}`);
     const meta=el('div','meta');meta.append(el('span','',fmtRange(e)),el('span','',e.organizer || 'Organizer not listed'));
@@ -152,7 +155,7 @@
     const out=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Kart Atlas//Race Finder//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT',
       `UID:${e.id}@kartatlas.local`,`DTSTART;VALUE=DATE:${e.start.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${dateAfter(e.end)}`,
       `SUMMARY:${icsEscape(e.name)}`,`LOCATION:${icsEscape(loc)}`,`DESCRIPTION:${icsEscape(desc)}`,
-      ...(url?[`URL:${url}`]:[]),'END:VEVENT','END:VCALENDAR'].join('\r\n')+'\r\n';
+      ...(url?[`URL:${url}`]:[]),...(e.status==='cancelled'?['STATUS:CANCELLED']:e.status==='postponed'?['STATUS:TENTATIVE']:[]),'END:VEVENT','END:VCALENDAR'].join('\r\n')+'\r\n';
     const a=el('a');a.href=URL.createObjectURL(new Blob([out],{type:'text/calendar;charset=utf-8'}));a.download=`kart-atlas-${e.id}.ics`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),30000);
     toast('Race calendar file downloaded');
   }

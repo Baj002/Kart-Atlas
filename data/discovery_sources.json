@@ -1,0 +1,11 @@
+{
+  "max_pages_per_source": 5,
+  "lead_scan_limit": 40,
+  "sources": [
+    {"id":"ikf-clubs","club":"International Kart Federation affiliated links","url":"https://www.ikfkarting.com/links/","directory":true,"trusted":false,"country":"USA"},
+    {"id":"nka-tracks","club":"National Karting Alliance tracks and series","url":"https://www.nkaonline.com/tracks-series","directory":true,"trusted":false,"country":"USA"},
+    {"id":"asn-affiliates","club":"GDS ASN Canada affiliated members","url":"https://www.asncanada.ca/affiliated-list","directory":true,"trusted":false,"country":"Canada"},
+    {"id":"ckn-clubs","club":"Canadian Karting News club directory","url":"https://www.canadiankartingnews.com/ckn-club-directory/","directory":true,"trusted":false,"country":"Canada"},
+    {"id":"ckn-tracks","club":"Canadian Karting News track directory","url":"https://www.canadiankartingnews.com/ckn-track-directory/","directory":true,"trusted":false,"country":"Canada"}
+  ]
+}

@@ -12,13 +12,14 @@ from urllib.parse import urlsplit
 from urllib.request import Request,urlopen
 from urllib.error import HTTPError,URLError
 from urllib.robotparser import RobotFileParser
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 ROOT=Path(__file__).resolve().parents[1]
 AGENT='KartAtlasPublicCalendar/0.2 (public race directory; no paywall bypass)'
 LIMIT=2_000_000
 START_WINDOW_DAYS=550
-RACE_TERMS=re.compile(r'\b(race|races|championship|cup|grand prix|enduro|endurance|national|regional|supernats|supercup|grand finals|kartweek|prix|challenge|supernationals)\b',re.I)
-EXCLUDED=re.compile(r'(arrive[ -]?(?:and|&|n)[ -]?drive|a/d\b|mini indy|lap(?:ping)?\b|practice|training|test\s*&\s*tune|track closed|private event|birthday|meeting|banquet|maintenance|school|rentals?|party|corporate)',re.I)
+RACE_TERMS=re.compile(r'\b(race|races|championship|cup|grand prix|enduro|endurance|national|regional|carrera|campeonato|copa|course|courses|championnat|coupe|manche|supernats|supercup|grand finals|kartweek|prix|challenge|supernationals)\b',re.I)
+EXCLUDED=re.compile(r'(arrive[ -]?(?:and|&|n)[ -]?drive|a/d\b|mini indy|lap(?:ping)?\b|practice|training|test\s*&\s*tune|track closed|private event|birthday|meeting|banquet|maintenance|school|academy|esports?|simulator|iracing|virtual|rentals?|party|corporate)',re.I)
 
 class PageText(HTMLParser):
     def __init__(self): super().__init__();self.parts=[];self.skip=0
@@ -46,31 +47,40 @@ def parse_ics(raw):
             if current is not None:events.append(current)
             current=None
         elif current is not None and ':' in line:
-            key,value=line.split(':',1);key=key.upper()
+            original_key,value=line.split(':',1);key=original_key.upper()
             # Preserve VALUE=DATE on DTSTART/DTEND to distinguish exclusive all-day end.
             item=key.split(';',1)[0]
-            if item in ('SUMMARY','UID','DESCRIPTION','LOCATION','URL','STATUS','DTSTART','DTEND','RRULE'):
+            if item in ('SUMMARY','UID','DESCRIPTION','LOCATION','URL','STATUS','DTSTART','DTEND','RRULE','RECURRENCE-ID'):
                 current[item]=unescape_ics(value)
                 if item in ('DTSTART','DTEND'):
                     current[item+'_IS_DATE']='VALUE=DATE' in key
+                    tz=re.search(r'TZID=([^;:]+)',key,re.I)
+                    if tz:current[item+'_TZID']=re.search(r'TZID=([^;:]+)',original_key,re.I).group(1)
     return events
 
-def normalized_ics(ics,source,today=None):
+def ics_date(raw,field,source):
+    value=raw[field]
+    if value.endswith('Z') and source.get('timezone'):
+        moment=dt.datetime.strptime(value,'%Y%m%dT%H%M%SZ').replace(tzinfo=dt.timezone.utc)
+        return moment.astimezone(ZoneInfo(source['timezone'])).date()
+    return dt.datetime.strptime(value[:8],'%Y%m%d').date()
+
+def normalized_ics(ics,source,today=None,include_cancelled=False):
     today=today or dt.date.today()
     results=[]
     for raw in parse_ics(ics):
-        name=raw.get('SUMMARY','').strip()
+        name=html.unescape(raw.get('SUMMARY','')).strip()
         if not name or not RACE_TERMS.search(name) or EXCLUDED.search(name):continue
-        if raw.get('STATUS','').upper()=='CANCELLED' or raw.get('RRULE'):continue
+        if (raw.get('STATUS','').upper()=='CANCELLED' and not include_cancelled) or raw.get('RRULE') or raw.get('RECURRENCE-ID'):continue
         if re.search(r'instructor.led lapping',raw.get('DESCRIPTION',''),re.I):continue
         if not re.match(r'^\d{8}',raw.get('DTSTART','')):continue
         try:
-            start=dt.datetime.strptime(raw['DTSTART'][:8],'%Y%m%d').date()
+            start=ics_date(raw,'DTSTART',source)
             end=start
             endstr=raw.get('DTEND','')
             if re.match(r'^\d{8}',endstr):
-                end=dt.datetime.strptime(endstr[:8],'%Y%m%d').date()
-                if raw.get('DTEND_IS_DATE') or len(endstr)==8 or re.match(r'^\d{8}T000000',endstr):end-=dt.timedelta(days=1)
+                end=ics_date(raw,'DTEND',source)
+                if raw.get('DTEND_IS_DATE') or len(endstr)==8:end-=dt.timedelta(days=1)
                 if end<start:end=start
         except ValueError:continue
         if end<today or start>today+dt.timedelta(days=START_WINDOW_DAYS) or (end-start).days>12:continue
@@ -80,9 +90,12 @@ def normalized_ics(ics,source,today=None):
         if not link.startswith(('https://','http://')):link=source['url'].split('?')[0]
         results.append({'id':'auto-'+hashlib.sha1(token.encode()).hexdigest()[:12],
            'uid':uid,'feed_id':source['id'],'start':start.isoformat(),'end':end.isoformat(),
-           'name':name[:180],'organizer':source['club'],'venue':source['venue'],
-           'city':source['city'],'region':source['region'],'country':source['country'],
-           'level':source.get('level','Club'),'format':'Sprint','verification':'Automated',
+           'name':name[:180],'organizer':source['club'],'venue':source.get('venue',''),
+           'city':source.get('city',''),'region':source.get('region',''),'country':source.get('country',''),
+           'level':source.get('level','Club'),'format':'Endurance' if re.search('endur',name,re.I) else 'Sprint','verification':'Automated',
+           'status':'cancelled' if raw.get('STATUS','').upper()=='CANCELLED' else 'scheduled',
+           'status_explicit':raw.get('STATUS','').upper() in ('CANCELLED','CONFIRMED'),
+           'timezone_needs_review':raw.get('DTSTART','').endswith('Z') and not bool(source.get('timezone')),
            'classes':'','source':link,'notes':'Imported from organizer calendar feed; check official rules, classes and date before travel.'})
     return results
 

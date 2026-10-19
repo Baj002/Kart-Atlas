@@ -1,65 +1,41 @@
-# Kart Atlas — GitHub + Cloudflare, zero-monthly-fee setup
+# Kart Atlas operations
 
-## Step 1 — Create the GitHub public repository
+Repository: https://github.com/Baj002/Kart-Atlas
 
-1. Sign in to https://github.com/ and choose **New repository**.
-2. Name it `kart-atlas`, select **Public**, and don't add starter README/license files (they're in this package).
-3. From your desktop, unzip `Kart_Atlas_GitHub_Ready.zip` into a folder. **Upload the contents, not the ZIP itself**, to your new GitHub repository. You can use GitHub Desktop or git CLI. An empty GitHub repository is required for the CLI commands below.
-4. From a terminal inside that extracted folder, run:
+## Automated refresh
 
-   ```bash
-   git init
-   git branch -M main
-   git add .
-   git commit -m "Launch Kart Atlas with source monitoring"
-   git remote add origin https://github.com/YOUR_USERNAME/kart-atlas.git
-   git push -u origin main
-   ```
+The **Refresh North American kart calendar** GitHub Actions workflow validates code, scans public sources, rebuilds the static datasets, archives diagnostics, and commits valid updates. It runs daily at 13:17 UTC, on relevant main-branch changes, and via **Actions → Run workflow**. Pull requests run offline tests only. The refresh job needs `contents: write`; it does not send messages or create daily issues.
 
-   Git may prompt you to authenticate. GitHub accounts support the Git Credential Manager / browser sign-in; do not paste a personal access token into chat.
+Generated outputs:
 
-Alternatively, **connect GitHub within ChatGPT** and allow the connected app to work with your repository, if it supports these actions. The GitHub connection requires your explicit authorization and has not been completed here.
+- `data/automated_events.json`: persisted events and lifecycle history.
+- `data/discovered_sources.json`: discovered websites and rotation timestamps.
+- `reports/discovery.json`: per-page results, changes, race candidates, newly found feeds/websites, and errors.
+- `reports/coverage.json` and `site/coverage.json`: measured source reach and coverage gaps.
+- `site/events.json`, `site/clubs.json`, `site/monitor_status.json`: app datasets.
 
-## Step 2 — Connect Cloudflare Pages
+A successful workflow does not mean every source succeeded. Inspect `/coverage.html` or the archived `discovery-report` artifact for failures and scan-limit deferrals. The final live health check fails if no trusted source was reached. Failed fetches never delete or cancel races.
 
-1. Create a free account at https://dash.cloudflare.com/.
-2. Go to **Workers & Pages > Create application > Pages > Connect to Git**.
-3. Authorize your GitHub account and choose `kart-atlas`.
-4. Use **Framework preset: None**, **Production branch: main**, **Build output directory: site**, and **Build command: blank** (or `exit 0` if Cloudflare requests one). Leave advanced root directory empty / repository root.
-5. Deploy. You'll receive a public HTTPS URL similar to `your-project.pages.dev`. The exact address depends on availability.
+## Source maintenance
 
-> Important: if an older Kart Atlas site was created with **Direct Upload**, Cloudflare says it cannot be converted to Git integration. Create a **new Git-integrated Pages project**, and share the new public link.
+1. Check new website leads in `data/discovered_sources.json` against the actual organizer website and its current location. Historical directory links can expire or change ownership.
+2. Add verified organizer sources to `data/monitor_sources.json` with a unique ID, URL, organizer name, venue, city, region and country. Specify an IANA timezone for ICS feeds with UTC timestamps (for example `America/Vancouver` for WCKC). Multi-venue series need event-specific locations.
+3. Set legacy `mode: watch` and `auto_import: false` for HTML sources. Production discovery uses structured data from verified sources regardless of that legacy field.
+4. Add a regression fixture for each new parser or changed behavior. Run the commands in README before publishing.
+5. Curated corrections belong in `data/races.csv`. A workflow run rebuilds those into the app. The curated snapshot date is retained separately from the generated dataset date.
 
-## Step 3 — Activate daily monitoring
+Five pages per source are scanned by default. `data/discovery_sources.json` controls this and the rotating new-website batch size. Requests obey robots.txt, serialize by host and honor crawl delays. Unsupported PDFs/images and sources behind access restrictions remain explicit gaps. Review candidates are not silently published with guessed dates or locations.
 
-1. In your GitHub repo, open **Actions**. Allow the repository's workflows if prompted.
-2. Choose **Refresh North American kart calendar** > **Run workflow** to run the initial check. The workflow also runs daily at 13:17 UTC (scheduled GitHub runs can be delayed).
-3. In **Actions**, check the run status. If push fails due to token restrictions, the repository/organization administrator must allow workflow write permissions. Workflow needs `contents: write`; optional review issues need `issues: write`.
-4. The first successful run establishes a *baseline*. The next genuine organizer page change creates a review signal. Two public ICS exports have automated ingestion enabled but can fail depending on live access/robots rules; don't assume they work until the logs confirm them.
-5. The workflow updates `site/monitor_status.json` and commits results. Cloudflare automatically republishes every successful commit.
+## Hosting
 
-## Step 4 — Install on phone
+For Git-integrated Cloudflare Pages, production branch is `main`, output directory is `site`, framework is None, and the build command can be blank: GitHub Actions commits prebuilt datasets. A Cloudflare Worker using static assets must likewise serve the repository's `site` directory. Keep the existing stable public origin when updating an installed PWA.
 
-On Android, open your public `pages.dev` link in Chrome and use **⋮ > Add to Home screen / Install app**. On iPhone, open the URL in Safari > Share > Add to Home Screen. A domain purchase and app-store registration are unnecessary.
+Hosting account configuration and the deployed public origin are not stored in this repository. Verify the provider deployment status and the live site's `events.json`/`coverage.json` after connecting Git integration. A GitHub commit alone does not prove a Cloudflare deployment succeeded.
 
-## Keep it healthy for free
+## Installed app updates
 
-- Check GitHub **Actions** run logs about once a month. Failed sources are visible in `reports/latest.json` and an aggregate is displayed in the app after a successful run.
-- If a page changes but can't be parsed reliably, review the GitHub issue, verify races on the organizer's site and add correct rows to `data/races.csv`. A simple CSV edit triggers Cloudflare deployment only after the generated data is rebuilt; run the workflow manually once after the edit.
-- Add official calendar endpoints to `data/monitor_sources.json`, ideally ICS feeds. Set `auto_import: false` for a new feed until it's tested against real responses. Many websites never publish a structured feed.
-- A public GitHub repository using standard GitHub-hosted runners currently has no Actions minute charge. Cloudflare Pages free plan has build limits; running this workflow once daily should be far below 500 builds/month.
-- GitHub can deactivate scheduled workflows after prolonged repository inactivity. Monitor Actions periodically and re-enable if necessary.
-- Do not commit account passwords, tokens or personal information. Never pay to access protected or private organizer APIs without explicitly evaluating the cost.
+The service worker fetches same-origin resources from the network first and falls back to its cache when offline. Content changes should appear when the app reconnects; users do not need to reinstall for ordinary dataset changes. A change to a different domain/origin is a distinct app installation.
 
-## Common troubleshooting
+## External platform access
 
-| Symptom | Action |
-|---|---|
-| GitHub run fails on git push | Check Actions workflow permissions and repo branch protection. |
-| Some club URLs fail or show robots disallowed | Respect the restriction. Use the source manually, or ask organizers to publish public ICS/JSON feeds. |
-| Cloudflare publishes an old race list | Check the latest Actions run, changed `site/events.json`, and Pages build status. The PWA fetches online first when connected. |
-| 2027 club dates aren't showing | Many clubs haven't published them. An HTML change watcher can't safely invent future dates. |
-| Auto-import missed a race | Add verified row to CSV and/or add a tested parser for that club. |
-| Cloudflare Pages project is direct-upload based | Create a **new** Git-integrated project. |
-
-**No external account was created and no live site was deployed during packaging.**
+MotorsportReg's aggregate API requires prior provider approval, authentication and attribution under its published documentation: https://api.motorsportreg.com/. Provider approval is separate from GitHub access and is not represented as enabled by this project. Do not put credentials in the public repository. A future approved integration should use GitHub Actions secrets and public event/calendar resources only, without entrant data.

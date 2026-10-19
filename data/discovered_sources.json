@@ -1,0 +1,576 @@
+{
+  "updated": "2026-10-19T02:20:34+00:00",
+  "sources": [
+    {
+      "url": "http://atwaterkartclub.weebly.com/",
+      "club": "Atwater Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://bigislandkartclub.com/",
+      "club": "Big Island Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.coloradojuniorkartingclub.com/",
+      "club": "Colorado Junior Karting Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://out2win.com/tracks/delaware.html",
+      "club": "Delaware Speedway",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kermankartclub.com/",
+      "club": "Kerman Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.lakc.org/",
+      "club": "Los Angeles Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.newtonkartklub.com/",
+      "club": "Newton Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.nckroadracing.com/",
+      "club": "Northern California Karters",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://poplargrovespeedway.com/",
+      "club": "Poplar Grove Speedway",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.portlandkarting.com/",
+      "club": "Portland Karting Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.smka.org/",
+      "club": "Santa Maria Karting Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.shastakartklub.com/",
+      "club": "Shasta Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://snakeriverkarters.com/",
+      "club": "Snake River Karters",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.sokarters.org/",
+      "club": "Southern Oregon Karters",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.spokanekarting.org/",
+      "club": "Spokane Kart Racing Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.tckc.net/",
+      "club": "Tri-City Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.vkakarting.com/",
+      "club": "Vintage Karting Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://www.apexkartingchampionships.com/",
+      "club": "Apex",
+      "found_on": "https://www.nkaonline.com/tracks-series",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://ronfellowskarting.com/",
+      "club": "Ron Fellows Karting Championship",
+      "found_on": "https://www.asncanada.ca/affiliated-list",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://ronfellowskarting.com/schedule/canadian-karting-championships",
+      "club": "Motomaster Canadian Karting Championship",
+      "found_on": "https://www.asncanada.ca/affiliated-list",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://canadiankartingnews.smugmug.com/",
+      "club": "Photo Galleries",
+      "found_on": "https://www.canadiankartingnews.com/tracks/warburg-racing-park/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.innisfilkartclub.ca/",
+      "club": "http://www.innisfilkartclub.ca/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kartingquebec.ca/",
+      "club": "http://www.kartingquebec.ca",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kawarthadurhamkartclub.com/",
+      "club": "http://www.kawarthadurhamkartclub.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://mosportkartingcentre.com/",
+      "club": "http://mosportkartingcentre.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://pointpeleekarting.com/PPKC/",
+      "club": "http://pointpeleekarting.com/PPKC/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.saskatoonkartracers.com/",
+      "club": "http://www.saskatoonkartracers.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://simcoekartclub.com/",
+      "club": "http://simcoekartclub.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.saskkartclub.com/",
+      "club": "http://www.saskkartclub.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://sudburykartclub.com/",
+      "club": "http://sudburykartclub.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.torontokartclub.com/",
+      "club": "http://www.torontokartclub.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.victoriakarting.com/",
+      "club": "http://www.victoriakarting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.westcoastkartclub.com/",
+      "club": "http://www.westcoastkartclub.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.westwoodkarting.org/",
+      "club": "http://www.westwoodkarting.org",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.3sgokartsinternational.com/",
+      "club": "http://www.3sgokartsinternational.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://www.area27.ca/kartplex/",
+      "club": "https://www.area27.ca/kartplex/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.gamebridgegokarts.com/",
+      "club": "http://www.gamebridgegokarts.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.gamebridgegokarts.com/club-racing/",
+      "club": "Toronto Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://www.cameronmotorsports.com/hamilton-regional-kart-club/",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://icarexperience.ca/activities/karting/",
+      "club": "https://icarexperience.ca/activities/karting/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://eastcoastkarting.com/",
+      "club": "http://eastcoastkarting.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://flamborospeedway.net/",
+      "club": "http://flamborospeedway.net",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://kartingjimrussell.com/",
+      "club": "http://kartingjimrussell.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kartingpaintballthetford.ca/",
+      "club": "http://www.kartingpaintballthetford.ca",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.campingh2o.com/karting-accueil/",
+      "club": "http://www.campingh2o.com/karting-accueil/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kcr-karting.com/",
+      "club": "http://www.kcr-karting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.lelievrekarting.com/",
+      "club": "http://www.lelievrekarting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://lrkartingclub.com/",
+      "club": "Lombardy Raceway Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.peterboroughkartway.com/",
+      "club": "http://www.peterboroughkartway.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://pointpeleekarting.com/",
+      "club": "http://pointpeleekarting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.shkarting.com/",
+      "club": "http://www.shkarting.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.sudburykartways.com/",
+      "club": "http://www.sudburykartways.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://saskkartclub.com/",
+      "club": "South Sask Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/6/65db46bbeae4603a9ab413e9a6803f6771da33f7.png",
+      "club": "assets.kartpulse.com",
+      "found_on": "https://forums.kartpulse.com/t/kart-race-reports-driver-diaries-and-schedules/3426",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/d/d272db10f21feb9bdcd0c92a0efc9e8a4cdae40d.png",
+      "club": "assets.kartpulse.com",
+      "found_on": "https://forums.kartpulse.com/t/kart-race-reports-driver-diaries-and-schedules/3426",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/8/81c597a1b4f685f2921453ee735dd8743d83d961.jpeg",
+      "club": "Screenshot 2022-02-07 1445581007×952 65.8 KB",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/d/d28545e20feab786e732d7887114da3bfba6e361.jpeg",
+      "club": "Screenshot_20220318-115226_Calendar1080×2316 169 KB",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=2",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://calspeedkarting.com/event-calendar/",
+      "club": "https://calspeedkarting.com/event-calendar/",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=3",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/3X/c/8/c8a1a0093eaf7618dc64ab6cd592ee703e6478fc.jpeg",
+      "club": "IMG_20221105_2050371920×2560 223 KB",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=3",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    }
+  ]
+}

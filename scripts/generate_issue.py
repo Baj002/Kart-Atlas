@@ -25,4 +25,4 @@ if new_feeds:
         lines.append(f"- **{f['club']}** — {f['url']}")
 lines.append('')
 lines.append('Review sources and update curated races or allowlisted feeds after verification.')
-(root/'reports/issue.md').write_text('\\n'.join(lines)+'\\n')
+(root/'reports/issue.md').write_text('\n'.join(lines)+'\n')

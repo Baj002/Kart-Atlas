@@ -24,11 +24,11 @@
       "region": "AB",
       "country": "Canada",
       "kind": "Club / Series",
-      "research_status": "2026 checked, 2027 not yet posted",
-      "schedule_url": "https://edkra.ca/pages/schedule-events",
-      "source_description": "Official website / calendar",
-      "notes": "Organizer source",
-      "monitor_id": "edkra"
+      "research_status": "Official source checked 2026-10-19",
+      "schedule_url": "https://edkra.ca/",
+      "source_description": "Official organizer website",
+      "notes": "Calendar source verified; individual event extraction can still be limited by page format.",
+      "monitor_id": "edkra-home"
     },
     {
       "id": "86c4970101",
@@ -206,11 +206,11 @@
       "region": "ON",
       "country": "Canada",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official source checked 2026-10-19",
+      "schedule_url": "https://www.wrkc.on.ca/schedule/",
+      "source_description": "Official organizer website",
+      "notes": "Calendar source verified; individual event extraction can still be limited by page format.",
+      "monitor_id": "wrkc"
     },
     {
       "id": "c6c07bf0f1",
@@ -1228,11 +1228,11 @@
       "region": "NH",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official source checked 2026-10-19",
+      "schedule_url": "https://nhka.net/schedule/",
+      "source_description": "Official organizer website",
+      "notes": "Calendar source verified; individual event extraction can still be limited by page format.",
+      "monitor_id": "nhka"
     },
     {
       "id": "3e09b63525",
@@ -1326,11 +1326,11 @@
       "region": "NY",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "2026/27 race listing found",
+      "research_status": "Official source checked 2026-10-19",
       "schedule_url": "https://ovrp.net/calendar/list/",
-      "source_description": "Organizer / schedule",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "source_description": "Official organizer website",
+      "notes": "Calendar source verified; individual event extraction can still be limited by page format.",
+      "monitor_id": "ovrp"
     },
     {
       "id": "1fbb18ce08",
@@ -1382,11 +1382,11 @@
       "region": "OH",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official source checked 2026-10-19",
+      "schedule_url": "https://ovka.com/schedule/",
+      "source_description": "Official organizer website",
+      "notes": "Calendar source verified; individual event extraction can still be limited by page format.",
+      "monitor_id": "ovka"
     },
     {
       "id": "6842cabddb",
@@ -1797,16 +1797,16 @@
     {
       "id": "163cbaed0b",
       "name": "Badger Kart Club",
-      "venue": "Wolf Paving Raceway",
+      "venue": "Mill-Rite Raceway",
       "city": "Dousman",
       "region": "WI",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "2026/27 race listing found",
-      "schedule_url": "https://badgerkartclub.com/halloween-race/",
-      "source_description": "Organizer / schedule",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official source checked 2026-10-19",
+      "schedule_url": "https://badgerkartclub.com/",
+      "source_description": "Official organizer website",
+      "notes": "Calendar source verified; individual event extraction can still be limited by page format.",
+      "monitor_id": "badger"
     },
     {
       "id": "9164f69af7",

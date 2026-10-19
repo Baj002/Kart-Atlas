@@ -1,48 +1,68 @@
 name: Refresh North American kart calendar
 on:
   schedule:
-    # 13:17 UTC daily; scheduled workflows can be delayed by GitHub.
     - cron: '17 13 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', 'tests/**', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', '.github/workflows/**']
+  pull_request:
+    paths: ['scripts/**', 'tests/**', 'data/**', '.github/workflows/**']
 permissions:
-  contents: write
-  issues: write
+  contents: read
 concurrency:
-  group: kart-atlas-source-monitor
+  group: kart-atlas-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 jobs:
-  refresh:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 16
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Check allowed organizer calendars and feeds
-        run: python scripts/check_sources.py
-      - name: Check public MotorsportReg event pages
-        run: python scripts/enrich_motorsportreg.py
-      - name: Regenerate site datasets
-        run: python scripts/build_site.py
-      - name: Discover structured events and linked calendars
-        run: python -m scripts.discover_events\n      - name: Validate published races and directory
+      - name: Regression tests
         run: python -m unittest discover -s tests -v
-      - name: Commit monitoring results and any safe additions
+      - name: Validate app JavaScript
+        run: |
+          node --check site/app.js
+          node --check site/coverage.js
+          node --check site/sw.js
+      - name: Validate generated site data
+        run: python -m scripts.validate_data
+  refresh:
+    if: github.event_name != 'pull_request'
+    needs: test
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover organizer events, calendars and new clubs
+        run: python -m scripts.discover_events
+      - name: Regenerate site datasets and coverage
+        run: |
+          python -m scripts.build_site
+          python -m scripts.coverage_report
+          python -m scripts.validate_data
+      - name: Archive discovery diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-report
+          path: reports/
+      - name: Commit validated updates
         run: |
           git config user.name 'kart-atlas-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/discovery.json data/event_enrichment.json data/automated_events.json data/source_state.json reports/latest.json site/events.json site/clubs.json site/monitor_status.json
+          git add data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
           if ! git diff --cached --quiet; then
-            git commit -m 'chore: check official karting calendars'
+            git commit -m 'chore: refresh kart races and discovery coverage'
             git push
           fi
-      - name: Create review issue when organizer schedule changed
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          if python scripts/generate_issue.py; then
-            gh issue create --title "Kart Atlas schedule review — $(date -u +%Y-%m-%d)" --body-file reports/issue.md
-          else
-            echo 'No schedule review issue needed.'
-          fi
+      - name: Require at least one successful trusted source
+        run: python -m scripts.validate_data --live

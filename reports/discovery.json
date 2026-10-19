@@ -1,0 +1,4709 @@
+{
+  "checked_at": "2026-10-19T02:20:34+00:00",
+  "sources_checked": 71,
+  "sources_attempted": 99,
+  "event_candidates": [
+    {
+      "name": "Endurance Development League, Round 6, Daytona",
+      "start": "2026-10-20",
+      "end": "2026-10-20",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 6, daytona",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "FIA F4 Challenge Series, Round 4, Barcelona",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#fia f4 challenge series, round 4, barcelona",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "Endurance Development League, Round 7, Navarra",
+      "start": "2026-10-27",
+      "end": "2026-10-27",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 7, navarra",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "Endurance Development League, Round 8, Charlotte Roval",
+      "start": "2026-11-03",
+      "end": "2026-11-03",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 8, charlotte roval",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "FIA F4 Challenge Series, Round 5, Oschersleben",
+      "start": "2026-11-09",
+      "end": "2026-11-09",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#fia f4 challenge series, round 5, oschersleben",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "Endurance Development League, Round 9, Road Atlanta",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 9, road atlanta",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "Endurance Development League, Round 10, Summit Point",
+      "start": "2026-11-17",
+      "end": "2026-11-17",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 10, summit point",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "FIA F4 Challenge Series, Round 6, Circuit Gilles Villeneuve",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#fia f4 challenge series, round 6, circuit gilles villeneuve",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "Endurance Development League, Round 11, Lime Rock",
+      "start": "2026-11-24",
+      "end": "2026-11-24",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 11, lime rock",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "Endurance Development League, Round 12, Community voted",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "organizer": "GDS ASN Canada affiliated members",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "https://www.asncanada.ca/esportscalendar",
+      "uid": "https://www.asncanada.ca/esportscalendar#endurance development league, round 12, community voted",
+      "feed_id": "asn-affiliates",
+      "status": "needs_review",
+      "format": "Endurance",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://www.asncanada.ca/esportscalendar",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-e432985e98c8",
+      "uid": "658-1792713600-1792972799@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "name": "CCKRA Championship Race #6",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/cckra-championship-race-6/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-9f1d8ba276a8",
+      "uid": "676-1792800000-1792886399@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "name": "So Cal Dirt Karters Race 9 (dirt oval)",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/so-cal-dirt-karters-race-9-dirt-oval/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-4e4a6325bd77",
+      "uid": "657-1792800000-1792972799@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-10-24",
+      "end": "2026-10-25",
+      "name": "FKL Regional SoCal Championship Rd 5",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/fkl-regional-socal-championship-rd-5/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-3a16713cbb16",
+      "uid": "659-1792886400-1792972799@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "name": "SMK Race Series",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/smk-race-series/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-768862804411",
+      "uid": "677-1793404800-1793491199@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "name": "VSK Sprint Race (Vegas Superkarts)",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/vsk-sprint-race-vegas-superkarts/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-e525c7db20b4",
+      "uid": "485-1793491200-1793577599@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "name": "K1 Speed Adult Challenge GP",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/k1-speed-adult-challenge-gp-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-8a28f90abd71",
+      "uid": "160-1794009600-1794095999@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "name": "K1 Race Academy",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/k1-race-academy-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-9f92b8af78da",
+      "uid": "161-1794009600-1794182399@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "name": "FKL Pro Fall Cup Rds 3–4",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/fkl-pro-fall-cup-rds-3-4/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-4b2047f65a15",
+      "uid": "660-1794096000-1794182399@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "name": "SMK Race Series",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/smk-race-series-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-b198ab2792fa",
+      "uid": "486-1794268800-1794355199@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "name": "K1 Speed Junior Challenge GP",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/k1-speed-junior-challenge-gp-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-1ef30cc2c026",
+      "uid": "487-1794268800-1794355199@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "name": "K1 Speed Teen Challenge GP",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/k1-speed-teen-challenge-gp-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-b702c60e6f29",
+      "uid": "162-1794355200-1794787199@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-11",
+      "end": "2026-11-15",
+      "name": "SKUSA SuperNationals 29",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/skusa-supernationals-29/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-fbc8bdba1b4e",
+      "uid": "164-1794614400-1794700799@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "name": "Podium TKC Sprint Championship Rd 1",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/podium-tkc-sprint-championship-rd-1/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-38ffaf9566b1",
+      "uid": "167-1795219200-1795305599@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "name": "Tri-C Chill Challenge Blizzard 1",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/tri-c-blizzard-1/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-8b3502ffdae1",
+      "uid": "169-1795219200-1795391999@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "name": "CCKRA Championship Race #7 (Central Cal Championship)",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/cckra-central-cal-championship/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-9d76c97f5ced",
+      "uid": "168-1795219200-1795391999@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "name": "FKL Pro Fall Cup Rd 5",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/fkl-pro-fall-cup-rd-5/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-ddc8235e4259",
+      "uid": "678-1795824000-1795910399@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "name": "VSK Sprint Race (Vegas Superkarts)",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/vsk-sprint-race-vegas-superkarts-2/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "id": "auto-02d7c78afa74",
+      "uid": "488-1796083200-1796169599@socal-karting.com",
+      "feed_id": "lead-2bc70035f8",
+      "start": "2026-12-01",
+      "end": "2026-12-01",
+      "name": "K1 Speed Junior Challenge GP",
+      "organizer": "Central California Kart Racing Association",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "region": "CA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Automated",
+      "status": "needs_review",
+      "timezone_needs_review": false,
+      "classes": "",
+      "source": "https://socal-karting.com/event/k1-speed-junior-challenge-gp-3/",
+      "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel.",
+      "discovered_from": "https://socal-karting.com/events/?ical=1",
+      "parser": "ics",
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "SMKA Club Race Makeup Race",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "organizer": "Santa Maria Karting Association",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "http://www.smka.org/event/smka-club-race-makeup-race/",
+      "uid": "http://www.smka.org/event/smka-club-race-makeup-race/",
+      "feed_id": "found-6ee8d6cf0a71",
+      "status": "needs_review",
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "http://www.smka.org/",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    },
+    {
+      "name": "SMKA Club Race Makeup Race",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "organizer": "Santa Maria Karting Association",
+      "venue": "",
+      "city": "",
+      "region": "",
+      "country": "",
+      "source": "http://www.smka.org/event/smka-club-race-makeup-race/",
+      "uid": "http://www.smka.org/event/smka-club-race-makeup-race/",
+      "feed_id": "found-6ee8d6cf0a71",
+      "status": "needs_review",
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "http://www.smka.org/the-track/race-day-info/",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "reason": "Organizer ownership or event location needs verification"
+    }
+  ],
+  "calendar_feed_candidates": [
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-5npz8?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-2026-fall-endurance-race?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "scanned"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-yyemw?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/n3bom80u82h9g07kr2xar2ylvaeh4o?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf-jd7t5-ay58b?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "scanned"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-8l95p?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf-jd7t5?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "scanned"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-xr3pl?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/bc-regional-vika-82wy8?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "scanned"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-r7jml-4ka39?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/bc-regional-vika-3bmdh?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58-ft57a-8nsch?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-j3seh?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-gnktp?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/bc-regional-vika-k9hpc?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-rmkhx?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/bc-regional-vika?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58-ft57a?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-race-1?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-n22zg-74r42?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-49h8y?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-2026-agm?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-z9jyj-64ekp-52py2?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/events/wckc-awards-banquet?format=ical",
+      "club": "West Coast Kart Club",
+      "found_on": "https://www.westcoastkartclub.ca/events",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://goodwoodkartways.com/events/?ical=1",
+      "club": "Toronto Racing Association of Karters",
+      "found_on": "https://goodwoodkartways.com/trak/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/list/?ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/list/page/2/?ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://ovrp.net/calendar/?ical=1",
+      "club": "Oakland Valley Race Park",
+      "found_on": "https://ovrp.net/calendar/list/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://ovrp.net/calendar/list/?ical=1",
+      "club": "Oakland Valley Race Park",
+      "found_on": "https://ovrp.net/calendar/list/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "status": "scanned"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09&ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "status": "scanned"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/list/?ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://hamiltonkartingcomplex.com/events/list/page/2/?ical=1",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "status": "budget_deferred"
+    },
+    {
+      "url": "https://socal-karting.com/events/?ical=1",
+      "club": "Central California Kart Racing Association",
+      "found_on": "https://socal-karting.com/calendar/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://gamebridgegokarts.com/events/?ical=1",
+      "club": "Toronto Kart Club",
+      "found_on": "http://www.gamebridgegokarts.com/club-racing/",
+      "status": "scanned"
+    },
+    {
+      "url": "http://www.smka.org/club-schedule/?ical=1",
+      "club": "Santa Maria Karting Association",
+      "found_on": "http://www.smka.org/",
+      "status": "scanned"
+    },
+    {
+      "url": "https://www.smka.org/club-schedule/month/?ical=1",
+      "club": "Santa Maria Karting Association",
+      "found_on": "http://www.smka.org/",
+      "status": "budget_deferred"
+    }
+  ],
+  "organizer_source_candidates": [
+    {
+      "url": "http://atwaterkartclub.weebly.com/",
+      "club": "Atwater Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://bigislandkartclub.com/",
+      "club": "Big Island Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.coloradojuniorkartingclub.com/",
+      "club": "Colorado Junior Karting Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://out2win.com/tracks/delaware.html",
+      "club": "Delaware Speedway",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kermankartclub.com/",
+      "club": "Kerman Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.lakc.org/",
+      "club": "Los Angeles Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.newtonkartklub.com/",
+      "club": "Newton Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.nckroadracing.com/",
+      "club": "Northern California Karters",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://poplargrovespeedway.com/",
+      "club": "Poplar Grove Speedway",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.portlandkarting.com/",
+      "club": "Portland Karting Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.smka.org/",
+      "club": "Santa Maria Karting Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.shastakartklub.com/",
+      "club": "Shasta Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://snakeriverkarters.com/",
+      "club": "Snake River Karters",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.sokarters.org/",
+      "club": "Southern Oregon Karters",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.spokanekarting.org/",
+      "club": "Spokane Kart Racing Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.tckc.net/",
+      "club": "Tri-City Kart Club",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.vkakarting.com/",
+      "club": "Vintage Karting Association",
+      "found_on": "https://www.ikfkarting.com/links/",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://www.apexkartingchampionships.com/",
+      "club": "Apex",
+      "found_on": "https://www.nkaonline.com/tracks-series",
+      "country": "USA",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://ronfellowskarting.com/",
+      "club": "Ron Fellows Karting Championship",
+      "found_on": "https://www.asncanada.ca/affiliated-list",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://ronfellowskarting.com/schedule/canadian-karting-championships",
+      "club": "Motomaster Canadian Karting Championship",
+      "found_on": "https://www.asncanada.ca/affiliated-list",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://canadiankartingnews.smugmug.com/",
+      "club": "Photo Galleries",
+      "found_on": "https://www.canadiankartingnews.com/tracks/warburg-racing-park/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.innisfilkartclub.ca/",
+      "club": "http://www.innisfilkartclub.ca/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kartingquebec.ca/",
+      "club": "http://www.kartingquebec.ca",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kawarthadurhamkartclub.com/",
+      "club": "http://www.kawarthadurhamkartclub.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://mosportkartingcentre.com/",
+      "club": "http://mosportkartingcentre.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://pointpeleekarting.com/PPKC/",
+      "club": "http://pointpeleekarting.com/PPKC/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.saskatoonkartracers.com/",
+      "club": "http://www.saskatoonkartracers.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://simcoekartclub.com/",
+      "club": "http://simcoekartclub.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.saskkartclub.com/",
+      "club": "http://www.saskkartclub.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://sudburykartclub.com/",
+      "club": "http://sudburykartclub.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.torontokartclub.com/",
+      "club": "http://www.torontokartclub.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.victoriakarting.com/",
+      "club": "http://www.victoriakarting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.westcoastkartclub.com/",
+      "club": "http://www.westcoastkartclub.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.westwoodkarting.org/",
+      "club": "http://www.westwoodkarting.org",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.3sgokartsinternational.com/",
+      "club": "http://www.3sgokartsinternational.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://www.area27.ca/kartplex/",
+      "club": "https://www.area27.ca/kartplex/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.gamebridgegokarts.com/",
+      "club": "http://www.gamebridgegokarts.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.gamebridgegokarts.com/club-racing/",
+      "club": "Toronto Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://www.cameronmotorsports.com/hamilton-regional-kart-club/",
+      "club": "Hamilton Regional Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://icarexperience.ca/activities/karting/",
+      "club": "https://icarexperience.ca/activities/karting/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://eastcoastkarting.com/",
+      "club": "http://eastcoastkarting.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://flamborospeedway.net/",
+      "club": "http://flamborospeedway.net",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://kartingjimrussell.com/",
+      "club": "http://kartingjimrussell.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kartingpaintballthetford.ca/",
+      "club": "http://www.kartingpaintballthetford.ca",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.campingh2o.com/karting-accueil/",
+      "club": "http://www.campingh2o.com/karting-accueil/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.kcr-karting.com/",
+      "club": "http://www.kcr-karting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.lelievrekarting.com/",
+      "club": "http://www.lelievrekarting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://lrkartingclub.com/",
+      "club": "Lombardy Raceway Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.peterboroughkartway.com/",
+      "club": "http://www.peterboroughkartway.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://pointpeleekarting.com/",
+      "club": "http://pointpeleekarting.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.shkarting.com/",
+      "club": "http://www.shkarting.com",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "http://www.sudburykartways.com/",
+      "club": "http://www.sudburykartways.com/",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00",
+      "last_checked": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://saskkartclub.com/",
+      "club": "South Sask Kart Club",
+      "found_on": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/6/65db46bbeae4603a9ab413e9a6803f6771da33f7.png",
+      "club": "assets.kartpulse.com",
+      "found_on": "https://forums.kartpulse.com/t/kart-race-reports-driver-diaries-and-schedules/3426",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/d/d272db10f21feb9bdcd0c92a0efc9e8a4cdae40d.png",
+      "club": "assets.kartpulse.com",
+      "found_on": "https://forums.kartpulse.com/t/kart-race-reports-driver-diaries-and-schedules/3426",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/8/81c597a1b4f685f2921453ee735dd8743d83d961.jpeg",
+      "club": "Screenshot 2022-02-07 1445581007×952 65.8 KB",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/2X/d/d28545e20feab786e732d7887114da3bfba6e361.jpeg",
+      "club": "Screenshot_20220318-115226_Calendar1080×2316 169 KB",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=2",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://calspeedkarting.com/event-calendar/",
+      "club": "https://calspeedkarting.com/event-calendar/",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=3",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    },
+    {
+      "url": "https://assets.kartpulse.com/original/3X/c/8/c8a1a0093eaf7618dc64ab6cd592ee703e6478fc.jpeg",
+      "club": "IMG_20221105_2050371920×2560 223 KB",
+      "found_on": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=3",
+      "country": "Canada",
+      "status": "unverified_organizer_source",
+      "first_seen": "2026-10-19T02:15:32+00:00",
+      "last_seen": "2026-10-19T02:20:34+00:00"
+    }
+  ],
+  "changes": [
+    {
+      "id": "auto-711b6ca5b585ec1f",
+      "name": "WCKC 2026 Fall Endurance Race",
+      "source": "https://www.westcoastkartclub.ca/events/wckc-2026-fall-endurance-race",
+      "at": "2026-10-19T02:20:34+00:00",
+      "new": true
+    },
+    {
+      "id": "auto-e9959bcfb5763ab0",
+      "name": "TRAK Multi-Class Enduro",
+      "source": "http://goodwoodkartways.com/event/trak-year-end-enduro-3-2-2-2/",
+      "at": "2026-10-19T02:20:34+00:00",
+      "new": true
+    },
+    {
+      "id": "auto-2bc9148cb1b70535",
+      "name": "CRKC ‘Attrition Fest’ Enduro",
+      "source": "http://goodwoodkartways.com/event/crkc-attrition-fest-enduro-2-2/",
+      "at": "2026-10-19T02:20:34+00:00",
+      "new": true
+    },
+    {
+      "id": "auto-0fc6a96508f2aeed",
+      "name": "NYS CHAMPIONSHIP/CLUB RACE #15",
+      "source": "https://ovrp.net/event/nys-championship-club-race-15/",
+      "at": "2026-10-19T02:20:34+00:00",
+      "new": true
+    },
+    {
+      "id": "auto-58219377fd990bd7",
+      "name": "NYS CHAMPIONSHIP/CLUB RACE #15",
+      "source": "https://ovrp.net/event/nys-championship-club-race-15/",
+      "at": "2026-10-19T02:20:34+00:00",
+      "new": true
+    }
+  ],
+  "observations": 6,
+  "sources": [
+    {
+      "source_id": "goodwood-ics",
+      "club": "Toronto Racing Association of Karters / Goodwood Kartways",
+      "url": "https://goodwoodkartways.com/events/?ical=1",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://goodwoodkartways.com/events/?ical=1",
+          "parser": "ics",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "hamilton-ics",
+      "club": "Hamilton Regional Kart Club / Hamilton Karting Complex",
+      "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
+          "parser": "ics",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "ckrc",
+      "club": "Calgary Kart Racing Club",
+      "url": "https://ckrc.com/event-schedule/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "AB",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://ckrc.com/event-schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "edkra",
+      "club": "Edmonton & District Kart Racing Association",
+      "url": "https://edkra.ca/pages/schedule-events",
+      "trusted": true,
+      "country": "Canada",
+      "region": "AB",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://edkra.ca/pages/schedule-events",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "wckc",
+      "club": "West Coast Kart Club",
+      "url": "https://www.westcoastkartclub.ca/schedule",
+      "trusted": true,
+      "country": "Canada",
+      "region": "BC",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.westcoastkartclub.ca/schedule",
+          "error": "ValueError: Response exceeds size limit"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "wckc-events",
+      "club": "West Coast Kart Club",
+      "url": "https://www.westcoastkartclub.ca/events",
+      "trusted": true,
+      "country": "Canada",
+      "region": "BC",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.westcoastkartclub.ca/events",
+          "parser": "html",
+          "events": 1
+        },
+        {
+          "url": "https://www.westcoastkartclub.ca/events/wckc-2026-fall-endurance-race?format=ical",
+          "parser": "ics",
+          "events": 1
+        },
+        {
+          "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf-jd7t5-ay58b?format=ical",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf-jd7t5?format=ical",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://www.westcoastkartclub.ca/events/bc-regional-vika-82wy8?format=ical",
+          "parser": "ics",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-5npz8?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-2026-fall-endurance-race?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-yyemw?format=ical",
+        "https://www.westcoastkartclub.ca/events/n3bom80u82h9g07kr2xar2ylvaeh4o?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf-jd7t5-ay58b?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-8l95p?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf-jd7t5?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-xr3pl?format=ical",
+        "https://www.westcoastkartclub.ca/events/bc-regional-vika-82wy8?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-r7jml-4ka39?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg-fnzcf?format=ical",
+        "https://www.westcoastkartclub.ca/events/bc-regional-vika-3bmdh?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58-ft57a-8nsch?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-j3seh?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-gnktp?format=ical",
+        "https://www.westcoastkartclub.ca/events/bc-regional-vika-k9hpc?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494-t5xcg?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-rmkhx?format=ical",
+        "https://www.westcoastkartclub.ca/events/bc-regional-vika?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58-ft57a?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-race-1?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-n22zg-74r42?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-49h8y?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-2026-agm?format=ical",
+        "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-z9jyj-64ekp-52py2?format=ical",
+        "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7?format=ical",
+        "https://www.westcoastkartclub.ca/events/wckc-awards-banquet?format=ical"
+      ],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 66
+    },
+    {
+      "source_id": "mka",
+      "club": "Manitoba Karting Association",
+      "url": "https://www.manitobakarting.ca/blank",
+      "trusted": true,
+      "country": "Canada",
+      "region": "MB",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.manitobakarting.ca/blank",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.manitobakarting.ca/_files/ugd/f5ea5f_47b62ed49ed64b1692c412238e5c6ccd.pdf",
+        "https://www.manitobakarting.ca/_files/ugd/f5ea5f_cca05a94c3434d389ad2f1eaa6c6e8d3.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "saskatoon",
+      "club": "Saskatoon Kart Racers",
+      "url": "https://www.nskr.ca/schedule",
+      "trusted": true,
+      "country": "Canada",
+      "region": "SK",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.nskr.ca/schedule",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "south-sask",
+      "club": "South Sask Kart Club",
+      "url": "https://www.sskc.ca/schedule",
+      "trusted": true,
+      "country": "Canada",
+      "region": "SK",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.sskc.ca/schedule",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "goodwood-trak",
+      "club": "Toronto Racing Association of Karters",
+      "url": "https://goodwoodkartways.com/trak/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://goodwoodkartways.com/trak/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://goodwoodkartways.com/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://goodwoodkartways.com/group-events/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://goodwoodkartways.com/?post_type=tribe_events",
+          "parser": "html",
+          "events": 2
+        },
+        {
+          "url": "https://goodwoodkartways.com/events/?ical=1",
+          "parser": "ics",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://goodwoodkartways.com/events/?ical=1"
+      ],
+      "documents": [
+        "https://goodwoodkartways.com/wp-content/uploads/2025/12/2026_TRAK_INSTRUCTIONS.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2025/12/2026_TRAK_Membership_Application.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Medical-1.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/07/2026_TRAK_Schedule_Final_07.01.26.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Supplements-4-8-2026.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Class-Structure.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-ASN-CDN-Karting-Regulations-Book-1-Sporting.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-ASN-CDN-Karting-Regulations-Book-2-Technical.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/Briggs-2026-206-Rules_Final.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Self-Technical-Declaration-1.pdf",
+        "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Entry-Form-1.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 86
+    },
+    {
+      "source_id": "hrkc",
+      "club": "Hamilton Regional Kart Club",
+      "url": "https://hamiltonkartingcomplex.com/events/list/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/?ical=1",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/page/2/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://hamiltonkartingcomplex.com/events/?ical=1",
+        "https://hamiltonkartingcomplex.com/events/list/?ical=1",
+        "https://hamiltonkartingcomplex.com/events/list/page/2/?ical=1"
+      ],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 17
+    },
+    {
+      "source_id": "nckc",
+      "club": "National Capital Kart Club",
+      "url": "https://nckc.net/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://nckc.net/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://nckc.net/schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "coupe-montreal",
+      "club": "Coupe de Montréal",
+      "url": "https://coupedemontreal.com/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://coupedemontreal.com/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "psgka",
+      "club": "Puget Sound Go Karting Association",
+      "url": "https://psgka.com/",
+      "trusted": true,
+      "country": "USA",
+      "region": "WA",
+      "attempted": 3,
+      "pages": [
+        {
+          "url": "https://psgka.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://psgka.com/psgka-racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://psgka.com/psgka-racing",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://psgka.com/wp-content/uploads/2025/10/psgka-standings-2025-2.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "pka",
+      "club": "Portland Karting Association",
+      "url": "https://raceselect.com/pka/2026",
+      "trusted": true,
+      "country": "USA",
+      "region": "OR",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://raceselect.com/pka/2026",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://raceselect.com/pka/2026-oskcs-race-9-ccw-old/EventDetails",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://raceselect.com/pka/2026-oskcs-race-9-ccw-old/EventEntries",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://raceselect.com/pka/2026-oskcs-race-7/EventDetails",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://raceselect.com/pka/2026-oskcs-race-7/EventEntries",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 6
+    },
+    {
+      "source_id": "ntk",
+      "club": "North Texas Karters",
+      "url": "https://www.ntkarters.com/calendar.html",
+      "trusted": true,
+      "country": "USA",
+      "region": "TX",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.ntkarters.com/calendar.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.ntkarters.com/racing-info/safety-video.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.ntkarters.com/racing-info/points.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.ntkarters.com/racing-info/ntk-rulebook.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.ntkarters.com/racing-info/transponders.html",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 5
+    },
+    {
+      "source_id": "skusa",
+      "club": "Superkarts! USA",
+      "url": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "trusted": true,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.superkartsusa.com/event-schedules.html",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "uspks",
+      "club": "United States Pro Kart Series",
+      "url": "https://www.uspks.com/schedule/",
+      "trusted": true,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.uspks.com/schedule/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "pkra",
+      "club": "Phoenix Kart Racing Association",
+      "url": "https://pkra.com/racing-schedule/",
+      "trusted": true,
+      "country": "USA",
+      "region": "AZ",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://pkra.com/racing-schedule/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://pkra.com/racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://pkra.com/new-to-racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://pkra.com/racing-classes/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://pkra.com/calendar/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://pkra.com/docs/NKA_ReleaseWaiver_Sum10.pdf",
+        "https://pkra.com/docs/NKA-Yearly-Parental-Consent.pdf",
+        "https://pkra.com/docs/NKA-Minor-Report-Summer10.pdf",
+        "https://pkra.com/docs/techsheet_NKA_2026.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "mexico-champions",
+      "club": "Champions of the Future Mexico",
+      "url": "https://www.championskartingamerica.com/mexico-series/",
+      "trusted": true,
+      "country": "Mexico",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.championskartingamerica.com/mexico-series/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "rok-usa-calendar",
+      "club": "ROK Cup USA",
+      "url": "https://rokcupusa.com/calendar/",
+      "trusted": true,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://rokcupusa.com/calendar/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "uspks-2027-recap",
+      "club": "United States Pro Kart Series 2027 schedule bulletin",
+      "url": "https://www.uspks.com/2026-recap-a-letter-from-the-race-director/",
+      "trusted": true,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.uspks.com/2026-recap-a-letter-from-the-race-director/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "mka-home",
+      "club": "Manitoba Karting Association",
+      "url": "https://www.manitobakarting.ca/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "MB",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://www.manitobakarting.ca/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.manitobakarting.ca/blank",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.manitobakarting.ca/_files/ugd/f5ea5f_47b62ed49ed64b1692c412238e5c6ccd.pdf",
+        "https://www.manitobakarting.ca/_files/ugd/f5ea5f_1201f3bac841407f9cc9f149e4a0581c.pdf",
+        "https://www.manitobakarting.ca/_files/ugd/f5ea5f_cca05a94c3434d389ad2f1eaa6c6e8d3.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "rmc-canada",
+      "club": "Rotax MAX Challenge Canada",
+      "url": "https://maxchallenge.ca/events2/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://maxchallenge.ca/events2/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "kartstars-canada",
+      "club": "KartStars Canada",
+      "url": "https://kartsportcanada.ca/bulletins/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://kartsportcanada.ca/bulletins/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartsportcanada.ca/kartstars-canada-event-registration-2026-round-04-late/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartsportcanada.ca/schedule-2/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartsportcanada.ca/category/schedule-update/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartsportcanada.ca/2026/02/21/2026-schedule-announcement-kartstars-canada/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://kartsportcanada.ca/wp-content/uploads/2026/06/KartStars-Number-Registry-2026.pdf?c0b683&c0b683",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/09/2026-KartStars-Round-4-NIght-Race-Practice-Schedule.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/09/2026-KartStars-Round-4-NightRace-Schedule-V1.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-1-GK-RaceDay-Schedule-Final-V-26.03.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-2-Practice-Schedule.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-2-MKC-RaceDay-Schedule-Final-V-26.01.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/08/2026-Kartfest-Race-Schedule-V4-08.07.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 5
+    },
+    {
+      "source_id": "amka-schedule",
+      "club": "Atlantic Motorsport Karters Association",
+      "url": "https://www.amka.ca/race-schedule",
+      "trusted": true,
+      "country": "Canada",
+      "region": "NS",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.amka.ca/race-schedule",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.amka.ca/s/AMKA-DRIVER-DEVELOPMENT-PROGRAM-ANNOUNCEMENT-V2-2.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "mka-registration",
+      "club": "Manitoba Karting Association",
+      "url": "https://www.motorsportreg.com/orgs/manitoba-karting-association",
+      "trusted": true,
+      "country": "Canada",
+      "region": "MB",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.motorsportreg.com/orgs/manitoba-karting-association",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.motorsportreg.com/index.cfm/event/event-management",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.motorsportreg.com/calendar/?zip=R3J0N3&radius=180",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.motorsportreg.com/events/race-11-technical-self-declaration-gimli-motorsports-park-manitoba-189447",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.motorsportreg.com/events/test-tune-race-11-gimli-motorsports-park-manitoba-karting-association-869143",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 27
+    },
+    {
+      "source_id": "ckna-canada",
+      "club": "Cup Karts North America Canada",
+      "url": "https://www.cupkarts.com/schedule/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "Multi",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.cupkarts.com/schedule/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/events/2026-winter-nationals/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/event-organizer/cup-karts-north-america/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/events/2026-south-round-1/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/event-organizer/cup-karts-south/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.cupkarts.com/wp-content/uploads/2026/02/Copy-of-Copy-of-2025_Daytona_Supps-1.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2024/06/Pre-race-form-FR-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2025/03/2025-Pre-Tech-Form.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/02/2026Biloxi-Schedule.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/03/2026-Spring-Nats-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/03/Spring-Nationals-2026-Detailed-Time-rev3.1c-with-links.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/03/Copy-of-2026_Biloxi_Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-GJ-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-GJ-Time-Table.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-Pre-Tech-CKCD-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Quaker-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Quaker-Time-Table-v4.1.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-RA-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-RA-Time-Table.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/REGLEMENT-PARTICULIER-CKCD-Course-1-2-FR-2026-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/SUPPLEMENTAL-RULES-CKCD-Course-1-2-EN-2026-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Brechin-race-1-2-Time-Table-Final_V0-2.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-LafayetteSupps-Final.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-East-Detailed-Time-Table-Lafayette-Final.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-Summer-Nats-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/Summer-Nationals-2026-MCC-Time-Table-7.29.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-Norway-Suppsv2.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-Norway-Time-Table.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-NJMP-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-East-Time-Table-NJMP-v3.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2026/02/Copy-of-Copy-of-2025_Daytona_Supps-1.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2024/06/Pre-race-form-FR-v0.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2025/03/2025-Pre-Tech-Form.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2026/02/2026Biloxi-Schedule.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 22
+    },
+    {
+      "source_id": "kartstars-schedule",
+      "club": "KartStars Canada",
+      "url": "https://kartsportcanada.ca/schedule-2/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 3,
+      "pages": [
+        {
+          "url": "https://kartsportcanada.ca/schedule-2/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartsportcanada.ca/kartstars-canada-event-registration-2026-round-04-late/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-1-GK-RaceDay-Schedule-Final-V-26.03.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-2-Practice-Schedule.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-2-MKC-RaceDay-Schedule-Final-V-26.01.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/08/2026-Kartfest-Race-Schedule-V4-08.07.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/09/2026-KartStars-Round-4-NIght-Race-Practice-Schedule.pdf",
+        "http://kartsportcanada.ca/wp-content/uploads/2026/09/2026-KartStars-Round-4-NightRace-Schedule-V1.pdf",
+        "https://kartsportcanada.ca/wp-content/uploads/2026/06/KartStars-Number-Registry-2026.pdf?c0b683&c0b683"
+      ],
+      "errors": [
+        {
+          "url": "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-1-Practice-Schedule.doc",
+          "error": "ValueError: Unsupported content type: application/msword"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "wrkc",
+      "club": "Waterloo Regional Kart Club",
+      "url": "https://www.wrkc.on.ca/schedule/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.wrkc.on.ca/schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.wrkc.on.ca/wp-content/uploads/2026/02/WRKC-2026-Race-Schedule.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "nhka",
+      "club": "New Hampshire Karting Association",
+      "url": "https://nhka.net/schedule/",
+      "trusted": true,
+      "country": "USA",
+      "region": "NH",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://nhka.net/schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://nhka.net/wp-content/uploads/2025/12/NHKA_2026_Race_Schedule_Styled.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "ovka",
+      "club": "Ohio Valley Karting Association",
+      "url": "https://ovka.com/schedule/",
+      "trusted": true,
+      "country": "USA",
+      "region": "OH",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://ovka.com/schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://ovka.com/wp-content/uploads/OVKA-2026-Schedule-1.7.pdf",
+        "https://ovka.com/wp-content/uploads/G_J_Kartway_Configuration-Guide.pdf",
+        "https://ovka.com/wp-content/uploads/G_J-2026-Track-Schedule-1.2.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "badger",
+      "club": "Badger Kart Club",
+      "url": "https://badgerkartclub.com/",
+      "trusted": true,
+      "country": "USA",
+      "region": "WI",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://badgerkartclub.com/",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "ovrp",
+      "club": "Oakland Valley Race Park",
+      "url": "https://ovrp.net/calendar/list/",
+      "trusted": true,
+      "country": "USA",
+      "region": "NY",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://ovrp.net/calendar/list/",
+          "parser": "html",
+          "events": 1
+        },
+        {
+          "url": "https://ovrp.net/calendar/?ical=1",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://ovrp.net/calendar/list/?ical=1",
+          "parser": "ics",
+          "events": 1
+        },
+        {
+          "url": "https://ovrp.net/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://ovrp.net/events/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://ovrp.net/calendar/?ical=1",
+        "https://ovrp.net/calendar/list/?ical=1"
+      ],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 12
+    },
+    {
+      "source_id": "fia-mexico",
+      "club": "FIA México National Karting Championship",
+      "url": "https://www.fiamexicokarting.org/",
+      "trusted": true,
+      "country": "Mexico",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.fiamexicokarting.org/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "edkra-home",
+      "club": "Edmonton & District Kart Racing Association",
+      "url": "https://edkra.ca/",
+      "trusted": true,
+      "country": "Canada",
+      "region": "AB",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://edkra.ca/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://edkra.ca/pages/schedule-events",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "ikf-clubs",
+      "club": "International Kart Federation affiliated links",
+      "url": "https://www.ikfkarting.com/links/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://www.ikfkarting.com/links/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.ikfkarting.com/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "nka-tracks",
+      "club": "National Karting Alliance tracks and series",
+      "url": "https://www.nkaonline.com/tracks-series",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://www.nkaonline.com/tracks-series",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "asn-affiliates",
+      "club": "GDS ASN Canada affiliated members",
+      "url": "https://www.asncanada.ca/affiliated-list",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 4,
+      "pages": [
+        {
+          "url": "https://www.asncanada.ca/affiliated-list",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.asncanada.ca/fia-iracing-promotion",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.asncanada.ca/esportscalendar",
+          "parser": "html",
+          "events": 10
+        },
+        {
+          "url": "https://www.asncanada.ca/series-event-affiliation",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.asncanada.ca/s/Affiliation-Request-For-National-EventSeries.pdf",
+        "https://www.asncanada.ca/s/GDS-ASN-Kart-Club-Affiliation-Form-2024-zcez.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "ckn-clubs",
+      "club": "Canadian Karting News club directory",
+      "url": "https://www.canadiankartingnews.com/ckn-club-directory/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.canadiankartingnews.com/ckn-club-directory/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/competitions/schedule/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/clubs/calgary-kart-racing-club/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/clubs/edmonton-district-kart-racing-association/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/clubs/toronto-racing-association-of-karters-trak/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 7
+    },
+    {
+      "source_id": "ckn-tracks",
+      "club": "Canadian Karting News track directory",
+      "url": "https://www.canadiankartingnews.com/ckn-track-directory/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.canadiankartingnews.com/ckn-track-directory/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/competitions/schedule/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/tracks/warburg-racing-park/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.canadiankartingnews.com/competitions/schedule/?728adclick=22",
+          "error": "ValueError: Cross-domain redirect requires source review"
+        },
+        {
+          "url": "https://www.canadiankartingnews.com/tracks/warburg-racing-park/?728adclick=7",
+          "error": "URLError: <urlopen error timed out>"
+        }
+      ],
+      "remaining_links": 1
+    },
+    {
+      "source_id": "lead-2a75fb40bd",
+      "club": "Kartplex at Area 27",
+      "url": "https://kartplex.ca/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "BC",
+      "attempted": 4,
+      "pages": [
+        {
+          "url": "https://kartplex.ca/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartplex.ca/academy-racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartplex.ca/leagues-club-racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://kartplex.ca/groups-corporate/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-b957637853",
+      "club": "Vancouver Island Karting Association",
+      "url": "https://vika.ca/bc-regional-races/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "BC",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://vika.ca/bc-regional-races/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://vika.ca/race-calendar/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-d1c9f9004d",
+      "club": "Hamilton Regional Kart Club",
+      "url": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "trusted": false,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/?ical=1",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09&ical=1",
+          "parser": "ics",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://hamiltonkartingcomplex.com/events/list/page/2/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://hamiltonkartingcomplex.com/events/?ical=1",
+        "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09&ical=1",
+        "https://hamiltonkartingcomplex.com/events/list/?ical=1",
+        "https://hamiltonkartingcomplex.com/events/list/page/2/?ical=1"
+      ],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 33
+    },
+    {
+      "source_id": "lead-b7f285e478",
+      "club": "Lombardy Raceway",
+      "url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "trusted": false,
+      "country": "Canada",
+      "region": "ON",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=2",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://forums.kartpulse.com/c/kart-race-reports/26",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=3",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://forums.kartpulse.com/t/kart-race-reports-driver-diaries-and-schedules/3426",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 6
+    },
+    {
+      "source_id": "lead-c6c07bf0f1",
+      "club": "Club Karting Trois-Rivières",
+      "url": "https://kartingtr.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://kartingtr.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-f054670462",
+      "club": "Club de Karting de Québec",
+      "url": "https://saaskarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://saaskarting.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-0e350f57c6",
+      "club": "Ottawa Gatineau Karting Championship",
+      "url": "https://www.lecircuitquyon.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "https://www.lecircuitquyon.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.lecircuitquyon.com/corporate-group-events/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-81de8ba0b6",
+      "club": "SC Performance Karting Club",
+      "url": "https://scperformance.ca/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://scperformance.ca/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-0881b89dc0",
+      "club": "SH Karting",
+      "url": "https://www.shkarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.shkarting.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.shkarting.com/about/calendrier",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.shkarting.com/competition/sh_racing_team",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.shkarting.com/competition/sh_racing_team/sh-karting-sodikart",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.shkarting.com/competition/sh_racing_team/sh-autosport",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-0d293fa1c5",
+      "club": "TAG Académie Karting",
+      "url": "https://www.tagekarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "QC",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.tagekarting.com/",
+          "error": "HTTPError: HTTP Error 406: Not Acceptable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-dfa9031c7e",
+      "club": "Karting Club México",
+      "url": "https://kartingclubmexico.velkindatastudios.com/eventos",
+      "trusted": false,
+      "country": "Mexico",
+      "region": "Morelos",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "https://kartingclubmexico.velkindatastudios.com/eventos",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-2bc70035f8",
+      "club": "Central California Kart Racing Association",
+      "url": "https://socal-karting.com/calendar/",
+      "trusted": false,
+      "country": "USA",
+      "region": "CA",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://socal-karting.com/calendar/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://socal-karting.com/events/?ical=1",
+          "parser": "ics",
+          "events": 18
+        },
+        {
+          "url": "https://socal-karting.com/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://socal-karting.com/calendar/2027-season-planner/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://socal-karting.com/event/k1-semi-pro-junior-mini-2/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://socal-karting.com/events/?ical=1"
+      ],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 98
+    },
+    {
+      "source_id": "lead-5ce320a5b9",
+      "club": "Santa Maria Karting Association",
+      "url": "https://kartdirectory.racing/us/events/",
+      "trusted": false,
+      "country": "USA",
+      "region": "CA",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://kartdirectory.racing/us/events/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-f06671d4a6",
+      "club": "AMP Kart Racing",
+      "url": "https://amp.motorsportreg.com/events/amp-kart-racing-championship-series-round-8-atlanta-motorsports-park-763030",
+      "trusted": false,
+      "country": "USA",
+      "region": "GA",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://amp.motorsportreg.com/events/amp-kart-racing-championship-series-round-8-atlanta-motorsports-park-763030",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://amp.motorsportreg.com/calendar",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://amp.motorsportreg.com/index.cfm/event/register.start",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://amp.motorsportreg.com/calendar/karting/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://amp.motorsportreg.com/events/0D0F8CFB-F06F-8D64-1704705CE7D63030/status",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 10
+    },
+    {
+      "source_id": "lead-944deae24f",
+      "club": "Champions of the Future America",
+      "url": "https://www.championskartingamerica.com/2027-championship/",
+      "trusted": false,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.championskartingamerica.com/2027-championship/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-1ac7f4a39f",
+      "club": "Cup Karts North America",
+      "url": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
+      "trusted": false,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/schedule/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/events/2026-winter-nationals/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/event-organizer/cup-karts-north-america/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.cupkarts.com/events/2026-south-round-1/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.cupkarts.com/wp-content/uploads/2026/02/Copy-of-Copy-of-2025_Daytona_Supps-1.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2024/06/Pre-race-form-FR-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2025/03/2025-Pre-Tech-Form.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/02/2026Biloxi-Schedule.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/03/2026-Spring-Nats-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/03/Spring-Nationals-2026-Detailed-Time-rev3.1c-with-links.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/03/Copy-of-2026_Biloxi_Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-GJ-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-GJ-Time-Table.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-Pre-Tech-CKCD-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Quaker-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Quaker-Time-Table-v4.1.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-RA-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-RA-Time-Table.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/REGLEMENT-PARTICULIER-CKCD-Course-1-2-FR-2026-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/SUPPLEMENTAL-RULES-CKCD-Course-1-2-EN-2026-v0.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Brechin-race-1-2-Time-Table-Final_V0-2.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-LafayetteSupps-Final.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-East-Detailed-Time-Table-Lafayette-Final.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-Summer-Nats-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/07/Summer-Nationals-2026-MCC-Time-Table-7.29.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-Norway-Suppsv2.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-Norway-Time-Table.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-NJMP-Supps.pdf",
+        "https://www.cupkarts.com/wp-content/uploads/2026/08/2026-East-Time-Table-NJMP-v3.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2026/02/Copy-of-Copy-of-2025_Daytona_Supps-1.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2024/06/Pre-race-form-FR-v0.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2025/03/2025-Pre-Tech-Form.pdf",
+        "http://www.cupkarts.com/wp-content/uploads/2026/02/2026Biloxi-Schedule.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 23
+    },
+    {
+      "source_id": "lead-6939777da3",
+      "club": "World Karting Association",
+      "url": "https://www.worldkarting.com/daytona-kartweek/",
+      "trusted": false,
+      "country": "USA",
+      "region": "Multi",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "https://www.worldkarting.com/daytona-kartweek/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "lead-f44d9b6b3e",
+      "club": "North Texas Karters",
+      "url": "https://northtexaskarters.wildapricot.org/",
+      "trusted": false,
+      "country": "USA",
+      "region": "TX",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "https://northtexaskarters.wildapricot.org/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://northtexaskarters.wildapricot.org/event-6862962",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://northtexaskarters.wildapricot.org/event-6862949",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://northtexaskarters.wildapricot.org/event-6862962/Registration",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://northtexaskarters.wildapricot.org/event-6862949/Registration",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-468b1cc02fdd",
+      "club": "Atwater Kart Club",
+      "url": "http://atwaterkartclub.weebly.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://atwaterkartclub.weebly.com/",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-aa5f4f2712d9",
+      "club": "Big Island Kart Club",
+      "url": "http://bigislandkartclub.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://bigislandkartclub.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.bigislandkartclub.com/schedule/index.htm",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-2e91b59b10bb",
+      "club": "http://eastcoastkarting.com",
+      "url": "http://eastcoastkarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://eastcoastkarting.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.eastcoastkarting.com/corporate-events",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-b9f40b95eeab",
+      "club": "http://flamborospeedway.net",
+      "url": "http://flamborospeedway.net/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://flamborospeedway.net/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-da311040255d",
+      "club": "http://kartingjimrussell.com",
+      "url": "http://kartingjimrussell.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://kartingjimrussell.com/",
+          "error": "ValueError: Cross-domain redirect requires source review"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-42d2713d9842",
+      "club": "Lombardy Raceway Kart Club",
+      "url": "http://lrkartingclub.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "http://lrkartingclub.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://lrkartingclub.com/2026-season-schedule",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.lrkartingclub.com/2026-season-schedule/race-6-september-12-13",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.lrkartingclub.com/2026-season-schedule",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://lrkartingclub.com/2026-season-schedule/yearly-speedwaiver-all-racers-must-complete",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 10
+    },
+    {
+      "source_id": "found-8627c8c6e905",
+      "club": "http://mosportkartingcentre.com",
+      "url": "http://mosportkartingcentre.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 4,
+      "pages": [
+        {
+          "url": "http://mosportkartingcentre.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://mosportkartingcentre.com/group-events",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://mosportkartingcentre.com/calendar",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://mosportkartingcentre.com/arrive-drive",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-61e2c8cd553f",
+      "club": "Delaware Speedway",
+      "url": "http://out2win.com/tracks/delaware.html",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://out2win.com/tracks/delaware.html",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-5223dc6d1985",
+      "club": "http://pointpeleekarting.com/",
+      "url": "http://pointpeleekarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://pointpeleekarting.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-88ff416d5d77",
+      "club": "http://pointpeleekarting.com/PPKC/",
+      "url": "http://pointpeleekarting.com/PPKC/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://pointpeleekarting.com/PPKC/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/Briggs 2026 206 Rules_Final.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/PPKC_2026_Schedule.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/PPKC_Track_configs.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/2026_Sponsorships .pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2022/2022_PPKC_Membership_Application.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2022/2022_PPKC_NonDriver_Membership_Application.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2023/PPK practice membership appication.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2022/PARENTS CODE OF CONDUCT.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/SpecTires_Fuel2026.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/PPKC_Class_Structure-2026.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2021_PPKC_TAG_SR_Weights.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/POINT PELEE KARTING FORMS-2026-RaceDayEntrant.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2023/Technical_Inspection_Self.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/ASN_Kart_Medical_Self-Declaration.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/ASN_Medical_Form.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/2026/PPKC_COMPETITION_REGULATIONS 2026-3.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/Lo206_Engine_Claiming_Rule.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/PPKC_Chassis_setup_sheet.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/ppkc_gen_chassis_tuning_tips.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/PPKC_RACE_DAY_TECH_PROCEDURE.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/Race-Team-General-Safety-Check-List.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/add/TYPICAL_CLUB_RACE_DAY_SCHEDULE.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/New-Kart-Test-Questions.pdf",
+        "http://pointpeleekarting.com/PPKC/assets/pdf/PPKC_Awards_nomination_sheet.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-61c4d61363c4",
+      "club": "Poplar Grove Speedway",
+      "url": "http://poplargrovespeedway.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://poplargrovespeedway.com/",
+          "error": "ValueError: Response exceeds size limit"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-850b5d9e064e",
+      "club": "http://simcoekartclub.com/",
+      "url": "http://simcoekartclub.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://simcoekartclub.com/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-76ed1ded381d",
+      "club": "Snake River Karters",
+      "url": "http://snakeriverkarters.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://snakeriverkarters.com/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-668e985dd8f4",
+      "club": "http://sudburykartclub.com",
+      "url": "http://sudburykartclub.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://sudburykartclub.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://sudburykartclub.com/race-results/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://sudburykartclub.com/wp-content/uploads/2022/06/Fuel-Reminders-4.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2026/08/SKC-Event-Regulations-Night-Race.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2021/12/2021-Champ-Points.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2022/12/2022-champ-points-1.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2023/11/2023-champ-points.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2024/10/Official-2024-champ-points-2.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2025/10/Sudbury-Kart-Club-2025-Points-Standings.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2021/02/5w_of_karting.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2026/03/2026-Membership-Application.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2026/03/2026-SKC-Race-Registration-and-Self-Tech.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2026/03/SKC-Self-Tech.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Supplementary-Regulations-2026.pdf",
+        "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-a2443986a69f",
+      "club": "http://www.3sgokartsinternational.com/",
+      "url": "http://www.3sgokartsinternational.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.3sgokartsinternational.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "http://www.3sgokartsinternational.com/3S_TRACK_OFFER.pdf",
+        "http://www.3sgokartsinternational.com/mkc_sched08.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-6b5f70b0a0e9",
+      "club": "http://www.campingh2o.com/karting-accueil/",
+      "url": "http://www.campingh2o.com/karting-accueil/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.campingh2o.com/karting-accueil/",
+          "error": "ValueError: Cross-domain redirect requires source review"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-3a169c66e177",
+      "club": "Colorado Junior Karting Club",
+      "url": "http://www.coloradojuniorkartingclub.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.coloradojuniorkartingclub.com/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-bd1bd0ace92d",
+      "club": "http://www.gamebridgegokarts.com/",
+      "url": "http://www.gamebridgegokarts.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.gamebridgegokarts.com/",
+          "error": "TimeoutError: timed out"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-762dd309afdc",
+      "club": "Toronto Kart Club",
+      "url": "http://www.gamebridgegokarts.com/club-racing/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "http://www.gamebridgegokarts.com/club-racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://gamebridgegokarts.com/events/?ical=1",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://gamebridgegokarts.com/club-racing/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://gamebridgegokarts.com/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://gamebridgegokarts.com/bmp-racing-school/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [
+        "https://gamebridgegokarts.com/events/?ical=1"
+      ],
+      "documents": [
+        "https://gamebridgegokarts.com/wp-content/uploads/2026/03/TKC-2026-Schedule-260312-2.pdf",
+        "https://gamebridgegokarts.com/wp-content/uploads/2026/03/TKC-2026-Supplemental-Rules-260312.pdf",
+        "http://gamebridgegokarts.com/wp-content/uploads/2022/05/fillable-TECH-FORM_Technical_Inspection_Self-Declaration_Form.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 3
+    },
+    {
+      "source_id": "found-727f4012de9d",
+      "club": "http://www.innisfilkartclub.ca/",
+      "url": "http://www.innisfilkartclub.ca/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.innisfilkartclub.ca/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_44e69bde5cf34baa875f8a204838adfe.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_07ba38664c794304a7551966b4b97da7.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_d2bd3b46f9a24dd1999969ac316a8070.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_28e6ff0cbc7c46b99637e869b787cdae.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_42473ba5d406459eaa6ccae342e67762.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_7886fb44866e4db3a1577e6ab7a23bdd.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_2d1657d154f14ecaabd480cb9a138f37.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_43b378a93676435abf6cf1113729225c.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_c0a69e693ee7430fa33cdae62f0ec030.pdf",
+        "https://www.innisfilkartclub.ca/_files/ugd/05fd1c_82539e49d7e84bb0b1a047bd4428eaf7.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-1036f9dc4ac4",
+      "club": "http://www.kartingpaintballthetford.ca",
+      "url": "http://www.kartingpaintballthetford.ca/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.kartingpaintballthetford.ca/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-68d7e04cf79c",
+      "club": "http://www.kartingquebec.ca",
+      "url": "http://www.kartingquebec.ca/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.kartingquebec.ca/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-c4a5f22681a0",
+      "club": "http://www.kawarthadurhamkartclub.com",
+      "url": "http://www.kawarthadurhamkartclub.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.kawarthadurhamkartclub.com/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-ced8a2c4f568",
+      "club": "http://www.kcr-karting.com/",
+      "url": "http://www.kcr-karting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://www.kcr-karting.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.kcr-karting.com/course-club-kcr-karting-cckk",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.kcr-karting.com/_files/ugd/caa93d_a1052ac5f44f4eb5b0c326580996b1dd.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-87b53668b46c",
+      "club": "Kerman Kart Club",
+      "url": "http://www.kermankartclub.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.kermankartclub.com/",
+          "error": "HTTPError: HTTP Error 503: Service Unavailable"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-faef0060f840",
+      "club": "Los Angeles Kart Club",
+      "url": "http://www.lakc.org/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.lakc.org/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-aee2f796f852",
+      "club": "http://www.lelievrekarting.com/",
+      "url": "http://www.lelievrekarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.lelievrekarting.com/",
+          "error": "ValueError: Cross-domain redirect requires source review"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-792366c8cf55",
+      "club": "Northern California Karters",
+      "url": "http://www.nckroadracing.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.nckroadracing.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-687328084df9",
+      "club": "Newton Kart Club",
+      "url": "http://www.newtonkartklub.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://www.newtonkartklub.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.newtonkartklub.com/2021-kart-schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-019c0e69cfe0",
+      "club": "http://www.peterboroughkartway.com",
+      "url": "http://www.peterboroughkartway.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.peterboroughkartway.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-238e342bfe07",
+      "club": "Portland Karting Association",
+      "url": "http://www.portlandkarting.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "http://www.portlandkarting.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.portlandkarting.com/kart-sprint-racing",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.portlandkarting.com/moto-racing",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.portlandkarting.com/calendar",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.portlandkarting.com/kart-racing",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 7
+    },
+    {
+      "source_id": "found-874867ddf340",
+      "club": "http://www.saskatoonkartracers.com/",
+      "url": "http://www.saskatoonkartracers.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "http://www.saskatoonkartracers.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.saskatoonkartracers.com/eventInfo/476512.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.saskatoonkartracers.com/eventInfo/476651.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.saskatoonkartracers.com/eventInfo/476686.html",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.saskatoonkartracers.com/eventInfo/477027.html",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 96
+    },
+    {
+      "source_id": "found-e285b2be6cdf",
+      "club": "http://www.saskkartclub.com/",
+      "url": "http://www.saskkartclub.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.saskkartclub.com/",
+          "error": "ValueError: robots.txt disallows retrieval"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-96a01950d49a",
+      "club": "Shasta Kart Club",
+      "url": "http://www.shastakartklub.com/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.shastakartklub.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-7edc141884ee",
+      "club": "http://www.shkarting.com",
+      "url": "http://www.shkarting.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "http://www.shkarting.com/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.shkarting.com/about/calendrier",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.shkarting.com/competition/sh_racing_team",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.shkarting.com/competition/sh_racing_team/sh-karting-sodikart",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.shkarting.com/competition/sh_racing_team/sh-autosport",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-6ee8d6cf0a71",
+      "club": "Santa Maria Karting Association",
+      "url": "http://www.smka.org/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 5,
+      "pages": [
+        {
+          "url": "http://www.smka.org/",
+          "parser": "html",
+          "events": 1
+        },
+        {
+          "url": "http://www.smka.org/club-schedule/?ical=1",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.smka.org/wp-json/tribe/events/v1/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.smka.org/club-schedule/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "http://www.smka.org/the-track/race-day-info/",
+          "parser": "html",
+          "events": 1
+        }
+      ],
+      "feeds": [
+        "http://www.smka.org/club-schedule/?ical=1",
+        "https://www.smka.org/club-schedule/month/?ical=1"
+      ],
+      "documents": [
+        "http://www.smka.org/wp-content/uploads/PRELIMINARY-2026-SMKA-Club-Racing-Season-Points-through-RACE-7.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 15
+    },
+    {
+      "source_id": "found-f805bc3b732d",
+      "club": "Southern Oregon Karters",
+      "url": "http://www.sokarters.org/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 1,
+      "pages": [],
+      "feeds": [],
+      "documents": [],
+      "errors": [
+        {
+          "url": "http://www.sokarters.org/",
+          "error": "TimeoutError: timed out"
+        }
+      ],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-067191b0419f",
+      "club": "Spokane Kart Racing Association",
+      "url": "http://www.spokanekarting.org/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://www.spokanekarting.org/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.spokanekarting.org/racing-schedule/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.spokanekarting.org/wp-content/uploads/2026/05/Pit-Request-Form-2026-1.pdf",
+        "https://www.spokanekarting.org/wp-content/uploads/2026/05/2026-SKRA-Rules-Final-2026-Shane-Edit.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-eca6095fdd72",
+      "club": "http://www.sudburykartways.com/",
+      "url": "http://www.sudburykartways.com/",
+      "trusted": false,
+      "country": "Canada",
+      "region": "",
+      "attempted": 1,
+      "pages": [
+        {
+          "url": "http://www.sudburykartways.com/",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [],
+      "errors": [],
+      "remaining_links": 0
+    },
+    {
+      "source_id": "found-6b3071f54ddf",
+      "club": "Tri-City Kart Club",
+      "url": "http://www.tckc.net/",
+      "trusted": false,
+      "country": "USA",
+      "region": "",
+      "attempted": 2,
+      "pages": [
+        {
+          "url": "http://www.tckc.net/",
+          "parser": "html",
+          "events": 0
+        },
+        {
+          "url": "https://www.tckc.net/schedule",
+          "parser": "html",
+          "events": 0
+        }
+      ],
+      "feeds": [],
+      "documents": [
+        "https://www.tckc.net/_files/ugd/a7db0c_d7d087f235f649c8831c1bd201e7854e.pdf",
+        "https://www.tckc.net/_files/ugd/a7db0c_04ba348ee8c241c3b4270c1fde933869.pdf"
+      ],
+      "errors": [],
+      "remaining_links": 0
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://edkra.ca/pages/schedule-events",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.westcoastkartclub.ca/schedule",
+      "error": "ValueError: Response exceeds size limit"
+    },
+    {
+      "url": "https://coupedemontreal.com/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.uspks.com/schedule/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.championskartingamerica.com/mexico-series/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.uspks.com/2026-recap-a-letter-from-the-race-director/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://maxchallenge.ca/events2/",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-1-Practice-Schedule.doc",
+      "error": "ValueError: Unsupported content type: application/msword"
+    },
+    {
+      "url": "https://badgerkartclub.com/",
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "url": "https://edkra.ca/pages/schedule-events",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.canadiankartingnews.com/competitions/schedule/?728adclick=22",
+      "error": "ValueError: Cross-domain redirect requires source review"
+    },
+    {
+      "url": "https://www.canadiankartingnews.com/tracks/warburg-racing-park/?728adclick=7",
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "url": "https://www.tagekarting.com/",
+      "error": "HTTPError: HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://kartdirectory.racing/us/events/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.championskartingamerica.com/2027-championship/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.worldkarting.com/daytona-kartweek/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://atwaterkartclub.weebly.com/",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://kartingjimrussell.com/",
+      "error": "ValueError: Cross-domain redirect requires source review"
+    },
+    {
+      "url": "http://out2win.com/tracks/delaware.html",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "http://poplargrovespeedway.com/",
+      "error": "ValueError: Response exceeds size limit"
+    },
+    {
+      "url": "http://simcoekartclub.com/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://snakeriverkarters.com/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.campingh2o.com/karting-accueil/",
+      "error": "ValueError: Cross-domain redirect requires source review"
+    },
+    {
+      "url": "http://www.coloradojuniorkartingclub.com/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.gamebridgegokarts.com/",
+      "error": "TimeoutError: timed out"
+    },
+    {
+      "url": "http://www.kartingpaintballthetford.ca/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.kartingquebec.ca/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.kawarthadurhamkartclub.com/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.kermankartclub.com/",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "http://www.lelievrekarting.com/",
+      "error": "ValueError: Cross-domain redirect requires source review"
+    },
+    {
+      "url": "http://www.saskkartclub.com/",
+      "error": "ValueError: robots.txt disallows retrieval"
+    },
+    {
+      "url": "http://www.sokarters.org/",
+      "error": "TimeoutError: timed out"
+    }
+  ],
+  "targeted_verification": {
+    "checked_at": "2026-10-19T02:27:22+00:00",
+    "sources": [
+      {
+        "source_id": "wckc-events",
+        "club": "West Coast Kart Club",
+        "url": "https://www.westcoastkartclub.ca/events",
+        "trusted": true,
+        "country": "Canada",
+        "region": "BC",
+        "attempted": 1,
+        "pages": [],
+        "feeds": [],
+        "documents": [],
+        "errors": [
+          {
+            "url": "https://www.westcoastkartclub.ca/events",
+            "error": "URLError: <urlopen error timed out>"
+          }
+        ],
+        "remaining_links": 0
+      },
+      {
+        "source_id": "goodwood-trak",
+        "club": "Toronto Racing Association of Karters",
+        "url": "https://goodwoodkartways.com/trak/",
+        "trusted": true,
+        "country": "Canada",
+        "region": "ON",
+        "attempted": 5,
+        "pages": [
+          {
+            "url": "https://goodwoodkartways.com/trak/",
+            "parser": "html",
+            "events": 0,
+            "digest": "5f62462234e3fe36fb6037fa6e17d742843d40f6c7238254bcf46a57a89faeda"
+          },
+          {
+            "url": "https://goodwoodkartways.com/wp-json/tribe/events/v1/",
+            "parser": "html",
+            "events": 0,
+            "digest": "10f6629d05ef76c13335fa9c18f668d5383c090a4a5d1a21da2e67d169a19080"
+          },
+          {
+            "url": "https://goodwoodkartways.com/group-events/",
+            "parser": "html",
+            "events": 0,
+            "digest": "d1fcaf3982722c91d954fc44a504806d7b6d7039d1e74374c0972301453e7780"
+          },
+          {
+            "url": "http://goodwoodkartways.com/?post_type=tribe_events",
+            "parser": "html",
+            "events": 1,
+            "digest": "c63061e77215d44aa986ab1704f9c902dbf1c80d073007d79c18b9c9a5b95a91"
+          },
+          {
+            "url": "https://goodwoodkartways.com/events/?ical=1",
+            "parser": "ics",
+            "events": 0,
+            "digest": "c37d9736364cd8e927e9975050001fe25cd18cc2b1085e93567e84a2d7cc5d98"
+          }
+        ],
+        "feeds": [
+          "https://goodwoodkartways.com/events/?ical=1"
+        ],
+        "documents": [
+          "https://goodwoodkartways.com/wp-content/uploads/2025/12/2026_TRAK_INSTRUCTIONS.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2025/12/2026_TRAK_Membership_Application.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Medical-1.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/07/2026_TRAK_Schedule_Final_07.01.26.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Supplements-4-8-2026.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Class-Structure.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-ASN-CDN-Karting-Regulations-Book-1-Sporting.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-ASN-CDN-Karting-Regulations-Book-2-Technical.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/Briggs-2026-206-Rules_Final.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Self-Technical-Declaration-1.pdf",
+          "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Entry-Form-1.pdf"
+        ],
+        "errors": [],
+        "remaining_links": 86
+      },
+      {
+        "source_id": "ovrp",
+        "club": "Oakland Valley Race Park",
+        "url": "https://ovrp.net/calendar/list/",
+        "trusted": true,
+        "country": "USA",
+        "region": "NY",
+        "attempted": 5,
+        "pages": [
+          {
+            "url": "https://ovrp.net/calendar/list/",
+            "parser": "html",
+            "events": 1,
+            "digest": "6e877939e59b8e987b33639c0bfffe0761ebadec68116fe19f4ef647eb46b11f"
+          },
+          {
+            "url": "https://ovrp.net/calendar/?ical=1",
+            "parser": "ics",
+            "events": 0,
+            "digest": "c96c53d6fa4ce000e9f2c5cbdb318be4cb9c9aa84431df9ca25433539fd7dc72"
+          },
+          {
+            "url": "https://ovrp.net/calendar/list/?ical=1",
+            "parser": "ics",
+            "events": 1,
+            "digest": "8eeb40281a4c1480db19c5cdbfc219a9ae12ec89a2ed2f0bbb23b02dd2f950aa"
+          },
+          {
+            "url": "https://ovrp.net/wp-json/tribe/events/v1/",
+            "parser": "html",
+            "events": 0,
+            "digest": "0b3677516ddaf68dca7af0b2c9f9ace33785b296c6131618f31e14217930dc46"
+          },
+          {
+            "url": "https://ovrp.net/events/",
+            "parser": "html",
+            "events": 0,
+            "digest": "687dc3b476698921ed61a2da47a746f9c0332f34b9b406c6e460f3e2d7530d22"
+          }
+        ],
+        "feeds": [
+          "https://ovrp.net/calendar/?ical=1",
+          "https://ovrp.net/calendar/list/?ical=1"
+        ],
+        "documents": [],
+        "errors": [],
+        "remaining_links": 12
+      }
+    ],
+    "changes": []
+  }
+}
