@@ -40,7 +40,7 @@
       const {xy,events:atLocation}=group;bounds.push(xy);
       const n=atLocation.length;
       const marker=L.marker(xy,{icon:L.divIcon({
-        className:'kart-map-marker',html:'<span class="kart-map-pin'+(n>1?' kart-map-pin-group':'')+'">'+(n>1?n:'<span class="kart-map-pin-dot"></span>')+'</span>',
+        className:'kart-map-marker',html:'<span class="kart-map-pin'+(n>1?' kart-map-pin-group':'')+'" data-count="'+n+'">'+(n>1?n:'<span class="kart-map-pin-dot"></span>')+'</span>',
         iconSize:[38,44],iconAnchor:[19,40],popupAnchor:[0,-35]
       })}).addTo(mapLayer);
       const popup=document.createElement('div');popup.className='kart-map-popup';
