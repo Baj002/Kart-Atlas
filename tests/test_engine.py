@@ -175,6 +175,14 @@ class ScanTests(unittest.TestCase):
         result=scan_source(SOURCE,fetch,TODAY,max_pages=2)
         self.assertEqual(len(calls),2);self.assertEqual(len(result['events']),1)
         self.assertEqual(len(result['errors']),1);self.assertEqual(result['remaining_links'],1)
+    def test_new_and_deferred_links_do_not_starve_behind_previously_checked_links(self):
+        calls=[]
+        def fetch(url):
+            calls.append(url)
+            return page()+'<a href="/events/old">Race</a><a href="/events/new">Race</a>' if url==SOURCE['url'] else page()
+        result=scan_source(SOURCE,fetch,TODAY,2,{'https://club.example/events/old':'2026-10-19'})
+        self.assertEqual(calls,[SOURCE['url'],'https://club.example/events/new'])
+        self.assertEqual(result['remaining_links'],1)
     def test_robots_refusal_never_fetches_content(self):
         from urllib.robotparser import RobotFileParser
         client=PublicClient(0);rp=RobotFileParser();rp.parse(['User-agent: *','Disallow: /'])

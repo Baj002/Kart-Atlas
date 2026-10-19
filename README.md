@@ -4,7 +4,7 @@ Public, installable North American kart racing calendar for Canada, USA and Mexi
 
 ## Discovery and publication
 
-`python -m scripts.discover_events` scans configured organizer sources, distinct directory websites, federation/industry directories, and a rotating batch of previously discovered websites. Each source has a bounded crawl (default five pages), following same-domain calendar/event links. Sources on different hosts are scanned concurrently; requests on each host are serialized, rate limited and checked against robots.txt. Retrieval errors preserve published data.
+`python -m scripts.discover_events` scans configured organizer sources, distinct directory websites, federation/industry directories, and a rotating batch of previously discovered websites. Each source has a bounded crawl (default five pages), following same-domain calendar/event links. Roots are checked daily; unseen and least-recently-attempted linked pages rotate ahead of previously checked pages so scan limits do not permanently starve deeper links. Sources on different hosts are scanned concurrently; requests on each host are serialized, rate limited and checked against robots.txt. Retrieval errors preserve published data.
 
 Supported data:
 

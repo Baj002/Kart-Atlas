@@ -298,7 +298,8 @@ def reconcile(stored, observations, now):
         existing[e['id']]=e;canonical_ids[identity(e)]=e['id']
     return sorted(existing.values(),key=lambda e:(e['start'],e['name'])),changes
 
-def scan_source(source,fetcher,today,max_pages=5):
+def scan_source(source,fetcher,today,max_pages=5,page_last_checked=None):
+    page_last_checked=page_last_checked or {}
     queue=[source['url']];seen=set();events=[];leads=[];feeds=[];errors=[];documents=[];pages=[]
     # Roots first, then feeds and calendar/detail links. Strict page budget per source.
     while queue and len(seen)<max_pages:
@@ -323,8 +324,8 @@ def scan_source(source,fetcher,today,max_pages=5):
                 pages.append({'url':url,'parser':'html','events':len(result['events']),'digest':hashlib.sha256(visible_text(raw).encode()).hexdigest()})
                 feeds.extend(result['feeds'])
                 # Feed links for race-named paths first; avoid using the budget on meetings.
-                candidates=sorted(result['feeds'],key=lambda u:0 if RACING.search(urlsplit(u).path.replace('-',' ')) else 1)
-                queue.extend(u for u in candidates+result['links'] if u not in seen and u not in queue)
+                candidates=sorted(result['feeds']+result['links'],key=lambda u:(page_last_checked.get(u,''),0 if feed_url(u) and RACING.search(urlsplit(u).path.replace('-',' ')) else 1))
+                queue.extend(u for u in candidates if u not in seen and u not in queue)
         except (OSError,ValueError,UnicodeError,HTTPException) as exc:errors.append({'url':url,'error':f'{type(exc).__name__}: {exc}'[:240]})
     print(f"Scan {source['id']}: {len(pages)}/{len(seen)} pages, {len(events)} race observations, {len(errors)} errors",flush=True)
     return {'source_id':source['id'],'club':source['club'],'url':source['url'],'trusted':bool(source.get('trusted')),
@@ -357,8 +358,12 @@ def run(root=ROOT,fetcher=None,today=None,workers=6):
         if not url or url in known:continue
         known.add(url);sources.append(dict(lead,id='found-'+hashlib.sha1(url.encode()).hexdigest()[:12],trusted=False))
     client=fetcher or PublicClient()
+    state_path=root/'data/source_state.json'
+    state=json.loads(state_path.read_text()) if state_path.exists() else {}
+    page_state=state.setdefault('discovery_pages',{})
+    last_checked={url:value.get('last_attempt',value.get('last_success','')) for url,value in page_state.items()}
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        results=list(pool.map(lambda s:scan_source(s,client,today,settings.get('max_pages_per_source',5)),sources))
+        results=list(pool.map(lambda s:scan_source(s,client,today,settings.get('max_pages_per_source',5),last_checked),sources))
     observations=[];candidates=[];lead_index={clean_url(l['url']):dict(l) for l in prior};feed_candidates=[]
     for r in results:
         for lead in r['leads']:
@@ -379,19 +384,19 @@ def run(root=ROOT,fetcher=None,today=None,workers=6):
     dump(auto_path,auto);dump(leads_path,{'updated':now,'sources':list(lead_index.values())})
     previous_path=root/'reports/discovery.json'
     previous=json.loads(previous_path.read_text()) if previous_path.exists() else {}
-    state_path=root/'data/source_state.json'
-    state=json.loads(state_path.read_text()) if state_path.exists() else {}
-    page_state=state.setdefault('discovery_pages',{})
     old_digests={p['url']:p.get('digest') for s in previous.get('sources',[]) for p in s['pages']}
-    old_digests.update({url:value['digest'] for url,value in page_state.items()})
+    old_digests.update({url:value['digest'] for url,value in page_state.items() if value.get('digest')})
     content_changes=[]
     for result in results:
         for item in result['pages']:
             old=old_digests.get(item['url'])
-            if item.get('digest'):page_state[item['url']]={'digest':item['digest'],'last_success':now}
+            if item.get('digest'):page_state[item['url']]={'digest':item['digest'],'last_success':now,'last_attempt':now}
             if old and old!=item.get('digest'):
                 content_changes.append({'url':item['url'],'club':result['club'],'race_observations':item['events'],
                     'note':'Page content changed; changes outside supported structured fields need review.'})
+    for result in results:
+        for error in result['errors']:
+            page_state.setdefault(error['url'],{})['last_attempt']=now
     dump(state_path,state)
     public_results=[{k:v for k,v in r.items() if k not in ('events','leads')} for r in results]
     report={'checked_at':now,'sources_checked':sum(bool(r['pages']) for r in results),'sources_attempted':len(sources),
