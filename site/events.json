@@ -2150,7 +2150,7 @@
       "notes": "Registration listed open by organizer; event 9 AM to 5 PM; see organizer for rules and eligibility.",
       "id": "52b68b85126a",
       "status": "scheduled",
-      "last_verified": "2026-10-19T02:20:34+00:00",
+      "last_verified": "2026-10-19T02:30:51+00:00",
       "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632"
     },
     {
@@ -2313,8 +2313,8 @@
       "location_needs_review": false,
       "id": "auto-e9959bcfb5763ab0",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-19T02:27:22+00:00",
-      "last_verified": "2026-10-19T02:27:22+00:00"
+      "last_seen": "2026-10-19T02:30:51+00:00",
+      "last_verified": "2026-10-19T02:30:51+00:00"
     },
     {
       "start": "2026-11-07",

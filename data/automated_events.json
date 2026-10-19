@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T02:27:22+00:00",
+  "updated": "2026-10-19T02:30:51+00:00",
   "events": [
     {
       "id": "auto-5a738b3178cb",
@@ -52,6 +52,7 @@
       "uid": "/events/wckc-2026-fall-endurance-race",
       "feed_id": "wckc-events",
       "status": "scheduled",
+      "status_explicit": false,
       "format": "Endurance",
       "level": "Club",
       "verification": "Automated",
@@ -63,8 +64,8 @@
       "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632",
       "id": "auto-711b6ca5b585ec1f",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-19T02:20:34+00:00",
-      "last_verified": "2026-10-19T02:20:34+00:00"
+      "last_seen": "2026-10-19T02:30:51+00:00",
+      "last_verified": "2026-10-19T02:30:51+00:00"
     },
     {
       "name": "NYS CHAMPIONSHIP/CLUB RACE #15",
@@ -90,8 +91,8 @@
       "location_needs_review": false,
       "id": "auto-0fc6a96508f2aeed",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-19T02:27:22+00:00",
-      "last_verified": "2026-10-19T02:27:22+00:00"
+      "last_seen": "2026-10-19T02:30:51+00:00",
+      "last_verified": "2026-10-19T02:30:51+00:00"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -117,8 +118,8 @@
       "location_needs_review": false,
       "id": "auto-e9959bcfb5763ab0",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-19T02:27:22+00:00",
-      "last_verified": "2026-10-19T02:27:22+00:00"
+      "last_seen": "2026-10-19T02:30:51+00:00",
+      "last_verified": "2026-10-19T02:30:51+00:00"
     }
   ]
 }
