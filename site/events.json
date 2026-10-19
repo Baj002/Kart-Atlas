@@ -1926,23 +1926,6 @@
       "id": "cf7df8dc04d3"
     },
     {
-      "start": "2026-10-17",
-      "end": "2026-10-17",
-      "name": "Ohio Mini RoadRacing League",
-      "organizer": "Ohio Mini RoadRacing League",
-      "venue": "G&J Kartway",
-      "city": "Camden",
-      "region": "OH",
-      "country": "USA",
-      "level": "Regional",
-      "format": "Sprint",
-      "verification": "Secondary",
-      "classes": "",
-      "source": "https://kartcal.com/",
-      "notes": "Date on KartCal; follow organizer listing.",
-      "id": "f9f221e347b6"
-    },
-    {
       "id": "auto-5a738b3178cb",
       "uid": "17896-1792231200-1792252800@goodwoodkartways.com",
       "feed_id": "goodwood-ics",
@@ -2083,23 +2066,6 @@
       "id": "9737e6db2c46"
     },
     {
-      "start": "2026-10-24",
-      "end": "2026-10-25",
-      "name": "Canadian Mini Indy Championship",
-      "organizer": "Canadian Mini Indy",
-      "venue": "Hamilton Karting Complex",
-      "city": "Mount Hope",
-      "region": "ON",
-      "country": "Canada",
-      "level": "Club",
-      "format": "Rental competition",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
-      "notes": "Arrive-and-drive championship; separate from owner-driver club racing.",
-      "id": "abdedb9f7289"
-    },
-    {
       "id": "auto-d92149c5d4385545",
       "uid": "FE7BE8E7-FE53-4858-88F8-62E6800E531F",
       "feed_id": "gulf-coast-races",
@@ -2125,8 +2091,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-10-24",
@@ -2145,7 +2111,7 @@
       "notes": "",
       "id": "75745d76873f",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -2173,8 +2139,8 @@
       "pdf_page": 1,
       "id": "auto-8238b76b8c8187ca",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "OSKCS - Race 10 @ PARC",
@@ -2201,25 +2167,8 @@
       "publication_needs_review": false,
       "id": "auto-4398fc7bb365e862",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
-    },
-    {
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "name": "So Cal Dirt Karters Race 9",
-      "organizer": "So Cal Dirt Karters",
-      "venue": "Perris Raceway",
-      "city": "Perris",
-      "region": "CA",
-      "country": "USA",
-      "level": "Club",
-      "format": "Dirt oval",
-      "verification": "Secondary",
-      "classes": "",
-      "source": "https://socal-karting.com/calendar/",
-      "notes": "",
-      "id": "b46096a7bbf3"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-10-24",
@@ -2238,7 +2187,7 @@
       "notes": "Registration listed open by organizer; event 9 AM to 5 PM; see organizer for rules and eligibility.",
       "id": "52b68b85126a",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00",
       "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632"
     },
     {
@@ -2267,8 +2216,8 @@
       "pdf_page": 1,
       "id": "auto-5ed26f4c968d1895",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "id": "auto-98bfd5f7525f6e76",
@@ -2296,8 +2245,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-10-25",
@@ -2342,8 +2291,8 @@
       "pdf_page": 1,
       "id": "auto-a0e60aabbb324bc5",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-10-28",
@@ -2361,57 +2310,6 @@
       "source": "https://rokcupusa.com/calendar/",
       "notes": "",
       "id": "9061cdffd7f0"
-    },
-    {
-      "start": "2026-10-30",
-      "end": "2026-10-30",
-      "name": "AMP Ironman Race Under the Lights",
-      "organizer": "Atlanta Motorsports Park",
-      "venue": "Atlanta Motorsports Park",
-      "city": "Dawsonville",
-      "region": "GA",
-      "country": "USA",
-      "level": "Club",
-      "format": "Endurance",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://amp.motorsportreg.com/",
-      "notes": "Check whether rental or owner karts are eligible.",
-      "id": "622f1eb6ed1d"
-    },
-    {
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "name": "AMP Halloween 2-Hour Enduro",
-      "organizer": "Atlanta Motorsports Park",
-      "venue": "Atlanta Motorsports Park",
-      "city": "Dawsonville",
-      "region": "GA",
-      "country": "USA",
-      "level": "Club",
-      "format": "Endurance",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://amp.motorsportreg.com/",
-      "notes": "Format and entry rules on event registration.",
-      "id": "fbd115d5b8ee"
-    },
-    {
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "name": "AMP Halloween 4-Hour Enduro",
-      "organizer": "Atlanta Motorsports Park",
-      "venue": "Atlanta Motorsports Park",
-      "city": "Dawsonville",
-      "region": "GA",
-      "country": "USA",
-      "level": "Club",
-      "format": "Endurance",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://amp.motorsportreg.com/",
-      "notes": "Format and entry rules on event registration.",
-      "id": "3a9ce8245ca6"
     },
     {
       "start": "2026-10-31",
@@ -2456,8 +2354,8 @@
       "pdf_page": 1,
       "id": "auto-021cc4fafc417b71",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Club Kart Race #11",
@@ -2485,8 +2383,8 @@
       "pdf_page": 1,
       "id": "auto-52a52fd438a78958",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-11-01",
@@ -2522,7 +2420,7 @@
       "notes": "",
       "id": "bf89c2c303a6",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -2594,8 +2492,8 @@
       "pdf_page": 1,
       "id": "auto-1b9b2a76931a3cb1",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
@@ -2623,8 +2521,8 @@
       "shared_source_url": true,
       "id": "auto-8001844098aeccbc",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Club Kart Race #12",
@@ -2652,8 +2550,8 @@
       "pdf_page": 1,
       "id": "auto-f9e296631f4bb0b4",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-11-08",
@@ -2732,8 +2630,8 @@
       "pdf_page": 1,
       "id": "auto-ee0faec5e411a5c8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-11-15",
@@ -2752,7 +2650,7 @@
       "notes": "",
       "id": "5b1f9274ffb2",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-11-21",
@@ -2814,8 +2712,8 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 1",
@@ -2843,8 +2741,8 @@
       "shared_source_url": true,
       "id": "auto-5ab78f8c44c0cc97",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "AMR Karting Challenge",
@@ -2872,8 +2770,8 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "id": "auto-fee3fbd995363934",
@@ -2901,8 +2799,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Campeonato Kart Monterrey — SEXTA ETAPA",
@@ -2930,8 +2828,8 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-12-04",
@@ -2967,7 +2865,7 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 2",
@@ -2995,8 +2893,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "id": "auto-428c82650c5b3a5b",
@@ -3024,8 +2922,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "name": "Spring Mountain Karting Series Race",
@@ -3053,8 +2951,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-12-19",
@@ -3099,8 +2997,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2026-12-20",
@@ -3119,24 +3017,26 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
-      "start": "2026-12-27",
+      "start": "2026-12-29",
       "end": "2026-12-30",
-      "name": "WKA Daytona KartWeek",
+      "name": "WKA Daytona KartWeek — Circuit Karting",
       "organizer": "World Karting Association",
       "venue": "Daytona International Speedway",
       "city": "Daytona Beach",
       "region": "FL",
       "country": "USA",
       "level": "National",
-      "format": "Sprint / Road / Dirt",
+      "format": "Sprint",
       "verification": "Official",
-      "classes": "",
-      "source": "https://www.worldkarting.com/daytona-kartweek/",
-      "notes": "Multiple disciplines; official event window is Dec 27–30.",
-      "id": "17f87c6b741a"
+      "classes": "Briggs LO206; Micro Swift; Mini Swift; KA100",
+      "source": "https://www.worldkarting.com/daytona-kartweek/daytona-kartweek-sprint/",
+      "notes": "Circuit-kart race days December 29–30. Move-in December 27; practice and qualifying December 28. Excludes separate dirt and long-circuit road-racing programs.",
+      "id": "17f87c6b741a",
+      "registration_url": "https://raceselect.com/wka/2027?tag=sprint",
+      "last_verified": "2026-10-19"
     },
     {
       "start": "2027-01-01",
@@ -3172,7 +3072,7 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-01-16",
@@ -3191,7 +3091,7 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-01-16",
@@ -3256,8 +3156,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-01-30",
@@ -3302,8 +3202,8 @@
       "shared_source_url": true,
       "id": "auto-848b4674958d8a2c",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-02-07",
@@ -3322,7 +3222,7 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-02-12",
@@ -3378,7 +3278,7 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-02-26",
@@ -3474,8 +3374,8 @@
       "shared_source_url": true,
       "id": "auto-7f743ae877800c6a",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-03-07",
@@ -3494,7 +3394,7 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-03-12",
@@ -3598,7 +3498,7 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-03-27",
@@ -3677,8 +3577,8 @@
       "shared_source_url": true,
       "id": "auto-6188fc3542bffd68",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-04-09",
@@ -3714,7 +3614,7 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-04-16",
@@ -3810,8 +3710,8 @@
       "shared_source_url": true,
       "id": "auto-130e269a27a7320a",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-05-08",
@@ -3992,8 +3892,8 @@
       "shared_source_url": true,
       "id": "auto-5ce58e5ac05d3599",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-06-11",
@@ -4174,8 +4074,8 @@
       "shared_source_url": true,
       "id": "auto-af58ed7d7f82f348",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-08-06",
@@ -4322,8 +4222,8 @@
       "shared_source_url": true,
       "id": "auto-e5a00bbe9cc1a217",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-09-11",
@@ -4453,8 +4353,8 @@
       "shared_source_url": true,
       "id": "auto-7204c453b328d0fb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-19T18:00:53+00:00",
-      "last_verified": "2026-10-19T18:00:53+00:00"
+      "last_seen": "2026-10-19T18:41:49+00:00",
+      "last_verified": "2026-10-19T18:41:49+00:00"
     },
     {
       "start": "2027-10-09",

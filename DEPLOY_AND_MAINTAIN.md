@@ -18,6 +18,10 @@ A successful workflow does not mean every source succeeded. Inspect `reports/cov
 
 ## Source maintenance
 
+Keep every source within competition circuit karting. Scope rules are centralized in `scripts/racing_scope.py`; reviewed ID-level exclusions/corrections live in `data/racing_scope.json`. Add source bindings and explicit aliases to `data/organizers.json` when adding a monitor. The validator rejects duplicate source ownership, ambiguous aliases and missing bindings. Update `reports/organizer_coverage.json` through the build pipeline, not by hand. The registry distinguishes research leads from verified organizer sources.
+
+Review `health_alerts` and `source_health` in `reports/discovery.json` for repeated fetch failures, unexpected empty calendars, observation drops and unreadable PDF notices. Disappeared events remain expected until their dates pass or an explicit status change is observed. No website failure is a cancellation. Use evidence URLs and review dates for season declarations; absence of future dates is not proof a season ended or next year is unannounced.
+
 1. Check new website leads in `data/discovered_sources.json` against the actual organizer website and its current location. Historical directory links can expire or change ownership.
 2. Add verified organizer sources to `data/monitor_sources.json` with a unique ID, URL, organizer name, venue, city, region and country. Specify an IANA timezone for ICS feeds with UTC timestamps (for example `America/Vancouver` for WCKC). Multi-venue series need event-specific locations.
 3. Set legacy `mode: watch` and `auto_import: false` for HTML sources. Production discovery uses structured data from verified sources regardless of that legacy field.

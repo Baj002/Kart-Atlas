@@ -25,6 +25,8 @@ from scripts.schedule_tables import row_event
 from scripts.pdf_schedules import extract_pdf
 from scripts.platform_calendars import extract_raceselect
 from scripts.text_schedules import extract_text_schedule
+from scripts.racing_scope import load_policy,event_scope_reason,source_scope_reason
+from scripts.source_health import update_health
 from scripts.check_sources import AGENT, LIMIT, CANCEL_TERMS, RACE_TERMS, EXCLUDED, normalized_ics, mapping_in_window, visible_text, ROOT
 
 COUNTRIES={'CA':'Canada','CANADA':'Canada','US':'USA','USA':'USA','UNITED STATES':'USA','UNITED STATES OF AMERICA':'USA','MX':'Mexico','MEXICO':'Mexico','MÉXICO':'Mexico'}
@@ -212,6 +214,8 @@ class Parser(HTMLParser):
 def normalize_event(e, source, today):
     if not isinstance(e.get('name'),str):return None
     name=html.unescape(e['name']).strip()
+    if source.get('event_name_pattern') and not re.search(source['event_name_pattern'],name,re.I):return None
+    if event_scope_reason({'name':name,'organizer':source.get('club',''),'format':source.get('format',''),'description':e.get('description','')}):return None
     table_key=e.get('_table_key','')
     mapping=next((value for label,value in source.get('table_events',{}).items() if table_key==label or table_key.startswith(label+' ')),{})
     if mapping.get('name'):name=mapping['name']
@@ -290,6 +294,7 @@ def extract_page(raw,source,today):
     for a in p.links:
         url=clean_url(a['url'],source['url'])
         if not url or NON_EVENT_PATH.search(urlsplit(url).path):continue
+        if source_scope_reason({'url':url}):continue
         label=a['label'].strip()
         if re.fullmatch(r'site\s*web|web\s*site|website',label,re.I):label=a.get('context') or label
         if host(url)==host(source['url']):
@@ -410,13 +415,15 @@ def scan_source(source,fetcher,today,max_pages=5,page_last_checked=None):
 def run(root=ROOT,fetcher=None,today=None,workers=6):
     today=today or dt.datetime.now(dt.timezone.utc).date();now=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
     config=json.loads((root/'data/monitor_sources.json').read_text())
-    sources=[dict(s,trusted=True) for s in config['sources'] if s.get('source_kind')!='document_reference']
+    policy=load_policy(root)
+    sources=[dict(s,trusted=True) for s in config['sources'] if s.get('source_kind')!='document_reference' and not source_scope_reason(s,policy)]
     extras=root/'data/discovery_sources.json'
     settings=json.loads(extras.read_text()) if extras.exists() else {}
-    sources.extend(settings.get('sources',[]))
+    sources.extend(s for s in settings.get('sources',[]) if not source_scope_reason(s,policy))
     known={clean_url(s['url']) for s in sources};known_hosts={host(s['url']) for s in sources if s.get('trusted')}
     directory=json.loads((root/'data/clubs.json').read_text()).get('clubs',[])
     for c in directory:
+        if source_scope_reason(c,policy):continue
         url=clean_url(c.get('schedule_url',''))
         if not url or url in known:continue
         known.add(url)
@@ -427,7 +434,7 @@ def run(root=ROOT,fetcher=None,today=None,workers=6):
     inventory=json.loads(leads_path.read_text()) if leads_path.exists() else {}
     prior=inventory.get('sources',[])
     rejected_leads=inventory.get('rejected_sources',[])+[dict(lead,rejection_reason='Asset or media host; not an organizer website') for lead in prior if not organizer_url(lead['url'])]
-    prior=[lead for lead in prior if organizer_url(lead['url'])]
+    prior=[lead for lead in prior if organizer_url(lead['url']) and not source_scope_reason(lead,policy)]
     # Rotation prevents a large lead inventory from starving later entries.
     ordered=sorted(prior,key=lambda x:(x.get('last_checked',''),x['url']))
     for lead in ordered[:settings.get('lead_scan_limit',40)]:
@@ -444,19 +451,25 @@ def run(root=ROOT,fetcher=None,today=None,workers=6):
     observations=[];candidates=[];lead_index={clean_url(l['url']):dict(l) for l in prior};feed_candidates=[]
     for r in results:
         for lead in r['leads']:
+            if source_scope_reason(lead,policy):continue
             url=clean_url(lead['url'])
             if host(url) in known_hosts:continue
             old=lead_index.get(url,{})
             lead_index[url]=dict(lead,first_seen=old.get('first_seen',now),last_seen=now,**({'last_checked':old['last_checked']} if old.get('last_checked') else {}))
         if r['url'] in lead_index:lead_index[r['url']]['last_checked']=now
         for e in r['events']:
+            if event_scope_reason(e,policy):continue
             if r['trusted'] and not e.get('publication_needs_review') and not e.get('location_needs_review') and not e.get('timezone_needs_review') and e.get('country') in ('Canada','USA','Mexico') and e.get('region') and e.get('venue') not in ('','Various'):
                 observations.append(e)
             else:candidates.append(dict(e,status='needs_review',reason='Organizer ownership or event location needs verification'))
         feed_candidates.extend({'url':f,'club':r['club'],'found_on':r['url'],'status':'scanned' if any(p['url']==f for p in r['pages']) else 'budget_deferred'} for f in r['feeds'])
     auto_path=root/'data/automated_events.json';auto=json.loads(auto_path.read_text())
+    health,health_alerts=update_health(results,state.get('discovery_health',{}),auto.get('events',[]),today,now,identity)
+    state['discovery_health']=health
     exclusions={s['id']:s.get('excluded_series',[]) for s in sources}
-    retained=[e for e in auto.get('events',[]) if not any(re.search(r'\b'+re.escape(term)+r'\b',e['name'],re.I) for term in exclusions.get(e.get('feed_id'),[]))]
+    removed=[dict(e,scope_reason=event_scope_reason(e,policy)) for e in auto.get('events',[]) if event_scope_reason(e,policy)]
+    if removed:auto['excluded_events']=list({e['id']:e for e in auto.get('excluded_events',[])+removed}.values())
+    retained=[e for e in auto.get('events',[]) if not event_scope_reason(e,policy) and not any(re.search(r'\b'+re.escape(term)+r'\b',e['name'],re.I) for term in exclusions.get(e.get('feed_id'),[]))]
     auto['events'],changes=reconcile(retained,observations,now);auto['updated']=now
     dump(auto_path,auto);dump(leads_path,{'updated':now,'sources':list(lead_index.values()),'rejected_sources':list({l['url']:l for l in rejected_leads}.values())})
     previous_path=root/'reports/discovery.json'
@@ -478,7 +491,8 @@ def run(root=ROOT,fetcher=None,today=None,workers=6):
     public_results=[{k:v for k,v in r.items() if k not in ('events','leads')} for r in results]
     report={'checked_at':now,'sources_checked':sum(bool(r['pages']) for r in results),'sources_attempted':len(sources),
         'event_candidates':candidates,'calendar_feed_candidates':feed_candidates,'organizer_source_candidates':list(lead_index.values()),'rejected_organizer_leads':rejected_leads,
-        'changes':changes,'content_changes':content_changes,'observations':len(observations),'sources':public_results,'errors':[e for r in results for e in r['errors']]}
+        'changes':changes,'content_changes':content_changes,'observations':len(observations),'sources':public_results,'errors':[e for r in results for e in r['errors']],
+        'source_health':[health[r['source_id']] for r in results],'health_alerts':health_alerts}
     dump(root/'reports/discovery.json',report)
     print(f"Discovery: reached {report['sources_checked']}/{len(sources)} sources; {len(observations)} publishable observations; {len(candidates)} review candidates; {len(lead_index)} organizer leads")
     return report

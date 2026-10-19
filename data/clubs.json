@@ -130,17 +130,17 @@
     },
     {
       "id": "b7f285e478",
-      "name": "Lombardy Raceway",
+      "name": "Lombardy Raceway Karting Club",
       "venue": "Lombardy Raceway",
       "city": "Lombardy",
       "region": "ON",
       "country": "Canada",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official competition-kart calendar verified",
+      "schedule_url": "https://www.lrkartingclub.com/2026-season-schedule",
+      "source_description": "Official organizer calendar",
+      "notes": "Verified owner-kart circuit racing; separate rental and other-motorsport programs excluded.",
+      "monitor_id": "lombardy-official"
     },
     {
       "id": "3c78c917ed",
@@ -1390,17 +1390,17 @@
     },
     {
       "id": "6842cabddb",
-      "name": "Quaker City Motorsports Park",
+      "name": "Quaker City Karting Series",
       "venue": "Quaker City Motorsports Park",
       "city": "Salem",
       "region": "OH",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official competition-kart calendar verified",
+      "schedule_url": "https://quakercitymotorsportspark.com/quaker-city-karting-series-schedule/",
+      "source_description": "Official organizer calendar",
+      "notes": "Verified owner-kart circuit racing; separate rental and other-motorsport programs excluded.",
+      "monitor_id": "quaker-city-official"
     },
     {
       "id": "51eb5404a0",
@@ -1905,6 +1905,20 @@
       "research_status": "Official organizer verified; schedule monitored",
       "source_description": "Official organizer calendar / schedule",
       "monitor_id": "ambassador-schedule"
+    },
+    {
+      "id": "f7a8ec675f",
+      "name": "Point Pelee Karting Club",
+      "venue": "Point Pelee Karting",
+      "city": "Leamington",
+      "region": "ON",
+      "country": "Canada",
+      "kind": "Club / Series",
+      "research_status": "Official competition-kart calendar verified",
+      "schedule_url": "https://www.pointpeleekarting.com/PPKC/",
+      "source_description": "Official organizer calendar",
+      "notes": "Briggs owner-kart circuit racing. Official 2026 final event announcement verified.",
+      "monitor_id": "point-pelee-official"
     }
   ]
 }

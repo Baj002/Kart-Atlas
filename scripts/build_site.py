@@ -10,6 +10,7 @@ if __package__ in (None,''):
     sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from scripts.discovery_engine import event_reference, region_code
 from difflib import SequenceMatcher
+from scripts.racing_scope import load_policy,event_scope_reason,source_scope_reason,apply_reviewed_override
 
 FIELDS={'Start Date':'start','End Date':'end','Race / Event':'name','Club / Series':'organizer','Track / Venue':'venue','City':'city','State / Province':'region','Country':'country','Level':'level','Race Format':'format','Verification':'verification','Classes':'classes','Source URL':'source','Notes':'notes'}
 ROOT=Path(__file__).resolve().parents[1]
@@ -54,7 +55,7 @@ def is_dup(e,existing):
     return False
 
 def build(root=ROOT):
-    original=[]
+    original=[];excluded=[];policy=load_policy(root)
     with (root/'data/races.csv').open(encoding='utf-8-sig',newline='') as f:
         for r in csv.DictReader(f):
             e={v:(r.get(k) or '').strip() for k,v in FIELDS.items()}
@@ -62,12 +63,17 @@ def build(root=ROOT):
             e['region']=region_code(e['region'],e['country'])
             date.fromisoformat(e['start']); e['end']=e['end'] or e['start'];date.fromisoformat(e['end'])
             e['id']=hashlib.sha1(key(e).encode()).hexdigest()[:12]
+            e=apply_reviewed_override(e,policy)
+            reason=event_scope_reason(e,policy)
+            if reason:excluded.append(dict(e,scope_reason=reason));continue
             original.append(e)
     originals={(key(e)):e for e in original}; curated=merge_curated_duplicates(list(originals.values()))
     auto=json.loads((root/'data/automated_events.json').read_text()).get('events',[])
     imported=[]
     for e in auto:
         e=dict(e,region=region_code(e['region'],e['country']))
+        reason=event_scope_reason(e,policy)
+        if reason:excluded.append(dict(e,scope_reason=reason));continue
         matches=[p for p in curated if e.get('curated_id') in [p['id']]+p.get('alias_ids',[]) or is_dup(e,[p])]
         if matches:
             p=matches[0]
@@ -92,12 +98,17 @@ def build(root=ROOT):
     snap={'updated':datetime.now(timezone.utc).date().isoformat(),'curated_snapshot':'2026-10-16','coverage_note':'Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.', 'auto_imported':len(imported),'events':races}
     (root/'site/events.json').write_text(json.dumps(snap,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     directory=json.loads((root/'data/clubs.json').read_text())
+    excluded_clubs=[dict(c,scope_reason=source_scope_reason(c,policy)) for c in directory['clubs'] if source_scope_reason(c,policy)]
+    directory['clubs']=[c for c in directory['clubs'] if not source_scope_reason(c,policy)]
     monitors=json.loads((root/'data/monitor_sources.json').read_text())['sources']
     for c in directory['clubs']:
         for s in monitors:
             if c['name'].casefold()==s['club'].casefold() or (c['country']==s['country'] and c['region']==s['region'] and c['schedule_url'].split('?')[0] == s['url'].split('?')[0]):
                 c['monitor_id']=s['id']; break
     (root/'site/clubs.json').write_text(json.dumps(directory,ensure_ascii=False,indent=2)+'\n')
+    (root/'reports').mkdir(exist_ok=True)
+    (root/'reports/scope_audit.json').write_text(json.dumps({'scope':policy.get('scope','Competition circuit karting'),
+        'excluded_events':excluded,'excluded_clubs':excluded_clubs,'reviewed_corrections':list(policy.get('event_overrides',{}))},indent=2,ensure_ascii=False)+'\n')
     print(f"Built {len(races)} races ({len(curated)} curated + {len(imported)} automated), {len(directory['clubs'])} leads")
     return snap
 if __name__=='__main__':build()

@@ -8,6 +8,8 @@ from __future__ import annotations
 import argparse,datetime as dt,hashlib,html,json,re,sys,time
 from html.parser import HTMLParser
 from pathlib import Path
+if __package__ in (None,''):sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from scripts.racing_scope import event_scope_reason
 from urllib.parse import urlsplit
 from urllib.request import Request,urlopen
 from urllib.error import HTTPError,URLError
@@ -80,6 +82,8 @@ def normalized_ics(ics,source,today=None,include_cancelled=False):
     results=[]
     for raw in parse_ics(ics):
         name=html.unescape(raw.get('SUMMARY','')).strip()
+        if source.get('event_name_pattern') and not re.search(source['event_name_pattern'],name,re.I):continue
+        if event_scope_reason({'name':name,'organizer':source.get('club',''),'format':source.get('format',''),'description':raw.get('DESCRIPTION','')}):continue
         if not name or not (RACE_TERMS.search(name) or (source.get('allow_race_description') and RACE_TERMS.search(raw.get('DESCRIPTION',''))) or (source.get('feed_race_pattern') and re.fullmatch(source['feed_race_pattern'],name,re.I))) or EXCLUDED.search(name):continue
         if ((raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name)) and not include_cancelled) or raw.get('RRULE') or raw.get('RECURRENCE-ID'):continue
         if re.search(r'instructor.led lapping',raw.get('DESCRIPTION',''),re.I):continue

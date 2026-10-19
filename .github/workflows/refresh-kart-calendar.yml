@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', '.github/workflows/**']
+    paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/racing_scope.json', 'data/organizers.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', '.github/workflows/**']
   pull_request:
     paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/**', '.github/workflows/**']
 permissions:
@@ -65,7 +65,7 @@ jobs:
         run: |
           git config user.name 'kart-atlas-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
+          git add data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json reports/scope_audit.json reports/organizer_coverage.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: refresh kart races and discovery coverage'
             git push

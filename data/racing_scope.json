@@ -1,0 +1,67 @@
+{
+  "scope": "Competition circuit karting: Briggs LO206, Rotax, ROK, shifter, IAME/KA100 and comparable classes",
+  "excluded_events": {
+    "622f1eb6ed1d": {
+      "reason": "rental",
+      "evidence": "https://amp.motorsportreg.com/events/2026-amp-kart-racing-ironman-race-under-lights-atlanta-motorsports-park-events-907495",
+      "reviewed_on": "2026-10-19",
+      "note": "Organizer explicitly supplies concession karts; arrive-and-drive event."
+    },
+    "fbd115d5b8ee": {
+      "reason": "rental",
+      "evidence": "https://amp.motorsportreg.com/events/2026-amp-kart-racing-2-hour-halloween-enduro-atlanta-motorsports-park-events-816641",
+      "reviewed_on": "2026-10-19",
+      "note": "Organizer explicitly supplies concession karts; arrive-and-drive event."
+    },
+    "3a9ce8245ca6": {
+      "reason": "rental",
+      "evidence": "https://amp.motorsportreg.com/events/2026-amp-kart-racing-4-hour-halloween-enduro-atlanta-motorsports-park-events-506928",
+      "reviewed_on": "2026-10-19",
+      "note": "Organizer explicitly supplies concession karts; arrive-and-drive event."
+    }
+  },
+  "excluded_sources": {
+    "ambassador-schedule": {
+      "reason": "oval_or_dirt",
+      "reviewed_on": "2026-10-19",
+      "url": "https://racingkarts.com/introduction/schedule-2/"
+    },
+    "akra-road-racing": {
+      "reason": "long_circuit_road_racing",
+      "reviewed_on": "2026-10-19",
+      "url": "https://akraracing.com/road-race-series/schedule/"
+    },
+    "kart-road-racing": {
+      "reason": "long_circuit_road_racing",
+      "reviewed_on": "2026-10-19",
+      "url": "https://www.kart.org/schedules/road-racing"
+    }
+  },
+  "excluded_clubs": {
+    "44a60cee03": {
+      "reason": "oval_or_dirt",
+      "evidence": "https://racingkarts.com/introduction/schedule-2/"
+    },
+    "a8155483a7": {
+      "reason": "oval_or_dirt",
+      "evidence": "https://southamptonmotorspeedway.com/",
+      "note": "Organizer identifies a tri-oval; no verified circuit-kart race source."
+    }
+  },
+  "event_overrides": {
+    "17f87c6b741a": {
+      "reviewed_on": "2026-10-19",
+      "evidence": "https://www.worldkarting.com/wka-opens-sprint-registration-for-daytona-kartweek-2026/",
+      "fields": {
+        "name": "WKA Daytona KartWeek — Circuit Karting",
+        "format": "Sprint",
+        "start": "2026-12-29",
+        "end": "2026-12-30",
+        "source": "https://www.worldkarting.com/daytona-kartweek/daytona-kartweek-sprint/",
+        "registration_url": "https://raceselect.com/wka/2027?tag=sprint",
+        "classes": "Briggs LO206; Micro Swift; Mini Swift; KA100",
+        "notes": "Circuit-kart race days December 29–30. Move-in December 27; practice and qualifying December 28. Excludes separate dirt and long-circuit road-racing programs."
+      }
+    }
+  }
+}

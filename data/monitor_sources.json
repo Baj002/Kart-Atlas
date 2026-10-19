@@ -954,6 +954,84 @@
       "mode": "watch",
       "auto_import": false,
       "timezone": "America/New_York"
+    },
+    {
+      "id": "lombardy-official",
+      "club": "Lombardy Raceway Karting Club",
+      "url": "https://www.lrkartingclub.com/2026-season-schedule",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Lombardy",
+      "venue": "Lombardy Raceway",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "point-pelee-official",
+      "club": "Point Pelee Karting Club",
+      "url": "https://www.pointpeleekarting.com/PPKC/",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Leamington",
+      "venue": "Point Pelee Karting",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "directory": true
+    },
+    {
+      "id": "quaker-city-official",
+      "club": "Quaker City Karting Series",
+      "url": "https://quakercitymotorsportspark.com/quaker-city-karting-series-schedule/",
+      "country": "USA",
+      "region": "OH",
+      "city": "Salem",
+      "venue": "Quaker City Motorsports Park Karting",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "event_name_pattern": "\\b(?:QCKS|Quaker City Karting|Kart Race)\\b",
+      "text_profile": {
+        "paths": [
+          "/quaker-city-karting-series-schedule/"
+        ],
+        "sections": [
+          {
+            "start": "^Quaker City Karting Series Schedule (?P<year>20\\d{2})$",
+            "end": "^SALEM WEATHER$",
+            "row": "^(?P<event>Round \\d+)\\n(?P<date>\\d{1,2}\\n[a-z]+)$",
+            "name": "QCKS Championship Race {event}",
+            "auto_import": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "wka-daytona-circuit",
+      "club": "World Karting Association",
+      "url": "https://www.worldkarting.com/daytona-kartweek/daytona-kartweek-sprint/",
+      "country": "USA",
+      "region": "FL",
+      "city": "Daytona Beach",
+      "venue": "Daytona Speedway Infield Kart Circuit",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "event_name_pattern": "KartWeek"
+    },
+    {
+      "id": "cotf-america-2027",
+      "club": "Champions of the Future America",
+      "url": "https://www.championskartingamerica.com/2027-championship/",
+      "country": "USA",
+      "region": "Various",
+      "city": "Various",
+      "venue": "Various",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "event_name_pattern": "COTF|Champions|Championship"
     }
   ]
 }

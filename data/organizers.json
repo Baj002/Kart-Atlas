@@ -1,0 +1,2378 @@
+{
+  "revision": 1,
+  "scope": "Competition circuit karting: Briggs LO206, Rotax, ROK, shifter, IAME/KA100 and comparable classes",
+  "note": "Stable organizer identities with explicit aliases and source bindings; unverified directory leads are not claimed active.",
+  "organizers": [
+    {
+      "id": "6218beb207",
+      "name": "Calgary Kart Racing Club",
+      "aliases": [
+        "Calgary Kart Racing Club"
+      ],
+      "country": "Canada",
+      "region": "AB",
+      "venue": "Strathmore Motorsports Park",
+      "city": "Strathmore",
+      "primary_url": "https://ckrc.com/event-schedule/",
+      "source_ids": [
+        "ckrc"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "fd4250c918",
+      "name": "Edmonton & District Kart Racing Association",
+      "aliases": [
+        "Edmonton & District Kart Racing Association"
+      ],
+      "country": "Canada",
+      "region": "AB",
+      "venue": "Rotax Mojo Raceway",
+      "city": "Warburg",
+      "primary_url": "https://edkra.ca/",
+      "source_ids": [
+        "edkra",
+        "edkra-home"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "86c4970101",
+      "name": "Cariboo Kart Racers",
+      "aliases": [],
+      "country": "Canada",
+      "region": "BC",
+      "venue": "Cariboo Kart Raceway",
+      "city": "Quesnel",
+      "primary_url": "https://www.westcoastkartclub.ca/schedule",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "2a75fb40bd",
+      "name": "Kartplex at Area 27",
+      "aliases": [],
+      "country": "Canada",
+      "region": "BC",
+      "venue": "Area 27 Kart Track",
+      "city": "Oliver",
+      "primary_url": "https://kartplex.ca/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "b957637853",
+      "name": "Vancouver Island Karting Association",
+      "aliases": [],
+      "country": "Canada",
+      "region": "BC",
+      "venue": "Vancouver Island Motorsport Circuit",
+      "city": "Cowichan",
+      "primary_url": "https://vika.ca/bc-regional-races/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "e10cbff088",
+      "name": "West Coast Kart Club",
+      "aliases": [
+        "West Coast Kart Club"
+      ],
+      "country": "Canada",
+      "region": "BC",
+      "venue": "Greg Moore Raceway",
+      "city": "Chilliwack",
+      "primary_url": "https://www.westcoastkartclub.ca/schedule",
+      "source_ids": [
+        "wckc",
+        "wckc-events"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "d86e08e4b8",
+      "name": "Manitoba Karting Association",
+      "aliases": [
+        "Manitoba Karting Association"
+      ],
+      "country": "Canada",
+      "region": "MB",
+      "venue": "MKA / Gimli Karting",
+      "city": "Gimli",
+      "primary_url": "https://www.manitobakarting.ca/blank",
+      "source_ids": [
+        "mka",
+        "mka-home",
+        "mka-registration"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "d81434ea35",
+      "name": "Atlantic Motorsport Karters Association",
+      "aliases": [
+        "Atlantic Motorsport Karters Association"
+      ],
+      "country": "Canada",
+      "region": "NS",
+      "venue": "Kartbahn / Scotia Speedworld",
+      "city": "Goodwood",
+      "primary_url": "https://www.amka.ca/race-schedule",
+      "source_ids": [
+        "amka-schedule"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "d1c9f9004d",
+      "name": "Hamilton Regional Kart Club",
+      "aliases": [
+        "Hamilton Regional Kart Club / Hamilton Karting Complex",
+        "Hamilton Regional Kart Club"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Hamilton Karting Complex",
+      "city": "Mount Hope",
+      "primary_url": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "source_ids": [
+        "hamilton-ics",
+        "hrkc"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [
+        {
+          "year": 2027,
+          "status": "not_announced",
+          "reviewed_on": "2026-10-19",
+          "evidence": "https://hamiltonkartingcomplex.com/",
+          "note": "Official HRKC page says its 2027 racing schedule is coming soon."
+        }
+      ]
+    },
+    {
+      "id": "b7f285e478",
+      "name": "Lombardy Raceway Karting Club",
+      "aliases": [
+        "Lombardy Raceway Karting Club",
+        "Lombardy Raceway"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Lombardy Raceway",
+      "city": "Lombardy",
+      "primary_url": "https://www.lrkartingclub.com/2026-season-schedule",
+      "source_ids": [
+        "lombardy-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [
+        {
+          "year": 2026,
+          "status": "published_schedule_finished",
+          "reviewed_on": "2026-10-19",
+          "evidence": "https://www.lrkartingclub.com/2026-season-schedule",
+          "note": "Reviewed full published calendar contains only past races; no claim about unannounced events."
+        }
+      ]
+    },
+    {
+      "id": "3c78c917ed",
+      "name": "Mosport International Karting Association",
+      "aliases": [],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Mosport Karting Centre",
+      "city": "Clarington",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "6a07490f0e",
+      "name": "National Capital Kart Club",
+      "aliases": [
+        "National Capital Kart Club"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "National Capital Kart Club",
+      "city": "Ottawa",
+      "primary_url": "https://nckc.net/",
+      "source_ids": [
+        "nckc"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "b87ed90c22",
+      "name": "Sudbury Kart Club",
+      "aliases": [],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Sudbury Kartway",
+      "city": "Sudbury",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "dfd51a1937",
+      "name": "Toronto Racing Association of Karters",
+      "aliases": [
+        "Toronto Racing Association of Karters / Goodwood Kartways",
+        "Toronto Racing Association of Karters"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Goodwood Kartways",
+      "city": "Uxbridge",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [
+        "goodwood-ics",
+        "goodwood-trak"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "938e9cfd1c",
+      "name": "Waterloo Regional Kart Club",
+      "aliases": [
+        "Waterloo Regional Kart Club"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Flamboro Speedway",
+      "city": "Millgrove",
+      "primary_url": "https://www.wrkc.on.ca/schedule/",
+      "source_ids": [
+        "wrkc"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "c6c07bf0f1",
+      "name": "Club Karting Trois-Rivières",
+      "aliases": [],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "Karting Trois-Rivières",
+      "city": "Trois-Rivières",
+      "primary_url": "https://kartingtr.com/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "f1b1f616dd",
+      "name": "Club de Karting de Montréal",
+      "aliases": [
+        "Coupe de Montréal"
+      ],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "Various — Coupe de Montréal",
+      "city": "Montréal",
+      "primary_url": "https://coupedemontreal.com/",
+      "source_ids": [
+        "coupe-montreal"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "f054670462",
+      "name": "Club de Karting de Québec",
+      "aliases": [],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "SAAS Karting",
+      "city": "Québec",
+      "primary_url": "https://saaskarting.com/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0e350f57c6",
+      "name": "Ottawa Gatineau Karting Championship",
+      "aliases": [],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "Le Circuit Quyon",
+      "city": "Quyon",
+      "primary_url": "https://www.lecircuitquyon.com/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "81de8ba0b6",
+      "name": "SC Performance Karting Club",
+      "aliases": [],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "SC Performance Karting",
+      "city": "Saint-Célestin",
+      "primary_url": "https://scperformance.ca/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0881b89dc0",
+      "name": "SH Karting",
+      "aliases": [],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "SH Karting",
+      "city": "Mont-Saint-Hilaire",
+      "primary_url": "https://www.shkarting.com/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0d293fa1c5",
+      "name": "TAG Académie Karting",
+      "aliases": [],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "TAG Karting",
+      "city": "Mont-Tremblant",
+      "primary_url": "https://www.tagekarting.com/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "36000e0d27",
+      "name": "Saskatoon Kart Racers",
+      "aliases": [
+        "Saskatoon Kart Racers"
+      ],
+      "country": "Canada",
+      "region": "SK",
+      "venue": "Martensville Speedway",
+      "city": "Martensville",
+      "primary_url": "https://www.nskr.ca/schedule",
+      "source_ids": [
+        "saskatoon"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "7cf3364e46",
+      "name": "South Sask Kart Club",
+      "aliases": [
+        "South Sask Kart Club"
+      ],
+      "country": "Canada",
+      "region": "SK",
+      "venue": "SSKC Race Track",
+      "city": "Regina",
+      "primary_url": "https://www.sskc.ca/schedule",
+      "source_ids": [
+        "south-sask"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "1ff268557b",
+      "name": "FIA México Karting Championship",
+      "aliases": [
+        "FIA México National Karting Championship"
+      ],
+      "country": "Mexico",
+      "region": "Mexico State",
+      "venue": "KBR Kartódromo Internacional",
+      "city": "Estado de México",
+      "primary_url": "https://www.fiamexicokarting.org/",
+      "source_ids": [
+        "fia-mexico"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "dfa9031c7e",
+      "name": "Karting Club México",
+      "aliases": [],
+      "country": "Mexico",
+      "region": "Morelos",
+      "venue": "Kartódromo Internacional de Cuautla",
+      "city": "Cuautla",
+      "primary_url": "https://kartingclubmexico.velkindatastudios.com/eventos",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "5cc7da7713",
+      "name": "Champions of the Future Mexico",
+      "aliases": [
+        "Champions of the Future Mexico"
+      ],
+      "country": "Mexico",
+      "region": "Multi",
+      "venue": "KBR and Querétaro circuits",
+      "city": "Mexico State / Querétaro",
+      "primary_url": "https://www.championskartingamerica.com/mexico-series/",
+      "source_ids": [
+        "mexico-champions"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "dca7870ad0",
+      "name": "ROK México",
+      "aliases": [],
+      "country": "Mexico",
+      "region": "Multi",
+      "venue": "Various Mexican kart circuits",
+      "city": "Various",
+      "primary_url": "https://rokcupusa.com/calendar/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "639b9018b3",
+      "name": "PKRA",
+      "aliases": [
+        "Phoenix Kart Racing Association"
+      ],
+      "country": "USA",
+      "region": "AZ",
+      "venue": "Phoenix Kart Racing Association",
+      "city": "Glendale",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [
+        "pkra"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "730c000212",
+      "name": "Tucson Kart Race",
+      "aliases": [],
+      "country": "USA",
+      "region": "AZ",
+      "venue": "Musselman Honda Circuit",
+      "city": "Tucson",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "b761f15d81",
+      "name": "All Star Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Prairie City Kart Track",
+      "city": "Rancho Cordova",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "06691df25d",
+      "name": "Bakersfield Kart Raceway",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Bakersfield Kart Raceway",
+      "city": "Bakersfield",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "e722b57c93",
+      "name": "Blue Max Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Blue Max Kart Club",
+      "city": "Davis",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "2bc70035f8",
+      "name": "Central California Kart Racing Association",
+      "aliases": [
+        "Central California Kart Racing Association"
+      ],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Buttonwillow Raceway Park",
+      "city": "Buttonwillow",
+      "primary_url": "https://www.cckra.com/",
+      "source_ids": [
+        "cckra-official",
+        "cckra-registration"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "9f9a0ab6e4",
+      "name": "Kinsmen Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Kinsmen Kart Club",
+      "city": "Dixon",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "28022790d3",
+      "name": "Los Angeles Karting Championship / Tri-C Karters",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "K1 Circuit",
+      "city": "Winchester",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "6276266750",
+      "name": "ROK Sonoma",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Sonoma Raceway Karting Center",
+      "city": "Sonoma",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "5ce320a5b9",
+      "name": "Santa Maria Karting Association",
+      "aliases": [
+        "Santa Maria Kart Association"
+      ],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Santa Maria Karting Association",
+      "city": "Santa Maria",
+      "primary_url": "https://kartdirectory.racing/us/events/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "49a6e0d3b5",
+      "name": "Tri-C Karters",
+      "aliases": [
+        "Tri-C Karters"
+      ],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://www.tri-ckarters.org/",
+      "source_ids": [
+        "tri-c-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "cae51274e0",
+      "name": "IMI Motorsports",
+      "aliases": [],
+      "country": "USA",
+      "region": "CO",
+      "venue": "IMI Motorsports",
+      "city": "Dacono",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "7923ed4d36",
+      "name": "SBR Motorsports Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "CO",
+      "venue": "SBR Motorsports Park",
+      "city": "Calhan",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "a3e97ab569",
+      "name": "Western Slope Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "CO",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "eb6a0e309a",
+      "name": "Norwalk Karting Association",
+      "aliases": [
+        "Norwalk Karting Association"
+      ],
+      "country": "USA",
+      "region": "CT",
+      "venue": "Norwalk Karting Association",
+      "city": "Norwalk",
+      "primary_url": "https://www.norwalkkartingassociation.org/schedule",
+      "source_ids": [
+        "norwalk",
+        "norwalk-pdf"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "03a3aabce6",
+      "name": "AMR Motorplex",
+      "aliases": [
+        "AMR Homestead-Miami Motorplex"
+      ],
+      "country": "USA",
+      "region": "FL",
+      "venue": "AMR Homestead-Miami Motorplex",
+      "city": "Homestead",
+      "primary_url": "https://www.amrmotorplex.com/race-events/",
+      "source_ids": [
+        "amr-kart-challenge",
+        "amr-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "6298ae5c44",
+      "name": "Bushnell Motorsports Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "Bushnell Motorsports Park",
+      "city": "Bushnell",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "937b838e81",
+      "name": "Monticello Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "Monticello Karting and Motor Club",
+      "city": "Monticello",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "4f516319ba",
+      "name": "North Florida Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "103rd Street Sports Complex",
+      "city": "Jacksonville",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "038878f7ad",
+      "name": "Orlando Kart Center",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "Orlando Kart Center",
+      "city": "Orlando",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "142f3aa88b",
+      "name": "T4 Kartplex",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "T4 Kartplex",
+      "city": "Palmetto",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "b6bc393f2d",
+      "name": "WKA / Local organizers",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "Daytona Speedway Infield Kart Circuit",
+      "city": "Daytona Beach",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "f06671d4a6",
+      "name": "AMP Kart Racing",
+      "aliases": [
+        "Atlanta Motorsports Park"
+      ],
+      "country": "USA",
+      "region": "GA",
+      "venue": "Atlanta Motorsports Park",
+      "city": "Dawsonville",
+      "primary_url": "https://amp.motorsportreg.com/events/amp-kart-racing-championship-series-round-8-atlanta-motorsports-park-763030",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3501debe79",
+      "name": "Georgia Sprint Karting Association",
+      "aliases": [],
+      "country": "USA",
+      "region": "GA",
+      "venue": "Lamar County Speedway",
+      "city": "Barnesville",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "19482f177c",
+      "name": "61 Kartway",
+      "aliases": [],
+      "country": "USA",
+      "region": "IA",
+      "venue": "61 Kartway",
+      "city": "Delmar",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "6bd52bf314",
+      "name": "Kart Idaho",
+      "aliases": [],
+      "country": "USA",
+      "region": "ID",
+      "venue": "Motorplex at the Mill",
+      "city": "Eagle",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "d9c03351d3",
+      "name": "Snake River Karters",
+      "aliases": [],
+      "country": "USA",
+      "region": "ID",
+      "venue": "Glenn Morgan Raceway",
+      "city": "Star",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "7170163cc9",
+      "name": "Gateway Kartplex / Ignite",
+      "aliases": [],
+      "country": "USA",
+      "region": "IL",
+      "venue": "Gateway Kartplex",
+      "city": "Madison",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "74612607c8",
+      "name": "Kart Circuit Autobahn",
+      "aliases": [],
+      "country": "USA",
+      "region": "IL",
+      "venue": "Kart Circuit Autobahn",
+      "city": "Joliet",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "5dab38a82d",
+      "name": "Mid-State Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "IL",
+      "venue": "Mid-State Kart Club",
+      "city": "Dawson",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3cf3e72317",
+      "name": "Norway Motorsports Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "IL",
+      "venue": "Norway Motorsports Park",
+      "city": "Sheridan",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "99b3f12357",
+      "name": "Michiana Raceway Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "IN",
+      "venue": "Michiana Raceway Park",
+      "city": "North Liberty",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "ae2f60ee4f",
+      "name": "New Castle Motorsports Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "IN",
+      "venue": "New Castle Motorsports Park",
+      "city": "New Castle",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0bf22ddb4e",
+      "name": "Whiteland Raceway Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "IN",
+      "venue": "Whiteland Raceway Park",
+      "city": "Whiteland",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "ea5618c0c1",
+      "name": "Moore Park Raceway",
+      "aliases": [],
+      "country": "USA",
+      "region": "LA",
+      "venue": "Moore Park Raceway",
+      "city": "Lafayette",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "f128eda1f0",
+      "name": "NOLA Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "LA",
+      "venue": "NOLA Motorsports Park",
+      "city": "Avondale",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "59b418c960",
+      "name": "Palmer Motorsports Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "MA",
+      "venue": "Palmer Motorsports Park",
+      "city": "Palmer",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "45e915f2e1",
+      "name": "Nicholson Speedway",
+      "aliases": [],
+      "country": "USA",
+      "region": "MD",
+      "venue": "Nicholson Speedway",
+      "city": "Chestertown",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3d23b5a5ed",
+      "name": "Sandy Hook Club Series",
+      "aliases": [
+        "Sandy Hook Speedway"
+      ],
+      "country": "USA",
+      "region": "MD",
+      "venue": "Sandy Hook Speedway",
+      "city": "Street",
+      "primary_url": "https://www.sandyhookspeedway.com/kart-schedule.html",
+      "source_ids": [
+        "sandy-hook-pdf",
+        "sandy-hook-schedule"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "586de73873",
+      "name": "United Karting",
+      "aliases": [
+        "United Karting BWI"
+      ],
+      "country": "USA",
+      "region": "MD",
+      "venue": "United Karting BWI",
+      "city": "Hanover",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0eb7f308e9",
+      "name": "New England Karting Challenge",
+      "aliases": [],
+      "country": "USA",
+      "region": "ME",
+      "venue": "Shredway Maine",
+      "city": "Parsonsfield",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "e759fd7eda",
+      "name": "East Lansing Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "MI",
+      "venue": "East Lansing Kart Track",
+      "city": "East Lansing",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "feac6011e0",
+      "name": "Marquette Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "MI",
+      "venue": "Marquette Kart Club",
+      "city": "Marquette",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "741e821d81",
+      "name": "West Michigan Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "MI",
+      "venue": "West Michigan Kart Club",
+      "city": "East Lansing",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0d4afb9bb6",
+      "name": "Stockholm Karting Center",
+      "aliases": [],
+      "country": "USA",
+      "region": "MN",
+      "venue": "Stockholm Karting Center",
+      "city": "Cokato",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3f5bb0a5e6",
+      "name": "Kansas City Karting Association",
+      "aliases": [],
+      "country": "USA",
+      "region": "MO",
+      "venue": "Kansas City Karting Association",
+      "city": "Grain Valley",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0f824c4058",
+      "name": "Finishline Performance Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "MS",
+      "venue": "Finishline Performance Karting",
+      "city": "Biloxi",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "cb214a3dfc",
+      "name": "Mississippi Karters Association",
+      "aliases": [],
+      "country": "USA",
+      "region": "MS",
+      "venue": "Springridge Raceway",
+      "city": "Jackson",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3bc1292bf0",
+      "name": "Rebel Raceway",
+      "aliases": [],
+      "country": "USA",
+      "region": "MS",
+      "venue": "Rebel Raceway",
+      "city": "Saltillo",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "33031c4fc3",
+      "name": "Montana Karting Association",
+      "aliases": [],
+      "country": "USA",
+      "region": "MT",
+      "venue": "Montana Karting Association",
+      "city": "Helena",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "944deae24f",
+      "name": "Champions of the Future America",
+      "aliases": [
+        "COTF America"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "venue": "Multiple",
+      "city": "Multiple",
+      "primary_url": "https://www.championskartingamerica.com/2027-championship/",
+      "source_ids": [
+        "cotf-america-2027"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "1ac7f4a39f",
+      "name": "Cup Karts North America",
+      "aliases": [
+        "Cup Karts North America Canada"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "venue": "Multiple",
+      "city": "Multiple",
+      "primary_url": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
+      "source_ids": [
+        "ckna-canada"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "d460c1ee4c",
+      "name": "ROK Cup USA",
+      "aliases": [
+        "ROK Cup USA"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "venue": "Multiple",
+      "city": "Multiple",
+      "primary_url": "https://rokcupusa.com/calendar/",
+      "source_ids": [
+        "rok-usa-calendar"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "bb926de967",
+      "name": "SKUSA",
+      "aliases": [
+        "Superkarts! USA"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "venue": "Multiple",
+      "city": "Multiple",
+      "primary_url": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "source_ids": [
+        "skusa"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "6958e0e3cd",
+      "name": "United States Pro Kart Series",
+      "aliases": [
+        "United States Pro Kart Series",
+        "United States Pro Kart Series 2027 schedule bulletin"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "venue": "Multiple",
+      "city": "Multiple",
+      "primary_url": "https://www.uspks.com/schedule/",
+      "source_ids": [
+        "uspks",
+        "uspks-2027-recap"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "6939777da3",
+      "name": "World Karting Association",
+      "aliases": [
+        "World Karting Association"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "venue": "Multiple",
+      "city": "Multiple",
+      "primary_url": "https://www.worldkarting.com/daytona-kartweek/",
+      "source_ids": [
+        "wka-daytona-circuit"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "c74e178fcb",
+      "name": "Charlotte Motor Speedway karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "NC",
+      "venue": "Charlotte Motor Speedway Kart Circuit",
+      "city": "Concord",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3ee95e7c6e",
+      "name": "Trackhouse Motorplex",
+      "aliases": [],
+      "country": "USA",
+      "region": "NC",
+      "venue": "Trackhouse Motorplex",
+      "city": "Mooresville",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "db0d205d87",
+      "name": "Ignite Karting Nebraska",
+      "aliases": [],
+      "country": "USA",
+      "region": "NE",
+      "venue": "Motorsports Park Hastings",
+      "city": "Hastings",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "9889ecdf35",
+      "name": "New Hampshire Karting Association",
+      "aliases": [
+        "New Hampshire Karting Association"
+      ],
+      "country": "USA",
+      "region": "NH",
+      "venue": "Canaan Motor Club",
+      "city": "Canaan",
+      "primary_url": "https://nhka.net/schedule/",
+      "source_ids": [
+        "nhka"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "3e09b63525",
+      "name": "Full Tilt Racing",
+      "aliases": [],
+      "country": "USA",
+      "region": "NJ",
+      "venue": "Raceway Park Englishtown",
+      "city": "Englishtown",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "5c06180ec4",
+      "name": "New Jersey Motorsports Park Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "NJ",
+      "venue": "New Jersey Motorsports Park",
+      "city": "Millville",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "a4169519d1",
+      "name": "Northern Nevada Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "NV",
+      "venue": "Desert Park Raceway",
+      "city": "Reno",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "7687841ce4",
+      "name": "Genesee Valley Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "NY",
+      "venue": "Genesee Valley Kart Club",
+      "city": "Avon",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "8005363a9d",
+      "name": "Lafayette Motorsports Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "NY",
+      "venue": "Lafayette Motorsports Park",
+      "city": "Lafayette",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0e125aec33",
+      "name": "Long Island Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "NY",
+      "venue": "Enterprise Park Calverton",
+      "city": "Calverton",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "1566c295b1",
+      "name": "Oakland Valley Race Park",
+      "aliases": [
+        "Oakland Valley Race Park"
+      ],
+      "country": "USA",
+      "region": "NY",
+      "venue": "Oakland Valley Race Park",
+      "city": "Cuddebackville",
+      "primary_url": "https://ovrp.net/calendar/list/",
+      "source_ids": [
+        "ovrp"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "1fbb18ce08",
+      "name": "Fremont Raceway Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "OH",
+      "venue": "Fremont Raceway Park",
+      "city": "Fremont",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "e705149e81",
+      "name": "Lorain Ohio Kartplex",
+      "aliases": [],
+      "country": "USA",
+      "region": "OH",
+      "venue": "Lorain Ohio Kartplex",
+      "city": "Lorain",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "6afcfffd6a",
+      "name": "Motorsports Country Club Cincinnati",
+      "aliases": [],
+      "country": "USA",
+      "region": "OH",
+      "venue": "MCC Cincinnati Kart Plex",
+      "city": "Batavia",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "a38b6369c5",
+      "name": "Ohio Valley Karting Association",
+      "aliases": [
+        "Ohio Valley Karting Association"
+      ],
+      "country": "USA",
+      "region": "OH",
+      "venue": "G&J Kartway",
+      "city": "Camden",
+      "primary_url": "https://ovka.com/schedule/",
+      "source_ids": [
+        "ovka"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "6842cabddb",
+      "name": "Quaker City Karting Series",
+      "aliases": [
+        "Quaker City Karting Series",
+        "Quaker City Motorsports Park"
+      ],
+      "country": "USA",
+      "region": "OH",
+      "venue": "Quaker City Motorsports Park",
+      "city": "Salem",
+      "primary_url": "https://quakercitymotorsportspark.com/quaker-city-karting-series-schedule/",
+      "source_ids": [
+        "quaker-city-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [
+        {
+          "year": 2026,
+          "status": "published_schedule_finished",
+          "reviewed_on": "2026-10-19",
+          "evidence": "https://quakercitymotorsportspark.com/quaker-city-karting-series-schedule/",
+          "note": "Reviewed full published calendar contains only past races; no claim about unannounced events."
+        }
+      ]
+    },
+    {
+      "id": "51eb5404a0",
+      "name": "Thompson Kart Raceway",
+      "aliases": [],
+      "country": "USA",
+      "region": "OH",
+      "venue": "Thompson Kart Raceway",
+      "city": "Thompson",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0b010feef0",
+      "name": "Wilmington Raceway Park",
+      "aliases": [],
+      "country": "USA",
+      "region": "OH",
+      "venue": "Wilmington Raceway Park",
+      "city": "Wilmington",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0728774bf8",
+      "name": "Oklahoma Motorsports Complex",
+      "aliases": [],
+      "country": "USA",
+      "region": "OK",
+      "venue": "Oklahoma Motorsports Complex",
+      "city": "Norman",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "9095362e99",
+      "name": "Tulsa Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "OK",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "84d343ffa8",
+      "name": "Pat's Acres Racing Complex",
+      "aliases": [],
+      "country": "USA",
+      "region": "OR",
+      "venue": "Pat's Acres Racing Complex",
+      "city": "Canby",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "4677186fd6",
+      "name": "Portland Karting Association",
+      "aliases": [
+        "Portland Karting Association"
+      ],
+      "country": "USA",
+      "region": "OR",
+      "venue": "The MAC Track / Pats Acres Racing Complex",
+      "city": "Various",
+      "primary_url": "https://www.portlandkarting.com/events",
+      "source_ids": [
+        "pka",
+        "portland-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "a7b31fa033",
+      "name": "Southern Oregon Karters Association",
+      "aliases": [],
+      "country": "USA",
+      "region": "OR",
+      "venue": "Jackson County Sports Park",
+      "city": "Medford",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "3987727282",
+      "name": "Oreville Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "PA",
+      "venue": "Oreville Kart Club",
+      "city": "Mertztown",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "01f395275b",
+      "name": "Pittsburgh International Race Complex karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "PA",
+      "venue": "Pittsburgh International Race Complex",
+      "city": "Wampum",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "0ed44cd184",
+      "name": "Carolina Motorsports Park Karting",
+      "aliases": [],
+      "country": "USA",
+      "region": "SC",
+      "venue": "Carolina Motorsports Park",
+      "city": "Kershaw",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "e3b9a37938",
+      "name": "Music City Kartplex",
+      "aliases": [
+        "Music City Kartplex"
+      ],
+      "country": "USA",
+      "region": "TN",
+      "venue": "Music City Kartplex",
+      "city": "Shelbyville",
+      "primary_url": "https://musiccitykartplex.com/series",
+      "source_ids": [
+        "music-city-series"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "690b3769fe",
+      "name": "201 Go Kart Speedway",
+      "aliases": [],
+      "country": "USA",
+      "region": "TX",
+      "venue": "201 Go Kart Speedway",
+      "city": "New Boston",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "cc4eb76952",
+      "name": "Dallas Karting Complex",
+      "aliases": [],
+      "country": "USA",
+      "region": "TX",
+      "venue": "Dallas Karting Complex",
+      "city": "Caddo Mills",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "5b3a3e4465",
+      "name": "Gulf Coast Karters",
+      "aliases": [
+        "Gulf Coast Karters / Greater Houston Race Series"
+      ],
+      "country": "USA",
+      "region": "TX",
+      "venue": "Gulf Coast Karters / Speedsportz Racing Park",
+      "city": "Various",
+      "primary_url": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
+      "source_ids": [
+        "gulf-coast-races"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "8cc7e69b32",
+      "name": "Heart of Texas Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "TX",
+      "venue": "Heart of Texas Kart Club",
+      "city": "Waco",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "35071693c6",
+      "name": "Hill Country Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "TX",
+      "venue": "Hill Country Kart Club",
+      "city": "New Braunfels",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "8484319564",
+      "name": "KartMoto",
+      "aliases": [],
+      "country": "USA",
+      "region": "TX",
+      "venue": "KartMoto",
+      "city": "Cresson",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "f44d9b6b3e",
+      "name": "North Texas Karters",
+      "aliases": [
+        "North Texas Karters"
+      ],
+      "country": "USA",
+      "region": "TX",
+      "venue": "North Texas Karters",
+      "city": "Denton",
+      "primary_url": "https://northtexaskarters.wildapricot.org/",
+      "source_ids": [
+        "ntk",
+        "ntk-fall5-export"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "d9d74cf17f",
+      "name": "Texas Sprint Racing Series / Speedsportz",
+      "aliases": [],
+      "country": "USA",
+      "region": "TX",
+      "venue": "Speedsportz Racing Park",
+      "city": "New Caney",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "cb561ba25a",
+      "name": "Utah Motorsports Campus",
+      "aliases": [],
+      "country": "USA",
+      "region": "UT",
+      "venue": "Utah Motorsports Campus Karting",
+      "city": "Grantsville",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "f231ad13fa",
+      "name": "Hampton Roads Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "VA",
+      "venue": "Langley Speedway",
+      "city": "Hampton",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "a8155483a7",
+      "name": "Southampton Motor Speedway",
+      "aliases": [],
+      "country": "USA",
+      "region": "VA",
+      "venue": "Southampton Motor Speedway",
+      "city": "Capron",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "excluded",
+      "scope_reason": "oval_or_dirt",
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "a2f436bf07",
+      "name": "Vermont Shifter Karts",
+      "aliases": [],
+      "country": "USA",
+      "region": "VT",
+      "venue": "Rocky Ridge Raceway",
+      "city": "Williamstown",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "c589996fb0",
+      "name": "Pacific Grand Prix",
+      "aliases": [],
+      "country": "USA",
+      "region": "WA",
+      "venue": "Pacific Grand Prix Motorsports Park",
+      "city": "Kent",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "2020ef4216",
+      "name": "Puget Sound Go Kart Association",
+      "aliases": [
+        "Puget Sound Go Karting Association"
+      ],
+      "country": "USA",
+      "region": "WA",
+      "venue": "Mountain Highway Raceway",
+      "city": "Spanaway",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [
+        "psgka"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "6267c084d2",
+      "name": "SIMA Series",
+      "aliases": [],
+      "country": "USA",
+      "region": "WA",
+      "venue": "SIMA International Motorsport Academy",
+      "city": "Sumas",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "5014562c23",
+      "name": "Spokane Kart Racing Association",
+      "aliases": [],
+      "country": "USA",
+      "region": "WA",
+      "venue": "Spokane Kart Racing Association",
+      "city": "Airway Heights",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "b9681047f9",
+      "name": "Tri-City Kart Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "WA",
+      "venue": "Horn Rapids Kart Track",
+      "city": "Richland",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "163cbaed0b",
+      "name": "Badger Kart Club",
+      "aliases": [
+        "Badger Kart Club"
+      ],
+      "country": "USA",
+      "region": "WI",
+      "venue": "Mill-Rite Raceway",
+      "city": "Dousman",
+      "primary_url": "https://badgerkartclub.com/",
+      "source_ids": [
+        "badger"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "9164f69af7",
+      "name": "Road America Karting Club",
+      "aliases": [],
+      "country": "USA",
+      "region": "WI",
+      "venue": "Briggs & Stratton Motorplex at Road America",
+      "city": "Elkhart Lake",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "4eb3d849f8",
+      "name": "Sugar River Raceway",
+      "aliases": [],
+      "country": "USA",
+      "region": "WI",
+      "venue": "Sugar River Raceway",
+      "city": "Brodhead",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "77c5ae10b5",
+      "name": "US Air Motorsports Raceway",
+      "aliases": [],
+      "country": "USA",
+      "region": "WI",
+      "venue": "US Air Motorsports Raceway",
+      "city": "Shawano",
+      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "scope_reason": null,
+      "verification": "directory_lead",
+      "season_declarations": []
+    },
+    {
+      "id": "07d1d6e854",
+      "name": "Spring Mountain Karting Complex",
+      "aliases": [
+        "Spring Mountain Karting Complex",
+        "Spring Mountain Karting"
+      ],
+      "country": "USA",
+      "region": "NV",
+      "venue": "Spring Mountain Karting Complex",
+      "city": "Pahrump",
+      "primary_url": "https://springmountainkarting.com/racing-leagues/",
+      "source_ids": [
+        "spring-mountain-pdf",
+        "spring-mountain-schedule"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "c4eb0bca48",
+      "name": "Campeonato Kart Monterrey",
+      "aliases": [
+        "Autódromo Monterrey / Campeonato Kart Monterrey"
+      ],
+      "country": "Mexico",
+      "region": "NLE",
+      "venue": "Autódromo Monterrey",
+      "city": "Apodaca",
+      "primary_url": "https://autodromomonterrey.com/about",
+      "source_ids": [
+        "monterrey-kart"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "06c439aa40",
+      "name": "Northeast Karting Challenge",
+      "aliases": [
+        "Northeast Karting Challenge"
+      ],
+      "country": "USA",
+      "region": "NJ",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://www.northeastkartchallenge.com/",
+      "source_ids": [
+        "nkc-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "44a60cee03",
+      "name": "Ambassador Racing School",
+      "aliases": [
+        "Ambassador Racing School"
+      ],
+      "country": "USA",
+      "region": "FL",
+      "venue": "Ambassador Racing School",
+      "city": "Wimauma",
+      "primary_url": "https://racingkarts.com/introduction/schedule-2/",
+      "source_ids": [
+        "ambassador-schedule"
+      ],
+      "scope_status": "excluded",
+      "scope_reason": "oval_or_dirt",
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "f7a8ec675f",
+      "name": "Point Pelee Karting Club",
+      "aliases": [
+        "Point Pelee Karting Club"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Point Pelee Karting",
+      "city": "Leamington",
+      "primary_url": "https://www.pointpeleekarting.com/PPKC/",
+      "source_ids": [
+        "point-pelee-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [
+        {
+          "year": 2026,
+          "status": "season_complete",
+          "reviewed_on": "2026-10-19",
+          "evidence": "https://www.pointpeleekarting.com/PPKC/",
+          "note": "Organizer explicitly identifies September 20 as final event of 2026."
+        }
+      ]
+    },
+    {
+      "id": "org-5985dc813f",
+      "name": "Rotax MAX Challenge Canada",
+      "aliases": [],
+      "country": "Canada",
+      "region": "Multi",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://maxchallenge.ca/events2/",
+      "source_ids": [
+        "rmc-canada"
+      ],
+      "scope_status": "eligible",
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "org-1fa412ba78",
+      "name": "KartStars Canada",
+      "aliases": [],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://kartsportcanada.ca/bulletins/",
+      "source_ids": [
+        "kartstars-canada",
+        "kartstars-schedule",
+        "kartstars-regulations"
+      ],
+      "scope_status": "eligible",
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "org-c834b6077c",
+      "name": "BC Regional Karting Championship",
+      "aliases": [],
+      "country": "Canada",
+      "region": "BC",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://www.westcoastkartclub.ca/schedule",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "verification": "research_target",
+      "season_declarations": []
+    },
+    {
+      "id": "org-135e8cffe3",
+      "name": "International Kart Federation",
+      "aliases": [],
+      "country": "USA",
+      "region": "",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://www.ikfkarting.com/",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "verification": "research_target",
+      "season_declarations": []
+    },
+    {
+      "id": "org-aebe1a6980",
+      "name": "Rotax Racing Club California",
+      "aliases": [],
+      "country": "USA",
+      "region": "CA",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "verification": "research_target",
+      "season_declarations": []
+    },
+    {
+      "id": "org-f298686f1d",
+      "name": "Florida Karting Championship Series",
+      "aliases": [],
+      "country": "USA",
+      "region": "FL",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "",
+      "source_ids": [],
+      "scope_status": "needs_review",
+      "verification": "research_target",
+      "season_declarations": []
+    }
+  ]
+}

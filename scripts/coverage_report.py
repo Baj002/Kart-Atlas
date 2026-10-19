@@ -4,12 +4,14 @@ import json
 from scripts.check_sources import ROOT
 from scripts.discovery_engine import dump, host, REGIONS
 from scripts.coverage_audit import regional_coverage,date_conflicts
+from scripts.organizer_coverage import build as organizer_coverage
+from scripts.racing_scope import load_policy,source_scope_reason
 
 def build(root=ROOT,today=None):
     today=today or dt.datetime.now(dt.timezone.utc).date()
     report=json.loads((root/'reports/discovery.json').read_text())
     races=json.loads((root/'site/events.json').read_text())['events']
-    clubs=json.loads((root/'data/clubs.json').read_text())['clubs']
+    clubs=[c for c in json.loads((root/'data/clubs.json').read_text())['clubs'] if not source_scope_reason(c,load_policy(root))]
     sources=report.get('sources',[])
     monitors=json.loads((root/'data/monitor_sources.json').read_text())['sources']
     countries={}
@@ -52,6 +54,7 @@ def build(root=ROOT,today=None):
         'feed_additions':sum(c.get('new',False) for c in report['changes']),'errors':len(report['errors']),'is_complete':False,
         'future_races':payload['future_races'],'trusted_sources_reached':payload['trusted_sources_reached']})
     print(f"Coverage: reached {reached}/{attempted} sources; {payload['future_races']} upcoming indexed races")
+    organizer_coverage(root,report,races,today)
     return payload
 
 if __name__=='__main__':build()

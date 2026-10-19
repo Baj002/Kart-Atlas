@@ -2,6 +2,16 @@
 
 Public, installable North American kart racing calendar for Canada, USA and Mexico. Static site in `site/`, Python discovery pipeline, and daily GitHub Actions refresh. No paid API is required for the implemented adapters. The runtime dependency is pinned in `requirements.txt`.
 
+Scope is competition circuit karting: Briggs LO206, Rotax, ROK, shifter, IAME/KA100 and comparable classes. The conventional `Sprint` label means this circuit karting. Oval, dirt, vintage, long-circuit road-racing programs, rental leagues and other motorsports are excluded. Missing engine/class details never exclude an otherwise eligible race. Owner-kart endurance events remain eligible; concession-kart enduros do not.
+
+`data/racing_scope.json` records reviewed exclusions and event corrections with evidence. The same scope checks apply to HTML/JSON-LD, ICS feeds, retained automated events, curated publication and final validation. `reports/scope_audit.json` records exclusions without rewriting historical CSV IDs. Daytona KartWeek's circuit races are explicitly separated from its dirt/road programs and retain the original saved-race ID.
+
+## Internal registry and health
+
+`data/organizers.json` holds stable organizer IDs, explicit aliases, source bindings, scope verification and evidence-backed season declarations. `reports/organizer_coverage.json` distinguishes future indexed races, past-only listings, missing sources, inaccessible sources, unverified dates and reviewed season completion/non-announcement. A directory lead is not a verified active club. Non-announcement declarations expire after seven days, and future indexed dates supersede older declarations. Cached listings without recent verification are marked for review.
+
+Discovery persists per-source health in `data/source_state.json`: last success, failure streak, bounded scan history and expected future event identities. Empty or reduced schedules are flagged when known future events disappear; explicit cancellations and completed dates do not generate false missing-event alarms. Fetch failures never cancel retained races. Health and organizer audits stay in repository reports and workflow artifacts, not new public app pages.
+
 ## Discovery and publication
 
 `python -m scripts.discover_events` scans configured organizer sources, distinct directory websites, federation/industry directories, and a rotating batch of previously discovered websites. Each source has a bounded crawl (default five pages), following same-domain calendar/event links. Roots are checked daily; unseen and least-recently-attempted linked pages rotate ahead of previously checked pages so scan limits do not permanently starve deeper links. Sources on different hosts are scanned concurrently; requests on each host are serialized, rate limited and checked against robots.txt. Retrieval errors preserve published data.

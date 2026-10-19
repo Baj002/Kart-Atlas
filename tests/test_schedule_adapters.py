@@ -166,10 +166,10 @@ class DataAccuracyTests(unittest.TestCase):
         raw='BEGIN:VCALENDAR\nBEGIN:VEVENT\nUID:away\nDTSTART:20261101\nSUMMARY:Regional Championship Race\nLOCATION:Different Raceway, Another Town\nEND:VEVENT\nEND:VCALENDAR'
         event=normalized_ics(raw,SOURCE,TODAY)[0]
         self.assertTrue(event['location_needs_review'])
-    def test_explicit_dirt_oval_is_not_labelled_sprint(self):
+    def test_explicit_dirt_oval_is_excluded_from_circuit_karting(self):
         from tests.test_engine import page,EVENT
-        event=extract_page(page(dict(EVENT,name='Dirt Karters Race 9 (dirt oval)')),SOURCE,TODAY)['events'][0]
-        self.assertEqual(event['format'],'Dirt oval')
+        events=extract_page(page(dict(EVENT,name='Dirt Karters Race 9 (dirt oval)')),SOURCE,TODAY)['events']
+        self.assertEqual(events,[])
     def test_stale_curated_mapping_blocks_publication(self):
         from scripts.validate_data import validate
         from tests.test_engine import normalized
