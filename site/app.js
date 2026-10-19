@@ -17,12 +17,45 @@
   };
   const coordinates=e=>{if(Number.isFinite(Number(e.lat))&&Number.isFinite(Number(e.lng))&&e.lat!==undefined&&e.lng!==undefined)return [Number(e.lat),Number(e.lng)];return CITY_COORDS[`${String(e.city||'').trim().toLowerCase()}|${e.region}`]||null;};
   function renderMap(data){
-    if(!window.L){$('#map-note').textContent='Map tiles could not load. Check your internet connection; List view remains available.';return;}
-    if(!raceMap){raceMap=L.map('race-map',{scrollWheelZoom:false}).setView([40,-98],4);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© OpenStreetMap contributors'}).addTo(raceMap);mapLayer=L.layerGroup().addTo(raceMap);}
-    mapLayer.clearLayers();const bounds=[];let mapped=0;
-    for(const e of data){const xy=coordinates(e);if(!xy)continue;mapped++;bounds.push(xy);const marker=L.marker(xy).addTo(mapLayer);const popup=document.createElement('div');const title=document.createElement('strong');title.textContent=e.name;const details=document.createElement('p');details.textContent=`${fmtRange(e)} · ${e.venue||'Venue TBA'} · ${e.city}, ${e.region}`;popup.append(title,details);if(safeURL(e.source)){const a=document.createElement('a');a.href=e.source;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Organizer page ↗';popup.append(a);}const more=document.createElement('button');more.type='button';more.textContent='Event details →';more.style.cssText='display:block;margin-top:9px;cursor:pointer';more.onclick=()=>{raceMap.closePopup();showEvent(e);};popup.append(more);marker.bindPopup(popup);}
-    $('#map-note').textContent=`${mapped} of ${data.length} matching races mapped. Pins show approximate city centers unless coordinates are provided, not verified track entrances. Unmapped races remain available in List view.`;
-    setTimeout(()=>{raceMap.invalidateSize();if(bounds.length)raceMap.fitBounds(bounds,{padding:[30,30],maxZoom:10});else raceMap.setView([40,-98],4);},30);
+    if(!window.L){$('#map-note').textContent='Map unavailable right now. Switch to List view to see every race.';return;}
+    if(!raceMap){
+      raceMap=L.map('race-map',{scrollWheelZoom:false,zoomControl:false,preferCanvas:true}).setView([40,-98],4);
+      L.control.zoom({position:'bottomright'}).addTo(raceMap);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
+        subdomains:'abcd',maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'
+      }).addTo(raceMap);
+      mapLayer=L.layerGroup().addTo(raceMap);
+    }
+    mapLayer.clearLayers();
+    const locations=new Map();let mapped=0;
+    for(const e of data){
+      const xy=coordinates(e);if(!xy)continue;
+      mapped++;
+      const key=xy.map(v=>v.toFixed(4)).join(',');
+      if(!locations.has(key))locations.set(key,{xy,events:[]});
+      locations.get(key).events.push(e);
+    }
+    const bounds=[];
+    for(const group of locations.values()){
+      const {xy,events:atLocation}=group;bounds.push(xy);
+      const n=atLocation.length;
+      const marker=L.marker(xy,{icon:L.divIcon({
+        className:'kart-map-marker',html:'<span class="kart-map-pin'+(n>1?' kart-map-pin-group':'')+'">'+(n>1?n:'<span class="kart-map-pin-dot"></span>')+'</span>',
+        iconSize:[38,44],iconAnchor:[19,40],popupAnchor:[0,-35]
+      })}).addTo(mapLayer);
+      const popup=document.createElement('div');popup.className='kart-map-popup';
+      const label=el('div','kart-map-popup-eyebrow',n===1?'RACE EVENT':n+' RACES AT THIS LOCATION');popup.append(label);
+      for(const e of atLocation.slice(0,8)){
+        const item=el('div','kart-map-popup-event');
+        item.append(el('strong','',e.name),el('span','',fmtRange(e)+' · '+(e.venue||e.city||'Venue TBA')));
+        const details=el('button','kart-map-popup-action','View race details →');details.type='button';
+        details.onclick=()=>{raceMap.closePopup();showEvent(e);};item.append(details);popup.append(item);
+      }
+      if(n>8)popup.append(el('p','kart-map-popup-more',`+ ${n-8} additional races here. Narrow the date filters to see more.`));
+      marker.bindPopup(popup,{maxWidth:310,minWidth:220,maxHeight:350,autoPanPadding:[22,22]});
+    }
+    $('#map-note').textContent=`${mapped} of ${data.length} matching races shown across ${locations.size} locations. Numbered pins group races in the same city. Locations are approximate unless exact coordinates are supplied. Unmapped events remain in List view.`;
+    setTimeout(()=>{raceMap.invalidateSize();if(bounds.length===1)raceMap.setView(bounds[0],9);else if(bounds.length)raceMap.fitBounds(bounds,{padding:[46,46],maxZoom:9});else raceMap.setView([40,-98],4);},60);
   }
   const today = () => { const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
   let saved = new Set();
