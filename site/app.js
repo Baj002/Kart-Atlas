@@ -240,7 +240,7 @@
     $('#stat-countries').textContent=new Set(events.map(e=>e.country).filter(Boolean)).size;
     $('#stat-upcoming').textContent=events.filter(e=>e.end>=today()).length;
     $('#snapshot').textContent=`Original research: ${snapshot} · Auto-imported feed events: ${data.auto_imported||0}. Other clubs require review.`;
-    fetch('/monitor_status.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(status=>{if(status&&status.last_attempt){const date=new Date(status.last_attempt).toLocaleDateString();$('#snapshot').textContent+=` Last monitored: ${date} · ${status.checked}/${status.total} sources reached.`;}}).catch(()=>{});
+
     regionOptions();
     for(const id of ['search','country','region','level','from','to','upcoming','official','favorites','sort']){
       const element=$('#'+id);element.addEventListener(id==='search'?'input':'change',()=>{if(id==='country')regionOptions();count=25;selectedDay='';refresh();});
