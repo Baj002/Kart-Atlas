@@ -42,12 +42,20 @@ class CircuitScopeTests(unittest.TestCase):
         self.assertTrue(source_scope_reason({'url':'https://club.example/daytona-kartweek-road/'}))
         self.assertFalse(source_scope_reason({'url':'https://club.example/daytona-kartweek-sprint/'}))
         self.assertFalse(source_scope_reason({'name':'Road America Karting Club','url':'https://club.example/calendar/'}))
+        self.assertFalse(source_scope_reason({'url':'http://[invalid'}))
+        self.assertFalse(event_scope_reason({'name':'Club Race','source':'http://[invalid'}))
     def test_reviewed_circuit_correction_retains_saved_id(self):
         original={'id':'saved','name':'KartWeek','format':'Sprint / Road / Dirt'}
         policy={'event_overrides':{'saved':{'fields':{'format':'Sprint','name':'KartWeek Circuit Karting'}}}}
         result=apply_reviewed_override(original,policy)
         self.assertEqual(result['id'],'saved');self.assertIsNone(event_scope_reason(result))
         self.assertEqual(original['format'],'Sprint / Road / Dirt')
+    def test_known_rental_event_cannot_reenter_under_a_new_automatic_id(self):
+        url='https://amp.motorsportreg.com/events/halloween-enduro-123'
+        policy={'excluded_events':{'old-id':{'reason':'rental','evidence':url}}}
+        event={'id':'different-auto-id','name':'Halloween Enduro','source':url+'?utm_source=calendar'}
+        self.assertEqual(event_scope_reason(event,policy),'rental')
+        self.assertIsNone(event_scope_reason(dict(event,source='https://amp.motorsportreg.com/events/lo206-enduro-456'),policy))
     def test_validator_blocks_scope_leakage(self):
         event={'id':'dirt','name':'LO206 Dirt Oval Race','start':'2026-11-01','end':'2026-11-01','organizer':'Club','country':'USA','source':'https://club.example/'}
         with tempfile.TemporaryDirectory() as directory:

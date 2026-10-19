@@ -26,6 +26,14 @@ def load_policy(root):
 def event_scope_reason(event,policy=None):
     policy=policy or {}
     if event.get('id') in policy.get('excluded_events',{}):return policy['excluded_events'][event['id']]['reason']
+    def event_url(value):
+        try:parsed=urlsplit(str(value or ''))
+        except ValueError:return None
+        if not re.search(r'/events?/',parsed.path,re.I):return None
+        return (str(parsed.hostname or '').lower().removeprefix('www.'),unquote(parsed.path).rstrip('/'))
+    urls={u for field in ('source','registration_url') if (u:=event_url(event.get(field)))}
+    for exclusion in policy.get('excluded_events',{}).values():
+        if event_url(exclusion.get('evidence')) in urls:return exclusion['reason']
     if event.get('feed_id') in policy.get('excluded_sources',{}):return policy['excluded_sources'][event['feed_id']]['reason']
     title=' '.join(str(event.get(k) or '') for k in ('name','format','organizer','classes'))
     for reason,pattern in TITLE_RULES:
@@ -46,7 +54,8 @@ def source_scope_reason(source,policy=None):
         if url and url.rstrip('/')==excluded.get('url','').rstrip('/'):return excluded['reason']
     reason=event_scope_reason({'name':source.get('name') or source.get('club',''),'format':source.get('format','')})
     if reason:return reason
-    path=unquote(urlsplit(source.get('url') or source.get('schedule_url','')).path)
+    try:path=unquote(urlsplit(str(source.get('url') or source.get('schedule_url',''))).path)
+    except ValueError:path=''
     if re.search(r'(?:/|[-_])(?:road-rac(?:ing|e)|vintage|dirt|oval|daytona-kartweek-road)(?:/|[-_]|$)',path,re.I):return 'excluded_discipline_source'
     return None
 
