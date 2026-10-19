@@ -21,8 +21,9 @@
     if(!raceMap){
       raceMap=L.map('race-map',{scrollWheelZoom:false,zoomControl:false,preferCanvas:true}).setView([40,-98],4);
       L.control.zoom({position:'bottomright'}).addTo(raceMap);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-        subdomains:'abcd',maxZoom:19,attribution:'&copy; OpenStreetMap contributors &copy; CARTO'
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
+        maxZoom:19,attribution:'&copy; OpenStreetMap contributors',
+        crossOrigin:true
       }).addTo(raceMap);
       mapLayer=L.layerGroup().addTo(raceMap);
     }
