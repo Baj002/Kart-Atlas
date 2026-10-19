@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 if __package__ in (None,''):
     sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from scripts.discovery_engine import event_reference
+from scripts.discovery_engine import event_reference, region_code
 from difflib import SequenceMatcher
 
 FIELDS={'Start Date':'start','End Date':'end','Race / Event':'name','Club / Series':'organizer','Track / Venue':'venue','City':'city','State / Province':'region','Country':'country','Level':'level','Race Format':'format','Verification':'verification','Classes':'classes','Source URL':'source','Notes':'notes'}
@@ -42,6 +42,7 @@ def build(root=ROOT):
         for r in csv.DictReader(f):
             e={v:(r.get(k) or '').strip() for k,v in FIELDS.items()}
             if not e['name'] or not e['start']:continue
+            e['region']=region_code(e['region'],e['country'])
             date.fromisoformat(e['start']); e['end']=e['end'] or e['start'];date.fromisoformat(e['end'])
             e['id']=hashlib.sha1(key(e).encode()).hexdigest()[:12]
             original.append(e)
@@ -49,6 +50,7 @@ def build(root=ROOT):
     auto=json.loads((root/'data/automated_events.json').read_text()).get('events',[])
     imported=[]
     for e in auto:
+        e=dict(e,region=region_code(e['region'],e['country']))
         matches=[p for p in curated if is_dup(e,[p])]
         if matches:
             p=matches[0]

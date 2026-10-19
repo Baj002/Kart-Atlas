@@ -19,6 +19,7 @@ AGENT='KartAtlasPublicCalendar/0.2 (public race directory; no paywall bypass)'
 LIMIT=2_000_000
 START_WINDOW_DAYS=550
 RACE_TERMS=re.compile(r'\b(race|races|championship|cup|grand prix|enduro|endurance|national|regional|carrera|campeonato|copa|course|courses|championnat|coupe|manche|supernats|supercup|grand finals|kartweek|prix|challenge|supernationals)\b',re.I)
+CANCEL_TERMS=re.compile(r'\b(cancelled|canceled|annul[ée]e?|cancelad[oa])\b',re.I)
 EXCLUDED=re.compile(r'(arrive[ -]?(?:and|&|n)[ -]?drive|a/d\b|mini indy|lap(?:ping)?\b|practice|training|test\s*&\s*tune|track closed|private event|birthday|meeting|banquet|maintenance|school|academy|esports?|simulator|iracing|virtual|rentals?|party|corporate)',re.I)
 
 class PageText(HTMLParser):
@@ -71,7 +72,7 @@ def normalized_ics(ics,source,today=None,include_cancelled=False):
     for raw in parse_ics(ics):
         name=html.unescape(raw.get('SUMMARY','')).strip()
         if not name or not RACE_TERMS.search(name) or EXCLUDED.search(name):continue
-        if (raw.get('STATUS','').upper()=='CANCELLED' and not include_cancelled) or raw.get('RRULE') or raw.get('RECURRENCE-ID'):continue
+        if ((raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name)) and not include_cancelled) or raw.get('RRULE') or raw.get('RECURRENCE-ID'):continue
         if re.search(r'instructor.led lapping',raw.get('DESCRIPTION',''),re.I):continue
         if not re.match(r'^\d{8}',raw.get('DTSTART','')):continue
         try:
@@ -93,8 +94,8 @@ def normalized_ics(ics,source,today=None,include_cancelled=False):
            'name':name[:180],'organizer':source['club'],'venue':source.get('venue',''),
            'city':source.get('city',''),'region':source.get('region',''),'country':source.get('country',''),
            'level':source.get('level','Club'),'format':'Endurance' if re.search('endur',name,re.I) else 'Sprint','verification':'Automated',
-           'status':'cancelled' if raw.get('STATUS','').upper()=='CANCELLED' else 'scheduled',
-           'status_explicit':raw.get('STATUS','').upper() in ('CANCELLED','CONFIRMED'),
+           'status':'cancelled' if raw.get('STATUS','').upper()=='CANCELLED' or CANCEL_TERMS.search(name) else 'scheduled',
+           'status_explicit':bool(raw.get('STATUS','').upper() in ('CANCELLED','CONFIRMED') or CANCEL_TERMS.search(name)),
            'timezone_needs_review':raw.get('DTSTART','').endswith('Z') and not bool(source.get('timezone')),
            'classes':'','source':link,'notes':'Imported from organizer calendar feed; check official rules, classes and date before travel.'})
     return results

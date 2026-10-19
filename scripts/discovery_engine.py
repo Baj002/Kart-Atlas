@@ -11,6 +11,7 @@ import ipaddress
 import json
 import re
 import socket
+import unicodedata
 import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -21,15 +22,21 @@ from urllib.request import HTTPRedirectHandler, Request, build_opener, getproxie
 from urllib.error import HTTPError
 from urllib.robotparser import RobotFileParser
 from scripts.schedule_tables import row_event
-from scripts.check_sources import AGENT, LIMIT, RACE_TERMS, EXCLUDED, normalized_ics, visible_text, ROOT
+from scripts.check_sources import AGENT, LIMIT, CANCEL_TERMS, RACE_TERMS, EXCLUDED, normalized_ics, visible_text, ROOT
 
 COUNTRIES={'CA':'Canada','CANADA':'Canada','US':'USA','USA':'USA','UNITED STATES':'USA','UNITED STATES OF AMERICA':'USA','MX':'Mexico','MEXICO':'Mexico','MÉXICO':'Mexico'}
 REGIONS=json.loads((ROOT/'data/regions.json').read_text())
 
 def region_code(value,country):
-    text=str(value).strip()
+    def folded(text):
+        text=unicodedata.normalize('NFKD',str(text)).encode('ascii','ignore').decode().casefold()
+        return re.sub(r'[^a-z0-9]','',text)
+    text=str(value).strip();key=folded(text)
+    aliases={'Mexico':{'mexicostate':'MEX','stateofmexico':'MEX','cdmx':'CMX','distritofederal':'CMX','ciudaddemexico':'CMX'},
+        'Canada':{'colombiebritannique':'BC','nouveaubrunswick':'NB','nouvelleecosse':'NS','ileduprinceedouard':'PE','terreneuveetlabrador':'NL'}}
+    if key in aliases.get(country,{}):return aliases[country][key]
     for code,name in REGIONS.get(country,{}).items():
-        if text.casefold() in (code.casefold(),name.casefold()):return code
+        if key in (folded(code),folded(name)):return code
     return text
 
 RACING=re.compile(RACE_TERMS.pattern+r'|\b(carrera|campeonato|copa|course|courses|championnat|coupe|manche|enduro)\b',re.I)
@@ -186,7 +193,8 @@ def normalize_event(e, source, today):
     except ValueError:return None
     if end<start or (end-start).days>12 or end<today or start>today+dt.timedelta(days=550):return None
     status=str(e.get('eventStatus','')).rsplit('/',1)[-1]
-    if status=='EventPostponed':state='postponed'
+    if CANCEL_TERMS.search(name):state='cancelled';status='EventCancelled'
+    elif status=='EventPostponed':state='postponed'
     elif status=='EventCancelled':state='cancelled'
     elif status in ('','EventScheduled','EventRescheduled'):state='scheduled'
     else:return None
@@ -200,7 +208,9 @@ def normalize_event(e, source, today):
     if isinstance(country,dict):country=country.get('name','')
     country=COUNTRIES.get(str(country).upper(),'')
     link=clean_url(e.get('url') or e.get('@id') or '',source['url']) or source['url']
-    uid=str(e.get('@id') or e.get('url') or (source['url']+'#'+name.casefold()))
+    identity_name=CANCEL_TERMS.sub('',name).strip(' -–—:').casefold()
+    uid=str(e.get('@id') or e.get('url') or (source['url']+'#'+identity_name))
+    if not e.get('@id') and not e.get('url') and re.fullmatch(r'(?:club |championship )?race(?: day)?',name,re.I):uid+='|'+str(start)
     record={'name':name[:180],'start':str(start),'end':str(end),'organizer':source['club'],
         'venue':str(location.get('name') or fallback.get('venue',''))[:180],
         'city':str(address.get('addressLocality') or fallback.get('city','')),

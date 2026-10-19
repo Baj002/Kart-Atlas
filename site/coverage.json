@@ -54,9 +54,9 @@
       "trusted_sources": 2,
       "future_races": 7,
       "regions_with_races": [
-        "Mexico State",
-        "Morelos",
-        "Querétaro"
+        "MEX",
+        "MOR",
+        "QUE"
       ],
       "directory_leads": 4
     }

@@ -88,6 +88,10 @@ class LifecycleTests(unittest.TestCase):
         updated,_=reconcile(stored,[normalized(eventStatus='https://schema.org/EventCancelled')],'later')
         self.assertEqual(updated[0]['status'],'cancelled')
         restored,_=reconcile(updated,[normalized(eventStatus='https://schema.org/EventScheduled')],'later');self.assertEqual(restored[0]['status'],'scheduled')
+    def test_cancellation_in_title_updates_known_event(self):
+        stored,_=reconcile([], [normalized()],'now')
+        updated,_=reconcile(stored,[normalized(name='Cancelled — Fall Endurance Race')],'later')
+        self.assertEqual(updated[0]['status'],'cancelled')
     def test_cancelled_unknown_not_added(self):
         stored,_=reconcile([], [normalized(eventStatus='https://schema.org/EventCancelled')],'now');self.assertEqual(stored,[])
     def test_stale_listing_card_cannot_reinstate_cancelled_event(self):
@@ -143,6 +147,16 @@ class PublicationTests(unittest.TestCase):
             (root/'data/automated_events.json').write_text(json.dumps({'events':[event]}))
             updated=build(root)['events']
             self.assertEqual(len(updated),1);self.assertEqual(updated[0]['id'],original['id']);self.assertEqual(updated[0]['start'],'2026-10-31')
+
+class GeographyTests(unittest.TestCase):
+    def test_region_names_match_app_filter_codes(self):
+        from scripts.discovery_engine import region_code
+        for value,country,code in [('Mexico State','Mexico','MEX'),('Querétaro','Mexico','QUE'),('Morelos','Mexico','MOR'),('Québec','Canada','QC'),('CDMX','Mexico','CMX'),('New York','USA','NY')]:
+            self.assertEqual(region_code(value,country),code)
+    def test_repeated_generic_table_races_have_distinct_ids(self):
+        html='<h2>2027 Race Schedule</h2><table><tr><td>May 1</td><td>Club Race</td></tr><tr><td>May 8</td><td>Club Race</td></tr></table>'
+        events=extract_page(html,SOURCE,TODAY)['events']
+        self.assertEqual(len(events),2);self.assertNotEqual(identity(events[0]),identity(events[1]))
 
 class TableDateTests(unittest.TestCase):
     def test_french_range_and_ambiguous_numeric_dates(self):
