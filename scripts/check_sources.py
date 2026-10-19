@@ -17,7 +17,7 @@ ROOT=Path(__file__).resolve().parents[1]
 AGENT='KartAtlasPublicCalendar/0.2 (public race directory; no paywall bypass)'
 LIMIT=2_000_000
 START_WINDOW_DAYS=550
-RACE_TERMS=re.compile(r'\b(race|races|championship|cup|grand prix|enduro|national|regional|supernats|supercup|grand finals|kartweek|prix|challenge|supernationals)\b',re.I)
+RACE_TERMS=re.compile(r'\b(race|races|championship|cup|grand prix|enduro|endurance|national|regional|supernats|supercup|grand finals|kartweek|prix|challenge|supernationals)\b',re.I)
 EXCLUDED=re.compile(r'(arrive[ -]?(?:and|&|n)[ -]?drive|a/d\b|mini indy|lap(?:ping)?\b|practice|training|test\s*&\s*tune|track closed|private event|birthday|meeting|banquet|maintenance|school|rentals?|party|corporate)',re.I)
 
 class PageText(HTMLParser):
