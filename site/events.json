@@ -1978,6 +1978,23 @@
       "id": "50f9aef1e40e"
     },
     {
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "name": "HRKC Race 19 — Championship Finale",
+      "organizer": "Hamilton Regional Kart Club",
+      "venue": "Hamilton Karting Complex",
+      "city": "Mount Hope",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "notes": "",
+      "id": "f9970013a237"
+    },
+    {
       "id": "auto-636cac60c0cf",
       "uid": "8819-1792281600-1792367999@hamiltonkartingcomplex.com",
       "feed_id": "hamilton-ics",
@@ -1995,23 +2012,6 @@
       "classes": "",
       "source": "https://hamiltonkartingcomplex.com/event/hrkc-race-19-double-points-finale/",
       "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel."
-    },
-    {
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "name": "HRKC Race 19 — Championship Finale",
-      "organizer": "Hamilton Regional Kart Club",
-      "venue": "Hamilton Karting Complex",
-      "city": "Mount Hope",
-      "region": "ON",
-      "country": "Canada",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
-      "notes": "",
-      "id": "f9970013a237"
     },
     {
       "start": "2026-10-18",
@@ -2131,6 +2131,24 @@
       "source": "https://socal-karting.com/calendar/",
       "notes": "",
       "id": "b46096a7bbf3"
+    },
+    {
+      "id": "wckc-enduro-20261024",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "name": "WCKC 2026 Fall Endurance Race",
+      "organizer": "West Coast Kart Club",
+      "venue": "Greg Moore Raceway",
+      "city": "Chilliwack",
+      "region": "BC",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Endurance",
+      "verification": "Official",
+      "classes": "LO206 Cadet / LO206 Junior / LO206 Senior / LO206 Heavy",
+      "source": "https://www.westcoastkartclub.ca/events",
+      "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632",
+      "notes": "Registration listed open; event calendar indicates 9 AM–5 PM. Check official event rules and entry eligibility."
     },
     {
       "start": "2026-10-25",
