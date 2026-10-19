@@ -25,13 +25,13 @@ jobs:
         run: python scripts/enrich_motorsportreg.py
       - name: Regenerate site datasets
         run: python scripts/build_site.py
-      - name: Validate published races and directory
+      - name: Discover structured events and linked calendars\n        run: python -m scripts.discover_events\n      - name: Validate published races and directory
         run: python -m unittest discover -s tests -v
       - name: Commit monitoring results and any safe additions
         run: |
           git config user.name 'kart-atlas-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/event_enrichment.json data/automated_events.json data/source_state.json reports/latest.json site/events.json site/clubs.json site/monitor_status.json
+          git add reports/discovery.json data/event_enrichment.json data/automated_events.json data/source_state.json reports/latest.json site/events.json site/clubs.json site/monitor_status.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: check official karting calendars'
             git push
