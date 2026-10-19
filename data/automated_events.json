@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T03:15:18+00:00",
+  "updated": "2026-10-19T13:59:23+00:00",
   "events": [
     {
       "id": "auto-5a738b3178cb",
@@ -65,8 +65,8 @@
       "discovered_from": "https://www.ntkarters.com/calendar/g-8-7h9l9il8hh2kand0npb6vgg90s_202610241800.raw",
       "parser": "ics",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -94,8 +94,8 @@
       "pdf_page": 1,
       "id": "auto-8238b76b8c8187ca",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "WCKC 2026 Fall Endurance Race",
@@ -123,8 +123,8 @@
       "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632",
       "id": "auto-711b6ca5b585ec1f",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -152,8 +152,8 @@
       "pdf_page": 1,
       "id": "auto-021cc4fafc417b71",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "NYS CHAMPIONSHIP/CLUB RACE #15",
@@ -180,8 +180,8 @@
       "publication_needs_review": false,
       "id": "auto-0fc6a96508f2aeed",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 1",
@@ -209,8 +209,8 @@
       "curated_id": "bf89c2c303a6",
       "id": "auto-4acbc86aa27b073d",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -265,8 +265,8 @@
       "pdf_page": 1,
       "id": "auto-1b9b2a76931a3cb1",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -294,8 +294,8 @@
       "pdf_page": 1,
       "id": "auto-ee0faec5e411a5c8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 2",
@@ -323,8 +323,8 @@
       "curated_id": "5b1f9274ffb2",
       "id": "auto-684182648caf33ef",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -352,8 +352,8 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 3",
@@ -381,8 +381,8 @@
       "curated_id": "05059067c8df",
       "id": "auto-4d65d83f21b7e37e",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 4",
@@ -410,8 +410,8 @@
       "curated_id": "4208ae2b35c9",
       "id": "auto-dcb65481dd27afd4",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 5",
@@ -439,8 +439,8 @@
       "curated_id": "8eabfebc7421",
       "id": "auto-a8d2ec56b0593540",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Cactus Cup",
@@ -468,8 +468,8 @@
       "curated_id": "78b897cddd42",
       "id": "auto-eff123faf1e0d688",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 6",
@@ -497,8 +497,8 @@
       "curated_id": "90d8ad70ba29",
       "id": "auto-7d148cfcda1b4c79",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 7",
@@ -526,8 +526,8 @@
       "curated_id": "69ffd03bfac4",
       "id": "auto-1968666c0e18972c",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 8",
@@ -555,8 +555,8 @@
       "curated_id": "f94f8de53b17",
       "id": "auto-dc06c874123dd80a",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 9",
@@ -584,8 +584,8 @@
       "curated_id": "b4747467fb2a",
       "id": "auto-2a498173f79c26d8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 10 — Finale",
@@ -613,8 +613,8 @@
       "curated_id": "bed34054b637",
       "id": "auto-c4e7e78df154a880",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-19T03:15:18+00:00",
-      "last_verified": "2026-10-19T03:15:18+00:00"
+      "last_seen": "2026-10-19T13:59:23+00:00",
+      "last_verified": "2026-10-19T13:59:23+00:00"
     }
   ]
 }
