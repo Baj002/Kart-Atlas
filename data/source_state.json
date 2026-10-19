@@ -179,18 +179,18 @@
   "discovery_pages": {
     "https://goodwoodkartways.com/events/?ical=1": {
       "digest": "c37d9736364cd8e927e9975050001fe25cd18cc2b1085e93567e84a2d7cc5d98",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://hamiltonkartingcomplex.com/events/?ical=1": {
       "digest": "724894cd35c0789bfa6a231d47b4741bdd9febc52ead961cc298751c7b68d14f",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.westcoastkartclub.ca/events": {
-      "digest": "af50035fb8e02cc3a284087ea8924f1ae9c20dca7c8d699c507efcb31ac6be2b",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "17fd9972a4ffeaae247a4bf1d78b6a0237ded79f97e65ab2c831cdf996a062b1",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.westcoastkartclub.ca/events/wckc-2026-fall-endurance-race?format=ical": {
       "digest": "24e3f3ddf544191cbff3665b2a8037576b1f342039e8f29699db4e3a802c34d0",
@@ -210,23 +210,23 @@
     },
     "https://www.manitobakarting.ca/blank": {
       "digest": "3106b096a4028d33ca5d3cbfc208ae2fe234cbd87a2d719bc73d434678cf3be3",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.nskr.ca/schedule": {
       "digest": "7443a35d967553658c3f177dbd651c13ba6fa66d5d4e0848c5f3e7007da7d372",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.sskc.ca/schedule": {
       "digest": "e11e1fe08d45d1940864d618fbb3b86058a43a3c53f57b4b6f5b62bdd1be5a2c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://goodwoodkartways.com/trak/": {
       "digest": "5f62462234e3fe36fb6037fa6e17d742843d40f6c7238254bcf46a57a89faeda",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://goodwoodkartways.com/wp-json/tribe/events/v1/": {
       "digest": "10f6629d05ef76c13335fa9c18f668d5383c090a4a5d1a21da2e67d169a19080",
@@ -245,13 +245,13 @@
     },
     "https://hamiltonkartingcomplex.com/events/list/": {
       "digest": "9ef1bb12850fc91d2418df402fe23d48944b954164898dce884f61c732069555",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://hamiltonkartingcomplex.com/events/list/?ical=1": {
       "digest": "724894cd35c0789bfa6a231d47b4741bdd9febc52ead961cc298751c7b68d14f",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://hamiltonkartingcomplex.com/events/list/page/2/": {
       "digest": "b2c2859293dc005072392cdb4533b491d87d857b356b8f867c3e42455f92d9fe",
@@ -263,33 +263,33 @@
     },
     "https://nckc.net/": {
       "digest": "52557d82d643e9ce614c4b2add4da73b079bed15ac2339f5e69b60e724250c9c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://nckc.net/schedule/": {
       "digest": "0d2a613521aa0a094e12c34ede9f8411bb37822b4109eae694dd43550f1e0750",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://psgka.com/": {
       "digest": "0c2f416ce9dda89fde0713a7657857114f2346a3c103e6c139712656a6f492db",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://psgka.com/psgka-racing/": {
       "digest": "b4b7b6c409f64bfc8e0c16b1e03b6fdc12479029da682a8e45f41a29f598dd16",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://psgka.com/psgka-racing": {
       "digest": "b4b7b6c409f64bfc8e0c16b1e03b6fdc12479029da682a8e45f41a29f598dd16",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://raceselect.com/pka/2026": {
       "digest": "4de114c4df9e5bacb0a9171aa562b08781cdbf149a7f04203229cd48679dd76a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://raceselect.com/pka/2026-oskcs-race-9-ccw-old/EventDetails": {
       "digest": "37c3e03093655b3d2f68a1a417902449b5a27d2363eab1aec540e5141cbc532c",
@@ -311,8 +311,8 @@
     },
     "https://www.ntkarters.com/calendar.html": {
       "digest": "fa12348a2b357e98ff9cf5f64431b7de6e71c83bf50ec168ba118b6bb817a628",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.ntkarters.com/racing-info/safety-video.html": {
       "digest": "e60a2438a811cef0c47196873121bc01b30ec157e428a48fe7e0bc7e811f6092",
@@ -331,103 +331,103 @@
     },
     "https://www.ntkarters.com/racing-info/transponders.html": {
       "digest": "6b42511565a8a8a7e6fd664eed79505a91a718325e022e97b9756cc5c3aa2c51",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html": {
-      "digest": "2b4f6bf3305e80b5a698b6075aa802ba3e5863ed79381559175ac516bc7f2442",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "1844e25df9d715edc13ed2527cfa149ddea9ca0e0cb184d06575b2905698f123",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.superkartsusa.com/event-schedules.html": {
-      "digest": "13f622d4f78c16fb1a3a6f8a95f50e97731a48c8a8cf5cb2b0f1b08fd2cb649b",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "a5b9db108fae493392826c4314ecae8b48c3f78701c7b8e24e36c9b5e1c59bda",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://pkra.com/racing-schedule/": {
       "digest": "3815219f93f2f64c5fa1d7910c249d7e01a0803315d4486910333ce621fe3181",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://pkra.com/racing/": {
       "digest": "3273f0415efd92ffdff2b6890c8b21f7f86af035b6e2ebaf0824ecd41d567782",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://pkra.com/new-to-racing/": {
       "digest": "fa0db9c40f4331b249878d903f478364bbe0c7d5135a72e7ea5b7d9ecee24b0d",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://pkra.com/racing-classes/": {
       "digest": "b568548675732c8e92aa8031a43a25286962bba420128626af435e17cae219a5",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://pkra.com/calendar/": {
       "digest": "f0849eb36215be4c167ffd2859d3064c10b716b2c5b5253481a548372223190a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.championskartingamerica.com/mexico-series/": {
       "digest": "ee2fd4e1b554ac12ac93b77cdfb302fba0013a9c5bf51411211c2c8298b3c39b",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.championskartingamerica.com/races/": {
       "digest": "bed037b6683586167fb255f311c1a877f8d0fe0d39ec54ab8d56ebb4d30c903d",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://rokcupusa.com/calendar/": {
-      "digest": "7d96bb9f50d1fc9b77da07233346e2d423ae699eba98eb63a7641d785c76f953",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "b9c9173c8d8e6821068da31c4af47baa7c9d7d2cfa4c42b49645c190e5eb7ea2",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/": {
-      "digest": "7601d9d8a281790db342bb7effb8335c6716d58130a4759e40b8870c5b506caa",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "25d1ea7c7eeaa60eca357eae1c7cf2991679fc43801c5cf20eac5df57ff6f513",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.manitobakarting.ca/": {
       "digest": "707898b35a5dfd6a8d7431d6927a51a907383c6d2aa67fd93dbe9e15245c237b",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartsportcanada.ca/bulletins/": {
       "digest": "52a867fd3b888d5839b844ba43e47dcb6f5fe0dd04950c405c3cd5f82ca46963",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartsportcanada.ca/kartstars-canada-event-registration-2026-round-04-late/": {
       "digest": "d76e4fe6cd705c4a37aade182141c3a8c6cd39da0508df1c5b5416fdace0ce3d",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartsportcanada.ca/schedule-2/": {
       "digest": "831aa3498f5c55c5d55e5922935a165e25d2c1e73e0ec48ed158465717691634",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartsportcanada.ca/category/schedule-update/": {
       "digest": "86bf7d62a3170f02f4234f6aa799ff8ce370605d3877db7405daf9a64da219b9",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartsportcanada.ca/2026/02/21/2026-schedule-announcement-kartstars-canada/": {
       "digest": "904ab3cc9bd77c5179e9da20a60698c01d51a68d9bea7d8026a32efcc2cb2bd9",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.amka.ca/race-schedule": {
       "digest": "45b93e2e7c43899ffa61db49afeb47346c2530d9a66ed2899d943bef6a4c3511",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.motorsportreg.com/orgs/manitoba-karting-association": {
       "digest": "4b328c952d50cc3e7cab424d66a8e95c06e0e80ce96569f36ccc265b70860347",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.motorsportreg.com/index.cfm/event/event-management": {
       "digest": "4b84bead001e69b1ad25c019650c4fea7af653ff9762e4c99c9fd1e177df1ead",
@@ -447,8 +447,8 @@
     },
     "https://www.cupkarts.com/schedule/": {
       "digest": "a5c66a4ff406a86101ad765a7e626c9cd8055e368722d09c74159dcd7abca86c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cupkarts.com/events/2026-winter-nationals/": {
       "digest": "ad2e104d368361d9c1022d6fb9f1ef8360c6cb421dbf0b53a2c1f57d0be60ca8",
@@ -468,43 +468,43 @@
     },
     "https://www.wrkc.on.ca/schedule/": {
       "digest": "3998c74c1087499fbca694c310beac71de602275fd028268ca95df888628e14c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://nhka.net/schedule/": {
       "digest": "4e6fe9eab4009ea72c31b3835627325815cd3f48208fbacc98e92b1261451ded",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovka.com/schedule/": {
       "digest": "450625f30973250aa9f1aa0d5af83bcdf3989a8f3d144980ae63884a54710b22",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://badgerkartclub.com/": {
       "digest": "b5189f624e13bc84e3272d8ccd3969ff2fcf30422818947f9900dd5afbd3c692",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://badgerkartclub.com/is-karting-right-for-you/": {
       "digest": "82f99a2a01d6752b62d4afcbd4f6442e459ae4057b44f09750b018584b052e03",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovrp.net/calendar/list/": {
       "digest": "911ca8671fd931e96b95601cc505c743be3441fc42fa427c25bdc706ad44eb3d",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovrp.net/calendar/?ical=1": {
       "digest": "22690fdda323fe772e70625ab99870cc5fa2ccdff764936e02caeec43d19d9f3",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovrp.net/calendar/list/?ical=1": {
       "digest": "8eeb40281a4c1480db19c5cdbfc219a9ae12ec89a2ed2f0bbb23b02dd2f950aa",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovrp.net/wp-json/tribe/events/v1/": {
       "digest": "c2d366e6adfd299cb9fc34b479df33720f3f6d27875f219042f1aaa454cce16f",
@@ -516,138 +516,138 @@
     },
     "https://edkra.ca/": {
       "digest": "9c4c421d80579d22737dca50f9fd95fcf2c2319655acb93f6f07863b9306811e",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.ikfkarting.com/links/": {
       "digest": "d11ee827d40fc45f366f73ec8778c20d130424a885d371259ca3f93151800a15",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.ikfkarting.com/wp-json/tribe/events/v1/": {
-      "digest": "7d0a14753482325c987dfa3fab8c37f367a12146d48f2b414db1b00f9e71ca37",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "c8c71627fa96f3f6c0023cbe5c0afec757cb350c22fa7f46e4e0abfe51f6bb41",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.nkaonline.com/tracks-series": {
       "digest": "1a0fddea75c7f80f997aaab2f62f53b274a3d353584224a80b776e26d57f24dd",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.asncanada.ca/affiliated-list": {
       "digest": "44461691f8b929939cbde7efe7e65037be02dc0b3322c46069a59fa9333c5756",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.asncanada.ca/fia-iracing-promotion": {
       "digest": "c5de543afc699523d65ae709d3504a6b28b1a9a7e681b8bdbe0921ce4fe6c386",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.asncanada.ca/esportscalendar": {
       "digest": "ef2f869dd5713baa1460527b872eff258b4ec17d376f919a692f38451126ae0d",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.asncanada.ca/series-event-affiliation": {
       "digest": "8abefad8a0c69d41bf3a755d9bbddd75172659db4d23ea7357c57aaeb33d1491",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/ckn-club-directory/": {
       "digest": "3eee7794b91e0d17ccb8ccc3e4289a363fd5ad2037d4162f5d52c149f8e57c2a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/competitions/schedule/": {
       "digest": "bedfae049db3d5876e4e1917b40d5f278d779e5f3260c43a5b7dcda62842380f",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/clubs/calgary-kart-racing-club/": {
       "digest": "87955ae1f0590c27302040eaa2ae923e0b4557b6adda54b1e41b455b2f6126df",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/clubs/edmonton-district-kart-racing-association/": {
       "digest": "23301b8ebd5c27b9d4762f1923401eae6f58eef521a9d86c617209f2f8f61cfd",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/clubs/toronto-racing-association-of-karters-trak/": {
       "digest": "96fdb97a6cbda6a149683a0625ed9293fe0c792e0f95964d6b964943b3379886",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/ckn-track-directory/": {
       "digest": "7311a9d0f511d4b69cabdcab108ed7c4167d6535d04706639ef31d811ce2df5a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/tracks/warburg-racing-park/": {
       "digest": "cd4dc9f9ff06fe83723cc19e65992fce7dbb26ec0ac813e7d555742f5f66efdf",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartplex.ca/": {
       "digest": "5215e4f75f4b099228debadd670389c0881e846e467b440657406f7fa74073c5",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartplex.ca/academy-racing/": {
       "digest": "80c180f5e002aa2472c9532b90c0b6c55da484d16db130b27bff2497ed64efaa",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartplex.ca/leagues-club-racing/": {
       "digest": "37b5c155861b642c4f98baf321e2f62bbaeda001e346f1898607823b30154b6e",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartplex.ca/groups-corporate/": {
       "digest": "47e49d29cbcbc4c364b08237eabb765f5abb9ff6dcabe4ec482510116d08a68a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://vika.ca/bc-regional-races/": {
       "digest": "ef4b58074e948427f8ab6ffb942e52218794db3a040767cdfe14f4de6a48ad21",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://vika.ca/race-calendar/": {
       "digest": "6bcbfd402fee735c385c803f13e1e246dde6a4cc49f1811d7c79628b7714cf0b",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09": {
       "digest": "b1999c4e3e64f7e6b8abaf0d03c733165ef25fafa6e98717ab2c9ca54aeb5ded",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09&ical=1": {
       "digest": "58ae9b62d4f631c63603fff669aa2fb8430a58f299ccd9d48b59ae9d259e3825",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://forums.kartpulse.com/t/sprint-kart-calendar/8718": {
       "digest": "649331288c6e200619460da398c1e19bcfa3f8f76bf79bd90ec82645545231c4",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=2": {
       "digest": "8d2c3a9949904ae76ca61b00327e9260bc28034afef77f563b44eaaf54cf5d52",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://forums.kartpulse.com/c/kart-race-reports/26": {
-      "digest": "8263173e2d630bbd0aa6f9fe9057dc3de6aded861c1aaaa3e1fbb0c24adfd570",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "6a54e4a62ec391c8f90e3ee446a0075d1622b65b5b1af42284417c396d084454",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://forums.kartpulse.com/t/sprint-kart-calendar/8718?page=3": {
       "digest": "fc16c1077198100604574c7df9f3129561e7f27554237eb7d1a26264ccfa4fbb",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://forums.kartpulse.com/t/kart-race-reports-driver-diaries-and-schedules/3426": {
       "digest": "3645fce039d553e89aa35bb43ba1d9f64ea4a52f7cef762f01e165e85c3cfe4f",
@@ -655,58 +655,58 @@
     },
     "https://kartingtr.com/": {
       "digest": "cf872b1973789649dfccac7164aa37e7268d8832b731efda93ea6bcf0b871b29",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://saaskarting.com/": {
       "digest": "97a12432eb400a53d04ad13d2e4347396d8cb80bd304848abf4a40a19d5a290f",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.lecircuitquyon.com/": {
-      "digest": "17ac95c3e69ad641e35953fc260341c2e067395a78bb0bfb982e7365826c63b5",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "2342a910790108faec619aaee2dfd9bb3e67766c069d5f7e0c093534335e3a6d",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.lecircuitquyon.com/corporate-group-events/": {
-      "digest": "af10f38c9b4ce87a1e7768a5a03614daadc3eb62c6ff87a87c9a0a6443a6d8b7",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "13547f4d1290311cad699f68394783d3c40dcb0fd4023fcb53fe5de5ccd07b9d",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://scperformance.ca/": {
       "digest": "0dc52f0c74ce02e48d34bcbfb6c65d837b4cd68dedf977ee1908018f843a0e89",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.shkarting.com/": {
       "digest": "f4d0b5763b1b731f641973869b0f83defc39b909e60af459fe0dc7880d0e65b5",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.shkarting.com/about/calendrier": {
       "digest": "940570b918bc6af07b57be2f998d0b6d2ce361e6c8ac361b8a9f56b2db31758e",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.shkarting.com/competition/sh_racing_team": {
       "digest": "d66ce7f946e4ce8e1aaf280ef4d066ef841eb4e48af8a559dc1fdc44df78ae40",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.shkarting.com/competition/sh_racing_team/sh-karting-sodikart": {
       "digest": "e5462758aa75c67370132aed42d3a3454f43e64c1bd5763e7b31c1c1dc62a3de",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.shkarting.com/competition/sh_racing_team/sh-autosport": {
       "digest": "9bdda51007510cfa6d5638790d99fa0af5bfc84c4f1b4284fd3a48441e6c44af",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.tagekarting.com/": {
       "digest": "afcd054fcd6f270bc499f2f7cf1926f7d2166a53beeef5ab65785368290cf2fe",
       "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://socal-karting.com/calendar/": {
       "digest": "f1780e8ad6d6354a22ae553528ba4b48a14d14f01de245e1540b61422c3f9143",
@@ -731,8 +731,8 @@
     },
     "https://amp.motorsportreg.com/events/amp-kart-racing-championship-series-round-8-atlanta-motorsports-park-763030": {
       "digest": "711280c55e4cd1cdf56f0f0f0e924debb2aa91a004d631999dfd4a171a9503aa",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://amp.motorsportreg.com/calendar": {
       "digest": "9de881468dba5495767380335eb6915f92a4836dcde163e056c4e726cef03885",
@@ -746,63 +746,63 @@
     },
     "https://amp.motorsportreg.com/calendar/karting/": {
       "digest": "2a9b0b51cdc2f05f506032e1b97cfc46217bd23567065358a2958cbfed502a09",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://amp.motorsportreg.com/events/0D0F8CFB-F06F-8D64-1704705CE7D63030/status": {
       "digest": "d7a5b2443f6cd69b530ed2c37a272574c24988690f01885094c037f56e764802",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.championskartingamerica.com/2027-championship/": {
       "digest": "6f5f7e1a2538474a403ea641e3c7cc9bc66229a52303086d78dcb86ce603aa4f",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/": {
       "digest": "7f1f6667893c1828c8cc43ecb4c4b75c265d30186b921eaa6c44bacc0b52e712",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://northtexaskarters.wildapricot.org/": {
       "digest": "9704f6d2ba33d5a4e3c904a1b28d04b5bcdcc19e9386ee63b35ad824595e9195",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://northtexaskarters.wildapricot.org/event-6862962": {
       "digest": "b7ee80df1f0649a303b66a26001743b270a88571dbf80e4a21e79ddf36575c3c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://northtexaskarters.wildapricot.org/event-6862949": {
       "digest": "221f0e45494f2621f08857cbbef8aaa54db76e9c47ff7984c5ca8e606b46f7d8",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://northtexaskarters.wildapricot.org/event-6862962/Registration": {
       "digest": "d180914dcb21221927e08373de72c3159af4dfe6fac790c7bdd819e5e8a334df",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://northtexaskarters.wildapricot.org/event-6862949/Registration": {
       "digest": "065c376fa8fe8aa04881edc2a3eaff92cfed27c9f25a2064696b67aab0e9ef27",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.torontokartclub.com/": {
       "digest": "a1d3229256df776350cbd76e8bcf4b49d3676d69b56893554a946d09882ebc01",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.vkakarting.com/": {
       "digest": "738a8100cdd7bcd8dc6bfcb166ba1a62389eab626f035382de939900ef571b86",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://vkakarting.com/schedule/": {
       "digest": "b6246ec53e310cf0d8f72c1dabc2e508021089f47ab305039f9d3cf93fb88d41",
-      "last_success": "2026-10-19T02:37:45+00:00",
-      "last_attempt": "2026-10-19T02:37:45+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://vkakarting.com/category/news/upcoming-events/": {
       "digest": "dd77a805cf368e2bd3a22290279b1f73774a805759b48907902f0e6c8ed3cae8",
@@ -821,18 +821,18 @@
     },
     "https://ronfellowskarting.com/": {
       "digest": "2eed99346b4f90cb7e13ad7ce49c7325dd0296753afdad454f1786a9d3c91f6d",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/ckc-message-board": {
       "digest": "1e003e41b5382b22acc05a02faba9dffd4d1fc629af4ddf96b10736f2939077c",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/news/ron-fellows-karting-championship-schedule-is-set-for-2024": {
       "digest": "ef7c7ee191704028eeeb8d8d68762fe30be330b500608287397629d5806938ed",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/news/nolan-bower-set-for-radford-racing-school-this-weekend": {
       "digest": "c6aef21b56029014f9843b87f35787cadc32d109b88ccb3f9226c98b91b5dff9",
@@ -841,23 +841,23 @@
     },
     "https://ronfellowskarting.com/news/mrfkc-2023-update-event-3-amp-canadian-championships-set-for-updated-hamilton-venue-amp-the-series-finale-heads-to-historic-mont-tremblant": {
       "digest": "d377089e940768e7a9554a6608a346934874e4e7abfc23445a79474fe9a282e0",
-      "last_success": "2026-10-19T02:37:45+00:00",
-      "last_attempt": "2026-10-19T02:37:45+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/schedule/canadian-karting-championships": {
       "digest": "f62051167ac18940bea819af37786c11fa6644460e4289c10f711c83e7b025d3",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/schedule/canadian-karting-championships?format=ical": {
       "digest": "c29a38f5005b7ba919db89dbc2f53d53b8e2b52b459a3567982ef5810629a66d",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/schedule": {
       "digest": "cd570b013b4efb045c22dbf211f8d4528088dacafa023bdc81c0d4704f2f2067",
-      "last_success": "2026-10-19T02:37:45+00:00",
-      "last_attempt": "2026-10-19T02:37:45+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/registration": {
       "digest": "01f2e672edacc0dd7ed71557d79b56a8142f1363f97dfc9f99ba283af8101358",
@@ -871,68 +871,68 @@
     },
     "https://www.apexkartingchampionships.com/": {
       "digest": "7b9ea1c8e079657f747037b8cb7fe09100eabb13d1ca7277db9fbd10458b6f60",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.area27.ca/kartplex/": {
-      "digest": "6fd144b8e3fdf52f0149af18eff37ca81376d0101fbaf2beacc779daa785c8b2",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "digest": "3b8ee13a2b81eb49d972be2e81eddb4737eeda34a73371d7dd1fdaf2cf008b03",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://area27.ca/membership/member-club-racing/": {
-      "digest": "b0676884d3b5a88fcd9fa7f304f01d42ea918d4d6d54a43b49582540fc39f434",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "digest": "a012c7be2a307fd637b50fa4ab28bdc7de3f600737c2c80a2f368c57ddc25b34",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://area27.ca/calendar/": {
-      "digest": "8891d988857e25f18f382659f5b72bcb29c1ada64831309963265229f34876a2",
-      "last_success": "2026-10-19T02:37:45+00:00",
-      "last_attempt": "2026-10-19T02:37:45+00:00"
+      "digest": "7fbc962cb0dbae62a4ad9aaddadfe561b3935fe3ec820e2a60098540fa429fc7",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://area27.ca/events/": {
-      "digest": "375218f7c26feed751a32d11717125e76df1edd87ac1c163ccd23a60e6c08f2b",
-      "last_success": "2026-10-19T02:37:45+00:00",
-      "last_attempt": "2026-10-19T02:37:45+00:00"
+      "digest": "ea5b3c359f8436012e2428c7d74ce9bead9cf18a1ca9f2e96410b0155bde1d57",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://bigislandkartclub.com/": {
       "digest": "352374de1816867c085434fff91aa8ec6989d71efb16c88615496b535fa3be6d",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.bigislandkartclub.com/schedule/index.htm": {
       "digest": "8d25dc0c93460ee76aba772dbd27c4a2674c19f9c36c533a7bac28ebb61b2e89",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://eastcoastkarting.com/": {
       "digest": "f3c27133b46d33b88537c77efaf6bd8ea5b2f22778467deb07ffb9177d354fe9",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.eastcoastkarting.com/corporate-events": {
       "digest": "f6d602141a54e4c6890590d612828f52781638a5acd2fff5bd91d211682d5747",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://flamborospeedway.net/": {
       "digest": "315c79a66a57dd2548a120f4c494b905b4da65f9a5f25c461c482418c1fbf64c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://lrkartingclub.com/": {
       "digest": "9ddd8b2a0a97ab71f52957baac72676e7854b1996508adaee19778d1970370d3",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://lrkartingclub.com/2026-season-schedule": {
       "digest": "f641d95113f845d8be3fb4ce168d477a5e37168b8f1f700cc6d21aa5ae52e728",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.lrkartingclub.com/2026-season-schedule/race-6-september-12-13": {
       "digest": "1ed40305e6c1f1372e2328fbe661679bb39dce208c9b46021fb9c5dfc30927e8",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.lrkartingclub.com/2026-season-schedule": {
       "digest": "f641d95113f845d8be3fb4ce168d477a5e37168b8f1f700cc6d21aa5ae52e728",
@@ -946,58 +946,58 @@
     },
     "http://mosportkartingcentre.com/": {
       "digest": "4c3fbc57738aaad6b1de88e95e30578456e4e991f18663e178f96abdeb9d4a5a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://mosportkartingcentre.com/group-events": {
       "digest": "79a4992f8a9f38834e72eef055ebf9271ff44ae74161b25a17b2ed3b7c46c25e",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://mosportkartingcentre.com/calendar": {
       "digest": "f79746878cdc55f41c2205d4405ab4c52bc45579f414f0511703dd409e2d3b05",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://mosportkartingcentre.com/arrive-drive": {
       "digest": "0bd0aa070a708f92cead5db595dd390960e3058297fc476f8212d816c5670f0f",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://pointpeleekarting.com/": {
       "digest": "0372301b3d3b0eb90d2c20db0e737273a90e8e0dbc1a6f096a9ade3aa220a73c",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://pointpeleekarting.com/PPKC/": {
       "digest": "70e2ad6b6ff03f552e5d2a969c0ba8a792edfaaaf8ae8b517e3694e0377d0909",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://snakeriverkarters.com/": {
       "digest": "4f0c13c76c973c8c067b3c4c0e8636448dc84f68b5ea2021a7b732a900cf1819",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://sudburykartclub.com/": {
       "digest": "0721e243faf7500df6577575b5c723d91790795b7f8bf5469776d6649c8e78e5",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://sudburykartclub.com/race-results/": {
       "digest": "a11e92792dcefcdf21810c013a38ee14dd4393b6859be849bcd8a82986b760a3",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.3sgokartsinternational.com/": {
       "digest": "cc2255d851d73688ec3679ded7d98cd9cda18bf791df6ee308380dac08c7e2db",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.gamebridgegokarts.com/": {
       "digest": "c94ef211b0487203a99385ca5df0d753749117ad9e368188f4f42231c9fbd0f8",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://gamebridgegokarts.com/wp-json/tribe/events/v1/": {
       "digest": "f13d2e85ae14be330a1980d468e3798813462af2825ed941c72156077081bffc",
@@ -1005,34 +1005,34 @@
       "last_attempt": "2026-10-19T13:59:23+00:00"
     },
     "https://gamebridgegokarts.com/bmp-racing-school/": {
-      "digest": "427f06d82d235fcf75dfedbc56ef1de10dd342e9d2e0e4ee7555aeb109bf960d",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "digest": "5dd97ee12994c9b3cc2c2700782c510d0816747cdc083cd148bb18b54df09bf4",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://gamebridgegokarts.com/parties-events/": {
-      "digest": "34ef060ab15b5173eea27403c9ff6db54f3334e5c2e8b2a15a725d1517e90110",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "digest": "9fe045a33afce508ccee8acbca93aa6e6522074515c54e8300422f3f7d2db8a4",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.gamebridgegokarts.com/club-racing/": {
       "digest": "ee01f9d526c33e70681b4481355cb279e668346fef59a8652fed0842b0fcf208",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://gamebridgegokarts.com/club-racing/": {
       "digest": "ee01f9d526c33e70681b4481355cb279e668346fef59a8652fed0842b0fcf208",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.innisfilkartclub.ca/": {
       "digest": "0b444a3cd0bdfba8c2fce44531ce111666dc7b5480878d9e383fa808376441aa",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.kcr-karting.com/": {
       "digest": "100c0cc688321d03e2fd86e2b6b127fcbd83d4add2fa40e132a9ac265b812a4b",
       "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.lakc.org/": {
       "digest": "56f1535a2ce069f9615dfe1b7d0fe919ac0ff052ebcd79986809ace9c7979427",
@@ -1231,13 +1231,13 @@
     },
     "https://www.ntkarters.com/racing-info/schedule-a-test-drive.html": {
       "digest": "87c238439a3db1e17a7a288365607fa79e3a885c825cac0274df6bdaa1d29fcd",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.ntkarters.com/racing-info/safety-gear.html": {
       "digest": "cd0afa5faa8b1f48525a345cc252f0faeed210bb846aaa71c1819062dc9d1211",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.ntkarters.com/racing-info/karting-resources.html": {
       "digest": "a85c14711f1ec961ca05fab1ce5e81ae8c48cff47587b64b32156a5ea982d548",
@@ -1371,8 +1371,8 @@
     },
     "http://lrkartingclub.com/2026-season-schedule/race-4-and-5-august-8-9": {
       "digest": "7dfe3254c9dcfece3637a330ebd142d66a5688d15a46c0e6b794a75cd69ec5cc",
-      "last_success": "2026-10-19T02:37:45+00:00",
-      "last_attempt": "2026-10-19T02:37:45+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://gamebridgegokarts.com/special-events/": {
       "digest": "41a9732e59d39985dc90d358d8bc5963432213ab1690a84074be1db38d2b443f",
@@ -1392,27 +1392,27 @@
     "https://ckrc.com/event-schedule/": {
       "digest": "2f26e79120298fdc3f3b9a98902cf69d68337f130d007e30255cbc1ec3c9fb9b",
       "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://edkra.ca/pages/schedule-events": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.westcoastkartclub.ca/schedule": {
       "digest": "9781e5357522718cf61740c6b751f50bdb41010aa07b936206f7df969d6f4f01",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://coupedemontreal.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.uspks.com/schedule/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.uspks.com/2026-recap-a-letter-from-the-race-director/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://maxchallenge.ca/events2/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cupkarts.com/wp-content/uploads/2026/03/Daytona-2026-Schedulev1.1-scaled.jpeg": {
       "last_attempt": "2026-10-19T02:37:45+00:00"
@@ -1421,7 +1421,7 @@
       "last_attempt": "2026-10-19T02:37:45+00:00"
     },
     "https://www.fiamexicokarting.org/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/competitions/schedule/?728adclick=22": {
       "last_attempt": "2026-10-19T03:15:18+00:00"
@@ -1430,22 +1430,22 @@
       "last_attempt": "2026-10-19T03:15:18+00:00"
     },
     "https://kartingclubmexico.velkindatastudios.com/eventos": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://kartdirectory.racing/us/events/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.worldkarting.com/daytona-kartweek/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.victoriakarting.com/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.westcoastkartclub.com/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.westwoodkarting.org/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://assets.kartpulse.com/original/2X/6/65db46bbeae4603a9ab413e9a6803f6771da33f7.png": {
       "last_attempt": "2026-10-19T02:37:45+00:00"
@@ -1463,49 +1463,51 @@
       "last_attempt": "2026-10-19T02:37:45+00:00"
     },
     "https://calspeedkarting.com/event-calendar/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://canadiankartingnews.smugmug.com/": {
       "last_attempt": "2026-10-19T02:37:45+00:00"
     },
     "https://icarexperience.ca/activities/karting/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://saskkartclub.com/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cameronmotorsports.com/hamilton-regional-kart-club/": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://atwaterkartclub.weebly.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartingjimrussell.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://out2win.com/tracks/delaware.html": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://poplargrovespeedway.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "f0dcfab12b4d1cc68bb3b28595d8973f9ccab86a26add6ab88140ed505681fbd",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://simcoekartclub.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.snakeriverkarters.com/schedules": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.campingh2o.com/karting-accueil/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.coloradojuniorkartingclub.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://gamebridgegokarts.com/events/?ical=1": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.kartingpaintballthetford.ca/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-xwasd-5npz8?format=ical": {
       "digest": "3c293552cd7af0b3999e2a14db43533d25c331a59e92773b932285564e9b7bd9",
@@ -1529,28 +1531,28 @@
     },
     "https://www.manitobakarting.ca/_files/ugd/f5ea5f_cca05a94c3434d389ad2f1eaa6c6e8d3.pdf": {
       "digest": "53de572f532ae029094cb8e8b7a7909c98d24d3e4c9f2b0137fb35c202d3c3b2",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://goodwoodkartways.com/wp-content/uploads/2025/12/2026_TRAK_Membership_Application.pdf": {
       "digest": "279da68343bfdb3b1b898a0b1becd05b2805dc609013d5a880f73377dc4ca990",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Medical-1.pdf": {
       "digest": "baac0f44090f206d9e16601ee34ab57091f026c65be2c349e2d1e89d655ae640",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://goodwoodkartways.com/wp-content/uploads/2026/07/2026_TRAK_Schedule_Final_07.01.26.pdf": {
       "digest": "f5c364ede75c966d26193cb303a2680b14202e7a312e063a5c4466b86aebc624",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://goodwoodkartways.com/wp-content/uploads/2026/04/2026-TRAK-Entry-Form-1.pdf": {
       "digest": "9f32fdf91912ef684f0436ba3be2f28a00a2d6f13956879c624776883bf3a14e",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://hamiltonkartingcomplex.com/events/": {
       "digest": "838edc7925b7e8964d208c52c95cd7a67650e10ef8432846f6f48e5c9b6ac790",
@@ -1569,13 +1571,13 @@
     },
     "https://www.ntkarters.com/racing-info/links.html": {
       "digest": "68ea8ed394b811c17941dbc434d8de4b2c3a0c0def64175768725721e8f7b9fd",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartsportcanada.ca/wp-content/uploads/2026/09/2026-KartStars-Round-4-NIght-Race-Practice-Schedule.pdf": {
       "digest": "7f13a98811e7096afe982cf81c5c267beb15d029aeb481ac0849ce7fbb88f05a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartsportcanada.ca/wp-content/uploads/2026/09/2026-KartStars-Round-4-NightRace-Schedule-V1.pdf": {
       "digest": "587b3f6e4d247ad3975c43752dbc268ee9d71459d79dd2ca2393fddc28d00dbe",
@@ -1614,48 +1616,48 @@
     },
     "https://www.cupkarts.com/wp-content/uploads/2026/04/2026-GJ-Time-Table.pdf": {
       "digest": "8a58f6b590e5dee635d0f10c12c1253b2f461695c432ed786e2327b52ea88c8b",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Quaker-Time-Table-v4.1.pdf": {
       "digest": "2514d9f75923fda5aa6252652acbd8790ed9a8e5cb81864ad1b8215166057a7f",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-2-Practice-Schedule.pdf": {
       "digest": "0198fec312f5c305ccb8eb24c6a65f1d1b6c74bebce06bc5e536340bc0008bb5",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-2-MKC-RaceDay-Schedule-Final-V-26.01.pdf": {
       "digest": "f68db516097174d65845e0addb566192badb160bfecafd6135bcdeafaa4c1efc",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartsportcanada.ca/wp-content/uploads/2026/08/2026-Kartfest-Race-Schedule-V4-08.07.pdf": {
       "digest": "a7b85cc2990d3e824f9f4a4b84bf9842a295fe3103f243338a01ba2448819659",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.wrkc.on.ca/wp-content/uploads/2026/02/WRKC-2026-Race-Schedule.pdf": {
       "digest": "7672f0094c165926f00ecb2b47824d79d535479a19bb1c3ca9c52f6fd20a15fa",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovka.com/wp-content/uploads/OVKA-2026-Schedule-1.7.pdf": {
       "digest": "f95a5fd3c5170bdbea5f0664c645b8934c50e9520ba0ed37a023450ea0dc2a90",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovka.com/wp-content/uploads/G_J-2026-Track-Schedule-1.2.pdf": {
       "digest": "0806628f8a4f433f3e574942cb452ef9b0eca882f2339fe8c0ae4f00b6b31edc",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://badgerkartclub.com/wp-content/uploads/2026/03/2026-BKC-Schedule.pdf": {
       "digest": "4d3fc6e995bfd79defc00a147ea5ac00fffb36a9938e15d53f8faf99be3bf82a",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ovrp.net/": {
       "digest": "a4888e1e917629df032f5fdb1012aed87ae129c24de3dc6d6ecdbfd0e449debf",
@@ -1669,28 +1671,28 @@
     },
     "https://www.norwalkkartingassociation.org/schedule": {
       "digest": "aaa33fa9c0b8dca15f6d93a2345dc5b1d60247489d3d175d253322ef15b74813",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf": {
       "digest": "f7d4988cab2f0af7569bd97974e771e24403f768001ed8753493273a5c600ee0",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cckra.com/": {
       "digest": "7496137b0d65f566f02b1cf2be5b777d6f304835c6f8d8e78cd274218a25bc85",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cckra.com/copy-of-forms": {
       "digest": "0ab123b9e70fd500f1c9c3fa73b1b8831fa2dc69200329e68e49c28faa3073ea",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://raceselect.com/cckra/2026": {
       "digest": "a85b313456935439631f62d0be6334f37015e0f7039b8753010d5240cfde9d43",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://raceselect.com/cckra/2026-central-california-championship/EventEntries": {
       "digest": "137c08f2ee09d25e7027cd3393c957fec74b8df28db89e1fa41c79de81b86c84",
@@ -1713,9 +1715,9 @@
       "last_attempt": "2026-10-19T03:05:35+00:00"
     },
     "https://www.ntkarters.com/calendar/g-8-7h9l9il8hh2kand0npb6vgg90s_202610241800.raw": {
-      "digest": "7d8a7e17fd2a4c9501fd471771b51f0ec1879bab03ec86062c0da1c48f6a74b6",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "digest": "9a3c7d0e4a78d7d5a8f9e07cd77be8454d7ff6b3dc81b7c0953cd99579c6a4e9",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://forums.kartpulse.com/t/rebel-scum-reports-hq-racing-peekskill-ny/15066": {
       "digest": "1248e49f1bd0fe0592624a1b90413ed4cb40fd14fc676ddb243e43538c38272e",
@@ -1724,13 +1726,13 @@
     },
     "https://amp.motorsportreg.com/index.cfm/event/public.privacy": {
       "digest": "286caae14eaabaa1ac2472bc3c9ce81f9af3f5e1c2096eb1f2f245c6564c1071",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://amp.motorsportreg.com/index.cfm/event/public.terms": {
       "digest": "c6530d14c87ebef79b6173345b624ef2709b5f6fe34e26cd21685e062bbb082f",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.kcr-karting.com/course-club-kcr-karting-cckk": {
       "digest": "1e9d6588a6249e18bf702539ceced899b11d2db34a0a4777709d5e34f4b983ff",
@@ -1804,8 +1806,8 @@
     },
     "http://lrkartingclub.com/2026-season-schedule/race-3-june-13-14": {
       "digest": "42771c1441d15e1b24ad4edf3ab89d95dd1664e3178ce3f18cd4ab390e59bb3e",
-      "last_success": "2026-10-19T03:05:35+00:00",
-      "last_attempt": "2026-10-19T03:05:35+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://lrkartingclub.com/2026-season-schedule/race-2-may-30-31": {
       "digest": "fef32a537a299bf650c9825b515cf3dbc370b9cc278101ca87bef42db7e9a2a2",
@@ -1814,13 +1816,13 @@
     },
     "http://pointpeleekarting.com/PPKC/assets/pdf/2026/PPKC_2026_Schedule.pdf": {
       "digest": "eead6101e32a475bf78ac0ef4f34c038772ec457990056540afc15d47f66e9b1",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://pointpeleekarting.com/PPKC/assets/pdf/add/TYPICAL_CLUB_RACE_DAY_SCHEDULE.pdf": {
       "digest": "abfb01803b4e06054108aac97b4a211cbd9ce61171c6fcd231bb5ebbba6d4344",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://sudburykartclub.com/wp-content/uploads/2026/08/SKC-Event-Regulations-Night-Race.pdf": {
       "digest": "0d451265db15ddf7dd86c5b3cc171f10ff53b4f91b6150f91fb58c05fc111c12",
@@ -1829,29 +1831,29 @@
     },
     "https://gamebridgegokarts.com/wp-content/uploads/2026/03/TKC-2026-Schedule-260312-2.pdf": {
       "digest": "c09a4b25a66e87b85477cfc45ff734817dd76ba31e5014ba783f76d409de58b2",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://kartsportcanada.ca/wp-content/uploads/2026/05/2026-KartStars-Round-1-GK-RaceDay-Schedule-Final-V-26.03.pdf": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://nhka.net/wp-content/uploads/2025/12/NHKA_2026_Race_Schedule_Styled.pdf": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.asncanada.ca/s/Affiliation-Request-For-National-EventSeries.pdf": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.canadiankartingnews.com/tracks/warburg-racing-park/codyschindel": {
       "last_attempt": "2026-10-19T13:59:23+00:00"
     },
     "http://www.kartingquebec.ca/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.kawarthadurhamkartclub.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.kermankartclub.com/": {
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "http://www.lelievrekarting.com/": {
       "last_attempt": "2026-10-19T13:59:23+00:00"
@@ -1923,13 +1925,13 @@
     },
     "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-RA-Time-Table.pdf": {
       "digest": "84e572a589697cb1f2fe7718ec6ad89904937ba05b1202ba854bd9242d1bc7f0",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cupkarts.com/wp-content/uploads/2026/06/2026-Brechin-race-1-2-Time-Table-Final_V0-2.pdf": {
       "digest": "0c7a837286e74c35e1842f9581228441b13e7cd507bbff864c5ce0ea569f87f6",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.cupkarts.com/wp-content/uploads/2026/07/2026-East-Detailed-Time-Table-Lafayette-Final.pdf": {
       "digest": "3b860d4d1383e8750623993910931cae156f201b84db6a080af718b7699b369e",
@@ -1968,43 +1970,43 @@
     },
     "https://www.pgkart.com/en/works/": {
       "digest": "1a482a424b02d3cf15d6f5229a0993e1ca277a8e8669304542ed1d15909a9445",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.pgkart.com/en/works/hq-racing/": {
       "digest": "6893097ea1a27c64054dc3ab40988dcd22f9f41a9dc5c0dff7c6653cef016f69",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.pgkart.com/en/works/joka-racing/": {
       "digest": "4285d8619542f2b61de026ac98e69d1e742fbf646ef942dde615a50f8106e62b",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.pgkart.com/en/works/indoor-kart-track-chargers-racing-leonding-austria/": {
       "digest": "dd834aac9a2d2bebf37f4ce1782a371d2c54bb549c8d81c7e9bb7e29702c9aa5",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.pgkart.com/en/works/go-kart-circuit-volta-racing-labs-zopopan-mexico/": {
       "digest": "187a40c571fc7699e0b17b2e883a83745a34f708d67b7232cc8fc54d076004c8",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.sodikart.com/en-gb/karts/rental/rt10-42.html": {
       "digest": "55404fd91de012a495e268f4889eab3c42f32027c9395d4d91f9aafcf127b4df",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.sodikart.com/en-gb/karts/racing/": {
       "digest": "f4f9d7c1696ea0d612fad37727e8878d5175d00ea696622970c2362316ad7890",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.sodikart.com/en-gb/sodi-racing-team-c24.html": {
       "digest": "0af3d8bdadbbd6611f75e01c0f5b874625ef027cf72e407df26b810e41ce3c1a",
-      "last_success": "2026-10-19T03:15:18+00:00",
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.sodikart.com/en-gb/3mk-events-c14.html": {
       "digest": "ce8a6c16fa8406e3a89bbdc9df60a82d49f8637b4148a709eaa3f3c7db1ff0d8",
@@ -2042,10 +2044,10 @@
       "last_attempt": "2026-10-19T03:15:18+00:00"
     },
     "https://ronfellowskarting.com/s/2026-08-12-CKC-SCHEDULE-V2-ALL-DAYS.pdf": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://ronfellowskarting.com/s/2023-MCKC-SCHEDULE-V1-2023-08-02.pdf": {
-      "last_attempt": "2026-10-19T03:15:18+00:00"
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://area27.ca/wp-content/uploads/2026/09/Aug-2026-Results.pdf": {
       "last_attempt": "2026-10-19T03:15:18+00:00"
@@ -2055,8 +2057,8 @@
     },
     "https://www.westcoastkartclub.ca/calendar": {
       "digest": "8a4c26eb27c31dbcac49f19f1090f73e564ba668f7abfcbb205a8f697e89f4c8",
-      "last_success": "2026-10-19T13:59:23+00:00",
-      "last_attempt": "2026-10-19T13:59:23+00:00"
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     },
     "https://www.westcoastkartclub.ca/events/oi7lc5e04kfkrv3ddl0zgm9tnkdtws-d46xd-8hh8w-y58ed-xzdba-j3seh?format=ical": {
       "digest": "5ab8812d3bae832baa3f80512e232412b3b0d6c380fbe4f7fb8005a1768454b5",
@@ -2193,6 +2195,360 @@
     },
     "https://hamiltonkartingcomplex.com/events/2026-10-19/?ical=1/": {
       "last_attempt": "2026-10-19T13:59:23+00:00"
+    },
+    "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58-ft57a?format=ical": {
+      "digest": "f364bca567797633793168b1a12a203b454b9e0c58111d358b6c032b9e64147f",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw-3bg58?format=ical": {
+      "digest": "6bfe57f3852e8e4d9fef5d307ed35eebd9b3e7a47e7508827dba8c504dbe6902",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.westcoastkartclub.ca/events/gmr-track-maintenance-1-tysxx-mrn6m-pdlsp-fl2j7-3xl7c-6t7xw?format=ical": {
+      "digest": "791aec8eba52fcbe3d73654527afd8aaea40efd76040894d55f1f027ea6e595e",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.westcoastkartclub.ca/events/wckc-race-1-p9494?format=ical": {
+      "digest": "c0be29f50db13869fbd6dc44d3920be4f252318bfc82f01e33750b5dc6dd9037",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://hamiltonkartingcomplex.com/event/championship-race-canadian-mini-indy/": {
+      "digest": "69f04838f5074d854b1bbadaf51c049e0c217acfd90a153e8a2372631b7ab1ec",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://hamiltonkartingcomplex.com/event/championship-race-canadian-mini-indy-2/": {
+      "digest": "038e8113effeb9a90ea9c3f2b718c01868e3a23c24904a377f3d55903e80c5fa",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.motorsportreg.com/events/test-tune-race-1-gimli-motorsports-park-manitoba-karting-association-477548": {
+      "digest": "845914ad41011bc89f9e038f5045c110a8ff2852def6b3361f537555bbae7d19",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.motorsportreg.com/events/manitoba-karting-annual-awards-banquet-selkirk-golf-country-club-association-428536": {
+      "digest": "78c6960d66f2a161791881c8ea5925da7861d91b90995d0c299fe0141a3de9a5",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.motorsportreg.com/index.cfm/event/public.privacy": {
+      "digest": "fdb9af75599707d4c1388e686c67cfb50a07fec14a6afb39b75117aa25ad53f6",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.motorsportreg.com/index.cfm/event/public.terms": {
+      "digest": "d41235123dc417934ca26a7a91b4c90e777d2680d85f52c4402835ee64159996",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://ovrp.net/event/nys-championship-club-race-15/": {
+      "digest": "4d69656c24d11ced405a51ffd13fde0f09a95c716a62dc3d6b45d5337f743b9a",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://ovrp.net/calendar/list/?outlook-ical=1": {
+      "digest": "50c78556e28f8e878cbc5da9b814066daa2a255f9bc556da136b931b11e06f7d",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.portlandkarting.com/events": {
+      "digest": "e0020d3e2e2a574eecdbe026c7a0baef37baecb55a01202cd53b903fffcd6ccd",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.portlandkarting.com/events/oskcs-race-3-parc-3ce89-dazz9-cd55b?format=ical": {
+      "digest": "1137ec6bdfb53fe0c3cc81416072cb1b915818caf83e982250586d12bda6fd86",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.portlandkarting.com/events/january-member-meeting-9as3c-7e674-7k32a-khnlj-gtcbf-w4bm3-kelk7-a5zr8-mzr2h?format=ical": {
+      "digest": "a44352cbf45acea684f903157eac6e5956febe7c988754c414f90ec51f070153",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.portlandkarting.com/events/january-member-meeting-9as3c-7e674-7k32a-khnlj-gtcbf-w4bm3-kelk7-a5zr8-mzr2h-k4npr?format=ical": {
+      "digest": "6a1d1df5355ccb6a211cda802e080b1dea989dae8a6ee95c9ac08d779644358e",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.portlandkarting.com/events/oregon-lightweight-moto-practice-rsbce-5czkz-znjhx-snakz?format=ical": {
+      "digest": "681a916ba736ecbb86fb4e2400c1eff5849e46677ada82bbe471f4f128fb1f0b",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.tri-ckarters.org/": {
+      "digest": "d458adc796ea1665696ef81bb02f06f811ac0f2b18ee6d05dc00fd724d5c4dd3",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://autodromomonterrey.com/about": {
+      "digest": "69fdb23cd493b2e30e724bb99de3c9068c378b2c725f5a1173bd6c3b23bd9682",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://autodromomonterrey.com/monterrey-racing-cup": {
+      "digest": "e7d2ce3b27d8cf1b72b94b8c17003b10687f0f69ba0e1ded663b7a8f690c54dc",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://musiccitykartplex.com/series": {
+      "digest": "4c6f587fba12ed74638dc2e8a732a6b61a40e24b335c72779cc035ea6a8315c7",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://musiccitykartplex.com/leagues/iron-man": {
+      "digest": "4db210cac67acc55f53d04aa794ccf876b6b655f71072d17de24dd35271f57d4",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://musiccitykartplex.com/leagues/jr-iron-man": {
+      "digest": "c5b35c53a9c47da1e649de22fabe8addd3f32b3e5d1f6ed04db0b032eb2f5322",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://musiccitykartplex.com/series/rental-class": {
+      "digest": "6eec426283b7e1461eb1c22438c1c04bb05a64af3f1c97a290941e8bafaba434",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://musiccitykartplex.com/book": {
+      "digest": "7bb1928825bde4f19b0b8eddbd09b6f0fe11db515f910d8121ab4b7af29be21c",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39": {
+      "digest": "4e844b43a3b65ee55beff35cb4a152db3bcf6190b0727f1c27ca985fa5e5cd2f",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://springmountainkarting.com/wp-content/uploads/2025/12/Karting-2026-Race-Schedule.pdf": {
+      "digest": "15c0dc95eb31f40e499f09ac9e1be3a6d493f9671e09fd935217557960a693ed",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://springmountainkarting.com/racing-leagues/": {
+      "digest": "6ef032e76c22f0a9752db74a78fb853f2f42bb317d5f4a630eddfeb58aa984d6",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://springmountainkarting.com/racing-leagues/smk-race-series/": {
+      "digest": "43c0778902ab7cd277647356608dba564b25423b4a11059c1fa4fc2c9cbfb9f3",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://springmountainkarting.com/racing-leagues/hosted-races/": {
+      "digest": "95c989465bd5d6fb633b22813a5ca4a5ab1ea65ad2351e6e5a66c30f63f2d8c5",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://springmountainkarting.com/track-rentals-and-group-events/": {
+      "digest": "b5ea4e7ad884ee0324664f261ed263e81141a9fe2b30c28b04632c27352f0609",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sandyhookspeedway.com/uploads/2/5/0/1/25011543/2026_shs_kart_schedule_1.pdf": {
+      "digest": "c6d26f08544c86f211251ba224dea8dc9642fa239459dccd4c58ef6453335fc3",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sandyhookspeedway.com/kart-schedule.html": {
+      "digest": "82e4420501cb844c9bb1d3521b888a4fc2912b33ebad8baf34a30263e05e6932",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sandyhookspeedway.com/uploads/2/5/0/1/25011543/2026_shs_kart_schedule.pdf": {
+      "digest": "c6d26f08544c86f211251ba224dea8dc9642fa239459dccd4c58ef6453335fc3",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sandyhookspeedway.com/event-registration1.html": {
+      "digest": "19fd03932ef505d506a2d6688b94797f3e848825bd60ace438eb298cca8f9d36",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sandyhookspeedway.com/kart-um-downs-events.html": {
+      "digest": "8bbcd540859fea971689e46cded931fd7f5be00afff42cbb6af17cf4122d1e3b",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.amrmotorplex.com/files/2017/7429/4067/AMR_2026_Class_Structure_V4.pdf": {
+      "digest": "7c6e41017bfcd0e28b774195fd9acd3a76c2b13ba05848ed988c6a9f0f44d937",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.amrmotorplex.com/race-events/": {
+      "digest": "bcfc2004bb7f64a46759a25d6abfd9db8de485a59fcc3745c739e9067d5adc0b",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.amrmotorplex.com/race-events/live-timing/": {
+      "digest": "93c563589ce6fed2aa3997eb69cf3c079d6b4b4b9560ea1d6c8a04298dddce4b",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.amrmotorplex.com/groups-corporate-events/": {
+      "digest": "680cca2ab936a288b1ce9e42b2366cf05c550b8d9ef5a6e7ff3dde897545dfb6",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.amrmotorplex.com/race-events/kart-owner-events/amr-motorplex-karting-challenge-2026/": {
+      "digest": "ce72ae1d600e9120b3174807f9a5d6967d3a1a6b72e20f052680e33dc1f60309",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.amrmotorplex.com/groups-corporate-events/venue-meeting-space": {
+      "digest": "09881a94559c460aab37b5753088ffc7a0bcbd2f45996817d60b6ef163551dca",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://racingkarts.com/introduction/schedule-2/": {
+      "digest": "677265ca76ad051438e5988e5802a8b2c3143556c3bc4ef8fb8672fb09487f71",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://racingkarts.com/introduction/": {
+      "digest": "7b4d5336bf951038f83c754e005ef0f9e398e76f7665e97712b3a2fe8adb6f2c",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.northeastkartchallenge.com/": {
+      "digest": "19fc51797a869721a6b35ede33343930d0cf78dad6db0d7c32876a536719f4f6",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.lasq.ca/karting": {
+      "digest": "a4d9fcade373bdd6edf8da0ab18bec69d1d0348db4d86073a3e1d2ad74f5496b",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.lasq.ca/en/permis-d-evenement": {
+      "digest": "7eb6dc71e72c022b91b5e13e168313ad750439a5af6237b8cfa0e592a487ee01",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.caccautosport.org/affiliates/": {
+      "digest": "968dcdb398559edea3b27df6568caf9803a80a5ea4f28deb470bef99099945b4",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.caccautosport.org/events/?ical=1": {
+      "digest": "aa3014a95822fcdd507d89bed370187f6fc81d05d32adcc1f3835d1cdcaccb17",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.caccautosport.org/wp-json/tribe/events/v1/": {
+      "digest": "9303c7ac7379930e2764953fdd8956eacc44684ca63705637f9ef887ba8516f6",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.caccautosport.org/ice-racing/": {
+      "digest": "bac5ae6715474eef811c850bf900ac62c227954d6a7d73563d033210226052df",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.caccautosport.org/race/": {
+      "digest": "effd15b51700980eca5410b4eb434a196e0900e895b626202a8165aad4bbc309",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.kart.org/schedules/road-racing": {
+      "digest": "fc5d4746525e8a4f99d46f2a75cf192984a68e1ee01f933753d8fd17d4cdaf66",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.kart.org/uploads/entry-forms/Ozarks_-_October_26.pdf": {
+      "digest": "a40e72a5523b1f883b8b3a96f51991d175c58c24bcd03f455936cdacacf972b2",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.kart.org/index.php/schedules/road-racing": {
+      "digest": "fc5d4746525e8a4f99d46f2a75cf192984a68e1ee01f933753d8fd17d4cdaf66",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.kart.org/schedules/archives": {
+      "digest": "888b3cfd240a37d286bbde275e7a793d45b76c4f9be98d70bd0fea7e811112a3",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.kart.org/results/road-racing": {
+      "digest": "070e8aac4c1e886da1215b950c0369e457305e3eb58e253f62ddb67d1efb275b",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09&eventDisplay=past": {
+      "digest": "027e97ed69f35bb2554359710f82e5a89766e8606e32926ce41f480641545ce6",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09&eventDisplay=past&ical=1": {
+      "digest": "51261eb24f0f04438105ca335d8ced9d54471ca14916926f1fa2aa261b1cd3f3",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://forums.kartpulse.com/u/fionracing153KWR": {
+      "digest": "c3912c7fd7b10a4918eae9608dda2d3a209d97870465bda3399686640c9a179c",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://vkakarting.com/wp-content/uploads/2026/03/newcastle2026_entry_schedule_VKA_v0.pdf": {
+      "digest": "b39ea33309dbd1655be523e51e561d10c660d76a7406869361d4afa7780dde76",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://vkakarting.com/wp-content/uploads/2026/07/Camden_2026_entry_schedule_VKA.pdf": {
+      "digest": "ed7eb4a3bbcf4be0c39c06252e7e9a4ac2a51bed407b7bb1431306e512d32e9f",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://vkakarting.com/wp-content/uploads/2026/08/VKA-2026-Quaker-City-Event-Flyer-with-Parking-page-included2.pdf": {
+      "digest": "a69acdd2bfb67986c85164771580bff93e98561962ad74b1b9cecd84f9f533a4",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://ronfellowskarting.com/schedule/2024-motomaster-canadian-karting-championship?format=ical": {
+      "digest": "1a773308b342f36e00403e5760050cff1d01d5a50a7a1e36616caf195fa5454e",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://area27.ca/wp-content/uploads/2023/01/2026-EVENTCAL-16.pdf": {
+      "digest": "fc1c9b66a4e6e8627dbd0b0613a9ec5c3b2fed2aae78d13597c476bed6c6d213",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sodikart.com/en-gb/karts/features/safety/anti-gas-brake-system-19.html": {
+      "digest": "1c7863e2e07d22a887874e7c0fda08fe7e0a0d1ca7e4307be76148f2e47b8f83",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.sodikart.com/en-gb/karts/features/safety/roll-bar-3-points-harness-17.html": {
+      "digest": "a060d69d0e72360fcd479bd6c3e77e33605e4484865a618bb82e40b4b7616019",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "http://poplargrovespeedway.com/schedule": {
+      "digest": "dad43019b186926cba0a32cc63ff331d39991d2a8af84b5aebf59f24c705bfbf",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.poplargrovespeedway.com/schedule": {
+      "digest": "dad43019b186926cba0a32cc63ff331d39991d2a8af84b5aebf59f24c705bfbf",
+      "last_success": "2026-10-19T17:56:26+00:00",
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.canadiankartingnews.com/competitions/schedule/?728adclick=42": {
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://www.canadiankartingnews.com/tracks/warburg-racing-park/?728adclick=48": {
+      "last_attempt": "2026-10-19T17:56:26+00:00"
+    },
+    "https://akraracing.com/road-race-series/schedule/": {
+      "last_attempt": "2026-10-19T17:56:26+00:00"
     }
   }
 }

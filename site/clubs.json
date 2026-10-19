@@ -537,16 +537,16 @@
     {
       "id": "49a6e0d3b5",
       "name": "Tri-C Karters",
-      "venue": "Adams Motorsports Park",
-      "city": "Riverside",
+      "venue": "Various",
+      "city": "Various",
       "region": "CA",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official organizer verified; schedule monitored",
+      "schedule_url": "https://www.tri-ckarters.org/",
+      "source_description": "Official organizer calendar / schedule",
+      "notes": "2027 official schedule verified; eight rounds at Adams and Apex.",
+      "monitor_id": "tri-c-official"
     },
     {
       "id": "cae51274e0",
@@ -612,11 +612,11 @@
       "region": "FL",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official organizer verified; schedule monitored",
+      "schedule_url": "https://www.amrmotorplex.com/race-events/",
+      "source_description": "Official organizer calendar / schedule",
+      "notes": "2026 Karting Challenge race dates verified in official class structure.",
+      "monitor_id": "amr-official"
     },
     {
       "id": "6298ae5c44",
@@ -934,11 +934,11 @@
       "region": "MD",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official organizer verified; schedule monitored",
+      "schedule_url": "https://www.sandyhookspeedway.com/kart-schedule.html",
+      "source_description": "Official organizer calendar / schedule",
+      "notes": "2026 official kart schedule verified; motorcycle calendar excluded.",
+      "monitor_id": "sandy-hook-schedule"
     },
     {
       "id": "586de73873",
@@ -1475,15 +1475,15 @@
     {
       "id": "4677186fd6",
       "name": "Portland Karting Association",
-      "venue": "MAC Track",
-      "city": "McMinnville",
+      "venue": "The MAC Track / Pats Acres Racing Complex",
+      "city": "Various",
       "region": "OR",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
+      "research_status": "Official organizer verified; schedule monitored",
+      "schedule_url": "https://www.portlandkarting.com/events",
+      "source_description": "Official organizer calendar / schedule",
+      "notes": "Official multi-venue calendar verified; non-kart events excluded.",
       "monitor_id": "pka"
     },
     {
@@ -1550,11 +1550,11 @@
       "region": "TN",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official organizer verified; schedule monitored",
+      "schedule_url": "https://musiccitykartplex.com/series",
+      "source_description": "Official organizer calendar / schedule",
+      "notes": "2026 official owner-kart championship verified.",
+      "monitor_id": "music-city-series"
     },
     {
       "id": "690b3769fe",
@@ -1587,16 +1587,16 @@
     {
       "id": "5b3a3e4465",
       "name": "Gulf Coast Karters",
-      "venue": "Gulf Coast Karters",
-      "city": "Katy",
+      "venue": "Gulf Coast Karters / Speedsportz Racing Park",
+      "city": "Various",
       "region": "TX",
       "country": "USA",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official organizer verified; schedule monitored",
+      "schedule_url": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
+      "source_description": "Official organizer calendar / schedule",
+      "notes": "Official GHRS feed verified; November race moved to November 22.",
+      "monitor_id": "gulf-coast-races"
     },
     {
       "id": "8cc7e69b32",
@@ -1849,6 +1849,62 @@
       "source_description": "Web / PDF / social check",
       "notes": "Legacy community index; not proof this club still races.",
       "monitor_id": null
+    },
+    {
+      "id": "07d1d6e854",
+      "name": "Spring Mountain Karting Complex",
+      "kind": "Club / Series",
+      "schedule_url": "https://springmountainkarting.com/racing-leagues/",
+      "venue": "Spring Mountain Karting Complex",
+      "city": "Pahrump",
+      "region": "NV",
+      "country": "USA",
+      "notes": "2026 official SMK race schedule verified.",
+      "research_status": "Official organizer verified; schedule monitored",
+      "source_description": "Official organizer calendar / schedule",
+      "monitor_id": "spring-mountain-pdf"
+    },
+    {
+      "id": "c4eb0bca48",
+      "name": "Campeonato Kart Monterrey",
+      "kind": "Club / Series",
+      "schedule_url": "https://autodromomonterrey.com/about",
+      "venue": "Autódromo Monterrey",
+      "city": "Apodaca",
+      "region": "NLE",
+      "country": "Mexico",
+      "notes": "2026 official kart championship section verified separately from car racing.",
+      "research_status": "Official organizer verified; schedule monitored",
+      "source_description": "Official organizer calendar / schedule",
+      "monitor_id": "monterrey-kart"
+    },
+    {
+      "id": "06c439aa40",
+      "name": "Northeast Karting Challenge",
+      "kind": "Club / Series",
+      "schedule_url": "https://www.northeastkartchallenge.com/",
+      "venue": "Various",
+      "city": "Various",
+      "region": "NJ",
+      "country": "USA",
+      "notes": "Official organizer verified; schedule image requires review.",
+      "research_status": "Official organizer verified; schedule monitored",
+      "source_description": "Official organizer calendar / schedule",
+      "monitor_id": "nkc-official"
+    },
+    {
+      "id": "44a60cee03",
+      "name": "Ambassador Racing School",
+      "kind": "Club / Series",
+      "schedule_url": "https://racingkarts.com/introduction/schedule-2/",
+      "venue": "Ambassador Racing School",
+      "city": "Wimauma",
+      "region": "FL",
+      "country": "USA",
+      "notes": "Tentative 2026 owner-kart schedule; dates remain review candidates.",
+      "research_status": "Official organizer verified; schedule monitored",
+      "source_description": "Official organizer calendar / schedule",
+      "monitor_id": "ambassador-schedule"
     }
   ]
 }
