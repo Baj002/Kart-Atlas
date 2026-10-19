@@ -60,7 +60,7 @@ def extract(raw, source, today=None):
         url=urljoin(source['url'],href)
         u=urlsplit(url)
         if u.scheme not in ('https','http') or u.hostname != origin.hostname: continue
-        if not (re.search(r'\\.ics(?:$|\\?)',url,re.I) or 'ical=1' in u.query.lower()):continue
+        if not (re.search(r'\.ics(?:$|\?)',url,re.I) or 'ical=1' in u.query.lower()):continue
         if url not in feeds: feeds.append(url)
     events=[]
     for e in p.events:
