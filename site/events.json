@@ -2091,8 +2091,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-10-24",
@@ -2111,7 +2111,7 @@
       "notes": "",
       "id": "75745d76873f",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -2139,8 +2139,8 @@
       "pdf_page": 1,
       "id": "auto-8238b76b8c8187ca",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "OSKCS - Race 10 @ PARC",
@@ -2167,8 +2167,8 @@
       "publication_needs_review": false,
       "id": "auto-4398fc7bb365e862",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-10-24",
@@ -2187,7 +2187,7 @@
       "notes": "Registration listed open by organizer; event 9 AM to 5 PM; see organizer for rules and eligibility.",
       "id": "52b68b85126a",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632"
     },
     {
@@ -2216,8 +2216,8 @@
       "pdf_page": 1,
       "id": "auto-5ed26f4c968d1895",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "id": "auto-98bfd5f7525f6e76",
@@ -2245,8 +2245,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-10-25",
@@ -2291,8 +2291,8 @@
       "pdf_page": 1,
       "id": "auto-a0e60aabbb324bc5",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-10-28",
@@ -2354,8 +2354,8 @@
       "pdf_page": 1,
       "id": "auto-021cc4fafc417b71",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Club Kart Race #11",
@@ -2383,8 +2383,8 @@
       "pdf_page": 1,
       "id": "auto-52a52fd438a78958",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-11-01",
@@ -2420,7 +2420,7 @@
       "notes": "",
       "id": "bf89c2c303a6",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -2492,8 +2492,8 @@
       "pdf_page": 1,
       "id": "auto-1b9b2a76931a3cb1",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
@@ -2521,8 +2521,8 @@
       "shared_source_url": true,
       "id": "auto-8001844098aeccbc",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Club Kart Race #12",
@@ -2550,8 +2550,8 @@
       "pdf_page": 1,
       "id": "auto-f9e296631f4bb0b4",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-11-08",
@@ -2587,11 +2587,11 @@
       "notes": "",
       "id": "1e2d54f2db40",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
       "registration_status": "open",
       "registration_deadline": "2026-11-11T01:00:00+00:00",
-      "registration_checked_at": "2026-10-20T04:08:03+00:00",
+      "registration_checked_at": "2026-10-20T04:37:34+00:00",
       "registration_evidence": "https://raceselect.com/skusa/2026",
       "registration_reminder_url": "/reminders/1e2d54f2db40.ics"
     },
@@ -2638,8 +2638,8 @@
       "pdf_page": 1,
       "id": "auto-ee0faec5e411a5c8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-11-15",
@@ -2658,7 +2658,7 @@
       "notes": "",
       "id": "5b1f9274ffb2",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-11-21",
@@ -2720,8 +2720,8 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 1",
@@ -2749,8 +2749,8 @@
       "shared_source_url": true,
       "id": "auto-5ab78f8c44c0cc97",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "AMR Karting Challenge",
@@ -2778,8 +2778,8 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "id": "auto-fee3fbd995363934",
@@ -2807,8 +2807,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Campeonato Kart Monterrey — SEXTA ETAPA",
@@ -2836,8 +2836,8 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-12-04",
@@ -2873,7 +2873,7 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 2",
@@ -2901,8 +2901,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "id": "auto-428c82650c5b3a5b",
@@ -2930,8 +2930,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "name": "Spring Mountain Karting Series Race",
@@ -2959,8 +2959,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-12-19",
@@ -3005,8 +3005,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-12-20",
@@ -3025,7 +3025,7 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2026-12-29",
@@ -3080,7 +3080,7 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-01-16",
@@ -3099,7 +3099,7 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-01-16",
@@ -3121,7 +3121,7 @@
         "06eeb999f02d"
       ],
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-01-22",
@@ -3166,8 +3166,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-01-30",
@@ -3212,8 +3212,8 @@
       "shared_source_url": true,
       "id": "auto-848b4674958d8a2c",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-02-07",
@@ -3232,7 +3232,7 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-02-12",
@@ -3254,7 +3254,7 @@
         "1a9b14c91bd1"
       ],
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-02-19",
@@ -3290,7 +3290,7 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-02-26",
@@ -3372,8 +3372,8 @@
       "shared_source_url": true,
       "id": "auto-7f743ae877800c6a",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-03-07",
@@ -3392,7 +3392,7 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-03-12",
@@ -3465,7 +3465,7 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-03-27",
@@ -3544,8 +3544,8 @@
       "shared_source_url": true,
       "id": "auto-6188fc3542bffd68",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-04-09",
@@ -3581,7 +3581,7 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-04-17",
@@ -3599,7 +3599,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "5d580cc95177",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -3652,7 +3652,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "e216105cbc71",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -3681,8 +3681,8 @@
       "shared_source_url": true,
       "id": "auto-130e269a27a7320a",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-05-08",
@@ -3836,7 +3836,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "1bb0a6b3dee8",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -3865,8 +3865,8 @@
       "shared_source_url": true,
       "id": "auto-5ce58e5ac05d3599",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-06-11",
@@ -3935,7 +3935,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "352646a26717",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -3988,7 +3988,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "45b67f87c40b",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -4068,8 +4068,8 @@
       "shared_source_url": true,
       "id": "auto-af58ed7d7f82f348",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-08-06",
@@ -4121,7 +4121,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "94d7a39be9da",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -4218,8 +4218,8 @@
       "shared_source_url": true,
       "id": "auto-e5a00bbe9cc1a217",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-09-11",
@@ -4271,7 +4271,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "e32c72034c7f",
-      "last_verified": "2026-10-20T04:05:27+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00",
       "status": "scheduled"
     },
     {
@@ -4351,8 +4351,8 @@
       "shared_source_url": true,
       "id": "auto-7204c453b328d0fb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:05:27+00:00",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_seen": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:34:17+00:00"
     },
     {
       "start": "2027-10-09",
@@ -4456,7 +4456,7 @@
       "notes": "",
       "id": "e0b611ca1d97",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:05:27+00:00"
+      "last_verified": "2026-10-20T04:34:17+00:00"
     }
   ]
 }
