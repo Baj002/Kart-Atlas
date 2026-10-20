@@ -2063,7 +2063,8 @@
       "classes": "",
       "source": "https://www.cckra.com/",
       "notes": "Official organizer schedule checked 2026-10-19. Organizer lists the Oct 23-25 event weekend; RaceSelect lists Oct 24-25 race dates.",
-      "id": "9737e6db2c46"
+      "id": "9737e6db2c46",
+      "registration_reminder_url": "/reminders/9737e6db2c46.ics"
     },
     {
       "id": "auto-d92149c5d4385545",
@@ -2091,8 +2092,9 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-d92149c5d4385545.ics"
     },
     {
       "start": "2026-10-24",
@@ -2111,7 +2113,8 @@
       "notes": "",
       "id": "75745d76873f",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/75745d76873f.ics"
     },
     {
       "name": "Norwalk Club Race",
@@ -2139,8 +2142,9 @@
       "pdf_page": 1,
       "id": "auto-8238b76b8c8187ca",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-8238b76b8c8187ca.ics"
     },
     {
       "name": "OSKCS - Race 10 @ PARC",
@@ -2167,8 +2171,9 @@
       "publication_needs_review": false,
       "id": "auto-4398fc7bb365e862",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-4398fc7bb365e862.ics"
     },
     {
       "start": "2026-10-24",
@@ -2187,8 +2192,9 @@
       "notes": "Registration listed open by organizer; event 9 AM to 5 PM; see organizer for rules and eligibility.",
       "id": "52b68b85126a",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632",
+      "registration_reminder_url": "/reminders/52b68b85126a.ics"
     },
     {
       "name": "AMR Karting Challenge",
@@ -2216,8 +2222,9 @@
       "pdf_page": 1,
       "id": "auto-5ed26f4c968d1895",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-5ed26f4c968d1895.ics"
     },
     {
       "id": "auto-98bfd5f7525f6e76",
@@ -2245,8 +2252,9 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-98bfd5f7525f6e76.ics"
     },
     {
       "start": "2026-10-25",
@@ -2263,7 +2271,8 @@
       "classes": "",
       "source": "https://kartdirectory.racing/us/events/",
       "notes": "",
-      "id": "ba1bef3716cc"
+      "id": "ba1bef3716cc",
+      "registration_reminder_url": "/reminders/ba1bef3716cc.ics"
     },
     {
       "name": "Spring Mountain Karting Series Race",
@@ -2291,8 +2300,9 @@
       "pdf_page": 1,
       "id": "auto-a0e60aabbb324bc5",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-a0e60aabbb324bc5.ics"
     },
     {
       "start": "2026-10-28",
@@ -2309,7 +2319,8 @@
       "classes": "ROK categories",
       "source": "https://rokcupusa.com/calendar/",
       "notes": "",
-      "id": "9061cdffd7f0"
+      "id": "9061cdffd7f0",
+      "registration_reminder_url": "/reminders/9061cdffd7f0.ics"
     },
     {
       "start": "2026-10-31",
@@ -2326,7 +2337,8 @@
       "classes": "",
       "source": "https://kartingclubmexico.velkindatastudios.com/eventos",
       "notes": "",
-      "id": "99fc1dcdc39a"
+      "id": "99fc1dcdc39a",
+      "registration_reminder_url": "/reminders/99fc1dcdc39a.ics"
     },
     {
       "name": "Norwalk Club Race",
@@ -2354,8 +2366,9 @@
       "pdf_page": 1,
       "id": "auto-021cc4fafc417b71",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-021cc4fafc417b71.ics"
     },
     {
       "name": "Club Kart Race #11",
@@ -2383,8 +2396,9 @@
       "pdf_page": 1,
       "id": "auto-52a52fd438a78958",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-52a52fd438a78958.ics"
     },
     {
       "start": "2026-11-01",
@@ -2401,7 +2415,8 @@
       "classes": "",
       "source": "https://ovrp.net/calendar/list/",
       "notes": "",
-      "id": "d2fb9df25608"
+      "id": "d2fb9df25608",
+      "registration_reminder_url": "/reminders/d2fb9df25608.ics"
     },
     {
       "start": "2026-11-01",
@@ -2420,7 +2435,8 @@
       "notes": "",
       "id": "bf89c2c303a6",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/bf89c2c303a6.ics"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -2447,7 +2463,8 @@
       "id": "auto-e9959bcfb5763ab0",
       "first_seen": "2026-10-19T02:20:34+00:00",
       "last_seen": "2026-10-19T02:37:45+00:00",
-      "last_verified": "2026-10-19T02:37:45+00:00"
+      "last_verified": "2026-10-19T02:37:45+00:00",
+      "registration_reminder_url": "/reminders/auto-e9959bcfb5763ab0.ics"
     },
     {
       "start": "2026-11-07",
@@ -2464,7 +2481,8 @@
       "classes": "",
       "source": "https://northtexaskarters.wildapricot.org/",
       "notes": "",
-      "id": "0f56284dab4e"
+      "id": "0f56284dab4e",
+      "registration_reminder_url": "/reminders/0f56284dab4e.ics"
     },
     {
       "name": "Norwalk Club Race",
@@ -2492,8 +2510,9 @@
       "pdf_page": 1,
       "id": "auto-1b9b2a76931a3cb1",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-1b9b2a76931a3cb1.ics"
     },
     {
       "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
@@ -2521,8 +2540,9 @@
       "shared_source_url": true,
       "id": "auto-8001844098aeccbc",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-8001844098aeccbc.ics"
     },
     {
       "name": "Club Kart Race #12",
@@ -2550,8 +2570,9 @@
       "pdf_page": 1,
       "id": "auto-f9e296631f4bb0b4",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-f9e296631f4bb0b4.ics"
     },
     {
       "start": "2026-11-08",
@@ -2568,7 +2589,8 @@
       "classes": "",
       "source": "https://socal-karting.com/calendar/",
       "notes": "",
-      "id": "0883f7a4ab63"
+      "id": "0883f7a4ab63",
+      "registration_reminder_url": "/reminders/0883f7a4ab63.ics"
     },
     {
       "start": "2026-11-11",
@@ -2587,11 +2609,11 @@
       "notes": "",
       "id": "1e2d54f2db40",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
       "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
       "registration_status": "open",
       "registration_deadline": "2026-11-11T01:00:00+00:00",
-      "registration_checked_at": "2026-10-20T04:37:34+00:00",
+      "registration_checked_at": "2026-10-20T04:41:06+00:00",
       "registration_evidence": "https://raceselect.com/skusa/2026",
       "registration_reminder_url": "/reminders/1e2d54f2db40.ics"
     },
@@ -2610,7 +2632,8 @@
       "classes": "",
       "source": "https://kartdirectory.racing/us/events/",
       "notes": "",
-      "id": "9409dda1f951"
+      "id": "9409dda1f951",
+      "registration_reminder_url": "/reminders/9409dda1f951.ics"
     },
     {
       "name": "Norwalk Club Race",
@@ -2638,8 +2661,9 @@
       "pdf_page": 1,
       "id": "auto-ee0faec5e411a5c8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-ee0faec5e411a5c8.ics"
     },
     {
       "start": "2026-11-15",
@@ -2658,7 +2682,8 @@
       "notes": "",
       "id": "5b1f9274ffb2",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/5b1f9274ffb2.ics"
     },
     {
       "start": "2026-11-21",
@@ -2675,7 +2700,8 @@
       "classes": "",
       "source": "https://www.cckra.com/",
       "notes": "Official organizer schedule checked 2026-10-19.",
-      "id": "d495b8eb3cc8"
+      "id": "d495b8eb3cc8",
+      "registration_reminder_url": "/reminders/d495b8eb3cc8.ics"
     },
     {
       "start": "2026-11-21",
@@ -2692,7 +2718,8 @@
       "classes": "",
       "source": "https://www.fiamexicokarting.org/",
       "notes": "Official site shows November 21/22 but its date rendering is malformed; reconfirm.",
-      "id": "f62ab8189e40"
+      "id": "f62ab8189e40",
+      "registration_reminder_url": "/reminders/f62ab8189e40.ics"
     },
     {
       "name": "Norwalk Club Race",
@@ -2720,8 +2747,9 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-ce9f9a65af37f894.ics"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 1",
@@ -2749,8 +2777,9 @@
       "shared_source_url": true,
       "id": "auto-5ab78f8c44c0cc97",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-5ab78f8c44c0cc97.ics"
     },
     {
       "name": "AMR Karting Challenge",
@@ -2778,8 +2807,9 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-0991aeb03b374650.ics"
     },
     {
       "id": "auto-fee3fbd995363934",
@@ -2807,8 +2837,9 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-fee3fbd995363934.ics"
     },
     {
       "name": "Campeonato Kart Monterrey — SEXTA ETAPA",
@@ -2836,8 +2867,9 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-f5f238bbab78f963.ics"
     },
     {
       "start": "2026-12-04",
@@ -2854,7 +2886,8 @@
       "classes": "",
       "source": "https://www.uskarting.com/events",
       "notes": "Listed on USKarting; verify with series.",
-      "id": "3cbc1139961e"
+      "id": "3cbc1139961e",
+      "registration_reminder_url": "/reminders/3cbc1139961e.ics"
     },
     {
       "start": "2026-12-06",
@@ -2873,7 +2906,8 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/05059067c8df.ics"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 2",
@@ -2901,8 +2935,9 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-71223f4ae77f2493.ics"
     },
     {
       "id": "auto-428c82650c5b3a5b",
@@ -2930,8 +2965,9 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-428c82650c5b3a5b.ics"
     },
     {
       "name": "Spring Mountain Karting Series Race",
@@ -2959,8 +2995,9 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-3a3182b25cc7ef08.ics"
     },
     {
       "start": "2026-12-19",
@@ -2977,7 +3014,8 @@
       "classes": "",
       "source": "https://kartingclubmexico.velkindatastudios.com/eventos",
       "notes": "",
-      "id": "ce0374a6abbe"
+      "id": "ce0374a6abbe",
+      "registration_reminder_url": "/reminders/ce0374a6abbe.ics"
     },
     {
       "name": "AMR Karting Challenge",
@@ -3005,8 +3043,9 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-617ff44d6075f7be.ics"
     },
     {
       "start": "2026-12-20",
@@ -3025,7 +3064,8 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/4208ae2b35c9.ics"
     },
     {
       "start": "2026-12-29",
@@ -3044,7 +3084,8 @@
       "notes": "Circuit-kart race days December 29–30. Move-in December 27; practice and qualifying December 28. Excludes separate dirt and long-circuit road-racing programs.",
       "id": "17f87c6b741a",
       "registration_url": "https://raceselect.com/wka/2027?tag=sprint",
-      "last_verified": "2026-10-19"
+      "last_verified": "2026-10-19",
+      "registration_reminder_url": "/reminders/17f87c6b741a.ics"
     },
     {
       "start": "2027-01-01",
@@ -3061,7 +3102,8 @@
       "classes": "Briggs LO206",
       "source": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
       "notes": "",
-      "id": "e64570934a25"
+      "id": "e64570934a25",
+      "registration_reminder_url": "/reminders/e64570934a25.ics"
     },
     {
       "start": "2027-01-10",
@@ -3080,7 +3122,8 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/8eabfebc7421.ics"
     },
     {
       "start": "2027-01-16",
@@ -3099,7 +3142,8 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/78b897cddd42.ics"
     },
     {
       "start": "2027-01-16",
@@ -3121,7 +3165,8 @@
         "06eeb999f02d"
       ],
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/7758fddb9bd1.ics"
     },
     {
       "start": "2027-01-22",
@@ -3138,7 +3183,8 @@
       "classes": "",
       "source": "https://rokcupusa.com/calendar/",
       "notes": "",
-      "id": "27401066f4a3"
+      "id": "27401066f4a3",
+      "registration_reminder_url": "/reminders/27401066f4a3.ics"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 3",
@@ -3166,8 +3212,9 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-c0f9952a08360ecb.ics"
     },
     {
       "start": "2027-01-30",
@@ -3184,7 +3231,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "ba7ac3a67e8d"
+      "id": "ba7ac3a67e8d",
+      "registration_reminder_url": "/reminders/ba7ac3a67e8d.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 1",
@@ -3212,8 +3260,9 @@
       "shared_source_url": true,
       "id": "auto-848b4674958d8a2c",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-848b4674958d8a2c.ics"
     },
     {
       "start": "2027-02-07",
@@ -3232,7 +3281,8 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/90d8ad70ba29.ics"
     },
     {
       "start": "2027-02-12",
@@ -3254,7 +3304,8 @@
         "1a9b14c91bd1"
       ],
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/6622456fede1.ics"
     },
     {
       "start": "2027-02-19",
@@ -3271,7 +3322,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "c4b7d49a5613"
+      "id": "c4b7d49a5613",
+      "registration_reminder_url": "/reminders/c4b7d49a5613.ics"
     },
     {
       "start": "2027-02-21",
@@ -3290,7 +3342,8 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/69ffd03bfac4.ics"
     },
     {
       "start": "2027-02-26",
@@ -3310,7 +3363,8 @@
       "id": "c221825c977a",
       "alias_ids": [
         "37b174ec9bb3"
-      ]
+      ],
+      "registration_reminder_url": "/reminders/c221825c977a.ics"
     },
     {
       "start": "2027-02-28",
@@ -3327,7 +3381,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "8bd83f31728a"
+      "id": "8bd83f31728a",
+      "registration_reminder_url": "/reminders/8bd83f31728a.ics"
     },
     {
       "start": "2027-03-05",
@@ -3344,7 +3399,8 @@
       "classes": "",
       "source": "https://www.uspks.com/schedule/",
       "notes": "",
-      "id": "38439899fc72"
+      "id": "38439899fc72",
+      "registration_reminder_url": "/reminders/38439899fc72.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 2",
@@ -3372,8 +3428,9 @@
       "shared_source_url": true,
       "id": "auto-7f743ae877800c6a",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-7f743ae877800c6a.ics"
     },
     {
       "start": "2027-03-07",
@@ -3392,7 +3449,8 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/f94f8de53b17.ics"
     },
     {
       "start": "2027-03-12",
@@ -3409,7 +3467,8 @@
       "classes": "Baby, Micro/Mini Swift, X30 Jr/Sr/Master, KZ",
       "source": "https://www.championskartingamerica.com/mexico-series/",
       "notes": "",
-      "id": "aedb2a248ca6"
+      "id": "aedb2a248ca6",
+      "registration_reminder_url": "/reminders/aedb2a248ca6.ics"
     },
     {
       "start": "2027-03-12",
@@ -3429,7 +3488,8 @@
       "id": "f6380f404a97",
       "alias_ids": [
         "f998c938c8b8"
-      ]
+      ],
+      "registration_reminder_url": "/reminders/f6380f404a97.ics"
     },
     {
       "start": "2027-03-12",
@@ -3446,7 +3506,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "c36f4da0b2fd"
+      "id": "c36f4da0b2fd",
+      "registration_reminder_url": "/reminders/c36f4da0b2fd.ics"
     },
     {
       "start": "2027-03-21",
@@ -3465,7 +3526,8 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/b4747467fb2a.ics"
     },
     {
       "start": "2027-03-27",
@@ -3482,7 +3544,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "e81164694126"
+      "id": "e81164694126",
+      "registration_reminder_url": "/reminders/e81164694126.ics"
     },
     {
       "start": "2027-03-27",
@@ -3499,7 +3562,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "0968535e960c"
+      "id": "0968535e960c",
+      "registration_reminder_url": "/reminders/0968535e960c.ics"
     },
     {
       "start": "2027-04-02",
@@ -3516,7 +3580,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "ffd6e368979e"
+      "id": "ffd6e368979e",
+      "registration_reminder_url": "/reminders/ffd6e368979e.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 3",
@@ -3544,8 +3609,9 @@
       "shared_source_url": true,
       "id": "auto-6188fc3542bffd68",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-6188fc3542bffd68.ics"
     },
     {
       "start": "2027-04-09",
@@ -3562,7 +3628,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "750e3eda7058"
+      "id": "750e3eda7058",
+      "registration_reminder_url": "/reminders/750e3eda7058.ics"
     },
     {
       "start": "2027-04-11",
@@ -3581,7 +3648,8 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/bed34054b637.ics"
     },
     {
       "start": "2027-04-17",
@@ -3599,8 +3667,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "5d580cc95177",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/5d580cc95177.ics"
     },
     {
       "start": "2027-04-24",
@@ -3617,7 +3686,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "ad74a1628b5a"
+      "id": "ad74a1628b5a",
+      "registration_reminder_url": "/reminders/ad74a1628b5a.ics"
     },
     {
       "start": "2027-04-24",
@@ -3634,7 +3704,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "ee21525599db"
+      "id": "ee21525599db",
+      "registration_reminder_url": "/reminders/ee21525599db.ics"
     },
     {
       "start": "2027-05-01",
@@ -3652,8 +3723,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "e216105cbc71",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/e216105cbc71.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 4",
@@ -3681,8 +3753,9 @@
       "shared_source_url": true,
       "id": "auto-130e269a27a7320a",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-130e269a27a7320a.ics"
     },
     {
       "start": "2027-05-08",
@@ -3699,7 +3772,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "afdf2d41e6cc"
+      "id": "afdf2d41e6cc",
+      "registration_reminder_url": "/reminders/afdf2d41e6cc.ics"
     },
     {
       "start": "2027-05-14",
@@ -3716,7 +3790,8 @@
       "classes": "Baby, Micro/Mini Swift, X30 Jr/Sr/Master, KZ",
       "source": "https://www.championskartingamerica.com/mexico-series/",
       "notes": "",
-      "id": "a736de1da7cd"
+      "id": "a736de1da7cd",
+      "registration_reminder_url": "/reminders/a736de1da7cd.ics"
     },
     {
       "start": "2027-05-14",
@@ -3733,7 +3808,8 @@
       "classes": "",
       "source": "https://www.uspks.com/schedule/",
       "notes": "",
-      "id": "a5232adcd8e3"
+      "id": "a5232adcd8e3",
+      "registration_reminder_url": "/reminders/a5232adcd8e3.ics"
     },
     {
       "start": "2027-05-15",
@@ -3750,7 +3826,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "babcc9626e1a"
+      "id": "babcc9626e1a",
+      "registration_reminder_url": "/reminders/babcc9626e1a.ics"
     },
     {
       "start": "2027-05-22",
@@ -3767,7 +3844,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "ef01a3b0d1af"
+      "id": "ef01a3b0d1af",
+      "registration_reminder_url": "/reminders/ef01a3b0d1af.ics"
     },
     {
       "start": "2027-05-22",
@@ -3784,7 +3862,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "2ce6eb8ed014"
+      "id": "2ce6eb8ed014",
+      "registration_reminder_url": "/reminders/2ce6eb8ed014.ics"
     },
     {
       "start": "2027-05-28",
@@ -3801,7 +3880,8 @@
       "classes": "Briggs / four-cycle",
       "source": "https://www.kartsportnews.com/2026/09/24/ckna-closes-out-26/",
       "notes": "Series founder announced May 28–30, 2027 in September 2026 media release. Organizer's own 2027 event page not yet published; confirm before travel.",
-      "id": "2821c791923d"
+      "id": "2821c791923d",
+      "registration_reminder_url": "/reminders/2821c791923d.ics"
     },
     {
       "start": "2027-05-28",
@@ -3818,7 +3898,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "f02611c9395e"
+      "id": "f02611c9395e",
+      "registration_reminder_url": "/reminders/f02611c9395e.ics"
     },
     {
       "start": "2027-06-05",
@@ -3836,8 +3917,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "1bb0a6b3dee8",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/1bb0a6b3dee8.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 5",
@@ -3865,8 +3947,9 @@
       "shared_source_url": true,
       "id": "auto-5ce58e5ac05d3599",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-5ce58e5ac05d3599.ics"
     },
     {
       "start": "2027-06-11",
@@ -3883,7 +3966,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "5ef6b208d776"
+      "id": "5ef6b208d776",
+      "registration_reminder_url": "/reminders/5ef6b208d776.ics"
     },
     {
       "start": "2027-06-18",
@@ -3900,7 +3984,8 @@
       "classes": "Baby, Micro/Mini Swift, X30 Jr/Sr/Master, KZ",
       "source": "https://www.championskartingamerica.com/mexico-series/",
       "notes": "",
-      "id": "cc92d725c459"
+      "id": "cc92d725c459",
+      "registration_reminder_url": "/reminders/cc92d725c459.ics"
     },
     {
       "start": "2027-06-25",
@@ -3917,7 +4002,8 @@
       "classes": "",
       "source": "https://www.uspks.com/schedule/",
       "notes": "",
-      "id": "2769d5b67481"
+      "id": "2769d5b67481",
+      "registration_reminder_url": "/reminders/2769d5b67481.ics"
     },
     {
       "start": "2027-06-26",
@@ -3935,8 +4021,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "352646a26717",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/352646a26717.ics"
     },
     {
       "start": "2027-07-15",
@@ -3953,7 +4040,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "6ca66e5cf0c5"
+      "id": "6ca66e5cf0c5",
+      "registration_reminder_url": "/reminders/6ca66e5cf0c5.ics"
     },
     {
       "start": "2027-07-16",
@@ -3970,7 +4058,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "7866f6399c7c"
+      "id": "7866f6399c7c",
+      "registration_reminder_url": "/reminders/7866f6399c7c.ics"
     },
     {
       "start": "2027-07-17",
@@ -3988,8 +4077,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "45b67f87c40b",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/45b67f87c40b.ics"
     },
     {
       "start": "2027-07-23",
@@ -4006,7 +4096,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "b75f12501217"
+      "id": "b75f12501217",
+      "registration_reminder_url": "/reminders/b75f12501217.ics"
     },
     {
       "start": "2027-07-30",
@@ -4023,7 +4114,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "c7bf22b5ae5d"
+      "id": "c7bf22b5ae5d",
+      "registration_reminder_url": "/reminders/c7bf22b5ae5d.ics"
     },
     {
       "start": "2027-07-30",
@@ -4040,7 +4132,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "b31d463c5812"
+      "id": "b31d463c5812",
+      "registration_reminder_url": "/reminders/b31d463c5812.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 6",
@@ -4068,8 +4161,9 @@
       "shared_source_url": true,
       "id": "auto-af58ed7d7f82f348",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-af58ed7d7f82f348.ics"
     },
     {
       "start": "2027-08-06",
@@ -4086,7 +4180,8 @@
       "classes": "",
       "source": "https://www.uspks.com/schedule/",
       "notes": "",
-      "id": "1daba7724337"
+      "id": "1daba7724337",
+      "registration_reminder_url": "/reminders/1daba7724337.ics"
     },
     {
       "start": "2027-08-07",
@@ -4103,7 +4198,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "a8036e0b19c8"
+      "id": "a8036e0b19c8",
+      "registration_reminder_url": "/reminders/a8036e0b19c8.ics"
     },
     {
       "start": "2027-08-07",
@@ -4121,8 +4217,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "94d7a39be9da",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/94d7a39be9da.ics"
     },
     {
       "start": "2027-08-14",
@@ -4139,7 +4236,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "9acd0d3268d8"
+      "id": "9acd0d3268d8",
+      "registration_reminder_url": "/reminders/9acd0d3268d8.ics"
     },
     {
       "start": "2027-08-28",
@@ -4156,7 +4254,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "5048ed99b5d8"
+      "id": "5048ed99b5d8",
+      "registration_reminder_url": "/reminders/5048ed99b5d8.ics"
     },
     {
       "start": "2027-08-28",
@@ -4173,7 +4272,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "62de6208f174"
+      "id": "62de6208f174",
+      "registration_reminder_url": "/reminders/62de6208f174.ics"
     },
     {
       "start": "2027-09-03",
@@ -4190,7 +4290,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "673619d90636"
+      "id": "673619d90636",
+      "registration_reminder_url": "/reminders/673619d90636.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 7",
@@ -4218,8 +4319,9 @@
       "shared_source_url": true,
       "id": "auto-e5a00bbe9cc1a217",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-e5a00bbe9cc1a217.ics"
     },
     {
       "start": "2027-09-11",
@@ -4236,7 +4338,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "1038d9353930"
+      "id": "1038d9353930",
+      "registration_reminder_url": "/reminders/1038d9353930.ics"
     },
     {
       "start": "2027-09-17",
@@ -4253,7 +4356,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "40f000a599f0"
+      "id": "40f000a599f0",
+      "registration_reminder_url": "/reminders/40f000a599f0.ics"
     },
     {
       "start": "2027-09-18",
@@ -4271,8 +4375,9 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "e32c72034c7f",
-      "last_verified": "2026-10-20T04:34:17+00:00",
-      "status": "scheduled"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "status": "scheduled",
+      "registration_reminder_url": "/reminders/e32c72034c7f.ics"
     },
     {
       "start": "2027-09-25",
@@ -4289,7 +4394,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "f1535366feac"
+      "id": "f1535366feac",
+      "registration_reminder_url": "/reminders/f1535366feac.ics"
     },
     {
       "start": "2027-09-25",
@@ -4306,7 +4412,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "e20c2c6e791e"
+      "id": "e20c2c6e791e",
+      "registration_reminder_url": "/reminders/e20c2c6e791e.ics"
     },
     {
       "start": "2027-10-01",
@@ -4323,7 +4430,8 @@
       "classes": "Baby, Micro/Mini Swift, X30 Jr/Sr/Master, KZ",
       "source": "https://www.championskartingamerica.com/mexico-series/",
       "notes": "",
-      "id": "e99e7e5dd959"
+      "id": "e99e7e5dd959",
+      "registration_reminder_url": "/reminders/e99e7e5dd959.ics"
     },
     {
       "name": "Tri-C Club Series Championship Round 8",
@@ -4351,8 +4459,9 @@
       "shared_source_url": true,
       "id": "auto-7204c453b328d0fb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-20T04:34:17+00:00",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_seen": "2026-10-20T04:38:31+00:00",
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/auto-7204c453b328d0fb.ics"
     },
     {
       "start": "2027-10-09",
@@ -4369,7 +4478,8 @@
       "classes": "KA100 Heritage / Tillotson T4 Junior & Senior",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "2b22b8fa497e"
+      "id": "2b22b8fa497e",
+      "registration_reminder_url": "/reminders/2b22b8fa497e.ics"
     },
     {
       "start": "2027-10-09",
@@ -4386,7 +4496,8 @@
       "classes": "",
       "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
       "notes": "Venue not yet announced.",
-      "id": "4dcc481785ea"
+      "id": "4dcc481785ea",
+      "registration_reminder_url": "/reminders/4dcc481785ea.ics"
     },
     {
       "start": "2027-10-20",
@@ -4403,7 +4514,8 @@
       "classes": "",
       "source": "https://www.uspks.com/schedule/",
       "notes": "Non-points special event.",
-      "id": "824c84d4470f"
+      "id": "824c84d4470f",
+      "registration_reminder_url": "/reminders/824c84d4470f.ics"
     },
     {
       "start": "2027-10-27",
@@ -4420,7 +4532,8 @@
       "classes": "",
       "source": "https://www.uspks.com/uspks-rok-cup-usa-announce-multi-year-partnership-beginning-in-2027/",
       "notes": "Confirmed on USPKS–ROK announcement; ROK 2027 schedule pending page update.",
-      "id": "5c0bea37776d"
+      "id": "5c0bea37776d",
+      "registration_reminder_url": "/reminders/5c0bea37776d.ics"
     },
     {
       "start": "2027-10-29",
@@ -4437,7 +4550,8 @@
       "classes": "Mini U10, Mini, KA100 Jr/Sr, X30 Jr/Pro",
       "source": "https://www.championskartingamerica.com/2027-championship/",
       "notes": "",
-      "id": "1a61b602ffe1"
+      "id": "1a61b602ffe1",
+      "registration_reminder_url": "/reminders/1a61b602ffe1.ics"
     },
     {
       "start": "2027-11-10",
@@ -4456,7 +4570,8 @@
       "notes": "",
       "id": "e0b611ca1d97",
       "status": "scheduled",
-      "last_verified": "2026-10-20T04:34:17+00:00"
+      "last_verified": "2026-10-20T04:38:31+00:00",
+      "registration_reminder_url": "/reminders/e0b611ca1d97.ics"
     }
   ]
 }

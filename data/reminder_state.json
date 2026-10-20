@@ -8,6 +8,1041 @@
       "id": "1e2d54f2db40",
       "sequence": 0,
       "cancelled": false
+    },
+    "9737e6db2c46": {
+      "id": "9737e6db2c46",
+      "name": "CCKRA Championship Race #6",
+      "source": "https://www.cckra.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-d92149c5d4385545": {
+      "id": "auto-d92149c5d4385545",
+      "name": "GHRS Fall 4 @ SRP",
+      "source": "https://www.racekarts.com/calendar/ghrs-fall-4-srp-2.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "75745d76873f": {
+      "id": "75745d76873f",
+      "name": "NTK Fall Race 5",
+      "source": "https://northtexaskarters.wildapricot.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-8238b76b8c8187ca": {
+      "id": "auto-8238b76b8c8187ca",
+      "name": "Norwalk Club Race",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-4398fc7bb365e862": {
+      "id": "auto-4398fc7bb365e862",
+      "name": "OSKCS - Race 10 @ PARC",
+      "source": "https://www.portlandkarting.com/events/oskcs-race-3-parc-3ce89-dazz9-cd55b",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "52b68b85126a": {
+      "id": "52b68b85126a",
+      "name": "WCKC 2026 Fall Endurance Race",
+      "source": "https://wckc.alphatiming.co.uk/register/events/20632",
+      "registration_url": "https://wckc.alphatiming.co.uk/register/events/20632",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-5ed26f4c968d1895": {
+      "id": "auto-5ed26f4c968d1895",
+      "name": "AMR Karting Challenge",
+      "source": "https://www.amrmotorplex.com/files/2017/7429/4067/AMR_2026_Class_Structure_V4.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-98bfd5f7525f6e76": {
+      "id": "auto-98bfd5f7525f6e76",
+      "name": "GHRS Fall 5 @ SRP",
+      "source": "https://www.racekarts.com/calendar/ghrs-fall-5-srp-2.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ba1bef3716cc": {
+      "id": "ba1bef3716cc",
+      "name": "Santa Maria Kart Association Club Round 8",
+      "source": "https://kartdirectory.racing/us/events/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-a0e60aabbb324bc5": {
+      "id": "auto-a0e60aabbb324bc5",
+      "name": "Spring Mountain Karting Series Race",
+      "source": "https://springmountainkarting.com/wp-content/uploads/2025/12/Karting-2026-Race-Schedule.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "9061cdffd7f0": {
+      "id": "9061cdffd7f0",
+      "name": "ROK Vegas 2026",
+      "source": "https://rokcupusa.com/calendar/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "99fc1dcdc39a": {
+      "id": "99fc1dcdc39a",
+      "name": "KCM Trick or Track Grand Prix",
+      "source": "https://kartingclubmexico.velkindatastudios.com/eventos",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-021cc4fafc417b71": {
+      "id": "auto-021cc4fafc417b71",
+      "name": "Norwalk Club Race",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-52a52fd438a78958": {
+      "id": "auto-52a52fd438a78958",
+      "name": "Club Kart Race #11",
+      "source": "https://www.sandyhookspeedway.com/uploads/2/5/0/1/25011543/2026_shs_kart_schedule_1.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "d2fb9df25608": {
+      "id": "d2fb9df25608",
+      "name": "OVRP NY State Championship / Club Race #15",
+      "source": "https://ovrp.net/calendar/list/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "bf89c2c303a6": {
+      "id": "bf89c2c303a6",
+      "name": "PKRA Winter Championship Round 1",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-e9959bcfb5763ab0": {
+      "id": "auto-e9959bcfb5763ab0",
+      "name": "TRAK Multi-Class Enduro",
+      "source": "http://goodwoodkartways.com/event/trak-year-end-enduro-3-2-2-2/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "0f56284dab4e": {
+      "id": "0f56284dab4e",
+      "name": "NTK Fall Race 6",
+      "source": "https://northtexaskarters.wildapricot.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-1b9b2a76931a3cb1": {
+      "id": "auto-1b9b2a76931a3cb1",
+      "name": "Norwalk Club Race",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-8001844098aeccbc": {
+      "id": "auto-8001844098aeccbc",
+      "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
+      "source": "https://musiccitykartplex.com/series",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-f9e296631f4bb0b4": {
+      "id": "auto-f9e296631f4bb0b4",
+      "name": "Club Kart Race #12",
+      "source": "https://www.sandyhookspeedway.com/uploads/2/5/0/1/25011543/2026_shs_kart_schedule_1.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "0883f7a4ab63": {
+      "id": "0883f7a4ab63",
+      "name": "Spring Mountain Karting Series Race",
+      "source": "https://socal-karting.com/calendar/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "9409dda1f951": {
+      "id": "9409dda1f951",
+      "name": "Formula KFX Rotax California Round 10",
+      "source": "https://kartdirectory.racing/us/events/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-ee0faec5e411a5c8": {
+      "id": "auto-ee0faec5e411a5c8",
+      "name": "Norwalk Club Race",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "5b1f9274ffb2": {
+      "id": "5b1f9274ffb2",
+      "name": "PKRA Winter Championship Round 2",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "d495b8eb3cc8": {
+      "id": "d495b8eb3cc8",
+      "name": "CCKRA Championship Race #7",
+      "source": "https://www.cckra.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "f62ab8189e40": {
+      "id": "f62ab8189e40",
+      "name": "FIA México Karting Championship — KBR",
+      "source": "https://www.fiamexicokarting.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-ce9f9a65af37f894": {
+      "id": "auto-ce9f9a65af37f894",
+      "name": "Norwalk Club Race",
+      "source": "https://www.norwalkkartingassociation.org/_files/ugd/076729_bf5f32f357f2408987e195273017e0c2.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-5ab78f8c44c0cc97": {
+      "id": "auto-5ab78f8c44c0cc97",
+      "name": "Tri-C Chill Challenge Blizzard 1",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-0991aeb03b374650": {
+      "id": "auto-0991aeb03b374650",
+      "name": "AMR Karting Challenge",
+      "source": "https://www.amrmotorplex.com/files/2017/7429/4067/AMR_2026_Class_Structure_V4.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-fee3fbd995363934": {
+      "id": "auto-fee3fbd995363934",
+      "name": "GHRS Fall 6 @ GCKI",
+      "source": "https://www.racekarts.com/calendar/ghrs-fall-6-gcki.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-f5f238bbab78f963": {
+      "id": "auto-f5f238bbab78f963",
+      "name": "Campeonato Kart Monterrey — SEXTA ETAPA",
+      "source": "https://autodromomonterrey.com/about",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "3cbc1139961e": {
+      "id": "3cbc1139961e",
+      "name": "Florida Karting Championship Series Round 6",
+      "source": "https://www.uskarting.com/events",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "05059067c8df": {
+      "id": "05059067c8df",
+      "name": "PKRA Winter Championship Round 3",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-71223f4ae77f2493": {
+      "id": "auto-71223f4ae77f2493",
+      "name": "Tri-C Chill Challenge Blizzard 2",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-428c82650c5b3a5b": {
+      "id": "auto-428c82650c5b3a5b",
+      "name": "GHRS Fall 7 @ SRP",
+      "source": "https://www.racekarts.com/calendar/ghrs-fall-7-srp-2.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-3a3182b25cc7ef08": {
+      "id": "auto-3a3182b25cc7ef08",
+      "name": "Spring Mountain Karting Series Race",
+      "source": "https://springmountainkarting.com/wp-content/uploads/2025/12/Karting-2026-Race-Schedule.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ce0374a6abbe": {
+      "id": "ce0374a6abbe",
+      "name": "KCM Carrera del Pavo — Gran Final",
+      "source": "https://kartingclubmexico.velkindatastudios.com/eventos",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-617ff44d6075f7be": {
+      "id": "auto-617ff44d6075f7be",
+      "name": "AMR Karting Challenge",
+      "source": "https://www.amrmotorplex.com/files/2017/7429/4067/AMR_2026_Class_Structure_V4.pdf",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "4208ae2b35c9": {
+      "id": "4208ae2b35c9",
+      "name": "PKRA Winter Championship Round 4",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "17f87c6b741a": {
+      "id": "17f87c6b741a",
+      "name": "WKA Daytona KartWeek — Circuit Karting",
+      "source": "https://www.worldkarting.com/daytona-kartweek/daytona-kartweek-sprint/",
+      "registration_url": "https://raceselect.com/wka/2027?tag=sprint",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e64570934a25": {
+      "id": "e64570934a25",
+      "name": "CKNA Winter Nationals",
+      "source": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "8eabfebc7421": {
+      "id": "8eabfebc7421",
+      "name": "PKRA Winter Championship Round 5",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "78b897cddd42": {
+      "id": "78b897cddd42",
+      "name": "PKRA Cactus Cup",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "7758fddb9bd1": {
+      "id": "7758fddb9bd1",
+      "name": "SKUSA Winter Series Rounds 1–2",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "27401066f4a3": {
+      "id": "27401066f4a3",
+      "name": "Florida Winter Tour Round 1",
+      "source": "https://rokcupusa.com/calendar/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-c0f9952a08360ecb": {
+      "id": "auto-c0f9952a08360ecb",
+      "name": "Tri-C Chill Challenge Blizzard 3",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ba7ac3a67e8d": {
+      "id": "ba7ac3a67e8d",
+      "name": "COTF Club Series Winchester Round 1",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-848b4674958d8a2c": {
+      "id": "auto-848b4674958d8a2c",
+      "name": "Tri-C Club Series Championship Round 1",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "90d8ad70ba29": {
+      "id": "90d8ad70ba29",
+      "name": "PKRA Winter Championship Round 6",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "6622456fede1": {
+      "id": "6622456fede1",
+      "name": "SKUSA Winter Series Rounds 3–4",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "c4b7d49a5613": {
+      "id": "c4b7d49a5613",
+      "name": "COTF America West Round 1",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "69ffd03bfac4": {
+      "id": "69ffd03bfac4",
+      "name": "PKRA Winter Championship Round 7",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "c221825c977a": {
+      "id": "c221825c977a",
+      "name": "Florida Winter Tour Round 2",
+      "source": "https://rokcupusa.com/calendar/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "8bd83f31728a": {
+      "id": "8bd83f31728a",
+      "name": "COTF Club Series Winchester Round 2",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "38439899fc72": {
+      "id": "38439899fc72",
+      "name": "USPKS Florida Grand Prix",
+      "source": "https://www.uspks.com/schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-7f743ae877800c6a": {
+      "id": "auto-7f743ae877800c6a",
+      "name": "Tri-C Club Series Championship Round 2",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "f94f8de53b17": {
+      "id": "f94f8de53b17",
+      "name": "PKRA Winter Championship Round 8",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "aedb2a248ca6": {
+      "id": "aedb2a248ca6",
+      "name": "COTF Mexico Series Round 1",
+      "source": "https://www.championskartingamerica.com/mexico-series/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "f6380f404a97": {
+      "id": "f6380f404a97",
+      "name": "Florida Winter Tour Round 3",
+      "source": "https://rokcupusa.com/calendar/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "c36f4da0b2fd": {
+      "id": "c36f4da0b2fd",
+      "name": "SKUSA California ProKart Challenge Rounds 1–2",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "b4747467fb2a": {
+      "id": "b4747467fb2a",
+      "name": "PKRA Winter Championship Round 9",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e81164694126": {
+      "id": "e81164694126",
+      "name": "COTF Club Series Whiteland Round 1",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "0968535e960c": {
+      "id": "0968535e960c",
+      "name": "COTF Club Series Winchester Round 3",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ffd6e368979e": {
+      "id": "ffd6e368979e",
+      "name": "COTF America East Round 1",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-6188fc3542bffd68": {
+      "id": "auto-6188fc3542bffd68",
+      "name": "Tri-C Club Series Championship Round 3",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "750e3eda7058": {
+      "id": "750e3eda7058",
+      "name": "SKUSA Pro Tour WinterNationals Rounds 1–2",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "bed34054b637": {
+      "id": "bed34054b637",
+      "name": "PKRA Winter Championship Round 10 — Finale",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "5d580cc95177": {
+      "id": "5d580cc95177",
+      "name": "ROK Sonoma Triple Crown 1 — Round 1",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ad74a1628b5a": {
+      "id": "ad74a1628b5a",
+      "name": "COTF Club Series Whiteland Round 2",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ee21525599db": {
+      "id": "ee21525599db",
+      "name": "COTF Club Series Winchester Round 4",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e216105cbc71": {
+      "id": "e216105cbc71",
+      "name": "ROK Sonoma Triple Crown 1 — Round 2",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-130e269a27a7320a": {
+      "id": "auto-130e269a27a7320a",
+      "name": "Tri-C Club Series Championship Round 4",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "afdf2d41e6cc": {
+      "id": "afdf2d41e6cc",
+      "name": "COTF Club Series Whiteland Round 3",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "a736de1da7cd": {
+      "id": "a736de1da7cd",
+      "name": "COTF Mexico Series Round 2",
+      "source": "https://www.championskartingamerica.com/mexico-series/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "a5232adcd8e3": {
+      "id": "a5232adcd8e3",
+      "name": "USPKS Carolina Grand Prix",
+      "source": "https://www.uspks.com/schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "babcc9626e1a": {
+      "id": "babcc9626e1a",
+      "name": "COTF Club Series Winchester Round 5",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ef01a3b0d1af": {
+      "id": "ef01a3b0d1af",
+      "name": "COTF Club Series Whiteland Round 4",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "2ce6eb8ed014": {
+      "id": "2ce6eb8ed014",
+      "name": "SKUSA California ProKart Challenge Round 3",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "2821c791923d": {
+      "id": "2821c791923d",
+      "name": "CKNA Canadian Four-Cycle Nationals 2027",
+      "source": "https://www.kartsportnews.com/2026/09/24/ckna-closes-out-26/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "f02611c9395e": {
+      "id": "f02611c9395e",
+      "name": "COTF America West Round 2",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "1bb0a6b3dee8": {
+      "id": "1bb0a6b3dee8",
+      "name": "ROK Sonoma Triple Crown 1 — Round 3",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-5ce58e5ac05d3599": {
+      "id": "auto-5ce58e5ac05d3599",
+      "name": "Tri-C Club Series Championship Round 5",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "5ef6b208d776": {
+      "id": "5ef6b208d776",
+      "name": "SKUSA Pro Tour SpringNationals Rounds 3–4",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "cc92d725c459": {
+      "id": "cc92d725c459",
+      "name": "COTF Mexico Series Round 3",
+      "source": "https://www.championskartingamerica.com/mexico-series/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "2769d5b67481": {
+      "id": "2769d5b67481",
+      "name": "USPKS Lake Erie Grand Prix",
+      "source": "https://www.uspks.com/schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "352646a26717": {
+      "id": "352646a26717",
+      "name": "ROK Sonoma Triple Crown 2 — Round 4",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "6ca66e5cf0c5": {
+      "id": "6ca66e5cf0c5",
+      "name": "COTF Club Series Whiteland Round 5",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "7866f6399c7c": {
+      "id": "7866f6399c7c",
+      "name": "COTF America East Round 2",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "45b67f87c40b": {
+      "id": "45b67f87c40b",
+      "name": "ROK Fest West",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "b75f12501217": {
+      "id": "b75f12501217",
+      "name": "SKUSA Pro Tour SummerNationals Rounds 5–6",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "c7bf22b5ae5d": {
+      "id": "c7bf22b5ae5d",
+      "name": "COTF America West Round 3",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "b31d463c5812": {
+      "id": "b31d463c5812",
+      "name": "COTF Club Series Winchester Round 6",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-af58ed7d7f82f348": {
+      "id": "auto-af58ed7d7f82f348",
+      "name": "Tri-C Club Series Championship Round 6",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "1daba7724337": {
+      "id": "1daba7724337",
+      "name": "USPKS Music City Grand Prix",
+      "source": "https://www.uspks.com/schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "a8036e0b19c8": {
+      "id": "a8036e0b19c8",
+      "name": "COTF Club Series Whiteland Round 6",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "94d7a39be9da": {
+      "id": "94d7a39be9da",
+      "name": "ROK Sonoma Triple Crown 2 — Round 5",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "9acd0d3268d8": {
+      "id": "9acd0d3268d8",
+      "name": "SKUSA California ProKart Challenge Round 4",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "5048ed99b5d8": {
+      "id": "5048ed99b5d8",
+      "name": "COTF Club Series Whiteland Round 7",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "62de6208f174": {
+      "id": "62de6208f174",
+      "name": "COTF Club Series Winchester Round 7",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "673619d90636": {
+      "id": "673619d90636",
+      "name": "COTF America East Round 3",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-e5a00bbe9cc1a217": {
+      "id": "auto-e5a00bbe9cc1a217",
+      "name": "Tri-C Club Series Championship Round 7",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "1038d9353930": {
+      "id": "1038d9353930",
+      "name": "SKUSA California ProKart Challenge Round 5",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "40f000a599f0": {
+      "id": "40f000a599f0",
+      "name": "COTF America West Round 4",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e32c72034c7f": {
+      "id": "e32c72034c7f",
+      "name": "ROK Sonoma Triple Crown 2 — Round 6",
+      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "f1535366feac": {
+      "id": "f1535366feac",
+      "name": "COTF Club Series Whiteland Round 8",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e20c2c6e791e": {
+      "id": "e20c2c6e791e",
+      "name": "COTF Club Series Winchester Round 8",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e99e7e5dd959": {
+      "id": "e99e7e5dd959",
+      "name": "COTF Mexico Series Round 4",
+      "source": "https://www.championskartingamerica.com/mexico-series/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-7204c453b328d0fb": {
+      "id": "auto-7204c453b328d0fb",
+      "name": "Tri-C Club Series Championship Round 8",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "2b22b8fa497e": {
+      "id": "2b22b8fa497e",
+      "name": "COTF Club Series Whiteland Round 9",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "4dcc481785ea": {
+      "id": "4dcc481785ea",
+      "name": "SKUSA California ProKart Challenge Round 6",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "824c84d4470f": {
+      "id": "824c84d4470f",
+      "name": "USPKS Rio Las Vegas — Non-Points",
+      "source": "https://www.uspks.com/schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "5c0bea37776d": {
+      "id": "5c0bea37776d",
+      "name": "ROK Vegas 2027",
+      "source": "https://www.uspks.com/uspks-rok-cup-usa-announce-multi-year-partnership-beginning-in-2027/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "1a61b602ffe1": {
+      "id": "1a61b602ffe1",
+      "name": "COTF America National Final",
+      "source": "https://www.championskartingamerica.com/2027-championship/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e0b611ca1d97": {
+      "id": "e0b611ca1d97",
+      "name": "SKUSA SuperNationals 30",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
     }
   }
 }
