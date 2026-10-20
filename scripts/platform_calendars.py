@@ -3,6 +3,7 @@ import datetime as dt
 from html.parser import HTMLParser
 from urllib.parse import urljoin,urlsplit
 from zoneinfo import ZoneInfo
+from scripts.registration import extract_registration_rows
 
 class RaceSelectParser(HTMLParser):
     def __init__(self):
@@ -39,6 +40,7 @@ class RaceSelectParser(HTMLParser):
 def extract_raceselect(raw,source):
     if (urlsplit(source['url']).hostname or '').removeprefix('www.')!='raceselect.com':return []
     parser=RaceSelectParser();parser.feed(raw);output=[]
+    registrations=extract_registration_rows(raw,source['url'])
     for event in parser.events:
         event['url']=urljoin(source['url'],event['url']);event['@id']=event['url']
         event['_publication_needs_review']=not bool(source.get('platform_venue_verified'))
@@ -54,5 +56,8 @@ def extract_raceselect(raw,source):
         details=urlsplit(event['url']).path
         registration=details.rsplit('/',1)[0]+'/registration'
         if registration in parser.links:event['_registration_url']=urljoin(source['url'],registration)
+        registration=registrations.get(event['url'].rstrip('/').casefold(),{})
+        for field in ('registration_status','registration_deadline','registration_opens_at','registration_evidence','registration_url'):
+            if field in registration:event['_'+field]=registration[field]
         output.append(event)
     return output

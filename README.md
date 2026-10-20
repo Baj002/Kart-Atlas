@@ -68,3 +68,12 @@ There is no reliable denominator for all North American races. Many schedules ar
 MotorsportReg's aggregate calendar API requires provider approval and credentials, even though some organization calendars are unauthenticated. Its [official documentation](https://api.motorsportreg.com/) also requires attribution. This project does not call that API without approval. Public MotorsportReg pages linked by configured organizers can be discovered, but that does not provide platform-wide API coverage. `scripts/enrich_motorsportreg.py` is a legacy optional enrichment utility, not the production refresh path.
 
 Legacy `check_sources.py` remains available for text fingerprints and ICS regression compatibility. The production refresh uses `discovery_engine.py` so monitoring and publication share a single scan and provenance model.
+
+
+## Registration links and deadlines
+
+Race cards, event details, calendar exports and printable overviews now show registration information. A registration link alone never means entries are open. The browser computes **Closing soon** within seven days of a verified online deadline, and marks a published deadline as passed at its exact instant. Times are displayed in the user's time zone. Cancelled, postponed and completed events cannot display an open-entry badge.
+
+Explicit open/closed/sold-out status checks expire after 48 hours, including offline. Stale information becomes **Check status**; missing information is **Not announced** (no verified announcement indexed yet). Early-entry pricing cutoffs and class-specific capacity can differ from the provider's online-entry deadline.
+
+`data/registration_sources.json` binds reviewed public platform rows to stable event IDs. `python -m scripts.registration` refreshes `data/event_registration.json`; the daily workflow runs it before building the site. A failed request or missing event row retains the prior observation without renewing its timestamp. Featured and compact RaceSelect rows are isolated so membership deadlines cannot leak into race entries. Add a reviewed event ID, exact platform event URL and public list URL to expand coverage. No login or private API is required.

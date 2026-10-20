@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "curated_snapshot": "2026-10-16",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
   "auto_imported": 33,
@@ -2587,7 +2587,12 @@
       "notes": "",
       "id": "1e2d54f2db40",
       "status": "scheduled",
-      "last_verified": "2026-10-19T19:11:19+00:00"
+      "last_verified": "2026-10-19T19:11:19+00:00",
+      "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
+      "registration_status": "open",
+      "registration_deadline": "2026-11-11T01:00:00+00:00",
+      "registration_checked_at": "2026-10-20T04:01:52+00:00",
+      "registration_evidence": "https://raceselect.com/skusa/2026"
     },
     {
       "start": "2026-11-14",

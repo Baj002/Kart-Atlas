@@ -44,3 +44,5 @@
 .kart-map-popup-more{font-size:11px;color:#687b8d}
 .map-note{background:var(--panel);font-size:12px;line-height:1.6}
 @media(max-width:640px){#race-map{height:58vh!important;min-height:360px!important}.map-panel{border-radius:14px}.leaflet-popup-content{margin:10px!important}}
+
+.registration-summary{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:12px}.registration-deadline{font-size:12px;color:var(--muted,#aebcca);line-height:1.5}.tag.registration-open{background:#163c2a;color:#b4f1c5;border:1px solid #397653}.tag.registration-closing_soon{background:#4b3212;color:#ffe2a1;border:1px solid #a47931}.tag.registration-closed,.tag.registration-unavailable{background:#42232c;color:#ffc1cb;border:1px solid #7d4454}.tag.registration-not_announced,.tag.registration-unconfirmed,.tag.registration-not_open{background:#223344;color:#d1e0ef;border:1px solid #465d72}.registration-link{border-color:#86b84a;font-weight:800}

@@ -261,7 +261,13 @@ def normalize_event(e, source, today):
     if source.get('event_notes'):record['notes']+=' '+source['event_notes']
     if source.get('require_venue_alias') and not venue_alias and e.get('_parser')=='squarespace':record['location_needs_review']=True
     if mapping.get('curated_id') and mapping_in_window(source,'table',start):record['curated_id']=mapping['curated_id']
-    if e.get('_registration_status'):record['registration_status']=e['_registration_status']
+    if e.get('_registration_status'):
+        record['registration_status']=e['_registration_status']
+        if e.get('_parser')=='raceselect':
+            record['registration_checked_at']=dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
+            record['registration_evidence']=source['url']
+    for field in ('registration_deadline','registration_opens_at','registration_evidence'):
+        if e.get('_'+field):record[field]=e['_'+field]
     if e.get('_registration_url'):record['registration_url']=clean_url(e['_registration_url'],source['url'])
     if host(source['url'])=='raceselect.com' and not source.get('platform_venue_verified'):record['publication_needs_review']=True
     if e.get('_pdf_page'):record['pdf_page']=e['_pdf_page']

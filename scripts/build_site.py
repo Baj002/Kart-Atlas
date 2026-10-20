@@ -9,6 +9,7 @@ from pathlib import Path
 if __package__ in (None,''):
     sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from scripts.discovery_engine import event_reference, region_code
+from scripts.registration import FIELDS as REGISTRATION_FIELDS
 from difflib import SequenceMatcher
 from scripts.racing_scope import load_policy,event_scope_reason,source_scope_reason,apply_reviewed_override
 
@@ -96,7 +97,7 @@ def build(root=ROOT):
             # retaining the curated ID (and therefore saved races on user devices).
             specific=bool(event_reference(e))
             if (e.get('curated_id') and e['curated_id'] in [p['id']]+p.get('alias_ids',[])) or (specific and precise_match(e,p)):
-                for field in ('start','end','status','last_verified','history','registration_url','registration_status'):
+                for field in ('start','end','status','last_verified','history')+REGISTRATION_FIELDS:
                     if field in e:p[field]=e[field]
                 if e.get('curated_id') and not e.get('location_needs_review'):
                     for field in ('venue','city','region','country'):
@@ -112,6 +113,12 @@ def build(root=ROOT):
                 if info.get(field):e[field]=info[field]
             e['enrichment_source']='MotorsportReg'
             e['enrichment_checked_at']=info.get('checked_at','')
+    registration_path=root/'data/event_registration.json'
+    registration_records=json.loads(registration_path.read_text()).get('records',{}) if registration_path.exists() else {}
+    for event in curated+imported:
+        registration=registration_records.get(event['id']) or next((registration_records[a] for a in event.get('alias_ids',[]) if a in registration_records),{})
+        for field in REGISTRATION_FIELDS:
+            if field in registration:event[field]=registration[field]
     races=sorted(curated+imported,key=lambda e:(e['start'],e['name']))
     snap={'updated':datetime.now(timezone.utc).date().isoformat(),'curated_snapshot':'2026-10-16','coverage_note':'Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.', 'auto_imported':len(imported),'events':races}
     (root/'site/events.json').write_text(json.dumps(snap,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')

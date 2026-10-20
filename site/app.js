@@ -119,7 +119,9 @@
   }
   function makeTag(name,extra){return el('span',`tag ${extra||''}`,name);}
   function addButton(title,symbol,handler,cls){const b=el('button','icon-btn '+(cls||''),symbol);b.type='button';b.setAttribute('aria-label',title);b.title=title;b.onclick=handler;return b;}
+  const registrationInfo=e=>KartRegistration.registrationInfo(e);
   function downloadOverview(e){
+    const registration=registrationInfo(e);
     const escapeHTML=value=>String(value||'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
     const link=(url,label)=>safeURL(url)?'<a href="'+escapeHTML(url)+'">'+escapeHTML(label)+'</a>':'Not published / not verified';
     const row=(label,value)=>'<div class="field"><span>'+escapeHTML(label)+'</span><strong>'+value+'</strong></div>';
@@ -128,7 +130,7 @@
       '@page{size:letter;margin:13mm}*{box-sizing:border-box}body{font-family:Arial,sans-serif;color:#182634;max-width:850px;margin:0 auto;padding:25px;line-height:1.4}header{border-bottom:4px solid #80bb2e;padding-bottom:13px;margin-bottom:16px}.brand{font-size:15px;font-weight:900;letter-spacing:2px;color:#477a19}h1{font-size:25px;line-height:1.15;margin:8px 0}.subtitle{font-size:13px;color:#45586a}h2{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#3b6722;margin:17px 0 7px}.field{display:grid;grid-template-columns:145px 1fr;gap:10px;padding:7px 0;border-bottom:1px solid #e1e6eb;font-size:12px}.field span{color:#657484}.field strong{font-weight:600;overflow-wrap:anywhere}a{color:#205e86}.note{background:#f1f5f7;padding:10px;font-size:11px;border-left:3px solid #80bb2e}.footer{border-top:1px solid #dce2e6;margin-top:20px;padding-top:9px;color:#697b87;font-size:10px}.actions{margin:0 0 20px;display:flex;gap:8px}.actions button{padding:10px 16px;background:#243c2c;color:white;border:0;border-radius:5px;cursor:pointer}@media print{body{padding:0}.actions{display:none}a{color:#205e86;text-decoration:underline}h2{break-after:avoid}.field{break-inside:avoid}}'+
       '</style></head><body><div class="actions"><button onclick="window.print()">Print / Save as PDF</button></div><header><div class="brand">KART ATLAS · RACE INFORMATION</div><h1>'+escapeHTML(e.name)+'</h1><div class="subtitle">'+escapeHTML(fmtRange(e))+' · '+escapeHTML([e.city,e.region,e.country].filter(Boolean).join(', '))+'</div></header>'+
       '<h2>Event at a glance</h2>'+row('Organizer',escapeHTML(e.organizer||'Not confirmed'))+row('Track / venue',escapeHTML(e.venue||'Not confirmed'))+row('Racing level',escapeHTML(e.level||'Not confirmed'))+row('Classes',escapeHTML(e.classes||'Not yet confirmed'))+
-      '<h2>Registration</h2>'+row('Entry / payment',e.registration_url?link(e.registration_url,'Organizer registration ↗'):'Registration link and entry fees not yet verified')+
+      '<h2>Registration</h2>'+row('Status',escapeHTML(registration.label))+row('Online deadline',escapeHTML(registration.deadline||'Not announced'))+row('Last checked',escapeHTML(registration.checked||'Not yet verified'))+row('Entry / payment',e.registration_url?link(e.registration_url,'Organizer registration ↗'):'Registration link and entry fees not yet verified')+
       '<h2>Race-day preparation</h2>'+row('Detailed timetable',e.schedule_url?link(e.schedule_url,'Race-day schedule ↗'):'Not yet published or verified')+row('Event / club rules',e.rules_url?link(e.rules_url,'Rules and regulations ↗'):'Not yet published or verified')+row('Track / paddock map',e.track_map_url?link(e.track_map_url,'Track map ↗'):'Not yet published or verified')+
       '<h2>Official information</h2>'+row('Organizer website',organizer)+(e.notes?'<p class="note">'+escapeHTML(e.notes)+'</p>':'')+
       '<p class="footer">Compiled by Kart Atlas from its indexed event listing. This is not an official race bulletin. Confirm dates, eligibility, rules and fees with the organizer before attending. Generated '+escapeHTML(new Date().toLocaleDateString())+'.</p></body></html>';
@@ -152,7 +154,9 @@
       if(safeURL(link)){const a=el('a','source-btn',label||'View organizer information ↗');a.href=link;a.target='_blank';a.rel='noopener noreferrer';box.append(a);}
       body.append(box);
     };
-    section('Registration & entry fees',e.registration_url?'Registration information from organizer.':'Online registration through Kart Atlas is not available yet. Confirm entry fees and registration with the organizer.',e.registration_url||e.source,e.registration_url?'Open registration ↗':'Check organizer page ↗');
+    const registration=registrationInfo(e);
+    section('Registration',registration.label+' — '+registration.message+' '+(registration.deadline?'Online deadline: '+registration.deadline+'. ':'Deadline not announced. ')+(registration.opens?'Opens: '+registration.opens+'. ':'')+(registration.checked?'Status checked: '+registration.checked+'. ':''),registration.url||e.source,registration.url?registration.action:'Check organizer page ↗');
+    if(registration.evidence)section('Registration source','Deadline times are shown in your local time zone. Class capacity, early-entry pricing and late entry rules may differ.',registration.evidence,'Verify registration details ↗');
     section('Race-day schedule',e.schedule_url?'Organizer schedule available.':'Detailed session times have not been added for this event. Check the organizer for the latest timetable.',e.schedule_url||e.source,e.schedule_url?'View race schedule ↗':'Check organizer schedule ↗');
     section('Rules & regulations',e.rules_url?'Organizer regulations available.':'Event-specific and club regulations have not been verified in Kart Atlas. Always consult the organizer before competing.',e.rules_url||e.source,e.rules_url?'View regulations ↗':'Check organizer rules ↗');
     section('Track & paddock maps',e.track_map_url?'Track map provided by organizer.':'A verified downloadable track or paddock map has not been added for this event.',e.track_map_url,e.track_map_url?'Open track map ↗':'');
@@ -172,7 +176,12 @@
     const meta=el('div','meta');meta.append(el('span','',fmtRange(e)),el('span','',e.organizer || 'Organizer not listed'));
     main.append(badges,name,venue,meta);
     if(e.classes)main.append(el('p','details',`Classes: ${e.classes}`));
+    const registration=registrationInfo(e);
+    const entry=el('div','registration-summary');entry.append(makeTag('Registration: '+registration.label,'registration-'+registration.status),el('span','registration-deadline',registration.deadline?'Deadline: '+registration.deadline:'Deadline not announced'));
+    if(registration.opens)entry.append(el('span','registration-deadline','Opens '+registration.opens));
+    entry.title=registration.message;main.append(entry);
     const actions=el('div','event-actions');
+    if(registration.url){const register=el('a','source-btn registration-link',registration.action);register.href=registration.url;register.target='_blank';register.rel='noopener noreferrer';register.setAttribute('aria-label',registration.action.replace(' ↗','')+' for '+e.name);actions.append(register);}
     const detail=el('button','source-btn','Event details →');detail.type='button';detail.onclick=()=>showEvent(e);actions.append(detail);
     const fav=addButton(isSaved(e)?'Remove from saved races':'Save race','★',()=>{toggleSaved(e);persist();refresh();toast(isSaved(e)?'Race saved on this device':'Race removed from saved list');},isSaved(e)?'saved':'');
     fav.setAttribute('aria-pressed',String(isSaved(e)));actions.append(fav);
@@ -189,7 +198,8 @@
   function downloadICS(e){
     const loc=[e.venue,e.city,e.region,e.country].filter(Boolean).join(', ');
     const url=safeURL(e.source);
-    const desc=`Verify event date and classes with organizer. ${e.organizer||''}${url?' | '+url:''}`;
+    const registration=registrationInfo(e);
+    const desc=`Registration: ${registration.label}. ${registration.deadline?'Online deadline: '+registration.deadline+'. ':''}${registration.url||''} | Verify event date and classes with organizer. ${e.organizer||''}${url?' | '+url:''}`;
     const out=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Kart Atlas//Race Finder//EN','CALSCALE:GREGORIAN','BEGIN:VEVENT',
       `UID:${e.id}@kartatlas.local`,`DTSTART;VALUE=DATE:${e.start.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${dateAfter(e.end)}`,
       `SUMMARY:${icsEscape(e.name)}`,`LOCATION:${icsEscape(loc)}`,`DESCRIPTION:${icsEscape(desc)}`,
