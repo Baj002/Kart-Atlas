@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: '24'
           cache: npm
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '21'
@@ -50,6 +50,9 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -r mobile/requirements.txt
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
       - run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
       - run: npm ci
       - run: npm run mobile:prepare && node mobile/sync.mjs android

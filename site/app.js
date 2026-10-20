@@ -331,6 +331,9 @@
     $('#stat-upcoming').textContent=events.filter(e=>e.end>=today()).length;
     $('#snapshot').textContent=`Directory updated ${snapshot}. Confirm dates and registration details with the organizer.`;
 
+    const acceptNativeData=data=>{if(!Array.isArray(data?.events)||!data.events.length)return;events=data.events;snapshot=data.updated||snapshot;$('#stat-races').textContent=events.length;$('#stat-upcoming').textContent=events.filter(e=>e.end>=today()).length;regionOptions();refresh();};
+    window.addEventListener('kart-atlas-data-updated',event=>{if(event.detail?.path==='/events.json')acceptNativeData(event.detail.data);});
+    if(globalThis.KartNative?.latestData?.['/events.json'])acceptNativeData(KartNative.latestData['/events.json']);
     const openRace=id=>{const race=events.find(e=>e.id===id||(e.alias_ids||[]).includes(id));if(race)showEvent(race);};
     window.addEventListener('kart-atlas-open-event',event=>openRace(event.detail));
     const pending=globalThis.KartAtlasPendingRace||new URLSearchParams(location.search).get('race');if(pending){openRace(pending);globalThis.KartAtlasPendingRace=null;}

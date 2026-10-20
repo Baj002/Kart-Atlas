@@ -21,9 +21,10 @@
       root.append(card);
     }
   };
+  const acceptData=doc=>{clubs=doc.clubs||[];$('#total-clubs').textContent=clubs.length;$('#track-clubs').textContent=clubs.filter(c=>c.monitor_id).length;selectRegion();display();};
+  window.addEventListener('kart-atlas-data-updated',event=>{if(event.detail?.path==='/clubs.json')acceptData(event.detail.data);});
   fetch('/clubs.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error(r.status);return r.json();}).then(doc=>{
-    clubs=doc.clubs||[];$('#total-clubs').textContent=clubs.length;$('#track-clubs').textContent=clubs.filter(c=>c.monitor_id).length;
-    selectRegion();display();
+    acceptData(globalThis.KartNative?.latestData?.['/clubs.json']||doc);
     ['#club-query','#club-country','#club-region','#only-tracked'].forEach(sel=>$(sel).addEventListener(sel==='#club-query'?'input':'change',()=>{if(sel==='#club-country')selectRegion();display();}));
   }).catch(err=>{$('#directory-results .directory-note').textContent='Unable to load the club directory. Please reload the page.';console.error(err);});
   if(!globalThis.KartNative?.isNative && 'serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});

@@ -24,3 +24,19 @@ try{await access('dist/mobile/coverage.json');assert.fail('Internal coverage mus
 const config=JSON.parse(await readFile('capacitor.config.json','utf8'));assert.equal(config.server.url,undefined,'Native app loads bundled code, not a remote website');
 assert.equal(config.webDir,'dist/mobile');
 console.log('Mobile asset packaging and native reminder lifecycle tests passed.');
+
+// Offline cold launch must not wait for an unreachable remote endpoint.
+const {directoryFetch}=await import('../mobile/data-fetch.mjs');
+const bundled={events:[{id:'bundled'}]},fresh={events:[{id:'fresh'}]};
+const memory=new Map(),storage={getItem:k=>memory.get(k),setItem:(k,v)=>memory.set(k,v)};
+let releaseNetwork,updated;
+const delayed=new Promise(resolve=>{releaseNetwork=resolve;});
+const fetchDirectory=directoryFetch({storage,dataBaseUrl:'https://example.com/',fetch:async url=>typeof url==='string'?Response.json(bundled):delayed,onData:(path,data)=>{updated=data;}});
+assert.deepEqual(await (await fetchDirectory('/events.json')).json(),bundled);
+releaseNetwork(Response.json(fresh));
+await new Promise(resolve=>setTimeout(resolve,0));
+assert.deepEqual(updated,fresh);
+assert.deepEqual(JSON.parse(memory.get('kart-atlas-data:/events.json')),fresh);
+const offline=directoryFetch({storage,dataBaseUrl:'https://example.com/',fetch:async()=>{throw Error('offline');}});
+assert.deepEqual(await (await offline('/events.json',{cache:'no-store'})).json(),fresh);
+console.log('Offline startup, remote updates and cached refresh fallback passed.');

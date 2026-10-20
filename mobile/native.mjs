@@ -1,3 +1,4 @@
+import {directoryFetch} from './data-fetch.mjs';
 import {Capacitor} from '@capacitor/core';
 import {App} from '@capacitor/app';
 import {Browser} from '@capacitor/browser';
@@ -23,7 +24,7 @@ async function reconcile(events,saved,options){
  return plan.length;
 }
 const native={
- isNative,phoneRemindersEnabled:()=>enabled,
+ isNative,latestData:{},phoneRemindersEnabled:()=>enabled,
  async setPhoneReminders(value){
   if(value){const permission=await LocalNotifications.requestPermissions();if(permission.display!=='granted')return false;}
   enabled=Boolean(value);try{localStorage.setItem('kart-atlas-phone-reminders',String(enabled));}catch{}
@@ -41,22 +42,7 @@ globalThis.KartNative=native;
 if(isNative){
  document.documentElement.classList.add('native-app');
  // Bundle remains usable offline; remote data is cached separately from app code.
- const originalFetch=globalThis.fetch.bind(globalThis);
- globalThis.fetch=async(input,options)=>{
-  const path=typeof input==='string'?input:'';
-  if(!['/events.json','/clubs.json'].includes(path))return originalFetch(input,options);
-  const key='kart-atlas-data:'+path;
-  try{
-   const response=await originalFetch(new URL(path.slice(1),release.dataBaseUrl),{...options,credentials:'omit',signal:AbortSignal.timeout(12000)});
-   if(!response.ok)throw Error(response.status);const data=await response.json();
-   const records=path==='/events.json'?data.events:data.clubs;if(!Array.isArray(records)||!records.length)throw Error('Invalid directory');
-   const text=JSON.stringify(data);try{localStorage.setItem(key,text);}catch{}
-   return new Response(text,{headers:{'Content-Type':'application/json'}});
-  }catch{
-   try{const cached=localStorage.getItem(key);if(cached)return new Response(cached,{headers:{'Content-Type':'application/json'}});}catch{}
-   return originalFetch(input,options);
-  }
- };
+ globalThis.fetch=directoryFetch({fetch:globalThis.fetch.bind(globalThis),storage:localStorage,dataBaseUrl:release.dataBaseUrl,onData(path,data){native.latestData[path]=data;window.dispatchEvent(new CustomEvent('kart-atlas-data-updated',{detail:{path,data}}));}});
  document.addEventListener('click',event=>{
   const anchor=event.target.closest?.('a[href]');if(!anchor||anchor.download)return;
   if(/^https?:\/\//i.test(anchor.href)&&new URL(anchor.href).origin!==location.origin){event.preventDefault();native.openLink(anchor.href).catch(()=>{});}
