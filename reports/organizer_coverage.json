@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T08:43:39+00:00",
+  "generated_at": "2026-10-20T13:54:46+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 46,
     "with_reached_sources": 40,
-    "with_health_issues": 8,
+    "with_health_issues": 9,
     "unmatched_races": 0
   },
   "organizers": [
@@ -1513,7 +1513,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 3,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1531,7 +1531,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3118,10 +3118,11 @@
         "skusa-official-schedule"
       ],
       "sources_reached": [
-        "skusa",
         "skusa-official-schedule"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "skusa"
+      ],
       "stale_sources": [],
       "review_candidates": 8,
       "seasons": [
@@ -5341,6 +5342,13 @@
   ],
   "priorities": [
     {
+      "organizer_id": "bb926de967",
+      "name": "SKUSA",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 12
+    },
+    {
       "organizer_id": "6958e0e3cd",
       "name": "United States Pro Kart Series",
       "priority": 1,
@@ -5380,13 +5388,6 @@
       "name": "ROK Cup USA",
       "priority": 2,
       "reason": "published_dates_need_reverification",
-      "upcoming_events": 12
-    },
-    {
-      "organizer_id": "bb926de967",
-      "name": "SKUSA",
-      "priority": 2,
-      "reason": "event_review",
       "upcoming_events": 12
     },
     {
