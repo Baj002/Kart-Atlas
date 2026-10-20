@@ -17,7 +17,7 @@
    const known=deadline!==null&&Boolean(event.registration_evidence);
    const active=known&&!disabled&&!stopped&&deadline>now;
    const due=active&&deadline-now<=hours*3600000;
-   return {event,deadline,active,due,disabled,key:event.id+'|'+deadline+'|'+hours,
+   return {event,deadline,active,due,disabled,subscriptionAllowed:!disabled&&!stopped&&(!known||deadline>now),key:event.id+'|'+deadline+'|'+hours,
     message:disabled?'Reminder off':stopped?'Registration unavailable':!known?'Waiting for a verified deadline':deadline<=now?'Deadline passed':due?'Registration deadline approaching':'Reminder ready',hours};
   }).sort((a,b)=>(a.deadline??Infinity)-(b.deadline??Infinity));
  }

@@ -116,7 +116,9 @@
     const label=el('label','reminder-timing','Remind me before the deadline ');const select=el('select');
     for(const [hours,text] of [[1,'1 hour'],[24,'1 day'],[72,'3 days'],[168,'1 week']])select.append(new Option(text,String(hours)));
     select.value=String(reminderSettings.hours);label.append(select);body.append(label);
-    select.onchange=()=>{reminderSettings.hours=Number(select.value);persistReminders();renderReminderSummary();};
+    const rowLabels=new Map();
+    const updateLabels=()=>{for(const item of reminderRows()){const node=rowLabels.get(item.event.id);if(node)node.textContent=item.message+(item.deadline?' · '+registrationInfo(item.event).deadline:'');}};
+    select.onchange=()=>{reminderSettings.hours=Number(select.value);persistReminders();renderReminderSummary();updateLabels();};
     const sync=el('button','source-btn','Refresh deadlines');sync.type='button';sync.onclick=async()=>{sync.disabled=true;const changed=await refreshDeadlineData(true);if(changed)showReminders();else sync.disabled=false;};body.append(sync);
     const rows=reminderRows();
     const download=el('button','primary-btn','↓ Add saved deadlines to my calendar');download.type='button';download.disabled=!rows.some(r=>r.active);
@@ -124,14 +126,15 @@
     body.append(download,el('p','class-note','Downloaded reminders use your selected lead time plus an alert at the deadline. If the lead time has already passed, only the deadline alert is included. Downloads are snapshots: replace them when a deadline changes. Confirm alert settings in your calendar app.'));
     if(!rows.length)body.append(el('p','','Save a race using the star to get started.'));
     for(const item of rows){
-      const box=el('section','event-detail-section');box.append(el('h3','',item.event.name),el('p','',item.message+(item.deadline?' · '+registrationInfo(item.event).deadline:'')));
+      const box=el('section','event-detail-section');const status=el('p','',item.message+(item.deadline?' · '+registrationInfo(item.event).deadline:''));rowLabels.set(item.event.id,status);box.append(el('h3','',item.event.name),status);
       const checkbox=el('input');checkbox.type='checkbox';checkbox.checked=!item.disabled;
       const raceToggle=el('label','toggle-row');raceToggle.append(checkbox,el('span','','Include this race in reminders'));box.append(raceToggle);
-      checkbox.onchange=()=>{const ids=[item.event.id,...(item.event.alias_ids||[])];reminderSettings.muted=reminderSettings.muted.filter(id=>!ids.includes(id));if(!checkbox.checked)reminderSettings.muted.push(item.event.id);persistReminders();renderReminderSummary();download.disabled=!reminderRows().some(r=>r.active);};
+      checkbox.onchange=()=>{const ids=[item.event.id,...(item.event.alias_ids||[])];reminderSettings.muted=reminderSettings.muted.filter(id=>!ids.includes(id));if(!checkbox.checked)reminderSettings.muted.push(item.event.id);persistReminders();renderReminderSummary();updateLabels();download.disabled=!reminderRows().some(r=>r.active);};
       const path=item.event.registration_reminder_url;
-      if(item.active&&typeof path==='string'&&/^\/reminders\/[a-z0-9_-]+\.ics$/.test(path)&&location.protocol==='https:'){
+      if(item.subscriptionAllowed&&typeof path==='string'&&/^\/reminders\/[a-z0-9_-]+\.ics$/.test(path)&&location.protocol==='https:'){
         const subscribe=el('a','source-btn','Subscribe to deadline updates ↗');subscribe.href='webcal://'+location.host+path;box.append(subscribe);
-        box.append(el('p','class-note','Calendar subscription: updates when your calendar refreshes, with 1-day, 1-hour and deadline alarms. Confirm alerts in your calendar app. Unsubscribing or removing downloaded reminders must be done in your calendar.'));
+        const copy=el('button','source-btn','Copy calendar subscription link');copy.type='button';copy.onclick=async()=>{try{await navigator.clipboard.writeText('https://'+location.host+path);toast('Calendar subscription link copied.');}catch{toast('Copy the subscription link from the Subscribe button.');}};box.append(copy);
+        box.append(el('p','class-note','Calendar subscription: watches for new or changed deadlines when your calendar refreshes, with 1-day, 1-hour and deadline alarms. Confirm alerts in your calendar app. Unsubscribing or removing downloaded reminders must be done in your calendar.'));
       }
       body.append(box);
     }

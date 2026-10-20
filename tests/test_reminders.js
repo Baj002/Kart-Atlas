@@ -15,6 +15,8 @@ assert.equal(entries([{...event,end:'2026-10-01'}],new Set(['old']),{},now)[0].a
 assert.equal(entries([{...event,registration_deadline:'2026-10-19T12:00:00Z'}],new Set(['old']),{},now)[0].active,false);
 assert.equal(entries([{...event,registration_deadline:'2026-10-21'}],new Set(['old']),{},now)[0].active,false);
 assert.equal(entries([{...event,registration_evidence:''}],new Set(['old']),{},now)[0].message,'Waiting for a verified deadline');
+const waiting=entries([{...event,registration_deadline:undefined}],new Set(['old']),{},now)[0];
+assert.equal(waiting.active,false);assert.equal(waiting.subscriptionAllowed,true,'Unknown deadlines can be watched without inventing dates');
 const changed=entries([{...event,registration_deadline:'2026-10-22T12:00:00Z'}],new Set(['old']),{},now)[0];
 assert.notEqual(changed.key,rows[0].key);assert.equal(changed.due,false,'A moved deadline replaces the old reminder');
 let ics=calendar(rows,now-1000);

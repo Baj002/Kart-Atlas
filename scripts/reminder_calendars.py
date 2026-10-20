@@ -45,6 +45,8 @@ def build(root,events,now=None):
         deadline=instant(event.get('registration_deadline'))
         if deadline and event.get('registration_evidence'):
             state[event['id']]={k:event.get(k,'') for k in ('id','name','source','registration_url','registration_deadline')}
+        elif event.get('end','')>=now.date().isoformat() and event['id'] not in state:
+            state[event['id']]={k:event.get(k,'') for k in ('id','name','source','registration_url','registration_deadline')}
     for ident,record in state.items():
         event=current.get(ident) or aliases.get(ident)
         old=previous.get(ident,{})
@@ -56,7 +58,7 @@ def build(root,events,now=None):
         changed=any(record.get(k)!=old.get(k) for k in ('name','registration_url','registration_deadline')) or cancelled!=old.get('cancelled',False)
         record['sequence']=old.get('sequence',0)+int(changed)
         record['cancelled']=cancelled;state[ident]=record
-        content=calendar(record,deadline,now,cancelled)
+        content=calendar(record,deadline,now,cancelled) if deadline else '\r\n'.join(['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Kart Atlas//Registration Reminders//EN','CALSCALE:GREGORIAN',fold('X-WR-CALNAME:'+escape('Kart Atlas: '+record['name'])),'END:VCALENDAR',''])
         (directory/(ident+'.ics')).write_text(content,newline='')
         if event:
             if ident==event['id']:event['registration_reminder_url']='/reminders/'+ident+'.ics'

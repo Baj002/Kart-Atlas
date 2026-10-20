@@ -23,15 +23,19 @@ class ReminderCalendars(unittest.TestCase):
             events[0]['registration_deadline']='2026-11-03T01:00:00Z';build(root,events,NOW)
             revised=path.read_text();self.assertIn('DTSTART:20261103T010000Z',revised)
             self.assertIn('UID:registration-race@kartatlas.local',revised);self.assertIn('SEQUENCE:2',revised)
+            events[0].pop('registration_deadline');build(root,events,NOW)
+            self.assertIn('STATUS:CANCELLED',path.read_text());self.assertIn('DTSTART:20261103T010000Z',path.read_text())
+            events[0]['registration_deadline']='2026-11-03T01:00:00Z'
             events[0]['status']='cancelled';build(root,events,NOW)
             self.assertIn('STATUS:CANCELLED',path.read_text());self.assertNotIn('VALARM',path.read_text())
             build(root,[],NOW);self.assertIn('STATUS:CANCELLED',path.read_text())
-    def test_no_feed_for_unknown_deadline_and_old_alias_subscription_updates(self):
+    def test_empty_feed_for_unknown_deadline_and_old_alias_subscription_updates(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp);(root/'data').mkdir()
-            unknown=dict(EVENT);unknown.pop('registration_deadline')
-            build(root,[unknown],NOW);self.assertFalse((root/'site/reminders/race.ics').exists())
+            unknown=dict(EVENT,end='2026-11-05');unknown.pop('registration_deadline')
+            build(root,[unknown],NOW);self.assertTrue((root/'site/reminders/race.ics').exists());self.assertNotIn('BEGIN:VEVENT',(root/'site/reminders/race.ics').read_text())
             build(root,[dict(EVENT)],NOW)
+            self.assertIn('BEGIN:VEVENT',(root/'site/reminders/race.ics').read_text())
             replacement=dict(EVENT,id='canonical',alias_ids=['race'],registration_deadline='2026-11-04T01:00:00Z')
             build(root,[replacement],NOW)
             self.assertIn('DTSTART:20261104T010000Z',(root/'site/reminders/race.ics').read_text())
