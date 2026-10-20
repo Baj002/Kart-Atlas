@@ -12,11 +12,12 @@
   <link rel="icon" href="/icon-192.png" type="image/png">
   <link rel="apple-touch-icon" href="/icon-192.png">
   <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/styles.css?v=registration1">
+  <link rel="stylesheet" href="/styles.css?v=reminders1">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script defer src="/registration.js?v=1"></script>
-  <script defer src="/app.js?v=registration1"></script>
+  <script defer src="/reminders.js?v=1"></script>
+  <script defer src="/app.js?v=reminders1"></script>
 </head>
 <body>
   <a class="skip" href="#race-results">Skip to races</a>
@@ -83,6 +84,11 @@
         <p class="context-line" id="result-context" aria-live="polite">Loading races…</p>
         <div id="map-panel" class="map-panel hidden"><div id="race-map" style="height:480px;min-height:360px;width:100%;background:#dce5e7" role="application" aria-label="Map of kart race locations"></div><p id="map-note" class="map-note">Pins show approximate city locations, not verified circuit entrances. Only geolocated events appear on the map.</p></div>
         <div id="calendar" class="month-shell hidden" aria-label="Month calendar"></div>
+        <section class="reminder-panel" aria-labelledby="reminder-heading">
+          <div><h2 id="reminder-heading">Saved race deadline reminders</h2><p id="reminder-summary">Save races to track their registration deadlines.</p></div>
+          <button id="manage-reminders" class="source-btn" type="button">Manage reminders</button>
+          <div id="deadline-alerts" class="deadline-alerts" aria-live="polite"></div>
+        </section>
         <div id="cards" class="cards" aria-live="polite"></div>
         <div id="empty" class="empty hidden"><div class="empty-flag">⚑</div><h3>Nothing on this grid</h3><p>Try another date, region or event name. A missing listing doesn't necessarily mean there is no race.</p><button id="empty-reset" type="button" class="primary-btn">Clear filters</button></div>
         <button id="more" class="more-btn hidden" type="button">Show more races ↓</button>

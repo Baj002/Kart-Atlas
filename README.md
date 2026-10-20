@@ -77,3 +77,14 @@ Race cards, event details, calendar exports and printable overviews now show reg
 Explicit open/closed/sold-out status checks expire after 48 hours, including offline. Stale information becomes **Check status**; missing information is **Not announced** (no verified announcement indexed yet). Early-entry pricing cutoffs and class-specific capacity can differ from the provider's online-entry deadline.
 
 `data/registration_sources.json` binds reviewed public platform rows to stable event IDs. `python -m scripts.registration` refreshes `data/event_registration.json`; the daily workflow runs it before building the site. A failed request or missing event row retains the prior observation without renewing its timestamp. Featured and compact RaceSelect rows are isolated so membership deadlines cannot leak into race entries. Add a reviewed event ID, exact platform event URL and public list URL to expand coverage. No login or private API is required.
+
+
+## Saved-race deadline reminders
+
+**Manage reminders** tracks all saved races, independently of search filters. Users can enable in-app reminders, choose 1 hour / 1 day / 3 days / 1 week, and exclude individual races. Unknown deadlines stay in a waiting state; cancelled, postponed, closed and sold-out events do not trigger reminders. Race aliases preserve saved selections. Visible pages check the reminder window every minute and refresh published race data at most every 15 minutes; a manual refresh is also available. Failed fetches retain the loaded data and never renew registration verification timestamps.
+
+For alerts after Kart Atlas closes, users can download saved deadlines as an iCalendar file with display alarms. Downloads are snapshots, and must be replaced or removed in the calendar when dates or saved selections change. Already-passed lead-time alarms are omitted; an alarm at the deadline remains. Calendar applications control import behavior, permissions and alert delivery, so users should confirm their calendar's alert settings.
+
+Each verified deadline also gets a stable public calendar subscription at `/reminders/<race-id>.ics`. The build updates subscribed deadlines, retains old alias subscription URLs, and publishes cancellation records without alarms when an event is cancelled, postponed, removed, or its deadline becomes unavailable. Subscriptions use 1-day, 1-hour and deadline alarms, independently of the user's downloaded-calendar lead time. Subscription refresh timing is controlled by the calendar application. In-app opt-outs do not unsubscribe external calendars. The static subscription feeds contain only public race information; no saved-race lists are uploaded.
+
+This web version does **not** promise scheduled push notifications while closed. No notification permission prompt or server push service is introduced. Native/push delivery can be added separately during mobile app development.

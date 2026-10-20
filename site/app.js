@@ -77,6 +77,66 @@
   const sortRegion = (a,b) => a.localeCompare(b,undefined,{sensitivity:'base'});
   function toast(msg){const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(toast._id);toast._id=setTimeout(()=>t.classList.remove('show'),2300);}
   function persist(){try{localStorage.setItem('kart-atlas-favorites',JSON.stringify([...saved]));}catch{toast('Saved races cannot persist in this browser.');}}
+  let reminderSettings={enabled:false,hours:24,muted:[]};
+  try{const value=JSON.parse(localStorage.getItem('kart-atlas-reminders')||'{}');reminderSettings={enabled:value.enabled===true,hours:[1,24,72,168].includes(value.hours)?value.hours:24,muted:Array.isArray(value.muted)?value.muted.filter(x=>typeof x==='string'):[]};}catch{}
+  function persistReminders(){try{localStorage.setItem('kart-atlas-reminders',JSON.stringify(reminderSettings));}catch{toast('Reminder settings could not be saved on this device.');}}
+  function reminderRows(){return KartReminders.entries(events,saved,reminderSettings);}
+  function renderReminderSummary(){
+    const rows=reminderRows(),due=rows.filter(r=>r.due),ready=rows.filter(r=>r.active);
+    $('#reminder-summary').textContent=rows.length?rows.length+' saved races · '+ready.length+' verified future deadlines'+(reminderSettings.enabled?' · '+due.length+' due within your reminder window':' · In-app reminders off'):'Save races to track their registration deadlines.';
+    const alerts=$('#deadline-alerts');alerts.replaceChildren();
+    if(reminderSettings.enabled)for(const item of due){
+      const box=el('div','deadline-alert');box.append(el('strong','',item.event.name),el('span','',item.message+' · '+registrationInfo(item.event).deadline));
+      const button=el('button','source-btn','Review registration →');button.type='button';button.onclick=()=>showEvent(item.event);box.append(button);alerts.append(box);
+    }
+  }
+  let lastReminderSync=Date.now(),reminderSyncing=false;
+  async function refreshDeadlineData(force=false){
+    if(reminderSyncing||(!force&&Date.now()-lastReminderSync<15*60000))return false;
+    reminderSyncing=true;
+    try{
+      const response=await fetch('/events.json',{cache:'no-store'});if(!response.ok)throw Error(response.status);
+      const data=await response.json();if(!Array.isArray(data.events)||!data.events.length)throw Error('Missing race data');
+      events=data.events;snapshot=data.updated||snapshot;lastReminderSync=Date.now();
+      $('#stat-races').textContent=events.length;$('#stat-upcoming').textContent=events.filter(e=>e.end>=today()).length;
+      regionOptions();refresh();return true;
+    }catch{if(force)toast('Could not refresh deadlines. Showing previously loaded information.');return false;}
+    finally{reminderSyncing=false;}
+  }
+  function showReminders(){
+    const old=$('#reminder-dialog');if(old)old.remove();
+    const dialog=el('dialog','event-dialog');dialog.id='reminder-dialog';
+    const head=el('div','event-dialog-head');head.append(el('h2','','Registration deadline reminders'));
+    const close=el('button','event-close','✕');close.type='button';close.setAttribute('aria-label','Close reminders');close.onclick=()=>dialog.close();head.append(close);dialog.append(head);
+    const body=el('div','event-dialog-body');
+    body.append(el('p','','In-app reminders appear when Kart Atlas is open. Add calendar reminders for alerts when it is closed. Your saved races and settings stay on this device.'));
+    const enabled=el('input');enabled.type='checkbox';enabled.checked=reminderSettings.enabled;
+    const toggle=el('label','toggle-row');toggle.append(enabled,el('span','','Show in-app deadline reminders'));body.append(toggle);
+    enabled.onchange=()=>{reminderSettings.enabled=enabled.checked;persistReminders();renderReminderSummary();};
+    const label=el('label','reminder-timing','Remind me before the deadline ');const select=el('select');
+    for(const [hours,text] of [[1,'1 hour'],[24,'1 day'],[72,'3 days'],[168,'1 week']])select.append(new Option(text,String(hours)));
+    select.value=String(reminderSettings.hours);label.append(select);body.append(label);
+    select.onchange=()=>{reminderSettings.hours=Number(select.value);persistReminders();renderReminderSummary();};
+    const sync=el('button','source-btn','Refresh deadlines');sync.type='button';sync.onclick=async()=>{sync.disabled=true;const changed=await refreshDeadlineData(true);if(changed)showReminders();else sync.disabled=false;};body.append(sync);
+    const rows=reminderRows();
+    const download=el('button','primary-btn','↓ Add saved deadlines to my calendar');download.type='button';download.disabled=!rows.some(r=>r.active);
+    download.onclick=()=>{const content=KartReminders.calendar(reminderRows());if(!content.includes('BEGIN:VEVENT')){toast('No verified future deadlines to export.');return;}const url=URL.createObjectURL(new Blob([content],{type:'text/calendar;charset=utf-8'}));const a=el('a');a.href=url;a.download='kart-atlas-registration-reminders.ics';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);toast('Open the calendar file and confirm its alerts.');};
+    body.append(download,el('p','class-note','Downloaded reminders use your selected lead time plus an alert at the deadline. If the lead time has already passed, only the deadline alert is included. Downloads are snapshots: replace them when a deadline changes. Confirm alert settings in your calendar app.'));
+    if(!rows.length)body.append(el('p','','Save a race using the star to get started.'));
+    for(const item of rows){
+      const box=el('section','event-detail-section');box.append(el('h3','',item.event.name),el('p','',item.message+(item.deadline?' · '+registrationInfo(item.event).deadline:'')));
+      const checkbox=el('input');checkbox.type='checkbox';checkbox.checked=!item.disabled;
+      const raceToggle=el('label','toggle-row');raceToggle.append(checkbox,el('span','','Include this race in reminders'));box.append(raceToggle);
+      checkbox.onchange=()=>{const ids=[item.event.id,...(item.event.alias_ids||[])];reminderSettings.muted=reminderSettings.muted.filter(id=>!ids.includes(id));if(!checkbox.checked)reminderSettings.muted.push(item.event.id);persistReminders();renderReminderSummary();download.disabled=!reminderRows().some(r=>r.active);};
+      const path=item.event.registration_reminder_url;
+      if(item.active&&typeof path==='string'&&/^\/reminders\/[a-z0-9_-]+\.ics$/.test(path)&&location.protocol==='https:'){
+        const subscribe=el('a','source-btn','Subscribe to deadline updates ↗');subscribe.href='webcal://'+location.host+path;box.append(subscribe);
+        box.append(el('p','class-note','Calendar subscription: updates when your calendar refreshes, with 1-day, 1-hour and deadline alarms. Confirm alerts in your calendar app. Unsubscribing or removing downloaded reminders must be done in your calendar.'));
+      }
+      body.append(box);
+    }
+    dialog.append(body);document.body.append(dialog);dialog.addEventListener('close',()=>dialog.remove(),{once:true});dialog.showModal();
+  }
   function getFilters(){return {
     q:$('#search').value.trim().toLowerCase(),country:$('#country').value,region:$('#region').value,level:$('#level').value,
     from:$('#from').value,to:$('#to').value,upcoming:$('#upcoming').checked,official:$('#official').checked,
@@ -181,6 +241,7 @@
     if(registration.opens)entry.append(el('span','registration-deadline','Opens '+registration.opens));
     entry.title=registration.message;main.append(entry);
     const actions=el('div','event-actions');
+    if(isSaved(e)){const reminder=el('button','source-btn','Deadline reminder');reminder.type='button';reminder.onclick=()=>showReminders();actions.append(reminder);}
     if(registration.url){const register=el('a','source-btn registration-link',registration.action);register.href=registration.url;register.target='_blank';register.rel='noopener noreferrer';register.setAttribute('aria-label',registration.action.replace(' ↗','')+' for '+e.name);actions.append(register);}
     const detail=el('button','source-btn','Event details →');detail.type='button';detail.onclick=()=>showEvent(e);actions.append(detail);
     const fav=addButton(isSaved(e)?'Remove from saved races':'Save race','★',()=>{toggleSaved(e);persist();refresh();toast(isSaved(e)?'Race saved on this device':'Race removed from saved list');},isSaved(e)?'saved':'');
@@ -230,6 +291,7 @@
     shell.append(grid,el('p','month-hint','Tap a date to show races happening that day. Tap it again to clear the selection.'));
   }
   function refresh(){
+    renderReminderSummary();
     const a=filtered();$('#result-count').textContent=a.length;$('#result-context').textContent=(selectedDay?`Selected day: ${fmtDate(selectedDay)} · `:'')+`${a.length} matching races · Listings checked against organizer sources where available · Not a complete North American inventory`;
     $('#cards').replaceChildren(...a.slice(0,count).map(makeCard));
     $('#empty').classList.toggle('hidden',a.length!==0);
@@ -258,6 +320,10 @@
     $('#stat-upcoming').textContent=events.filter(e=>e.end>=today()).length;
     $('#snapshot').textContent=`Original research: ${snapshot} · Auto-imported feed events: ${data.auto_imported||0}. Other clubs require review.`;
 
+    $('#manage-reminders').onclick=showReminders;
+    setInterval(()=>{if(!document.hidden){renderReminderSummary();if(saved.size)refreshDeadlineData();}},60000);
+    document.addEventListener('visibilitychange',()=>{if(!document.hidden){renderReminderSummary();if(saved.size)refreshDeadlineData();}});
+    window.addEventListener('storage',event=>{if(event.key==='kart-atlas-favorites'){try{saved=new Set(JSON.parse(event.newValue||'[]'));refresh();}catch{}}});
     regionOptions();
     for(const id of ['search','country','region','level','from','to','upcoming','official','favorites','sort']){
       const element=$('#'+id);element.addEventListener(id==='search'?'input':'change',()=>{if(id==='country')regionOptions();count=25;selectedDay='';refresh();});

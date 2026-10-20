@@ -1,0 +1,13 @@
+{
+  "events": {
+    "1e2d54f2db40": {
+      "name": "SKUSA SuperNationals 29",
+      "source": "https://www.superkartsusa.com/national/skusa-pro-tour/event-calendar.html",
+      "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
+      "registration_deadline": "2026-11-11T01:00:00+00:00",
+      "id": "1e2d54f2db40",
+      "sequence": 0,
+      "cancelled": false
+    }
+  }
+}

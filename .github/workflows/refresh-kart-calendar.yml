@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/racing_scope.json', 'data/organizers.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', 'data/registration_sources.json', 'site/app.js', 'site/registration.js', 'site/index.html', 'site/styles.css', 'site/sw.js', '.github/workflows/**']
+    paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/monitor_sources.json', 'data/discovery_sources.json', 'data/racing_scope.json', 'data/organizers.json', 'data/races.csv', 'data/clubs.json', 'data/regions.json', 'data/registration_sources.json', 'site/app.js', 'site/registration.js', 'site/reminders.js', 'site/_headers', 'site/index.html', 'site/styles.css', 'site/sw.js', '.github/workflows/**']
   pull_request:
     paths: ['scripts/**', 'tests/**', 'requirements.txt', 'data/**', '.github/workflows/**']
 permissions:
@@ -33,6 +33,8 @@ jobs:
           node tests/test_coverage_ui.js
           node tests/test_saved_aliases.js
           node tests/test_registration.js
+          node tests/test_reminders.js
+          node --check site/reminders.js
           node --check site/registration.js
       - name: Validate generated site data
         run: python -m scripts.validate_data
@@ -68,7 +70,7 @@ jobs:
         run: |
           git config user.name 'kart-atlas-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/event_registration.json data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json reports/scope_audit.json reports/organizer_coverage.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
+          git add site/reminders data/reminder_state.json data/event_registration.json data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json reports/scope_audit.json reports/organizer_coverage.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: refresh kart races and discovery coverage'
             git push

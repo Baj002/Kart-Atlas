@@ -1,5 +1,5 @@
-const CACHE_NAME = 'kart-atlas-public-v12';
-const PRECACHE = ['/','/index.html','/clubs.html','/styles.css','/styles.css?v=registration1','/registration.js?v=1','/app.js?v=registration1','/clubs.js','/events.json','/clubs.json','/manifest.webmanifest','/icon-192.png','/icon-512.png'];
+const CACHE_NAME = 'kart-atlas-public-v13';
+const PRECACHE = ['/','/index.html','/clubs.html','/styles.css','/styles.css?v=reminders1','/registration.js?v=1','/reminders.js?v=1','/app.js?v=reminders1','/clubs.js','/events.json','/clubs.json','/manifest.webmanifest','/icon-192.png','/icon-512.png'];
 self.addEventListener('install', e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(PRECACHE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate', e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch', e=>{

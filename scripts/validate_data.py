@@ -30,6 +30,10 @@ def validate(root=ROOT,live=False):
         if event.get('registration_deadline') or event.get('registration_opens_at') or event.get('registration_status') in ('open','closed','sold_out'):
             assert event.get('registration_evidence') and instant(event.get('registration_checked_at')),'Registration claims require dated source evidence'
         if event.get('registration_status'):assert event['registration_status'] in ('open','closed','sold_out','not_announced','unknown','disabled'),'Invalid registration status'
+        if event.get('registration_reminder_url'):
+            path=event['registration_reminder_url']
+            assert re.fullmatch(r'/reminders/[a-z0-9_-]+\.ics',path),'Invalid reminder subscription URL'
+            assert (root/'site'/path.lstrip('/')).is_file(),'Missing reminder calendar'
         for alias in event.get('alias_ids',[]):
             assert isinstance(alias,str) and alias and alias not in seen,'Conflicting saved-race alias: '+str(alias)
             seen.add(alias)

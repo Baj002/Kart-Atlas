@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kart Atlas//Registration Reminders//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Kart Atlas: SKUSA SuperNationals 29
+BEGIN:VEVENT
+UID:registration-1e2d54f2db40@kartatlas.local
+DTSTAMP:20261020T043213Z
+LAST-MODIFIED:20261020T043213Z
+SEQUENCE:0
+DTSTART:20261111T010000Z
+DTEND:20261111T010500Z
+SUMMARY:Registration deadline: SKUSA SuperNationals 29
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+DESCRIPTION:Published online registration deadline. Confirm entry availabil
+ ity\, class capacity and late-entry rules with the organizer. Calendar ref
+ resh and alert delivery depend on your calendar app. https://raceselect.co
+ m/skusa/2026-skusa-snats29/registration
+URL:https://raceselect.com/skusa/2026-skusa-snats29/registration
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Registration deadline: SKUSA SuperNationals 29
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT1H
+DESCRIPTION:Registration deadline: SKUSA SuperNationals 29
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:PT0S
+DESCRIPTION:Registration deadline: SKUSA SuperNationals 29
+END:VALARM
+END:VEVENT
+END:VCALENDAR

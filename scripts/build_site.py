@@ -10,6 +10,7 @@ if __package__ in (None,''):
     sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from scripts.discovery_engine import event_reference, region_code
 from scripts.registration import FIELDS as REGISTRATION_FIELDS
+from scripts.reminder_calendars import build as build_reminder_calendars
 from difflib import SequenceMatcher
 from scripts.racing_scope import load_policy,event_scope_reason,source_scope_reason,apply_reviewed_override
 
@@ -120,6 +121,7 @@ def build(root=ROOT):
         for field in REGISTRATION_FIELDS:
             if field in registration:event[field]=registration[field]
     races=sorted(curated+imported,key=lambda e:(e['start'],e['name']))
+    build_reminder_calendars(root,races)
     snap={'updated':datetime.now(timezone.utc).date().isoformat(),'curated_snapshot':'2026-10-16','coverage_note':'Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.', 'auto_imported':len(imported),'events':races}
     (root/'site/events.json').write_text(json.dumps(snap,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     directory=json.loads((root/'data/clubs.json').read_text())
