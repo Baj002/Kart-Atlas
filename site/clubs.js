@@ -26,5 +26,5 @@
     selectRegion();display();
     ['#club-query','#club-country','#club-region','#only-tracked'].forEach(sel=>$(sel).addEventListener(sel==='#club-query'?'input':'change',()=>{if(sel==='#club-country')selectRegion();display();}));
   }).catch(err=>{$('#directory-results .directory-note').textContent='Unable to load the club directory. Please reload the page.';console.error(err);});
-  if('serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
+  if(!globalThis.KartNative?.isNative && 'serviceWorker' in navigator)navigator.serviceWorker.register('/sw.js').catch(()=>{});
 })();

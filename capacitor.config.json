@@ -1,0 +1,9 @@
+{
+  "appId": "com.baj002.kartatlas",
+  "appName": "Kart Atlas",
+  "webDir": "dist/mobile",
+  "backgroundColor": "#0c1523",
+  "server": {"androidScheme": "https"},
+  "ios": {"contentInset": "automatic"},
+  "plugins": {"LocalNotifications": {"smallIcon": "ic_stat_kart", "iconColor": "#80bb2e"}}
+}

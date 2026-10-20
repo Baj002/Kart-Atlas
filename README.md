@@ -88,3 +88,8 @@ For alerts after Kart Atlas closes, users can download saved deadlines as an iCa
 Each upcoming race also gets a stable public calendar subscription at `/reminders/<race-id>.ics`. Races without a verified deadline have an empty subscription; an event appears when a deadline is verified. The build updates subscribed deadlines, retains old alias subscription URLs, and publishes cancellation records without alarms when an event is cancelled, postponed, removed, or its deadline becomes unavailable. Subscriptions use 1-day, 1-hour and deadline alarms, independently of the user's downloaded-calendar lead time. Subscription refresh timing is controlled by the calendar application. In-app opt-outs do not unsubscribe external calendars. The static subscription feeds contain only public race information; no saved-race lists are uploaded.
 
 This web version does **not** promise scheduled push notifications while closed. No notification permission prompt or server push service is introduced. Native/push delivery can be added separately during mobile app development.
+
+
+## Android and iPhone release preparation
+
+The native release project uses pinned Capacitor packages and reproducibly generates Android and iOS projects. See `mobile/RELEASE.md` for build commands, unsigned CI artifacts, native reminder behavior, privacy/store drafts and the owner-confirmed submission gate. `npm run mobile:prepare` bundles public assets and an offline directory; `npm run mobile:sync` creates and synchronizes the native projects. Store publication is not automated.

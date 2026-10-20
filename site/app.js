@@ -82,6 +82,7 @@
   function persistReminders(){try{localStorage.setItem('kart-atlas-reminders',JSON.stringify(reminderSettings));}catch{toast('Reminder settings could not be saved on this device.');}}
   function reminderRows(){return KartReminders.entries(events,saved,reminderSettings);}
   function renderReminderSummary(){
+    if(globalThis.KartNative?.isNative)KartNative.syncReminders(events,[...saved],reminderSettings).catch(()=>{});
     const rows=reminderRows(),due=rows.filter(r=>r.due),ready=rows.filter(r=>r.active);
     $('#reminder-summary').textContent=rows.length?rows.length+' saved races · '+ready.length+' verified future deadlines'+(reminderSettings.enabled?' · '+due.length+' due within your reminder window':' · In-app reminders off'):'Save races to track their registration deadlines.';
     const alerts=$('#deadline-alerts');alerts.replaceChildren();
@@ -110,6 +111,11 @@
     const close=el('button','event-close','✕');close.type='button';close.setAttribute('aria-label','Close reminders');close.onclick=()=>dialog.close();head.append(close);dialog.append(head);
     const body=el('div','event-dialog-body');
     body.append(el('p','','In-app reminders appear when Kart Atlas is open. Add calendar reminders for alerts when it is closed. Your saved races and settings stay on this device.'));
+    if(globalThis.KartNative?.isNative){
+      const phone=el('button','primary-btn',KartNative.phoneRemindersEnabled()?'Turn off phone reminders':'Enable phone reminders');phone.type='button';
+      phone.onclick=async()=>{phone.disabled=true;try{const on=await KartNative.setPhoneReminders(!KartNative.phoneRemindersEnabled());const count=await KartNative.syncReminders(events,[...saved],reminderSettings);toast(on?count+' phone reminders scheduled.':'Phone reminders off or permission not granted.');showReminders();}catch{toast('Phone reminders could not be updated. Check notification settings.');phone.disabled=false;}};
+      body.append(phone,el('p','class-note','Phone reminders can alert when the app is closed. They use your last synced deadlines. Reopen Kart Atlas to refresh changes; phone power settings can delay alerts. Up to 60 upcoming alerts are scheduled, with the nearest first.'));
+    }
     const enabled=el('input');enabled.type='checkbox';enabled.checked=reminderSettings.enabled;
     const toggle=el('label','toggle-row');toggle.append(enabled,el('span','','Show in-app deadline reminders'));body.append(toggle);
     enabled.onchange=()=>{reminderSettings.enabled=enabled.checked;persistReminders();renderReminderSummary();};
@@ -122,7 +128,7 @@
     const sync=el('button','source-btn','Refresh deadlines');sync.type='button';sync.onclick=async()=>{sync.disabled=true;const changed=await refreshDeadlineData(true);if(changed)showReminders();else sync.disabled=false;};body.append(sync);
     const rows=reminderRows();
     const download=el('button','primary-btn','↓ Add saved deadlines to my calendar');download.type='button';download.disabled=!rows.some(r=>r.active);
-    download.onclick=()=>{const content=KartReminders.calendar(reminderRows());if(!content.includes('BEGIN:VEVENT')){toast('No verified future deadlines to export.');return;}const url=URL.createObjectURL(new Blob([content],{type:'text/calendar;charset=utf-8'}));const a=el('a');a.href=url;a.download='kart-atlas-registration-reminders.ics';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);toast('Open the calendar file and confirm its alerts.');};
+    download.onclick=()=>{const content=KartReminders.calendar(reminderRows());if(!content.includes('BEGIN:VEVENT')){toast('No verified future deadlines to export.');return;}if(globalThis.KartNative?.isNative){KartNative.saveFile('kart-atlas-registration-reminders.ics',content,'text/calendar').catch(()=>toast('Could not share calendar reminders.'));return;}const url=URL.createObjectURL(new Blob([content],{type:'text/calendar;charset=utf-8'}));const a=el('a');a.href=url;a.download='kart-atlas-registration-reminders.ics';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);toast('Open the calendar file and confirm its alerts.');};
     body.append(download,el('p','class-note','Downloaded reminders use your selected lead time plus an alert at the deadline. If the lead time has already passed, only the deadline alert is included. Downloads are snapshots: replace them when a deadline changes. Confirm alert settings in your calendar app.'));
     if(!rows.length)body.append(el('p','','Save a race using the star to get started.'));
     for(const item of rows){
@@ -131,7 +137,7 @@
       const raceToggle=el('label','toggle-row');raceToggle.append(checkbox,el('span','','Include this race in reminders'));box.append(raceToggle);
       checkbox.onchange=()=>{const ids=[item.event.id,...(item.event.alias_ids||[])];reminderSettings.muted=reminderSettings.muted.filter(id=>!ids.includes(id));if(!checkbox.checked)reminderSettings.muted.push(item.event.id);persistReminders();renderReminderSummary();updateLabels();download.disabled=!reminderRows().some(r=>r.active);};
       const path=item.event.registration_reminder_url;
-      if(item.subscriptionAllowed&&typeof path==='string'&&/^\/reminders\/[a-z0-9_-]+\.ics$/.test(path)&&location.protocol==='https:'){
+      if(!globalThis.KartNative?.isNative&&item.subscriptionAllowed&&typeof path==='string'&&/^\/reminders\/[a-z0-9_-]+\.ics$/.test(path)&&location.protocol==='https:'){
         const subscribe=el('a','source-btn','Subscribe to deadline updates ↗');subscribe.href='webcal://'+location.host+path;box.append(subscribe);
         const copy=el('button','source-btn','Copy calendar subscription link');copy.type='button';copy.onclick=async()=>{try{await navigator.clipboard.writeText('https://'+location.host+path);toast('Calendar subscription link copied.');}catch{toast('Copy the subscription link from the Subscribe button.');}};box.append(copy);
         box.append(el('p','class-note','Calendar subscription: watches for new or changed deadlines when your calendar refreshes, with 1-day, 1-hour and deadline alarms. Confirm alerts in your calendar app. Unsubscribing or removing downloaded reminders must be done in your calendar.'));
@@ -197,6 +203,7 @@
       '<h2>Race-day preparation</h2>'+row('Detailed timetable',e.schedule_url?link(e.schedule_url,'Race-day schedule ↗'):'Not yet published or verified')+row('Event / club rules',e.rules_url?link(e.rules_url,'Rules and regulations ↗'):'Not yet published or verified')+row('Track / paddock map',e.track_map_url?link(e.track_map_url,'Track map ↗'):'Not yet published or verified')+
       '<h2>Official information</h2>'+row('Organizer website',organizer)+(e.notes?'<p class="note">'+escapeHTML(e.notes)+'</p>':'')+
       '<p class="footer">Compiled by Kart Atlas from its indexed event listing. This is not an official race bulletin. Confirm dates, eligibility, rules and fees with the organizer before attending. Generated '+escapeHTML(new Date().toLocaleDateString())+'.</p></body></html>';
+    if(globalThis.KartNative?.isNative){KartNative.saveFile('kart-atlas-race-overview-'+e.id+'.html',html,'text/html').catch(()=>toast('Could not share race overview.'));return;}
     const url=URL.createObjectURL(new Blob([html],{type:'text/html;charset=utf-8'}));
     const a=el('a');a.href=url;a.download='kart-atlas-race-overview-'+e.id+'.html';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
     toast('One-page race overview downloaded');
@@ -268,6 +275,7 @@
       `UID:${e.id}@kartatlas.local`,`DTSTART;VALUE=DATE:${e.start.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${dateAfter(e.end)}`,
       `SUMMARY:${icsEscape(e.name)}`,`LOCATION:${icsEscape(loc)}`,`DESCRIPTION:${icsEscape(desc)}`,
       ...(url?[`URL:${url}`]:[]),...(e.status==='cancelled'?['STATUS:CANCELLED']:e.status==='postponed'?['STATUS:TENTATIVE']:[]),'END:VEVENT','END:VCALENDAR'].join('\r\n')+'\r\n';
+    if(globalThis.KartNative?.isNative){KartNative.saveFile('kart-atlas-'+e.id+'.ics',out,'text/calendar').catch(()=>toast('Could not share race calendar.'));return;}
     const a=el('a');a.href=URL.createObjectURL(new Blob([out],{type:'text/calendar;charset=utf-8'}));a.download=`kart-atlas-${e.id}.ics`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),30000);
     toast('Race calendar file downloaded');
   }
@@ -321,8 +329,12 @@
     $('#stat-tracks').textContent=new Set(events.map(e=>e.venue).filter(Boolean)).size;
     $('#stat-countries').textContent=new Set(events.map(e=>e.country).filter(Boolean)).size;
     $('#stat-upcoming').textContent=events.filter(e=>e.end>=today()).length;
-    $('#snapshot').textContent=`Original research: ${snapshot} · Auto-imported feed events: ${data.auto_imported||0}. Other clubs require review.`;
+    $('#snapshot').textContent=`Directory updated ${snapshot}. Confirm dates and registration details with the organizer.`;
 
+    const openRace=id=>{const race=events.find(e=>e.id===id||(e.alias_ids||[]).includes(id));if(race)showEvent(race);};
+    window.addEventListener('kart-atlas-open-event',event=>openRace(event.detail));
+    const pending=globalThis.KartAtlasPendingRace||new URLSearchParams(location.search).get('race');if(pending){openRace(pending);globalThis.KartAtlasPendingRace=null;}
+    window.addEventListener('kart-atlas-resume',()=>refreshDeadlineData(true));
     $('#manage-reminders').onclick=showReminders;
     setInterval(()=>{if(!document.hidden){renderReminderSummary();if(saved.size)refreshDeadlineData();}},60000);
     document.addEventListener('visibilitychange',()=>{if(!document.hidden){renderReminderSummary();if(saved.size)refreshDeadlineData();}});
@@ -338,7 +350,7 @@
   }
   window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;$('#install-btn').classList.remove('hidden');});
   $('#install-btn').onclick=async()=>{if(!deferredInstall)return;deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$('#install-btn').classList.add('hidden');};
-  if('serviceWorker'in navigator && location.protocol==='https:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+  if(!globalThis.KartNative?.isNative && 'serviceWorker'in navigator && location.protocol==='https:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
   start().catch(err => {
     console.error('Kart Atlas calendar initialization failed:', err);
     const context = document.querySelector('#result-context');

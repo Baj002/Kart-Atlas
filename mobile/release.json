@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "buildNumber": 1,
+  "appId": "com.baj002.kartatlas",
+  "appIdConfirmed": false,
+  "publisherName": null,
+  "supportEmail": null,
+  "privacyPolicyUrl": null,
+  "dataBaseUrl": "https://raw.githubusercontent.com/Baj002/Kart-Atlas/main/site/",
+  "physicalDeviceTestingConfirmed": false,
+  "privacyDisclosuresReviewed": false
+}

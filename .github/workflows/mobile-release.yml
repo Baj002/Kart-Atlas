@@ -1,0 +1,92 @@
+name: Prepare Android and iOS releases
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['mobile/**', 'package.json', 'package-lock.json', 'capacitor.config.json', 'site/app.js', 'site/clubs.js', 'site/index.html', 'site/styles.css', 'tests/test_mobile.mjs', '.github/workflows/mobile-release.yml']
+  pull_request:
+    paths: ['mobile/**', 'package.json', 'package-lock.json', 'capacitor.config.json', 'site/**', 'tests/test_mobile.mjs', '.github/workflows/mobile-release.yml']
+permissions:
+  contents: read
+concurrency:
+  group: mobile-release-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run mobile:prepare
+      - run: npm run test:mobile
+      - run: |
+          node tests/test_registration.js
+          node tests/test_reminders.js
+          node tests/test_saved_aliases.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mobile-web-assets
+          path: dist/mobile
+  android:
+    needs: web
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r mobile/requirements.txt
+      - uses: android-actions/setup-android@v3
+      - run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
+      - run: npm ci
+      - run: npm run mobile:prepare && node mobile/sync.mjs android
+      - name: Build test APK and unsigned release bundle
+        working-directory: android
+        run: ./gradlew --no-daemon assembleDebug bundleRelease lintDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android-test-apk-and-unsigned-bundle
+          path: |
+            android/app/build/outputs/apk/debug/*.apk
+            android/app/build/outputs/bundle/release/*.aab
+            android/app/build/reports/lint-results-debug.html
+            build/store-assets/*
+  ios:
+    needs: web
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r mobile/requirements.txt
+      - run: npm ci
+      - run: npm run mobile:prepare && node mobile/sync.mjs ios
+      - name: Verify submission SDK toolchain
+        run: |
+          xcodebuild -version
+          python -c "import subprocess; version=subprocess.check_output(['xcodebuild','-version'],text=True).split()[1]; assert int(version.split('.')[0])>=26, 'Xcode 26 or newer required'"
+      - name: Build unsigned device archive
+        run: xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Release -destination 'generic/platform=iOS' -archivePath build/KartAtlas.xcarchive CODE_SIGNING_ALLOWED=NO archive
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios-unsigned-archive
+          path: build/KartAtlas.xcarchive
