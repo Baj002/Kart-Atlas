@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:54:46+00:00",
+  "generated_at": "2026-10-21T13:54:14+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 46,
     "with_reached_sources": 40,
-    "with_health_issues": 9,
+    "with_health_issues": 8,
     "unmatched_races": 0
   },
   "organizers": [
@@ -619,8 +619,10 @@
           "status": "indexed_future_events",
           "indexed_events": 2,
           "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
-          "unconfirmed_future_event_ids": [],
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [
+            "auto-e9959bcfb5763ab0"
+          ],
           "declaration": null,
           "event_ids": [
             "auto-5a738b3178cb",
@@ -1513,7 +1515,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 1,
       "seasons": [
         {
           "year": 2026,
@@ -1531,7 +1533,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3118,11 +3120,10 @@
         "skusa-official-schedule"
       ],
       "sources_reached": [
+        "skusa",
         "skusa-official-schedule"
       ],
-      "unhealthy_sources": [
-        "skusa"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 8,
       "seasons": [
@@ -3242,8 +3243,10 @@
           "status": "indexed_future_events",
           "indexed_events": 1,
           "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
-          "unconfirmed_future_event_ids": [],
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [
+            "17f87c6b741a"
+          ],
           "declaration": null,
           "event_ids": [
             "17f87c6b741a"
@@ -5342,13 +5345,6 @@
   ],
   "priorities": [
     {
-      "organizer_id": "bb926de967",
-      "name": "SKUSA",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 12
-    },
-    {
       "organizer_id": "6958e0e3cd",
       "name": "United States Pro Kart Series",
       "priority": 1,
@@ -5388,6 +5384,13 @@
       "name": "ROK Cup USA",
       "priority": 2,
       "reason": "published_dates_need_reverification",
+      "upcoming_events": 12
+    },
+    {
+      "organizer_id": "bb926de967",
+      "name": "SKUSA",
+      "priority": 2,
+      "reason": "event_review",
       "upcoming_events": 12
     },
     {
