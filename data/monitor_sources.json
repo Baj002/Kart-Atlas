@@ -1296,6 +1296,20 @@
         "identity_name_pattern": "MIKA Race\\s*#?\\s*\\d+",
         "auto_import": true
       }
+    },
+    {
+      "id": "ceks-msr-official",
+      "club": "Canada East Kartsport / Champlain MP",
+      "country": "Canada",
+      "region": "NB",
+      "city": "Greater Lakeburn",
+      "venue": "Canada East Kart Sport",
+      "url": "https://www.motorsportreg.com/orgs/canada-east-kartsport-champlain-mp",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Moncton",
+      "event_name_pattern": "(?:CEKS|Canada East|Champlain|CKRA).*(?:Championship|Club Race|Race [#0-9])",
+      "verified_on": "2026-10-22"
     }
   ]
 }
