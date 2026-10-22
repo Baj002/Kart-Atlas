@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-22T13:56:34+00:00",
+  "generated_at": "2026-10-22T15:56:16+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 143,
+    "organizers": 144,
     "by_scope": {
-      "eligible": 47,
+      "eligible": 48,
       "needs_review": 94,
       "excluded": 2
     },
-    "with_configured_sources": 46,
-    "with_reached_sources": 39,
-    "with_health_issues": 9,
+    "with_configured_sources": 47,
+    "with_reached_sources": 41,
+    "with_health_issues": 8,
     "unmatched_races": 0
   },
   "organizers": [
@@ -1515,7 +1515,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -1533,7 +1533,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3013,10 +3013,10 @@
       "source_ids": [
         "ckna-canada"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "ckna-canada"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -3999,7 +3999,7 @@
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -4015,7 +4015,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5341,6 +5341,43 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "canada-east-kartsport",
+      "name": "Canada East Kartsport / Champlain MP",
+      "country": "Canada",
+      "scope_status": "eligible",
+      "source_ids": [
+        "ceks-msr-official"
+      ],
+      "sources_reached": [
+        "ceks-msr-official"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -5350,13 +5387,6 @@
       "priority": 1,
       "reason": "source_health",
       "upcoming_events": 5
-    },
-    {
-      "organizer_id": "1ac7f4a39f",
-      "name": "Cup Karts North America",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 2
     },
     {
       "organizer_id": "1ff268557b",
@@ -5422,6 +5452,13 @@
       "upcoming_events": 2
     },
     {
+      "organizer_id": "1ac7f4a39f",
+      "name": "Cup Karts North America",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 2
+    },
+    {
       "organizer_id": "dfa9031c7e",
       "name": "Karting Club México",
       "priority": 2,
@@ -5447,6 +5484,13 @@
       "name": "Oakland Valley Race Park",
       "priority": 2,
       "reason": "published_dates_need_reverification",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "4677186fd6",
+      "name": "Portland Karting Association",
+      "priority": 2,
+      "reason": "event_review",
       "upcoming_events": 1
     },
     {
@@ -6171,13 +6215,6 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "4677186fd6",
-      "name": "Portland Karting Association",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 1
-    },
-    {
       "organizer_id": "e10cbff088",
       "name": "West Coast Kart Club",
       "priority": 3,
@@ -6194,6 +6231,13 @@
     {
       "organizer_id": "163cbaed0b",
       "name": "Badger Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "canada-east-kartsport",
+      "name": "Canada East Kartsport / Champlain MP",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
