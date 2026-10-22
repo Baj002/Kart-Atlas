@@ -2387,6 +2387,27 @@
       "scope_status": "needs_review",
       "verification": "research_target",
       "season_declarations": []
+    },
+    {
+      "id": "canada-east-kartsport",
+      "name": "Canada East Kartsport / Champlain MP",
+      "aliases": [
+        "Canada East Kartsport",
+        "Canada East Kart Sport",
+        "Champlain MP"
+      ],
+      "country": "Canada",
+      "region": "NB",
+      "venue": "Canada East Kart Sport",
+      "city": "Greater Lakeburn",
+      "primary_url": "https://www.motorsportreg.com/orgs/canada-east-kartsport-champlain-mp",
+      "source_ids": [
+        "ceks-msr-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
     }
   ]
 }
