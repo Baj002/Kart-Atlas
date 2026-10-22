@@ -12,9 +12,13 @@
     "mobile:android": "npm run mobile:sync && cap open android",
     "mobile:ios": "npm run mobile:sync && cap open ios",
     "test:mobile": "node tests/test_mobile.mjs",
-    "release:check": "node mobile/release-check.mjs"
+    "release:check": "node mobile/release-check.mjs",
+    "test:push": "node tests/test_web_push.mjs && node tests/test_push_browser.mjs && node tests/test_push_runtime.mjs",
+    "push:configure": "node push/configure.mjs",
+    "push:build": "wrangler deploy --dry-run --config push/wrangler.example.jsonc --outdir ../dist/push"
   },
   "dependencies": {
+    "@block65/webcrypto-web-push": "2.0.0",
     "@capacitor/android": "8.5.3",
     "@capacitor/app": "8.1.2",
     "@capacitor/browser": "8.0.5",
@@ -27,7 +31,8 @@
   },
   "devDependencies": {
     "@capacitor/cli": "8.5.3",
-    "esbuild": "0.25.12"
+    "esbuild": "0.25.12",
+    "wrangler": "4.152.0"
   },
   "overrides": {
     "uuid": "11.1.1"

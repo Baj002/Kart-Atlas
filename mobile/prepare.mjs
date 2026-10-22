@@ -9,6 +9,7 @@ for(const name of ['leaflet.js','leaflet.css','images'])await cp('node_modules/l
 for(const name of ['index.html','clubs.html']){
  let html=await readFile(out+'/'+name,'utf8');
  html=html.replaceAll('https://unpkg.com/leaflet@1.9.4/dist/','/vendor/');
+ html=html.replace(/<script defer src="\/push.js[^"]*"><\/script>/g,'');
  html=html.replace('<head>','<head><meta http-equiv="Content-Security-Policy" content="default-src \'self\'; script-src \'self\'; style-src \'self\' \'unsafe-inline\'; img-src \'self\' data: blob: https://*.basemaps.cartocdn.com https://*.tile.openstreetmap.org; connect-src \'self\' https://raw.githubusercontent.com; object-src \'none\'; base-uri \'self\'; form-action \'none\'">');
  const at=html.indexOf('<script');html=html.slice(0,at)+'<script defer src="/native.js"></script>'+html.slice(at);
  html=html.replace(/<link rel="manifest"[^>]*>/g,'');

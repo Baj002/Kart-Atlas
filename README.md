@@ -93,3 +93,7 @@ This web version does **not** promise scheduled push notifications while closed.
 ## Android and iPhone release preparation
 
 The native release project uses pinned Capacitor packages and reproducibly generates Android and iOS projects. See `mobile/RELEASE.md` for build commands, unsigned CI artifacts, native reminder behavior, privacy/store drafts and the owner-confirmed submission gate. `npm run mobile:prepare` bundles public assets and an offline directory; `npm run mobile:sync` creates and synchronizes the native projects. Store publication is not automated.
+
+## Website push reminders
+
+Optional background registration alerts are implemented for compatible browsers and Home Screen web apps. The private Cloudflare delivery backend needs one-time owner activation before alerts can be sent. See [push/README.md](push/README.md) for setup, privacy, limits and device acceptance checks.

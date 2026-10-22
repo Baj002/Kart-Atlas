@@ -17,3 +17,10 @@ build/
 *.keystore
 *.p12
 *.mobileprovision
+
+# Web-push deployment state and secrets
+push/wrangler.json
+push/.dev.vars
+push/.wrangler/
+push/.keys/
+.wrangler/

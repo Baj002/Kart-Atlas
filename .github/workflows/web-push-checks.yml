@@ -1,0 +1,33 @@
+name: Test website push reminders
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['push/**', 'site/push.js', 'site/push-sw.js', 'site/sw.js', 'site/app.js', 'site/index.html', 'site/notification-privacy.html', 'package.json', 'package-lock.json', 'tests/test_*push*', '.github/workflows/web-push-checks.yml']
+  pull_request:
+    paths: ['push/**', 'site/push.js', 'site/push-sw.js', 'site/sw.js', 'site/app.js', 'site/index.html', 'package.json', 'package-lock.json', 'tests/test_*push*', '.github/workflows/web-push-checks.yml']
+permissions:
+  contents: read
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run test:push
+      - run: npm run push:build
+      - name: Verify existing website and native packaging
+        run: |
+          node tests/test_registration.js
+          node tests/test_reminders.js
+          node tests/test_saved_aliases.js
+          npm run mobile:prepare
+          npm run test:mobile
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-push-worker-dry-run
+          path: dist/push
