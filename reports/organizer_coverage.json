@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T13:54:14+00:00",
+  "generated_at": "2026-10-22T13:56:34+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -10,8 +10,8 @@
       "excluded": 2
     },
     "with_configured_sources": 46,
-    "with_reached_sources": 40,
-    "with_health_issues": 8,
+    "with_reached_sources": 39,
+    "with_health_issues": 9,
     "unmatched_races": 0
   },
   "organizers": [
@@ -1515,7 +1515,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 1,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1533,7 +1533,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3013,10 +3013,10 @@
       "source_ids": [
         "ckna-canada"
       ],
-      "sources_reached": [
+      "sources_reached": [],
+      "unhealthy_sources": [
         "ckna-canada"
       ],
-      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5352,6 +5352,13 @@
       "upcoming_events": 5
     },
     {
+      "organizer_id": "1ac7f4a39f",
+      "name": "Cup Karts North America",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 2
+    },
+    {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
       "priority": 1,
@@ -5412,13 +5419,6 @@
       "name": "Central California Kart Racing Association",
       "priority": 2,
       "reason": "event_review",
-      "upcoming_events": 2
-    },
-    {
-      "organizer_id": "1ac7f4a39f",
-      "name": "Cup Karts North America",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
       "upcoming_events": 2
     },
     {
