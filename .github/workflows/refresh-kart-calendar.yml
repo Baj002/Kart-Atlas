@@ -59,6 +59,7 @@ jobs:
           python -m scripts.registration
           python -m scripts.build_site
           python -m scripts.coverage_report
+          python -m scripts.canada_coverage
           python -m scripts.validate_data
       - name: Archive discovery diagnostics
         if: always()
@@ -70,7 +71,7 @@ jobs:
         run: |
           git config user.name 'kart-atlas-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add site/reminders data/reminder_state.json data/event_registration.json data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json reports/scope_audit.json reports/organizer_coverage.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
+          git add site/reminders data/reminder_state.json data/event_registration.json data/source_state.json data/automated_events.json data/discovered_sources.json reports/discovery.json reports/coverage.json reports/scope_audit.json reports/organizer_coverage.json reports/canada_2027.json site/events.json site/clubs.json site/coverage.json site/monitor_status.json
           if ! git diff --cached --quiet; then
             git commit -m 'chore: refresh kart races and discovery coverage'
             git push
