@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T13:53:30+00:00",
+  "generated_at": "2026-10-23T15:23:26+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -1515,7 +1515,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 3,
       "seasons": [
         {
           "year": 2026,
@@ -1533,7 +1533,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3035,17 +3035,23 @@
         {
           "year": 2027,
           "status": "indexed_future_events",
-          "indexed_events": 2,
-          "upcoming_events": 2,
+          "indexed_events": 5,
+          "upcoming_events": 5,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [
             "e64570934a25",
-            "2821c791923d"
+            "2821c791923d",
+            "5891551821b8",
+            "38531d672560",
+            "6c285936039d"
           ],
           "declaration": null,
           "event_ids": [
             "e64570934a25",
-            "2821c791923d"
+            "2821c791923d",
+            "5891551821b8",
+            "38531d672560",
+            "6c285936039d"
           ]
         }
       ]
@@ -5433,6 +5439,13 @@
       "upcoming_events": 12
     },
     {
+      "organizer_id": "1ac7f4a39f",
+      "name": "Cup Karts North America",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 5
+    },
+    {
       "organizer_id": "5cc7da7713",
       "name": "Champions of the Future Mexico",
       "priority": 2,
@@ -5451,13 +5464,6 @@
       "name": "Central California Kart Racing Association",
       "priority": 2,
       "reason": "event_review",
-      "upcoming_events": 2
-    },
-    {
-      "organizer_id": "1ac7f4a39f",
-      "name": "Cup Karts North America",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
       "upcoming_events": 2
     },
     {

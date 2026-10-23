@@ -1,0 +1,408 @@
+{
+  "generated_at": "2026-10-23T15:26:01.930529+00:00",
+  "year": 2027,
+  "scope": "Owner-kart competition circuit racing only",
+  "regions_checked": 13,
+  "indexed_canadian_2027_events": 4,
+  "status_meanings": {
+    "no_2027_dates_verified_in_current_sources": "No 2027 event is verified in the configured sources; this does not prove an organizer has not published a schedule.",
+    "no_verified_2027_dates_and_no_configured_regional_source": "No current source is configured for this region; do not infer there are no clubs or races.",
+    "announced_2027_dates_need_primary_source": "Dates were reported but an official organizer event page has not been verified.",
+    "official_2027_dates_indexed": "At least one 2027 event has an official organizer source; this does not mean the full season is covered."
+  },
+  "important": "Directory coverage is not a census. No verified dates never means no karting exists. Multi-region sources are audited separately.",
+  "multi_region_sources": [
+    "rmc-canada",
+    "ckna-canada"
+  ],
+  "regions": [
+    {
+      "code": "AB",
+      "name": "Alberta",
+      "status": "no_2027_dates_verified_in_current_sources",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [
+        "ckrc",
+        "edkra",
+        "edkra-home"
+      ],
+      "organizers": [
+        {
+          "id": "6218beb207",
+          "name": "Calgary Kart Racing Club",
+          "scope_status": "eligible",
+          "season_2027": "source_unreachable"
+        },
+        {
+          "id": "fd4250c918",
+          "name": "Edmonton & District Kart Racing Association",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        }
+      ],
+      "events": []
+    },
+    {
+      "code": "BC",
+      "name": "British Columbia",
+      "status": "no_2027_dates_verified_in_current_sources",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [
+        "wckc",
+        "wckc-events",
+        "kartplex-owner-racing",
+        "vika-registration"
+      ],
+      "organizers": [
+        {
+          "id": "86c4970101",
+          "name": "Cariboo Kart Racers",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "2a75fb40bd",
+          "name": "Kartplex at Area 27",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "b957637853",
+          "name": "Vancouver Island Karting Association",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "e10cbff088",
+          "name": "West Coast Kart Club",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "org-c834b6077c",
+          "name": "BC Regional Karting Championship",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        }
+      ],
+      "events": []
+    },
+    {
+      "code": "MB",
+      "name": "Manitoba",
+      "status": "no_2027_dates_verified_in_current_sources",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [
+        "mka",
+        "mka-home",
+        "mka-registration"
+      ],
+      "organizers": [
+        {
+          "id": "d86e08e4b8",
+          "name": "Manitoba Karting Association",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        }
+      ],
+      "events": []
+    },
+    {
+      "code": "NB",
+      "name": "New Brunswick",
+      "status": "no_2027_dates_verified_in_current_sources",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [
+        "ceks-msr-official"
+      ],
+      "organizers": [
+        {
+          "id": "canada-east-kartsport",
+          "name": "Canada East Kartsport / Champlain MP",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        }
+      ],
+      "events": []
+    },
+    {
+      "code": "NL",
+      "name": "Newfoundland and Labrador",
+      "status": "no_verified_2027_dates_and_no_configured_regional_source",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [],
+      "organizers": [],
+      "events": []
+    },
+    {
+      "code": "NS",
+      "name": "Nova Scotia",
+      "status": "no_2027_dates_verified_in_current_sources",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [
+        "amka-schedule"
+      ],
+      "organizers": [
+        {
+          "id": "d81434ea35",
+          "name": "Atlantic Motorsport Karters Association",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        }
+      ],
+      "events": []
+    },
+    {
+      "code": "NT",
+      "name": "Northwest Territories",
+      "status": "no_verified_2027_dates_and_no_configured_regional_source",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [],
+      "organizers": [],
+      "events": []
+    },
+    {
+      "code": "NU",
+      "name": "Nunavut",
+      "status": "no_verified_2027_dates_and_no_configured_regional_source",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [],
+      "organizers": [],
+      "events": []
+    },
+    {
+      "code": "ON",
+      "name": "Ontario",
+      "status": "announced_2027_dates_need_primary_source",
+      "indexed_2027_races": 2,
+      "official_2027_races": 0,
+      "secondary_2027_races": 2,
+      "configured_regional_sources": [
+        "goodwood-ics",
+        "hamilton-ics",
+        "goodwood-trak",
+        "hrkc",
+        "nckc",
+        "kartstars-canada",
+        "kartstars-regulations",
+        "kartstars-schedule",
+        "wrkc",
+        "lombardy-official",
+        "point-pelee-official",
+        "mika-official"
+      ],
+      "organizers": [
+        {
+          "id": "d1c9f9004d",
+          "name": "Hamilton Regional Kart Club",
+          "scope_status": "eligible",
+          "season_2027": "not_announced"
+        },
+        {
+          "id": "b7f285e478",
+          "name": "Lombardy Raceway Karting Club",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "3c78c917ed",
+          "name": "Mosport International Karting Association",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "6a07490f0e",
+          "name": "National Capital Kart Club",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "b87ed90c22",
+          "name": "Sudbury Kart Club",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "dfd51a1937",
+          "name": "Toronto Racing Association of Karters",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "938e9cfd1c",
+          "name": "Waterloo Regional Kart Club",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "f7a8ec675f",
+          "name": "Point Pelee Karting Club",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "org-1fa412ba78",
+          "name": "KartStars Canada",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        }
+      ],
+      "events": [
+        {
+          "id": "5891551821b8",
+          "start": "2027-06-25",
+          "end": "2027-06-27",
+          "name": "CKNA Canada Division Round 1 2027",
+          "verification": "Secondary",
+          "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/"
+        },
+        {
+          "id": "38531d672560",
+          "start": "2027-07-23",
+          "end": "2027-07-25",
+          "name": "CKNA Canada Division Round 2 2027",
+          "verification": "Secondary",
+          "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/"
+        }
+      ]
+    },
+    {
+      "code": "PE",
+      "name": "Prince Edward Island",
+      "status": "no_verified_2027_dates_and_no_configured_regional_source",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [],
+      "organizers": [],
+      "events": []
+    },
+    {
+      "code": "QC",
+      "name": "Quebec",
+      "status": "announced_2027_dates_need_primary_source",
+      "indexed_2027_races": 2,
+      "official_2027_races": 0,
+      "secondary_2027_races": 2,
+      "configured_regional_sources": [
+        "coupe-montreal"
+      ],
+      "organizers": [
+        {
+          "id": "c6c07bf0f1",
+          "name": "Club Karting Trois-Rivières",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "f1b1f616dd",
+          "name": "Club de Karting de Montréal",
+          "scope_status": "eligible",
+          "season_2027": "source_unreachable"
+        },
+        {
+          "id": "f054670462",
+          "name": "Club de Karting de Québec",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "0e350f57c6",
+          "name": "Ottawa Gatineau Karting Championship",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "81de8ba0b6",
+          "name": "SC Performance Karting Club",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "0881b89dc0",
+          "name": "SH Karting",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        },
+        {
+          "id": "0d293fa1c5",
+          "name": "TAG Académie Karting",
+          "scope_status": "needs_review",
+          "season_2027": "no_source_configured"
+        }
+      ],
+      "events": [
+        {
+          "id": "2821c791923d",
+          "start": "2027-05-28",
+          "end": "2027-05-30",
+          "name": "CKNA Canadian Four-Cycle Nationals 2027",
+          "verification": "Secondary",
+          "source": "https://www.kartsportnews.com/2026/09/24/ckna-closes-out-26/"
+        },
+        {
+          "id": "6c285936039d",
+          "start": "2027-09-03",
+          "end": "2027-09-05",
+          "name": "CKNA Canada Division Round 3 Finale 2027",
+          "verification": "Secondary",
+          "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/"
+        }
+      ]
+    },
+    {
+      "code": "SK",
+      "name": "Saskatchewan",
+      "status": "no_2027_dates_verified_in_current_sources",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [
+        "saskatoon",
+        "south-sask"
+      ],
+      "organizers": [
+        {
+          "id": "36000e0d27",
+          "name": "Saskatoon Kart Racers",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "7cf3364e46",
+          "name": "South Sask Kart Club",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        }
+      ],
+      "events": []
+    },
+    {
+      "code": "YT",
+      "name": "Yukon",
+      "status": "no_verified_2027_dates_and_no_configured_regional_source",
+      "indexed_2027_races": 0,
+      "official_2027_races": 0,
+      "secondary_2027_races": 0,
+      "configured_regional_sources": [],
+      "organizers": [],
+      "events": []
+    }
+  ]
+}

@@ -1043,6 +1043,33 @@
       "registration_deadline": "",
       "sequence": 1,
       "cancelled": true
+    },
+    "5891551821b8": {
+      "id": "5891551821b8",
+      "name": "CKNA Canada Division Round 1 2027",
+      "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "38531d672560": {
+      "id": "38531d672560",
+      "name": "CKNA Canada Division Round 2 2027",
+      "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "6c285936039d": {
+      "id": "6c285936039d",
+      "name": "CKNA Canada Division Round 3 Finale 2027",
+      "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
     }
   }
 }
