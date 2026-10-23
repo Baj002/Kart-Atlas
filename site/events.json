@@ -1962,6 +1962,23 @@
       "id": "50f9aef1e40e"
     },
     {
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "name": "HRKC Race 19 — Championship Finale",
+      "organizer": "Hamilton Regional Kart Club",
+      "venue": "Hamilton Karting Complex",
+      "city": "Mount Hope",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
+      "notes": "",
+      "id": "f9970013a237"
+    },
+    {
       "id": "auto-636cac60c0cf",
       "uid": "8819-1792281600-1792367999@hamiltonkartingcomplex.com",
       "feed_id": "hamilton-ics",
@@ -1979,23 +1996,6 @@
       "classes": "",
       "source": "https://hamiltonkartingcomplex.com/event/hrkc-race-19-double-points-finale/",
       "notes": "Imported from organizer calendar feed; check official rules, classes and date before travel."
-    },
-    {
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "name": "HRKC Race 19 — Championship Finale",
-      "organizer": "Hamilton Regional Kart Club",
-      "venue": "Hamilton Karting Complex",
-      "city": "Mount Hope",
-      "region": "ON",
-      "country": "Canada",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://hamiltonkartingcomplex.com/events/list/?tribe-bar-date=2026-08-09",
-      "notes": "",
-      "id": "f9970013a237"
     },
     {
       "start": "2026-10-18",
@@ -2097,26 +2097,6 @@
       "registration_reminder_url": "/reminders/auto-d92149c5d4385545.ics"
     },
     {
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "name": "NTK Fall Race 5",
-      "organizer": "North Texas Karters",
-      "venue": "North Texas Karters",
-      "city": "Denton",
-      "region": "TX",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://northtexaskarters.wildapricot.org/",
-      "notes": "",
-      "id": "75745d76873f",
-      "status": "scheduled",
-      "last_verified": "2026-10-23T13:53:30+00:00",
-      "registration_reminder_url": "/reminders/75745d76873f.ics"
-    },
-    {
       "name": "Norwalk Club Race",
       "start": "2026-10-24",
       "end": "2026-10-24",
@@ -2145,6 +2125,26 @@
       "last_seen": "2026-10-23T13:53:30+00:00",
       "last_verified": "2026-10-23T13:53:30+00:00",
       "registration_reminder_url": "/reminders/auto-8238b76b8c8187ca.ics"
+    },
+    {
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "name": "NTK Fall Race 5",
+      "organizer": "North Texas Karters",
+      "venue": "North Texas Karters",
+      "city": "Denton",
+      "region": "TX",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://northtexaskarters.wildapricot.org/",
+      "notes": "",
+      "id": "75745d76873f",
+      "status": "scheduled",
+      "last_verified": "2026-10-23T13:53:30+00:00",
+      "registration_reminder_url": "/reminders/75745d76873f.ics"
     },
     {
       "name": "OSKCS - Race 10 @ PARC",
@@ -2467,24 +2467,6 @@
       "registration_reminder_url": "/reminders/auto-e9959bcfb5763ab0.ics"
     },
     {
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "name": "NTK Fall Race 6",
-      "organizer": "North Texas Karters",
-      "venue": "North Texas Karters",
-      "city": "Denton",
-      "region": "TX",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://northtexaskarters.wildapricot.org/",
-      "notes": "",
-      "id": "0f56284dab4e",
-      "registration_reminder_url": "/reminders/0f56284dab4e.ics"
-    },
-    {
       "name": "Norwalk Club Race",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -2513,6 +2495,24 @@
       "last_seen": "2026-10-23T13:53:30+00:00",
       "last_verified": "2026-10-23T13:53:30+00:00",
       "registration_reminder_url": "/reminders/auto-1b9b2a76931a3cb1.ics"
+    },
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "name": "NTK Fall Race 6",
+      "organizer": "North Texas Karters",
+      "venue": "North Texas Karters",
+      "city": "Denton",
+      "region": "TX",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://northtexaskarters.wildapricot.org/",
+      "notes": "",
+      "id": "0f56284dab4e",
+      "registration_reminder_url": "/reminders/0f56284dab4e.ics"
     },
     {
       "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
@@ -3990,6 +3990,23 @@
     {
       "start": "2027-06-25",
       "end": "2027-06-27",
+      "name": "CKNA Canada Division Round 1 2027",
+      "organizer": "Cup Karts North America Canada",
+      "venue": "Brechin Motorsports Park",
+      "city": "Brechin",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Secondary",
+      "classes": "Briggs LO206",
+      "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/",
+      "notes": "2027 dates reported Oct 20 2026 from Cup Karts Canada organizer announcement; organizer 2027 event and registration page not yet verified.",
+      "id": "5891551821b8"
+    },
+    {
+      "start": "2027-06-25",
+      "end": "2027-06-27",
       "name": "USPKS Lake Erie Grand Prix",
       "organizer": "United States Pro Kart Series",
       "venue": "Lorain Ohio Kartplex",
@@ -4080,6 +4097,23 @@
       "last_verified": "2026-10-23T13:53:30+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/45b67f87c40b.ics"
+    },
+    {
+      "start": "2027-07-23",
+      "end": "2027-07-25",
+      "name": "CKNA Canada Division Round 2 2027",
+      "organizer": "Cup Karts North America Canada",
+      "venue": "Lombardy Raceway",
+      "city": "Lombardy",
+      "region": "ON",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Secondary",
+      "classes": "Briggs LO206",
+      "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/",
+      "notes": "2027 dates reported Oct 20 2026 from Cup Karts Canada organizer announcement; organizer 2027 event and registration page not yet verified.",
+      "id": "38531d672560"
     },
     {
       "start": "2027-07-23",
@@ -4274,6 +4308,23 @@
       "notes": "",
       "id": "62de6208f174",
       "registration_reminder_url": "/reminders/62de6208f174.ics"
+    },
+    {
+      "start": "2027-09-03",
+      "end": "2027-09-05",
+      "name": "CKNA Canada Division Round 3 Finale 2027",
+      "organizer": "Cup Karts North America Canada",
+      "venue": "Karting Trois-Rivières",
+      "city": "Trois-Rivières",
+      "region": "QC",
+      "country": "Canada",
+      "level": "Regional",
+      "format": "Sprint",
+      "verification": "Secondary",
+      "classes": "Briggs LO206",
+      "source": "https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/",
+      "notes": "2027 dates reported Oct 20 2026 from Cup Karts Canada organizer announcement; organizer 2027 event and registration page not yet verified.",
+      "id": "6c285936039d"
     },
     {
       "start": "2027-09-03",
