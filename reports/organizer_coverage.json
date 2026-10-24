@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:43:40+00:00",
+  "generated_at": "2026-10-24T15:30:25+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -1515,7 +1515,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -1533,7 +1533,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4005,7 +4005,7 @@
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 1,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -4021,7 +4021,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5493,13 +5493,6 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "4677186fd6",
-      "name": "Portland Karting Association",
-      "priority": 2,
-      "reason": "event_review",
-      "upcoming_events": 1
-    },
-    {
       "organizer_id": "org-aebe1a6980",
       "name": "Rotax Racing Club California",
       "priority": 2,
@@ -6216,6 +6209,13 @@
     {
       "organizer_id": "e3b9a37938",
       "name": "Music City Kartplex",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "4677186fd6",
+      "name": "Portland Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1

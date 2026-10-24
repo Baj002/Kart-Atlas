@@ -80,10 +80,10 @@
       "region": "BC",
       "country": "Canada",
       "kind": "Club / Track",
-      "research_status": "2026/27 race listing found",
+      "research_status": "2026 schedule reviewed; 2027 dates not verified as of 2026-10-24",
       "schedule_url": "https://www.westcoastkartclub.ca/schedule",
       "source_description": "Organizer / schedule",
-      "notes": "Legacy community index; not proof this club still races.",
+      "notes": "Official club schedule includes 2026 races. No 2027 event dates verified on the checked page; do not infer that a full 2027 schedule is unpublished.",
       "monitor_id": "wckc"
     },
     {
@@ -1891,6 +1891,20 @@
       "source_description": "Official organizer calendar",
       "notes": "Briggs owner-kart circuit racing. Official 2026 final event announcement verified.",
       "monitor_id": "point-pelee-official"
+    },
+    {
+      "id": "canada-east-kartsport",
+      "name": "Canada East Kartsport / Champlain MP",
+      "venue": "Canada East Kart Sport",
+      "city": "Greater Lakeburn",
+      "region": "NB",
+      "country": "Canada",
+      "kind": "Club / Series",
+      "research_status": "2026 organizer registration verified; 2027 race schedule not verified as of 2026-10-24",
+      "schedule_url": "https://www.motorsportreg.com/orgs/canada-east-kartsport-champlain-mp",
+      "source_description": "Organizer MotorsportReg account (2026 season race waiver; not a race-date calendar)",
+      "notes": "Competition karting organizer confirmed in 2026. The 2026 season waiver is NOT a race event and must not be imported as one. No 2027 dates verified.",
+      "monitor_id": "ceks-msr-official"
     }
   ]
 }
