@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-23T15:26:00+00:00",
+  "updated": "2026-10-24T13:46:58+00:00",
   "records": {
     "1e2d54f2db40": {
       "registration_deadline": "2026-11-11T01:00:00+00:00",
       "registration_status": "open",
       "registration_evidence": "https://raceselect.com/skusa/2026",
       "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
-      "registration_checked_at": "2026-10-23T15:26:00+00:00"
+      "registration_checked_at": "2026-10-24T13:46:58+00:00"
     }
   },
   "checks": [
