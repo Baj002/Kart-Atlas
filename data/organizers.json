@@ -15,7 +15,8 @@
       "city": "Strathmore",
       "primary_url": "https://ckrc.com/event-schedule/",
       "source_ids": [
-        "ckrc"
+        "ckrc",
+        "ckrc-msr-official"
       ],
       "scope_status": "eligible",
       "scope_reason": null,
