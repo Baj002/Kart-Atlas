@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:30:25+00:00",
+  "generated_at": "2026-10-25T13:44:09+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 47,
     "with_reached_sources": 41,
-    "with_health_issues": 8,
+    "with_health_issues": 10,
     "unmatched_races": 0
   },
   "organizers": [
@@ -248,19 +248,20 @@
         "wckc-events"
       ],
       "sources_reached": [
-        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "wckc"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 8,
-          "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -1375,9 +1376,11 @@
         "cckra-official",
         "cckra-registration"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "cckra-registration"
+      ],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 1,
       "seasons": [
         {
           "year": 2026,
@@ -1515,7 +1518,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1533,7 +1536,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1713,8 +1716,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 5,
-          "upcoming_events": 5,
-          "recently_verified_upcoming": 5,
+          "upcoming_events": 4,
+          "recently_verified_upcoming": 4,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4287,8 +4290,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 4,
-          "upcoming_events": 4,
-          "recently_verified_upcoming": 4,
+          "upcoming_events": 3,
+          "recently_verified_upcoming": 3,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4430,8 +4433,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 2,
-          "upcoming_events": 2,
-          "recently_verified_upcoming": 1,
+          "upcoming_events": 1,
+          "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [
             "0f56284dab4e"
           ],
@@ -5395,6 +5398,13 @@
       "upcoming_events": 5
     },
     {
+      "organizer_id": "2bc70035f8",
+      "name": "Central California Kart Racing Association",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 2
+    },
+    {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
       "priority": 1,
@@ -5458,13 +5468,6 @@
       "upcoming_events": 3
     },
     {
-      "organizer_id": "2bc70035f8",
-      "name": "Central California Kart Racing Association",
-      "priority": 2,
-      "reason": "event_review",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "dfa9031c7e",
       "name": "Karting Club México",
       "priority": 2,
@@ -5472,17 +5475,17 @@
       "upcoming_events": 2
     },
     {
-      "organizer_id": "f44d9b6b3e",
-      "name": "North Texas Karters",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "org-f298686f1d",
       "name": "Florida Karting Championship Series",
       "priority": 2,
       "reason": "source_not_configured",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "f44d9b6b3e",
+      "name": "North Texas Karters",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
       "upcoming_events": 1
     },
     {
@@ -6144,6 +6147,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "741e821d81",
       "name": "West Michigan Kart Club",
       "priority": 2,
@@ -6176,18 +6186,18 @@
       "name": "Norwalk Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
-      "upcoming_events": 5
-    },
-    {
-      "organizer_id": "5b3a3e4465",
-      "name": "Gulf Coast Karters",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
       "upcoming_events": 4
     },
     {
       "organizer_id": "03a3aabce6",
       "name": "AMR Motorplex",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 3
+    },
+    {
+      "organizer_id": "5b3a3e4465",
+      "name": "Gulf Coast Karters",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 3
@@ -6216,13 +6226,6 @@
     {
       "organizer_id": "4677186fd6",
       "name": "Portland Karting Association",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
