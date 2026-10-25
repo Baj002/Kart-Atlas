@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T13:47:24.515804+00:00",
+  "generated_at": "2026-10-25T16:08:40.754916+00:00",
   "year": 2027,
   "scope": "Owner-kart competition circuit racing only",
   "regions_checked": 13,
@@ -25,6 +25,7 @@
       "secondary_2027_races": 0,
       "configured_regional_sources": [
         "ckrc",
+        "ckrc-msr-official",
         "edkra",
         "edkra-home"
       ],
@@ -33,7 +34,7 @@
           "id": "6218beb207",
           "name": "Calgary Kart Racing Club",
           "scope_status": "eligible",
-          "season_2027": "source_unreachable"
+          "season_2027": "no_dates_verified"
         },
         {
           "id": "fd4250c918",

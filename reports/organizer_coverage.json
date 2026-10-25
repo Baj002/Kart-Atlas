@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T13:44:09+00:00",
+  "generated_at": "2026-10-25T16:05:54+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 47,
     "with_reached_sources": 41,
-    "with_health_issues": 10,
+    "with_health_issues": 11,
     "unmatched_races": 0
   },
   "organizers": [
@@ -21,9 +21,12 @@
       "country": "Canada",
       "scope_status": "eligible",
       "source_ids": [
-        "ckrc"
+        "ckrc",
+        "ckrc-msr-official"
       ],
-      "sources_reached": [],
+      "sources_reached": [
+        "ckrc-msr-official"
+      ],
       "unhealthy_sources": [
         "ckrc"
       ],
@@ -54,7 +57,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1518,7 +1521,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 1,
       "seasons": [
         {
           "year": 2026,
@@ -1536,7 +1539,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4008,7 +4011,7 @@
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -4024,7 +4027,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4981,10 +4984,10 @@
       "source_ids": [
         "monterrey-kart"
       ],
-      "sources_reached": [
+      "sources_reached": [],
+      "unhealthy_sources": [
         "monterrey-kart"
       ],
-      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5002,7 +5005,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5405,6 +5408,13 @@
       "upcoming_events": 2
     },
     {
+      "organizer_id": "c4eb0bca48",
+      "name": "Campeonato Kart Monterrey",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 1
+    },
+    {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
       "priority": 1,
@@ -5493,6 +5503,13 @@
       "name": "Oakland Valley Race Park",
       "priority": 2,
       "reason": "published_dates_need_reverification",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "4677186fd6",
+      "name": "Portland Karting Association",
+      "priority": 2,
+      "reason": "event_review",
       "upcoming_events": 1
     },
     {
@@ -6210,22 +6227,8 @@
       "upcoming_events": 2
     },
     {
-      "organizer_id": "c4eb0bca48",
-      "name": "Campeonato Kart Monterrey",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 1
-    },
-    {
       "organizer_id": "e3b9a37938",
       "name": "Music City Kartplex",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "4677186fd6",
-      "name": "Portland Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
