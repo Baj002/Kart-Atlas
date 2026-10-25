@@ -46,6 +46,21 @@
       "auto_import": false
     },
     {
+      "id": "ckrc-msr-official",
+      "club": "Calgary Kart Racing Club",
+      "country": "Canada",
+      "region": "AB",
+      "city": "Strathmore",
+      "venue": "Strathmore Motorsports Park",
+      "url": "https://www.motorsportreg.com/orgs/calgary-kart-racing-club",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Edmonton",
+      "event_name_pattern": "(?:CKRC Race|Rotax Western Canadian Final|North of 49 Karting Championship)",
+      "verified_on": "2026-10-25",
+      "category": "Official CKRC organizer listing on MotorsportReg; excludes memberships, waivers, practices, work parties and merchandise. Secondary source when ckrc.com blocks automated retrieval."
+    },
+    {
       "id": "edkra",
       "club": "Edmonton & District Kart Racing Association",
       "country": "Canada",
