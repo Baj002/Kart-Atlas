@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:05:54+00:00",
+  "generated_at": "2026-10-26T15:15:19+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -10,8 +10,8 @@
       "excluded": 2
     },
     "with_configured_sources": 47,
-    "with_reached_sources": 41,
-    "with_health_issues": 11,
+    "with_reached_sources": 42,
+    "with_health_issues": 9,
     "unmatched_races": 0
   },
   "organizers": [
@@ -251,11 +251,10 @@
         "wckc-events"
       ],
       "sources_reached": [
+        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [
-        "wckc"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -1379,9 +1378,7 @@
         "cckra-official",
         "cckra-registration"
       ],
-      "unhealthy_sources": [
-        "cckra-registration"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 1,
       "seasons": [
@@ -1389,10 +1386,9 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 2,
-          "upcoming_events": 2,
+          "upcoming_events": 1,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [
-            "9737e6db2c46",
             "d495b8eb3cc8"
           ],
           "declaration": null,
@@ -1521,17 +1517,15 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 1,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 1,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "ba1bef3716cc"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "ba1bef3716cc"
@@ -1539,7 +1533,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1560,7 +1554,9 @@
       "sources_reached": [
         "tri-c-official"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "tri-c-official"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -1764,8 +1760,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 3,
-          "upcoming_events": 3,
-          "recently_verified_upcoming": 3,
+          "upcoming_events": 2,
+          "recently_verified_upcoming": 2,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4011,14 +4007,14 @@
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 1,
-          "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4027,7 +4023,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4293,8 +4289,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 4,
-          "upcoming_events": 3,
-          "recently_verified_upcoming": 3,
+          "upcoming_events": 2,
+          "recently_verified_upcoming": 2,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4952,8 +4948,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 3,
-          "upcoming_events": 3,
-          "recently_verified_upcoming": 2,
+          "upcoming_events": 2,
+          "recently_verified_upcoming": 1,
           "unconfirmed_future_event_ids": [
             "0883f7a4ab63"
           ],
@@ -4984,10 +4980,10 @@
       "source_ids": [
         "monterrey-kart"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "monterrey-kart"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5005,7 +5001,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5394,25 +5390,18 @@
   ],
   "priorities": [
     {
+      "organizer_id": "49a6e0d3b5",
+      "name": "Tri-C Karters",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 11
+    },
+    {
       "organizer_id": "6958e0e3cd",
       "name": "United States Pro Kart Series",
       "priority": 1,
       "reason": "source_health",
       "upcoming_events": 5
-    },
-    {
-      "organizer_id": "2bc70035f8",
-      "name": "Central California Kart Racing Association",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 2
-    },
-    {
-      "organizer_id": "c4eb0bca48",
-      "name": "Campeonato Kart Monterrey",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 1
     },
     {
       "organizer_id": "1ff268557b",
@@ -5471,18 +5460,25 @@
       "upcoming_events": 4
     },
     {
-      "organizer_id": "07d1d6e854",
-      "name": "Spring Mountain Karting Complex",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 3
-    },
-    {
       "organizer_id": "dfa9031c7e",
       "name": "Karting Club México",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 2
+    },
+    {
+      "organizer_id": "07d1d6e854",
+      "name": "Spring Mountain Karting Complex",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 2
+    },
+    {
+      "organizer_id": "2bc70035f8",
+      "name": "Central California Kart Racing Association",
+      "priority": 2,
+      "reason": "event_review",
+      "upcoming_events": 1
     },
     {
       "organizer_id": "org-f298686f1d",
@@ -5506,22 +5502,8 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "4677186fd6",
-      "name": "Portland Karting Association",
-      "priority": 2,
-      "reason": "event_review",
-      "upcoming_events": 1
-    },
-    {
       "organizer_id": "org-aebe1a6980",
       "name": "Rotax Racing Club California",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "5ce320a5b9",
-      "name": "Santa Maria Karting Association",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 1
@@ -6031,6 +6013,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "5ce320a5b9",
+      "name": "Santa Maria Karting Association",
+      "priority": 2,
+      "reason": "source_not_configured",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "d9c03351d3",
       "name": "Snake River Karters",
       "priority": 2,
@@ -6164,13 +6153,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "741e821d81",
       "name": "West Michigan Kart Club",
       "priority": 2,
@@ -6210,14 +6192,14 @@
       "name": "AMR Motorplex",
       "priority": 3,
       "reason": "season_dates_not_verified",
-      "upcoming_events": 3
+      "upcoming_events": 2
     },
     {
       "organizer_id": "5b3a3e4465",
       "name": "Gulf Coast Karters",
       "priority": 3,
       "reason": "season_dates_not_verified",
-      "upcoming_events": 3
+      "upcoming_events": 2
     },
     {
       "organizer_id": "3d23b5a5ed",
@@ -6225,6 +6207,13 @@
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 2
+    },
+    {
+      "organizer_id": "c4eb0bca48",
+      "name": "Campeonato Kart Monterrey",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 1
     },
     {
       "organizer_id": "e3b9a37938",
@@ -6325,6 +6314,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "4677186fd6",
+      "name": "Portland Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "2020ef4216",
       "name": "Puget Sound Go Kart Association",
       "priority": 3,
@@ -6362,6 +6358,13 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
