@@ -173,16 +173,16 @@
     {
       "id": "b87ed90c22",
       "name": "Sudbury Kart Club",
-      "venue": "Sudbury Kartway",
+      "venue": "Sudbury Kartways",
       "city": "Sudbury",
       "region": "ON",
       "country": "Canada",
       "kind": "Club / Track",
-      "research_status": "Directory lead — verify current season",
-      "schedule_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_description": "Web / PDF / social check",
-      "notes": "Legacy community index; not proof this club still races.",
-      "monitor_id": null
+      "research_status": "Official 2026 schedule checked; 2027 not posted as of 2026-10-26",
+      "schedule_url": "https://sudburykartclub.com/race-results/",
+      "source_description": "Official club schedule",
+      "notes": "Official club publishes 2026 championship race dates; 2027 schedule not verified as of 2026-10-26.",
+      "monitor_id": "sudbury-official"
     },
     {
       "id": "dfd51a1937",
