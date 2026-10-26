@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-26T15:15:19+00:00",
+  "generated_at": "2026-10-26T16:18:37+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 144,
+    "organizers": 145,
     "by_scope": {
-      "eligible": 48,
-      "needs_review": 94,
+      "eligible": 50,
+      "needs_review": 93,
       "excluded": 2
     },
-    "with_configured_sources": 47,
-    "with_reached_sources": 42,
+    "with_configured_sources": 49,
+    "with_reached_sources": 44,
     "with_health_issues": 9,
     "unmatched_races": 0
   },
@@ -559,9 +559,13 @@
       "organizer_id": "b87ed90c22",
       "name": "Sudbury Kart Club",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "sudbury-official"
+      ],
+      "sources_reached": [
+        "sudbury-official"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
@@ -588,7 +592,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -720,11 +724,13 @@
       "country": "Canada",
       "scope_status": "eligible",
       "source_ids": [
-        "coupe-montreal"
+        "coupe-montreal",
+        "coupe-montreal-calendar"
       ],
       "sources_reached": [],
       "unhealthy_sources": [
-        "coupe-montreal"
+        "coupe-montreal",
+        "coupe-montreal-calendar"
       ],
       "stale_sources": [],
       "review_candidates": 0,
@@ -1517,7 +1523,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 3,
       "seasons": [
         {
           "year": 2026,
@@ -1533,7 +1539,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5386,6 +5392,43 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "rmc-ontario",
+      "name": "Rotax MAX Challenge Ontario",
+      "country": "Canada",
+      "scope_status": "eligible",
+      "source_ids": [
+        "rmc-ontario-official"
+      ],
+      "sources_reached": [
+        "rmc-ontario-official"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -6048,13 +6091,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "b87ed90c22",
-      "name": "Sudbury Kart Club",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "4eb3d849f8",
       "name": "Sugar River Raceway",
       "priority": 2,
@@ -6335,6 +6371,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "rmc-ontario",
+      "name": "Rotax MAX Challenge Ontario",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "36000e0d27",
       "name": "Saskatoon Kart Racers",
       "priority": 3,
@@ -6344,6 +6387,13 @@
     {
       "organizer_id": "7cf3364e46",
       "name": "South Sask Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "b87ed90c22",
+      "name": "Sudbury Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0

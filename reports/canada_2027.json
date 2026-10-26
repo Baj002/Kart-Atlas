@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:18:41.804092+00:00",
+  "generated_at": "2026-10-26T16:21:13.269413+00:00",
   "year": 2027,
   "scope": "Owner-kart competition circuit racing only",
   "regions_checked": 13,
@@ -29,6 +29,39 @@
         "edkra",
         "edkra-home"
       ],
+      "source_health": [
+        {
+          "id": "ckrc",
+          "status": "unreachable",
+          "last_success": null,
+          "consecutive_failures": 20
+        },
+        {
+          "id": "ckrc-msr-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "edkra",
+          "status": "unreachable",
+          "last_success": null,
+          "consecutive_failures": 20
+        },
+        {
+          "id": "edkra-home",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [
         {
           "id": "6218beb207",
@@ -58,6 +91,39 @@
         "kartplex-owner-racing",
         "vika-registration"
       ],
+      "source_health": [
+        {
+          "id": "wckc",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "wckc-events",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "kartplex-owner-racing",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "vika-registration",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [
         {
           "id": "86c4970101",
@@ -104,6 +170,33 @@
         "mka-home",
         "mka-registration"
       ],
+      "source_health": [
+        {
+          "id": "mka",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "mka-home",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "mka-registration",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [
         {
           "id": "d86e08e4b8",
@@ -124,6 +217,21 @@
       "configured_regional_sources": [
         "ceks-msr-official"
       ],
+      "source_health": [
+        {
+          "id": "ceks-msr-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [
         {
           "id": "canada-east-kartsport",
@@ -142,6 +250,14 @@
       "official_2027_races": 0,
       "secondary_2027_races": 0,
       "configured_regional_sources": [],
+      "source_health": [],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [],
       "events": []
     },
@@ -155,6 +271,21 @@
       "configured_regional_sources": [
         "amka-schedule"
       ],
+      "source_health": [
+        {
+          "id": "amka-schedule",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [
         {
           "id": "d81434ea35",
@@ -173,6 +304,14 @@
       "official_2027_races": 0,
       "secondary_2027_races": 0,
       "configured_regional_sources": [],
+      "source_health": [],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [],
       "events": []
     },
@@ -184,6 +323,14 @@
       "official_2027_races": 0,
       "secondary_2027_races": 0,
       "configured_regional_sources": [],
+      "source_health": [],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [],
       "events": []
     },
@@ -206,8 +353,103 @@
         "wrkc",
         "lombardy-official",
         "point-pelee-official",
-        "mika-official"
+        "mika-official",
+        "sudbury-official",
+        "rmc-ontario-official"
       ],
+      "source_health": [
+        {
+          "id": "goodwood-ics",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "hamilton-ics",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "goodwood-trak",
+          "status": "unexpected_empty",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "hrkc",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "nckc",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "kartstars-canada",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "kartstars-regulations",
+          "status": "not_yet_scanned",
+          "last_success": null,
+          "consecutive_failures": 0
+        },
+        {
+          "id": "kartstars-schedule",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "wrkc",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "lombardy-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "point-pelee-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "mika-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "sudbury-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "rmc-ontario-official",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 2,
+        "missing_registration_deadlines": 2,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 2
+      },
       "organizers": [
         {
           "id": "d1c9f9004d",
@@ -236,8 +478,8 @@
         {
           "id": "b87ed90c22",
           "name": "Sudbury Kart Club",
-          "scope_status": "needs_review",
-          "season_2027": "no_source_configured"
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
         },
         {
           "id": "dfd51a1937",
@@ -260,6 +502,12 @@
         {
           "id": "org-1fa412ba78",
           "name": "KartStars Canada",
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "rmc-ontario",
+          "name": "Rotax MAX Challenge Ontario",
           "scope_status": "eligible",
           "season_2027": "no_dates_verified"
         }
@@ -291,6 +539,14 @@
       "official_2027_races": 0,
       "secondary_2027_races": 0,
       "configured_regional_sources": [],
+      "source_health": [],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [],
       "events": []
     },
@@ -302,8 +558,30 @@
       "official_2027_races": 0,
       "secondary_2027_races": 2,
       "configured_regional_sources": [
-        "coupe-montreal"
+        "coupe-montreal",
+        "coupe-montreal-calendar"
       ],
+      "source_health": [
+        {
+          "id": "coupe-montreal",
+          "status": "unreachable",
+          "last_success": null,
+          "consecutive_failures": 20
+        },
+        {
+          "id": "coupe-montreal-calendar",
+          "status": "unreachable",
+          "last_success": null,
+          "consecutive_failures": 1
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 2,
+        "missing_registration_deadlines": 2,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 2
+      },
       "organizers": [
         {
           "id": "c6c07bf0f1",
@@ -378,6 +656,27 @@
         "saskatoon",
         "south-sask"
       ],
+      "source_health": [
+        {
+          "id": "saskatoon",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "south-sask",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-26T16:18:37+00:00",
+          "consecutive_failures": 0
+        }
+      ],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [
         {
           "id": "36000e0d27",
@@ -402,6 +701,14 @@
       "official_2027_races": 0,
       "secondary_2027_races": 0,
       "configured_regional_sources": [],
+      "source_health": [],
+      "2027_data_completeness": {
+        "missing_registration_links": 0,
+        "missing_registration_deadlines": 0,
+        "missing_class_details": 0,
+        "missing_venue_details": 0,
+        "secondary_dates_pending_primary_confirmation": 0
+      },
       "organizers": [],
       "events": []
     }
