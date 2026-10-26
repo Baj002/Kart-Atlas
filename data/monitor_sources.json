@@ -1325,6 +1325,21 @@
       "timezone": "America/Moncton",
       "event_name_pattern": "(?:CEKS|Canada East|Champlain|CKRA).*(?:Championship|Club Race|Race [#0-9])",
       "verified_on": "2026-10-22"
+    },
+    {
+      "id": "sudbury-official",
+      "club": "Sudbury Kart Club",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Sudbury",
+      "venue": "Sudbury Kartways",
+      "url": "https://sudburykartclub.com/race-results/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:Race\\s*#?\\s*\\d+|Technica Mining Karting Championship)",
+      "verified_on": "2026-10-26",
+      "category": "Owner-kart competition only; exclude training, practice, rain dates and banquets"
     }
   ]
 }
