@@ -1340,6 +1340,36 @@
       "event_name_pattern": "(?:Race\\s*#?\\s*\\d+|Technica Mining Karting Championship)",
       "verified_on": "2026-10-26",
       "category": "Owner-kart competition only; exclude training, practice, rain dates and banquets"
+    },
+    {
+      "id": "coupe-montreal-calendar",
+      "club": "Coupe de Montréal",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Montréal",
+      "venue": "Various",
+      "url": "https://coupedemontreal.com/calendrier-resultats/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:Manche\\s*#?\\s*\\d+|Coupe de Montr[eé]al)",
+      "verified_on": "2026-10-26",
+      "category": "Official owner-kart championship schedule; require verified round venue before publication"
+    },
+    {
+      "id": "rmc-ontario-official",
+      "club": "Rotax MAX Challenge Ontario",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://rmcontario.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:RMC Ontario|Rotax Max Challenge Ontario|Canadian Open)",
+      "verified_on": "2026-10-26",
+      "category": "Official owner-kart Rotax championship; require venue verification before publication"
     }
   ]
 }
