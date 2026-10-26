@@ -254,16 +254,21 @@
     {
       "id": "b87ed90c22",
       "name": "Sudbury Kart Club",
-      "aliases": [],
+      "aliases": [
+        "Sudbury Kart Club",
+        "Technica Mining Karting Championship"
+      ],
       "country": "Canada",
       "region": "ON",
-      "venue": "Sudbury Kartway",
+      "venue": "Sudbury Kartways",
       "city": "Sudbury",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
+      "primary_url": "https://sudburykartclub.com/race-results/",
+      "source_ids": [
+        "sudbury-official"
+      ],
+      "scope_status": "eligible",
       "scope_reason": null,
-      "verification": "directory_lead",
+      "verification": "reviewed_organizer",
       "season_declarations": []
     },
     {
