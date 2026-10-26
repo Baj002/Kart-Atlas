@@ -24,6 +24,7 @@ def build():
     sources = load("data/monitor_sources.json")["sources"]
     audit = load("reports/organizer_coverage.json")
     health = {o["organizer_id"]: o for o in audit.get("organizers", [])}
+    source_health = {s["source_id"]: s for s in load("reports/discovery.json").get("source_health", [])}
     upcoming = [e for e in races if e.get("country") == "Canada"
                 and str(e.get("start", "")).startswith("2027")]
     entries = []
@@ -49,6 +50,20 @@ def build():
             "official_2027_races": official,
             "secondary_2027_races": secondary,
             "configured_regional_sources": [s["id"] for s in sources_here],
+            "source_health": [
+                {"id": src["id"],
+                 "status": source_health.get(src["id"], {}).get("status", "not_yet_scanned"),
+                 "last_success": source_health.get(src["id"], {}).get("last_success"),
+                 "consecutive_failures": source_health.get(src["id"], {}).get("consecutive_failures", 0)}
+                for src in sources_here
+            ],
+            "2027_data_completeness": {
+                "missing_registration_links": sum(not e.get("registration_url") for e in races_here),
+                "missing_registration_deadlines": sum(not e.get("registration_deadline") for e in races_here),
+                "missing_class_details": sum(not e.get("classes") for e in races_here),
+                "missing_venue_details": sum(not e.get("venue") or e.get("venue") in ("Various", "TBA") for e in races_here),
+                "secondary_dates_pending_primary_confirmation": secondary,
+            },
             "organizers": [
                 {"id": o["id"], "name": o["name"],
                  "scope_status": o.get("scope_status", "needs_review"),
