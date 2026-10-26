@@ -338,7 +338,8 @@
       "city": "Montréal",
       "primary_url": "https://coupedemontreal.com/",
       "source_ids": [
-        "coupe-montreal"
+        "coupe-montreal",
+        "coupe-montreal-calendar"
       ],
       "scope_status": "eligible",
       "scope_reason": null,
@@ -2409,6 +2410,26 @@
       "primary_url": "https://www.motorsportreg.com/orgs/canada-east-kartsport-champlain-mp",
       "source_ids": [
         "ceks-msr-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "rmc-ontario",
+      "name": "Rotax MAX Challenge Ontario",
+      "aliases": [
+        "RMC Ontario",
+        "Rotax Max Challenge Ontario"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://rmcontario.com/",
+      "source_ids": [
+        "rmc-ontario-official"
       ],
       "scope_status": "eligible",
       "scope_reason": null,
