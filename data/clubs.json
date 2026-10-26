@@ -1933,6 +1933,20 @@
       "source_description": "Organizer MotorsportReg account (2026 season race waiver; not a race-date calendar)",
       "notes": "Competition karting organizer confirmed in 2026. The 2026 season waiver is NOT a race event and must not be imported as one. No 2027 dates verified.",
       "monitor_id": "ceks-msr-official"
+    },
+    {
+      "id": "rmc-ontario",
+      "name": "Rotax MAX Challenge Ontario",
+      "venue": "Multiple Ontario kart circuits",
+      "city": "Various",
+      "region": "ON",
+      "country": "Canada",
+      "kind": "Regional Series",
+      "research_status": "Official 2026 championship calendar checked; 2027 dates not verified as of 2026-10-26",
+      "schedule_url": "https://rmcontario.com/",
+      "source_description": "Official championship website",
+      "notes": "2026 series rounds at Hamilton, Mosport, Toronto Motorsports Park and Canadian Open at iCar; do not assume 2027 venues or dates.",
+      "monitor_id": "rmc-ontario-official"
     }
   ]
 }
