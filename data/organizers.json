@@ -2435,6 +2435,26 @@
       "scope_reason": null,
       "verification": "reviewed_organizer",
       "season_declarations": []
+    },
+    {
+      "id": "bsc-ontario",
+      "name": "Briggs & Stratton Challenge Ontario",
+      "aliases": [
+        "BSC Ontario",
+        "Briggs & Stratton Challenge Ontario"
+      ],
+      "country": "Canada",
+      "region": "ON",
+      "venue": "Various",
+      "city": "Various",
+      "primary_url": "https://bscontario.com/schedule/",
+      "source_ids": [
+        "bsc-ontario-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
     }
   ]
 }
