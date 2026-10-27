@@ -1370,6 +1370,21 @@
       "event_name_pattern": "(?:RMC Ontario|Rotax Max Challenge Ontario|Canadian Open)",
       "verified_on": "2026-10-26",
       "category": "Official owner-kart Rotax championship; require venue verification before publication"
+    },
+    {
+      "id": "bsc-ontario-official",
+      "club": "Briggs & Stratton Challenge Ontario",
+      "country": "Canada",
+      "region": "ON",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://bscontario.com/schedule/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:BSC Ontario|BSC Round|Briggs.{0,30}Challenge Ontario|Constructors Cup)",
+      "verified_on": "2026-10-27",
+      "category": "Official owner-kart Briggs LO206 championship; 2026 schedule published, 2027 dates not verified; require specific track and year before publication"
     }
   ]
 }
