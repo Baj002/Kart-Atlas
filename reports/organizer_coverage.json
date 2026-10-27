@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:18:37+00:00",
+  "generated_at": "2026-10-27T14:02:38+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -422,7 +422,7 @@
         },
         {
           "year": 2027,
-          "status": "not_announced",
+          "status": "declaration_stale",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1523,7 +1523,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 3,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1539,7 +1539,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
