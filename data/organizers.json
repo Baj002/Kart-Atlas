@@ -179,9 +179,9 @@
         {
           "year": 2027,
           "status": "not_announced",
-          "reviewed_on": "2026-10-19",
+          "reviewed_on": "2026-10-28",
           "evidence": "https://hamiltonkartingcomplex.com/",
-          "note": "Official HRKC page says its 2027 racing schedule is coming soon."
+          "note": "Official HRKC club-racing page explicitly says 2027 HRKC racing schedule coming soon; this statement excludes the separate rental/arrive-and-drive schedule."
         }
       ]
     },
@@ -370,11 +370,15 @@
       "venue": "Le Circuit Quyon",
       "city": "Quyon",
       "primary_url": "https://www.lecircuitquyon.com/",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "source_ids": [
+        "ogkc-quyon-official"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official Le Circuit Quyon distinguishes competitive karting/OGKC from its rental race league; federation lists OGKC as a kart club.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-10-28",
+      "evidence": "https://www.lecircuitquyon.com/"
     },
     {
       "id": "81de8ba0b6",
@@ -385,11 +389,15 @@
       "venue": "SC Performance Karting",
       "city": "Saint-Célestin",
       "primary_url": "https://scperformance.ca/",
-      "source_ids": [],
+      "source_ids": [
+        "scperformance-coupe-montreal"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
-      "season_declarations": []
+      "season_declarations": [],
+      "reviewed_on": "2026-10-28",
+      "evidence": "https://scperformance.ca/karting/karting-courses-et-evenements/"
     },
     {
       "id": "0881b89dc0",
@@ -415,11 +423,15 @@
       "venue": "TAG Karting",
       "city": "Mont-Tremblant",
       "primary_url": "https://www.tagekarting.com/",
-      "source_ids": [],
+      "source_ids": [
+        "tag-academy-coupe-montreal"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
-      "season_declarations": []
+      "season_declarations": [],
+      "reviewed_on": "2026-10-28",
+      "evidence": "https://www.academietagkarting.com/competitions/coupe-montreal-karting"
     },
     {
       "id": "36000e0d27",
