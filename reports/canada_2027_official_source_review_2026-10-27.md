@@ -46,3 +46,20 @@ The organizer's public schedule https://www.cupkarts.com/schedule/ still surface
 - Remaining blockers: verify primary Cup Karts 2027 event pages; monitor official provincial schedules as released; improve Quebec source reach and Ontario organizer coverage; identify verified organizers/sources in NL, NT, NU, PE, YT; verify generated dataset and live deployment after refresh.
 
 This document is a dated research snapshot; the daily generated `reports/canada_2027.json` and official source pages remain authoritative for newer changes.
+
+## Follow-up verification — 2026-10-28
+
+The generated 2027 audit now lists **all 13 provinces/territories**, **four Canadian 2027 event records** (two Ontario, two Quebec), and **zero primary-source-confirmed 2027 dates**. All four are labelled Secondary. The four published weekends remain May 28–30, June 25–27, July 23–25 and September 3–5. The official CKNA schedule still shows 2026 events, so the reported 2027 dates must not be silently upgraded to official or assigned 2027 registration deadlines.
+
+**Ontario:** Hamilton Karting Complex explicitly states **“2027 HRKC racing schedule coming soon”** in its club-racing section: https://hamiltonkartingcomplex.com/ . Its dated 2027 non-announcement declaration was reverified on October 28. This applies to the owner-kart HRKC series, **not** the separate rental/arrive-and-drive league.
+
+**Quebec:** Both Coupe de Montréal sources still return HTTP 403 to the repository scanner, despite their public 2026 calendar being visible via external search: https://coupedemontreal.com/calendrier-resultats/ . To improve independent primary-source reach, the monitoring registry now also includes:
+- **Ottawa Gatineau Karting Championship / Le Circuit Quyon**: https://www.lecircuitquyon.com/ — the venue explicitly distinguishes competitive karting from rental leagues and says it will reopen in spring 2027, but provides no dated 2027 competition calendar.
+- **Académie TAG Karting, Coupe de Montréal host page**: https://www.academietagkarting.com/competitions/coupe-montreal-karting — shows prior Coupe de Montréal rounds; displayed month/day text lacks an explicit 2027 year.
+- **SC Performance Karting, Coupe de Montréal host page**: https://scperformance.ca/karting/karting-courses-et-evenements/ — its 2026 page mixes rental SWS series with an owner-kart Coupe de Montréal weekend. Only Coupe de Montréal is eligible; no 2027 dates verified.
+
+These new host sources are monitored with event-name restrictions and explicit rental exclusions. **Adding a monitoring source does not establish that its 2027 calendar has been published or successfully crawled.** The next scheduled discovery run must confirm reach and safe parsing. The organizer registry now links these sources to the correct Quebec leads; OGKC has independent official-track and Quebec federation evidence of competitive karting (https://www.lasq.ca/karting).
+
+**Repository snapshot, 2026-10-28:** 122 Canadian race records across 2026–2027, four 2027 records, 104/131 sources reached, 42 scan errors before the three new sources were added. The 2027 report correctly distinguishes missing-source jurisdictions (NL, NT, NU, PE, YT) from jurisdictions with monitored sources but no verified 2027 dates. No evidence supports claiming the complete 2027 Canadian season is available.
+
+**Deployment remains unconfirmed:** Requests to the public Workers URL and its /events.json were inaccessible from the review environment. Do not mark Canadian coverage complete until the published site and its event payload can be read and compared with repository output. This limitation also prevents confirming that today's registry changes have reached production.
