@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-27T14:02:38+00:00",
+  "generated_at": "2026-10-28T14:11:08+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 145,
+    "organizers": 146,
     "by_scope": {
-      "eligible": 50,
+      "eligible": 51,
       "needs_review": 93,
       "excluded": 2
     },
-    "with_configured_sources": 49,
-    "with_reached_sources": 44,
+    "with_configured_sources": 50,
+    "with_reached_sources": 45,
     "with_health_issues": 9,
     "unmatched_races": 0
   },
@@ -1523,7 +1523,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -1539,7 +1539,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1584,8 +1584,17 @@
           "status": "indexed_future_events",
           "indexed_events": 9,
           "upcoming_events": 9,
-          "recently_verified_upcoming": 9,
-          "unconfirmed_future_event_ids": [],
+          "recently_verified_upcoming": 1,
+          "unconfirmed_future_event_ids": [
+            "auto-848b4674958d8a2c",
+            "auto-7f743ae877800c6a",
+            "auto-6188fc3542bffd68",
+            "auto-130e269a27a7320a",
+            "auto-5ce58e5ac05d3599",
+            "auto-af58ed7d7f82f348",
+            "auto-e5a00bbe9cc1a217",
+            "auto-7204c453b328d0fb"
+          ],
           "declaration": null,
           "event_ids": [
             "auto-c0f9952a08360ecb",
@@ -5429,6 +5438,47 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "bsc-ontario",
+      "name": "Briggs & Stratton Challenge Ontario",
+      "country": "Canada",
+      "scope_status": "eligible",
+      "source_ids": [
+        "bsc-ontario-official"
+      ],
+      "sources_reached": [
+        "bsc-ontario-official"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "past_events_only",
+          "indexed_events": 3,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": [
+            "69397fe1ebf4",
+            "7d069a77d4b9",
+            "68643253a82c"
+          ]
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -6268,6 +6318,13 @@
     {
       "organizer_id": "163cbaed0b",
       "name": "Badger Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "bsc-ontario",
+      "name": "Briggs & Stratton Challenge Ontario",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
