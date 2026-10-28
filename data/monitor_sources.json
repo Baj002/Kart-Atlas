@@ -1385,6 +1385,51 @@
       "event_name_pattern": "(?:BSC Ontario|BSC Round|Briggs.{0,30}Challenge Ontario|Constructors Cup)",
       "verified_on": "2026-10-27",
       "category": "Official owner-kart Briggs LO206 championship; 2026 schedule published, 2027 dates not verified; require specific track and year before publication"
+    },
+    {
+      "id": "ogkc-quyon-official",
+      "club": "Ottawa Gatineau Karting Championship / Le Circuit Quyon",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Quyon",
+      "venue": "Le Circuit Quyon",
+      "url": "https://www.lecircuitquyon.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:OGKC|Ottawa.Gatineau Karting|Competitive Karting|Club Race)",
+      "verified_on": "2026-10-28",
+      "category": "Official track links to OGKC owner-kart competition; exclude its rental karting and rental race league. A 2027 reopening statement is not a dated race schedule."
+    },
+    {
+      "id": "tag-academy-coupe-montreal",
+      "club": "Académie TAG Karting / Coupe de Montréal",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Mont-Tremblant",
+      "venue": "Académie TAG Karting",
+      "url": "https://www.academietagkarting.com/competitions/coupe-montreal-karting",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:Coupe de Montr[eé]al|Manche\\s*#?\\s*\\d+)",
+      "verified_on": "2026-10-28",
+      "category": "Official host venue competition page. Exclude rental and recreational sessions; dates lacking an explicit season/year must not be promoted to 2027."
+    },
+    {
+      "id": "scperformance-coupe-montreal",
+      "club": "SC Performance Karting / Coupe de Montréal",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Saint-Célestin",
+      "venue": "SC Performance Karting",
+      "url": "https://scperformance.ca/karting/karting-courses-et-evenements/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "Coupe de Montr[eé]al",
+      "verified_on": "2026-10-28",
+      "category": "Official track events page mixes SWS rental championships with Coupe de Montréal owner-kart rounds. Exclude SWS and rental events; no unverified 2027 dates."
     }
   ]
 }
