@@ -1430,6 +1430,36 @@
       "event_name_pattern": "Coupe de Montr[eé]al",
       "verified_on": "2026-10-28",
       "category": "Official track events page mixes SWS rental championships with Coupe de Montréal owner-kart rounds. Exclude SWS and rental events; no unverified 2027 dates."
+    },
+    {
+      "id": "vika-race-calendar",
+      "club": "Vancouver Island Karting Association",
+      "country": "Canada",
+      "region": "BC",
+      "city": "Cowichan",
+      "venue": "Vancouver Island Motorsport Circuit",
+      "url": "https://vika.ca/race-calendar/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Vancouver",
+      "event_name_pattern": "VIKA|RACE|Club|Championship",
+      "verified_on": "2026-10-29",
+      "category": "Official VIKA owner-kart club race calendar; 2026 dates only as of verification. Ignore cancelled events and practice; do not infer 2027 dates."
+    },
+    {
+      "id": "vika-bc-regional",
+      "club": "BC Regional Karting Championship",
+      "country": "Canada",
+      "region": "BC",
+      "city": "Various",
+      "venue": "Various BC kart tracks",
+      "url": "https://vika.ca/bc-regional-races/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Vancouver",
+      "event_name_pattern": "BC Regional|RACE|Round|Championship",
+      "verified_on": "2026-10-29",
+      "category": "Official BC regional race calendar hosted by VIKA; 2026 dates only as of verification. Exclude practice; verify venue per round."
     }
   ]
 }
