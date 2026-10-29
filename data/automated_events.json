@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T14:11:08+00:00",
+  "updated": "2026-10-29T14:14:51+00:00",
   "events": [
     {
       "id": "auto-5a738b3178cb",
@@ -296,8 +296,8 @@
       "pdf_page": 1,
       "id": "auto-021cc4fafc417b71",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Club Kart Race #11",
@@ -325,8 +325,8 @@
       "pdf_page": 1,
       "id": "auto-52a52fd438a78958",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "NYS CHAMPIONSHIP/CLUB RACE #15",
@@ -353,8 +353,8 @@
       "publication_needs_review": false,
       "id": "auto-0fc6a96508f2aeed",
       "first_seen": "2026-10-19T02:20:34+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 1",
@@ -383,8 +383,8 @@
       "curated_id": "bf89c2c303a6",
       "id": "auto-4acbc86aa27b073d",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "TRAK Multi-Class Enduro",
@@ -439,8 +439,8 @@
       "pdf_page": 1,
       "id": "auto-1b9b2a76931a3cb1",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
@@ -500,6 +500,34 @@
       "last_verified": "2026-10-27T14:02:38+00:00"
     },
     {
+      "name": "Rhythm & Race Championship Series: Round 10 (Season Finale)",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "organizer": "Music City Kartplex",
+      "venue": "Music City Kartplex",
+      "city": "Shelbyville",
+      "region": "TN",
+      "country": "USA",
+      "source": "https://musiccitykartplex.com/series/schedule",
+      "uid": "https://musiccitykartplex.com/series/schedule#2026-11-07",
+      "feed_id": "music-city-series",
+      "status": "scheduled",
+      "status_explicit": false,
+      "format": "Sprint",
+      "level": "Club",
+      "verification": "Automated",
+      "classes": "",
+      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "discovered_from": "https://musiccitykartplex.com/series",
+      "parser": "jsonld",
+      "location_needs_review": false,
+      "publication_needs_review": false,
+      "id": "auto-d5ae73c1282ffc06",
+      "first_seen": "2026-10-29T14:14:51+00:00",
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
+    },
+    {
       "name": "Club Kart Race #12",
       "start": "2026-11-08",
       "end": "2026-11-08",
@@ -525,8 +553,8 @@
       "pdf_page": 1,
       "id": "auto-f9e296631f4bb0b4",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Spring Mountain Karting Series Race",
@@ -554,8 +582,8 @@
       "pdf_page": 1,
       "id": "auto-d07820058807dbbe",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "SKUSA SuperNationals 29",
@@ -584,8 +612,8 @@
       "curated_id": "1e2d54f2db40",
       "id": "auto-f07656e04ae872aa",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -613,8 +641,8 @@
       "pdf_page": 1,
       "id": "auto-ee0faec5e411a5c8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 2",
@@ -643,8 +671,8 @@
       "curated_id": "5b1f9274ffb2",
       "id": "auto-684182648caf33ef",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Norwalk Club Race",
@@ -672,8 +700,8 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 1",
@@ -701,8 +729,8 @@
       "shared_source_url": true,
       "id": "auto-5ab78f8c44c0cc97",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "AMR Karting Challenge",
@@ -730,8 +758,8 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "id": "auto-fee3fbd995363934",
@@ -759,8 +787,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Campeonato Kart Monterrey — SEXTA ETAPA",
@@ -788,8 +816,8 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 3",
@@ -818,8 +846,8 @@
       "curated_id": "05059067c8df",
       "id": "auto-4d65d83f21b7e37e",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 2",
@@ -847,8 +875,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "id": "auto-428c82650c5b3a5b",
@@ -876,8 +904,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Spring Mountain Karting Series Race",
@@ -905,8 +933,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "AMR Karting Challenge",
@@ -934,8 +962,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 4",
@@ -964,8 +992,8 @@
       "curated_id": "4208ae2b35c9",
       "id": "auto-dcb65481dd27afd4",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 5",
@@ -994,8 +1022,8 @@
       "curated_id": "8eabfebc7421",
       "id": "auto-a8d2ec56b0593540",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Cactus Cup",
@@ -1024,8 +1052,8 @@
       "curated_id": "78b897cddd42",
       "id": "auto-eff123faf1e0d688",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "SKUSA Winter Series Rounds 1/2",
@@ -1054,8 +1082,8 @@
       "curated_id": "7758fddb9bd1",
       "id": "auto-7ce57f877406ac52",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 3",
@@ -1083,8 +1111,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 1",
@@ -1142,8 +1170,8 @@
       "curated_id": "90d8ad70ba29",
       "id": "auto-7d148cfcda1b4c79",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "SKUSA Winter Series Rounds 3/4",
@@ -1172,8 +1200,8 @@
       "curated_id": "6622456fede1",
       "id": "auto-26266b8503da205b",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 7",
@@ -1202,8 +1230,8 @@
       "curated_id": "69ffd03bfac4",
       "id": "auto-1968666c0e18972c",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 2",
@@ -1261,8 +1289,8 @@
       "curated_id": "f94f8de53b17",
       "id": "auto-dc06c874123dd80a",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "PKRA Winter Championship Round 9",
@@ -1291,8 +1319,8 @@
       "curated_id": "b4747467fb2a",
       "id": "auto-2a498173f79c26d8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 3",
@@ -1350,8 +1378,8 @@
       "curated_id": "bed34054b637",
       "id": "auto-c4e7e78df154a880",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "ROK Sonoma Triple Crown 1 — Round 1",
@@ -1380,8 +1408,8 @@
       "curated_id": "5d580cc95177",
       "id": "auto-7d42832846fb8d5f",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "ROK Sonoma Triple Crown 1 — Round 2",
@@ -1410,8 +1438,8 @@
       "curated_id": "e216105cbc71",
       "id": "auto-8dcb138c03f4c794",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 4",
@@ -1469,8 +1497,8 @@
       "curated_id": "1bb0a6b3dee8",
       "id": "auto-785d19c434da0fcd",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 5",
@@ -1528,8 +1556,8 @@
       "curated_id": "352646a26717",
       "id": "auto-58198061b2cea319",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "ROK Fest West",
@@ -1558,8 +1586,8 @@
       "curated_id": "45b67f87c40b",
       "id": "auto-a4bbb639311ff05e",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 6",
@@ -1617,8 +1645,8 @@
       "curated_id": "94d7a39be9da",
       "id": "auto-d38b6bbd7168abd9",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 7",
@@ -1676,8 +1704,8 @@
       "curated_id": "e32c72034c7f",
       "id": "auto-57f96c84a5c8be55",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     },
     {
       "name": "Tri-C Club Series Championship Round 8",
@@ -1735,8 +1763,8 @@
       "curated_id": "e0b611ca1d97",
       "id": "auto-fbc14a8c304551a0",
       "first_seen": "2026-10-19T19:11:19+00:00",
-      "last_seen": "2026-10-28T14:11:08+00:00",
-      "last_verified": "2026-10-28T14:11:08+00:00"
+      "last_seen": "2026-10-29T14:14:51+00:00",
+      "last_verified": "2026-10-29T14:14:51+00:00"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-28T14:11:08+00:00",
+  "generated_at": "2026-10-29T14:14:51+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
     "organizers": 146,
     "by_scope": {
-      "eligible": 51,
-      "needs_review": 93,
+      "eligible": 52,
+      "needs_review": 92,
       "excluded": 2
     },
-    "with_configured_sources": 50,
-    "with_reached_sources": 45,
+    "with_configured_sources": 53,
+    "with_reached_sources": 48,
     "with_health_issues": 9,
     "unmatched_races": 0
   },
@@ -422,7 +422,7 @@
         },
         {
           "year": 2027,
-          "status": "declaration_stale",
+          "status": "not_announced",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -430,9 +430,9 @@
           "declaration": {
             "year": 2027,
             "status": "not_announced",
-            "reviewed_on": "2026-10-19",
+            "reviewed_on": "2026-10-28",
             "evidence": "https://hamiltonkartingcomplex.com/",
-            "note": "Official HRKC page says its 2027 racing schedule is coming soon."
+            "note": "Official HRKC club-racing page explicitly says 2027 HRKC racing schedule coming soon; this statement excludes the separate rental/arrive-and-drive schedule."
           },
           "event_ids": []
         }
@@ -802,16 +802,20 @@
       "organizer_id": "0e350f57c6",
       "name": "Ottawa Gatineau Karting Championship",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "ogkc-quyon-official"
+      ],
+      "sources_reached": [
+        "ogkc-quyon-official"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -821,7 +825,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -836,15 +840,19 @@
       "name": "SC Performance Karting Club",
       "country": "Canada",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "scperformance-coupe-montreal"
+      ],
+      "sources_reached": [
+        "scperformance-coupe-montreal"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -854,7 +862,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -902,15 +910,19 @@
       "name": "TAG Académie Karting",
       "country": "Canada",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "tag-academy-coupe-montreal"
+      ],
+      "sources_reached": [
+        "tag-academy-coupe-montreal"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -920,7 +932,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1523,7 +1535,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1539,7 +1551,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6008,13 +6020,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "0e350f57c6",
-      "name": "Ottawa Gatineau Karting Championship",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "c589996fb0",
       "name": "Pacific Grand Prix",
       "priority": 2,
@@ -6085,13 +6090,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "81de8ba0b6",
-      "name": "SC Performance Karting Club",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "0881b89dc0",
       "name": "SH Karting",
       "priority": 2,
@@ -6150,13 +6148,6 @@
     {
       "organizer_id": "142f3aa88b",
       "name": "T4 Kartplex",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "0d293fa1c5",
-      "name": "TAG Académie Karting",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6400,6 +6391,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "0e350f57c6",
+      "name": "Ottawa Gatineau Karting Championship",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "f7a8ec675f",
       "name": "Point Pelee Karting Club",
       "priority": 3,
@@ -6435,6 +6433,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "81de8ba0b6",
+      "name": "SC Performance Karting Club",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "36000e0d27",
       "name": "Saskatoon Kart Racers",
       "priority": 3,
@@ -6453,6 +6458,13 @@
       "name": "Sudbury Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "0d293fa1c5",
+      "name": "TAG Académie Karting",
+      "priority": 3,
+      "reason": "organizer_scope_review",
       "upcoming_events": 0
     },
     {
