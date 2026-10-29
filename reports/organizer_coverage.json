@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-29T14:14:51+00:00",
+  "generated_at": "2026-10-29T16:12:43+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
     "organizers": 146,
     "by_scope": {
-      "eligible": 52,
-      "needs_review": 92,
+      "eligible": 53,
+      "needs_review": 91,
       "excluded": 2
     },
-    "with_configured_sources": 53,
-    "with_reached_sources": 48,
+    "with_configured_sources": 54,
+    "with_reached_sources": 49,
     "with_health_issues": 9,
     "unmatched_races": 0
   },
@@ -210,10 +210,12 @@
       "country": "Canada",
       "scope_status": "eligible",
       "source_ids": [
-        "vika-registration"
+        "vika-registration",
+        "vika-race-calendar"
       ],
       "sources_reached": [
-        "vika-registration"
+        "vika-registration",
+        "vika-race-calendar"
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
@@ -221,13 +223,18 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "no_dates_verified",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 4,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "3611aa99d655",
+            "1fa282747750",
+            "b9953f17441a",
+            "299f80b1a4b1"
+          ]
         },
         {
           "year": 2027,
@@ -1535,7 +1542,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -1551,7 +1558,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5233,9 +5240,13 @@
       "organizer_id": "org-c834b6077c",
       "name": "BC Regional Karting Championship",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "vika-bc-regional"
+      ],
+      "sources_reached": [
+        "vika-bc-regional"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
@@ -5257,7 +5268,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5637,13 +5648,6 @@
     {
       "organizer_id": "b761f15d81",
       "name": "All Star Karting",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "org-c834b6077c",
-      "name": "BC Regional Karting Championship",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6302,6 +6306,13 @@
     {
       "organizer_id": "d81434ea35",
       "name": "Atlantic Motorsport Karters Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "org-c834b6077c",
+      "name": "BC Regional Karting Championship",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
