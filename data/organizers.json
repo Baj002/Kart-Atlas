@@ -87,7 +87,8 @@
       "city": "Cowichan",
       "primary_url": "https://vika.ca/registration/",
       "source_ids": [
-        "vika-registration"
+        "vika-registration",
+        "vika-race-calendar"
       ],
       "scope_status": "eligible",
       "scope_reason": "Official organizer page confirms owner-kart circuit racing.",
@@ -2360,10 +2361,15 @@
       "venue": "Various",
       "city": "Various",
       "primary_url": "https://www.westcoastkartclub.ca/schedule",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "verification": "research_target",
-      "season_declarations": []
+      "source_ids": [
+        "vika-bc-regional"
+      ],
+      "scope_status": "eligible",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "scope_reason": "Official VIKA BC Regional competition calendar confirms owner-kart regional championship rounds.",
+      "reviewed_on": "2026-10-29",
+      "evidence": "https://vika.ca/bc-regional-races/"
     },
     {
       "id": "org-135e8cffe3",
