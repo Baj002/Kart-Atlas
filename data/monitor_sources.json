@@ -1460,6 +1460,36 @@
       "event_name_pattern": "BC Regional|RACE|Round|Championship",
       "verified_on": "2026-10-29",
       "category": "Official BC regional race calendar hosted by VIKA; 2026 dates only as of verification. Exclude practice; verify venue per round."
+    },
+    {
+      "id": "ck3r-official-races",
+      "club": "Club Karting Trois-Rivières",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Trois-Rivières",
+      "venue": "Karting Trois-Rivières",
+      "url": "https://kartingtr.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:CK3R|Course Club Karting|Coupe de Montr[eé]al|Cup Karts Canada)",
+      "verified_on": "2026-10-30",
+      "category": "Official circuit host lists CK3R owner-kart club races and Coupe de Montréal/Cup Karts events; exclude rentals, mini-motos, supermoto and practice. Current dated events are 2026 only."
+    },
+    {
+      "id": "sra-owner-kart-league",
+      "club": "SRA Karting — Ligue SRA",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Mirabel",
+      "venue": "SRA Karting / Complexe ICAR",
+      "url": "https://srakarting.com/ecole-de-pilotage/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "event_name_pattern": "(?:Ligue SRA|Briggs|Rotax|DD2|Shifter|Course Club)",
+      "verified_on": "2026-10-30",
+      "category": "Official SRA high-performance owner-kart race league with 2026 dates and Briggs/Rotax/DD2/Shifter categories; exclude SWS rentals, driver training, practice and unsourced future dates."
     }
   ]
 }
