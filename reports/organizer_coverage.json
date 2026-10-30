@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:12:43+00:00",
+  "generated_at": "2026-10-30T14:11:20+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -1542,7 +1542,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1558,7 +1558,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4219,8 +4219,10 @@
           "status": "indexed_future_events",
           "indexed_events": 1,
           "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
-          "unconfirmed_future_event_ids": [],
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [
+            "auto-8001844098aeccbc"
+          ],
           "declaration": null,
           "event_ids": [
             "auto-8001844098aeccbc"
@@ -5604,6 +5606,13 @@
       "upcoming_events": 1
     },
     {
+      "organizer_id": "e3b9a37938",
+      "name": "Music City Kartplex",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 1
+    },
+    {
       "organizer_id": "f44d9b6b3e",
       "name": "North Texas Karters",
       "priority": 2,
@@ -6292,13 +6301,6 @@
     {
       "organizer_id": "c4eb0bca48",
       "name": "Campeonato Kart Monterrey",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "e3b9a37938",
-      "name": "Music City Kartplex",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
