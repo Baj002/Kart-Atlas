@@ -321,10 +321,12 @@
       "venue": "Karting Trois-Rivières",
       "city": "Trois-Rivières",
       "primary_url": "https://kartingtr.com/",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
+      "source_ids": [
+        "ck3r-official-races"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official Karting Trois-Rivières 2026 event calendar explicitly lists CK3R club kart races on June 13 and September 13/27; exclude mixed motorcycle/rental events.",
+      "verification": "reviewed_organizer",
       "season_declarations": []
     },
     {
@@ -2471,6 +2473,26 @@
       ],
       "scope_status": "eligible",
       "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": []
+    },
+    {
+      "id": "sra-karting-league",
+      "name": "SRA Karting — Ligue SRA",
+      "aliases": [
+        "La Ligue SRA",
+        "Ligue SRA Karting"
+      ],
+      "country": "Canada",
+      "region": "QC",
+      "venue": "SRA Karting / Complexe ICAR",
+      "city": "Mirabel",
+      "primary_url": "https://srakarting.com/ecole-de-pilotage/",
+      "source_ids": [
+        "sra-owner-kart-league"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official 2026 high-performance owner-kart league with Briggs, Rotax, DD2 and Shifter competition; SWS rental league is excluded.",
       "verification": "reviewed_organizer",
       "season_declarations": []
     }
