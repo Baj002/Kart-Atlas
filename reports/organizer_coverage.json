@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-30T14:11:20+00:00",
+  "generated_at": "2026-10-31T13:54:27+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 146,
+    "organizers": 147,
     "by_scope": {
-      "eligible": 53,
-      "needs_review": 91,
+      "eligible": 55,
+      "needs_review": 90,
       "excluded": 2
     },
-    "with_configured_sources": 54,
-    "with_reached_sources": 49,
-    "with_health_issues": 9,
+    "with_configured_sources": 56,
+    "with_reached_sources": 50,
+    "with_health_issues": 10,
     "unmatched_races": 0
   },
   "organizers": [
@@ -696,26 +696,34 @@
       "organizer_id": "c6c07bf0f1",
       "name": "Club Karting Trois-Rivières",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "ck3r-official-races"
+      ],
+      "sources_reached": [
+        "ck3r-official-races"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 3,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "3da57a45d045",
+            "69c7462517c3",
+            "3d46a749d263"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1542,7 +1550,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 2,
       "seasons": [
         {
           "year": 2026,
@@ -1558,7 +1566,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5504,6 +5512,48 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "sra-karting-league",
+      "name": "SRA Karting — Ligue SRA",
+      "country": "Canada",
+      "scope_status": "eligible",
+      "source_ids": [
+        "sra-owner-kart-league"
+      ],
+      "sources_reached": [],
+      "unhealthy_sources": [
+        "sra-owner-kart-league"
+      ],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "past_events_only",
+          "indexed_events": 4,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": [
+            "b57b4d28be0b",
+            "55f3b18b1ea1",
+            "612c2738ab61",
+            "72c9526cddcd"
+          ]
+        },
+        {
+          "year": 2027,
+          "status": "source_unreachable",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -5706,13 +5756,6 @@
     {
       "organizer_id": "c74e178fcb",
       "name": "Charlotte Motor Speedway karting",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "c6c07bf0f1",
-      "name": "Club Karting Trois-Rivières",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6117,6 +6160,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "sra-karting-league",
+      "name": "SRA Karting — Ligue SRA",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "5ce320a5b9",
       "name": "Santa Maria Karting Association",
       "priority": 2,
@@ -6336,6 +6386,13 @@
     {
       "organizer_id": "canada-east-kartsport",
       "name": "Canada East Kartsport / Champlain MP",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "c6c07bf0f1",
+      "name": "Club Karting Trois-Rivières",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0

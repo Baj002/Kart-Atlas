@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:14:42.990592+00:00",
+  "generated_at": "2026-10-31T13:57:02.709317+00:00",
   "year": 2027,
   "scope": "Owner-kart competition circuit racing only",
   "regions_checked": 13,
@@ -34,24 +34,24 @@
           "id": "ckrc",
           "status": "unreachable",
           "last_success": null,
-          "consecutive_failures": 25
+          "consecutive_failures": 26
         },
         {
           "id": "ckrc-msr-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "edkra",
           "status": "unreachable",
           "last_success": null,
-          "consecutive_failures": 25
+          "consecutive_failures": 26
         },
         {
           "id": "edkra-home",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
@@ -97,37 +97,37 @@
         {
           "id": "wckc",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "wckc-events",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "kartplex-owner-racing",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "vika-registration",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "vika-race-calendar",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "vika-bc-regional",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
@@ -188,19 +188,19 @@
         {
           "id": "mka",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "mka-home",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "mka-registration",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
@@ -235,7 +235,7 @@
         {
           "id": "ceks-msr-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
@@ -289,7 +289,7 @@
         {
           "id": "amka-schedule",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
@@ -376,37 +376,37 @@
         {
           "id": "goodwood-ics",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "hamilton-ics",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "goodwood-trak",
           "status": "unexpected_empty",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "hrkc",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "nckc",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "kartstars-canada",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
@@ -418,49 +418,49 @@
         {
           "id": "kartstars-schedule",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "wrkc",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "lombardy-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "point-pelee-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "mika-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "sudbury-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "rmc-ontario-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "bsc-ontario-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
@@ -589,38 +589,52 @@
         "coupe-montreal-calendar",
         "ogkc-quyon-official",
         "tag-academy-coupe-montreal",
-        "scperformance-coupe-montreal"
+        "scperformance-coupe-montreal",
+        "ck3r-official-races",
+        "sra-owner-kart-league"
       ],
       "source_health": [
         {
           "id": "coupe-montreal",
           "status": "unreachable",
           "last_success": null,
-          "consecutive_failures": 25
+          "consecutive_failures": 26
         },
         {
           "id": "coupe-montreal-calendar",
           "status": "unreachable",
           "last_success": null,
-          "consecutive_failures": 6
+          "consecutive_failures": 7
         },
         {
           "id": "ogkc-quyon-official",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "tag-academy-coupe-montreal",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "scperformance-coupe-montreal",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
+        },
+        {
+          "id": "ck3r-official-races",
+          "status": "reachable_no_supported_events",
+          "last_success": "2026-10-31T13:54:27+00:00",
+          "consecutive_failures": 0
+        },
+        {
+          "id": "sra-owner-kart-league",
+          "status": "unreachable",
+          "last_success": null,
+          "consecutive_failures": 1
         }
       ],
       "2027_data_completeness": {
@@ -634,8 +648,8 @@
         {
           "id": "c6c07bf0f1",
           "name": "Club Karting Trois-Rivières",
-          "scope_status": "needs_review",
-          "season_2027": "no_source_configured"
+          "scope_status": "eligible",
+          "season_2027": "no_dates_verified"
         },
         {
           "id": "f1b1f616dd",
@@ -672,6 +686,12 @@
           "name": "TAG Académie Karting",
           "scope_status": "needs_review",
           "season_2027": "no_dates_verified"
+        },
+        {
+          "id": "sra-karting-league",
+          "name": "SRA Karting — Ligue SRA",
+          "scope_status": "eligible",
+          "season_2027": "source_unreachable"
         }
       ],
       "events": [
@@ -708,13 +728,13 @@
         {
           "id": "saskatoon",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         },
         {
           "id": "south-sask",
           "status": "reachable_no_supported_events",
-          "last_success": "2026-10-30T14:11:20+00:00",
+          "last_success": "2026-10-31T13:54:27+00:00",
           "consecutive_failures": 0
         }
       ],
