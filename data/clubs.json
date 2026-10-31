@@ -1914,10 +1914,10 @@
       "region": "ON",
       "country": "Canada",
       "kind": "Club / Series",
-      "research_status": "Official competition-kart calendar verified",
+      "research_status": "Official 2026 12-round championship calendar verified; 2027 dates not verified as of 2026-10-31",
       "schedule_url": "https://www.pointpeleekarting.com/PPKC/",
       "source_description": "Official organizer calendar",
-      "notes": "Briggs owner-kart circuit racing. Official 2026 final event announcement verified.",
+      "notes": "Owner-kart sprint competition. Twelve 2026 club championship rounds verified from organizer PDF and archived in curated race data; development days, rain dates and interclub Showdown entries excluded. No 2027 event dates verified from official sources as of 2026-10-31.",
       "monitor_id": "point-pelee-official"
     },
     {
