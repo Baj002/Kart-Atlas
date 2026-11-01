@@ -1070,6 +1070,15 @@
       "registration_deadline": "",
       "sequence": 1,
       "cancelled": true
+    },
+    "auto-5d7322315b2c3081": {
+      "id": "auto-5d7322315b2c3081",
+      "name": "Championship Race Round 1-rain make up",
+      "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:54:27+00:00",
+  "generated_at": "2026-11-01T13:56:11+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 56,
     "with_reached_sources": 50,
-    "with_health_issues": 10,
+    "with_health_issues": 11,
     "unmatched_races": 0
   },
   "organizers": [
@@ -258,10 +258,11 @@
         "wckc-events"
       ],
       "sources_reached": [
-        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "wckc"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -1112,10 +1113,9 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 2,
-          "upcoming_events": 2,
+          "upcoming_events": 1,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [
-            "99fc1dcdc39a",
             "ce0374a6abbe"
           ],
           "declaration": null,
@@ -1249,9 +1249,9 @@
         {
           "year": 2027,
           "status": "indexed_future_events",
-          "indexed_events": 7,
-          "upcoming_events": 7,
-          "recently_verified_upcoming": 7,
+          "indexed_events": 8,
+          "upcoming_events": 8,
+          "recently_verified_upcoming": 8,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -1261,7 +1261,8 @@
             "69ffd03bfac4",
             "f94f8de53b17",
             "b4747467fb2a",
-            "bed34054b637"
+            "bed34054b637",
+            "auto-5d7322315b2c3081"
           ]
         }
       ]
@@ -1550,7 +1551,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 2,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1566,7 +1567,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1757,8 +1758,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 5,
-          "upcoming_events": 4,
-          "recently_verified_upcoming": 4,
+          "upcoming_events": 3,
+          "recently_verified_upcoming": 3,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -5143,7 +5144,7 @@
         {
           "year": 2026,
           "status": "season_complete",
-          "indexed_events": 0,
+          "indexed_events": 12,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
@@ -5154,7 +5155,20 @@
             "evidence": "https://www.pointpeleekarting.com/PPKC/",
             "note": "Organizer explicitly identifies September 20 as final event of 2026."
           },
-          "event_ids": []
+          "event_ids": [
+            "fd520965627e",
+            "65f4a4c76400",
+            "76cac10380af",
+            "5f1b0538332a",
+            "25071944de5e",
+            "f0b5d7150da4",
+            "f36106fd9973",
+            "227fdcdf930e",
+            "32b1a8464db1",
+            "54401b87fc67",
+            "797f48182476",
+            "116f028b0acf"
+          ]
         },
         {
           "year": 2027,
@@ -5628,13 +5642,6 @@
       "upcoming_events": 4
     },
     {
-      "organizer_id": "dfa9031c7e",
-      "name": "Karting Club México",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "07d1d6e854",
       "name": "Spring Mountain Karting Complex",
       "priority": 2,
@@ -5651,6 +5658,13 @@
     {
       "organizer_id": "org-f298686f1d",
       "name": "Florida Karting Championship Series",
+      "priority": 2,
+      "reason": "source_not_configured",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "dfa9031c7e",
+      "name": "Karting Club México",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 1
@@ -6293,6 +6307,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "741e821d81",
       "name": "West Michigan Kart Club",
       "priority": 2,
@@ -6325,7 +6346,7 @@
       "name": "Norwalk Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
-      "upcoming_events": 4
+      "upcoming_events": 3
     },
     {
       "organizer_id": "03a3aabce6",
@@ -6547,13 +6568,6 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
