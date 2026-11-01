@@ -108,3 +108,31 @@ The seven historical 2026 additions are committed in `data/races.csv`, but are *
 **Publication gate still unmet:** GitHub updates are committed, but a direct attempt to fetch https://kart-atlas.kartatlas.workers.dev/ and its `/events.json` endpoint failed in the review environment. The current Cloudflare deployment and the newly committed 12 historical Point Pelee records cannot be independently verified. Do not declare completion until the refresh has passed and the live deployed dataset has been compared against the latest repository snapshot.
 
 **Next actions:** Confirm GitHub refresh and generated data after this commit; keep monitoring for organizer-published 2027 schedules and registration deadlines; repair Quebec source retrieval; continue eligible organizer discovery in NL, NT, NU, PE, YT; and verify production deployment. Do not infer a full 2027 schedule from four reported weekends or create speculative dates.
+
+## Follow-up verification — 2026-11-01 (09:44 MST / 15:44 UTC)
+
+**Fresh generated dataset:** The November 1 GitHub refresh (events updated `2026-11-01`, discovery scan `2026-11-01T13:56:11Z`) contains **145 Canadian records: 141 historical 2026 and four 2027**. The October 31 Point Pelee backfill has therefore reached the generated repository data. The four 2027 CKNA weekends remain **Secondary**: May 28–30 (Mont-Tremblant, QC), June 25–27 (Brechin, ON), July 23–25 (Lombardy, ON), and September 3–5 (Trois-Rivières, QC). None has a verified organizer-hosted 2027 event page, event registration URL or deadline. Dates were reported from the October 20 CKNA organizer announcement by Canadian Karting News: https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/ . The primary CKNA site still explicitly labels its calendar **2026**: https://www.cupkarts.com/schedule/ . Do not substitute its 2026 registration links for 2027.
+
+**Region-by-region 2027 check (13 of 13 jurisdictions):**
+
+| Region | Indexed Canadian races (all years) | 2027 verified/announced | Latest official source status |
+| --- | ---: | --- | --- |
+| AB | 38 | 0 | CKRC and EDKRA official race pages still show 2026; no 2027 owner-kart race dates verified. https://ckrc.com/event-schedule/ ; https://edkra.ca/pages/schedule-events |
+| BC | 16 | 0 | WCKC, VIKA and BC Regional monitored; official calendars still refer to 2026. https://www.westcoastkartclub.ca/schedule ; https://vika.ca/race-calendar/ |
+| MB | 11 | 0 | MKA 2026 information; no 2027 owner-kart dates verified. https://www.manitobakarting.ca/ |
+| NB | 1 | 0 | CEKS MotorsportReg organizer listing currently shows 2026 entries. AMKA independently confirms 2026 interclub racing in Dieppe; no 2027 NB owner-kart schedule verified. https://www.motorsportreg.com/orgs/canada-east-kartsport-champlain-mp ; https://www.amka.ca/race-schedule |
+| NL | 0 | 0 | No eligible owner-kart organizer verified; public rental/amusement tracks are not evidence of a championship. **Source discovery gap.** |
+| NS | 9 | 0 | AMKA official championship calendar explicitly shows 2026, with 10 rounds across NS and NB. https://www.amka.ca/race-schedule |
+| NT | 0 | 0 | No eligible owner-kart organizer verified. NWT Motorsports Club explicitly describes car-only autoslalom/off-road/ice events, not kart racing. **Source discovery gap.** https://nwtmc-yk.wixsite.com/nwtmc |
+| NU | 0 | 0 | No eligible owner-kart organizer verified. **Source discovery gap.** |
+| ON | 30 | 2 announced, 0 primary-confirmed | Two CKNA 2027 weekends are Secondary. HRKC explicitly says its 2027 owner-kart schedule is coming soon (rechecked November 1); other club calendars reviewed still show 2026. https://hamiltonkartingcomplex.com/ ; https://bscontario.com/schedule/ |
+| PE | 0 | 0 | No eligible owner-kart organizer verified; publicly indexed Burlington and Cavendish venues advertise rental/amusement karting, not a verified owner-kart championship. **Source discovery gap.** https://www.tourismpei.com/attractions/burlington-go-karts-and-amusement-park |
+| QC | 17 | 2 announced, 0 primary-confirmed | Two CKNA 2027 weekends are Secondary. Coupe de Montréal still publishes its 2026 calendar. https://coupedemontreal.com/calendrier-resultats/ |
+| SK | 23 | 0 | South Sask and Saskatoon monitored official schedules show 2026. https://www.sskc.ca/schedule ; https://www.nskr.ca/schedule |
+| YT | 0 | 0 | No eligible owner-kart organizer verified. **Source discovery gap.** |
+
+**Source-health diagnostics:** The latest completed scan reached **104/136** configured source origins (Canadian **62/84**) and logged **47** fetch/parsing errors, compared with 110/136 and 39 errors on October 31. These counts are operational reach, **not** race-coverage percentages. Coupe de Montréal official endpoints still return HTTP 403 to the scanner; its calendar remains independently readable and currently says 2026. EDKRA's schedule endpoint returned 404 to the scanner, but the same official URL was independently readable on November 1 and still showed 2026, indicating a retrieval-path problem rather than a missing organizer. Newer QC host monitors mostly reached, while SRA remains unreachable. Preserve already verified events on fetch failures.
+
+**Repository improvement:** Refreshed Hamilton Regional Kart Club's evidence-backed 2027 `not_announced` season declaration to November 1 in `data/organizers.json`. This is the only explicit owner-kart 2027 schedule-coming-soon statement established here; absence of verified dates elsewhere must not be misrepresented as an official non-announcement.
+
+**Publication and completion gate:** The generated repository events now include the October 31 historical backfill, but independent attempts to fetch https://kart-atlas.kartatlas.workers.dev/ and its `/events.json` endpoint failed from both the web tool and direct HTTP/DNS in the execution environment. **Live Cloudflare deployment is not confirmed** and cannot be inferred from a refreshed GitHub dataset. Keep Canadian coverage open pending (1) primary organizer 2027 dates as published, (2) verified registration information, (3) improved Quebec/other source reach and discovery in NL/NT/NU/PE/YT, and (4) a successful production payload comparison. No speculative dates were created.
