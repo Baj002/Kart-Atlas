@@ -138,7 +138,7 @@ The seven historical 2026 additions are committed in `data/races.csv`, but are *
 **Publication and completion gate:** The generated repository events now include the October 31 historical backfill, but independent attempts to fetch https://kart-atlas.kartatlas.workers.dev/ and its `/events.json` endpoint failed from both the web tool and direct HTTP/DNS in the execution environment. **Live Cloudflare deployment is not confirmed** and cannot be inferred from a refreshed GitHub dataset. Keep Canadian coverage open pending (1) primary organizer 2027 dates as published, (2) verified registration information, (3) improved Quebec/other source reach and discovery in NL/NT/NU/PE/YT, and (4) a successful production payload comparison. No speculative dates were created.
 
 
-## Follow-up verification — 2026-11-02 (10:16 MST / 16:16 UTC)
+## Follow-up verification — 2026-11-02
 
 **Fresh repository state:** `site/events.json` is dated **2026-11-02** and contains **145 Canadian races** (141 from 2026; four from 2027), unchanged from November 1. All four 2027 CKNA weekends remain **Secondary**, with no organizer-hosted 2027 registration URL or registration deadline. The dates are May 28–30 (QC), June 25–27 (ON), July 23–25 (ON) and September 3–5 (QC). The organizer's official schedule still says **CKNA 2026 Schedule**, and its visible registration buttons are associated with 2026 entries; do **not** reuse them for 2027: https://www.cupkarts.com/schedule/ . The October 20, 2026 secondary report of the organizer announcement remains the basis for the four dates: https://www.canadiankartingnews.com/2027-schedule-update-cup-karts-canada-reveal-their-dates-and-locations/ .
 
