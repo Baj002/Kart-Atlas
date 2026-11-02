@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:56:11+00:00",
+  "generated_at": "2026-11-02T14:28:23+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 56,
     "with_reached_sources": 50,
-    "with_health_issues": 11,
+    "with_health_issues": 9,
     "unmatched_races": 0
   },
   "organizers": [
@@ -258,11 +258,10 @@
         "wckc-events"
       ],
       "sources_reached": [
+        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [
-        "wckc"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -438,9 +437,9 @@
           "declaration": {
             "year": 2027,
             "status": "not_announced",
-            "reviewed_on": "2026-10-28",
+            "reviewed_on": "2026-11-01",
             "evidence": "https://hamiltonkartingcomplex.com/",
-            "note": "Official HRKC club-racing page explicitly says 2027 HRKC racing schedule coming soon; this statement excludes the separate rental/arrive-and-drive schedule."
+            "note": "Rechecked official Hamilton Karting Complex club-racing section on November 1, 2026: '2027 HRKC racing schedule coming soon.' This statement is limited to HRKC owner-kart club racing; separate arrive-and-drive dates are not eligible."
           },
           "event_ids": []
         }
@@ -623,21 +622,17 @@
         "goodwood-ics",
         "goodwood-trak"
       ],
-      "unhealthy_sources": [
-        "goodwood-trak"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 2,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "auto-e9959bcfb5763ab0"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "auto-5a738b3178cb",
@@ -1235,8 +1230,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 4,
-          "upcoming_events": 4,
-          "recently_verified_upcoming": 4,
+          "upcoming_events": 3,
+          "recently_verified_upcoming": 3,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -1551,7 +1546,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 3,
       "seasons": [
         {
           "year": 2026,
@@ -1567,7 +1562,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2574,8 +2569,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 3,
-          "upcoming_events": 2,
-          "recently_verified_upcoming": 2,
+          "upcoming_events": 1,
+          "recently_verified_upcoming": 1,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -3120,13 +3115,11 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 1,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "9061cdffd7f0"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "9061cdffd7f0"
@@ -3666,13 +3659,11 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 2,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "d2fb9df25608"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "813dc3e41fb9",
@@ -5593,13 +5584,6 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "dfd51a1937",
-      "name": "Toronto Racing Association of Karters",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 1
-    },
-    {
       "organizer_id": "6939777da3",
       "name": "World Karting Association",
       "priority": 1,
@@ -5614,18 +5598,18 @@
       "upcoming_events": 25
     },
     {
-      "organizer_id": "d460c1ee4c",
-      "name": "ROK Cup USA",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 12
-    },
-    {
       "organizer_id": "bb926de967",
       "name": "SKUSA",
       "priority": 2,
       "reason": "event_review",
       "upcoming_events": 12
+    },
+    {
+      "organizer_id": "d460c1ee4c",
+      "name": "ROK Cup USA",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 11
     },
     {
       "organizer_id": "1ac7f4a39f",
@@ -5679,13 +5663,6 @@
     {
       "organizer_id": "f44d9b6b3e",
       "name": "North Texas Karters",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "1566c295b1",
-      "name": "Oakland Valley Race Park",
       "priority": 2,
       "reason": "published_dates_need_reverification",
       "upcoming_events": 1
@@ -6307,13 +6284,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "741e821d81",
       "name": "West Michigan Kart Club",
       "priority": 2,
@@ -6363,15 +6333,15 @@
       "upcoming_events": 2
     },
     {
-      "organizer_id": "3d23b5a5ed",
-      "name": "Sandy Hook Club Series",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "c4eb0bca48",
       "name": "Campeonato Kart Monterrey",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "3d23b5a5ed",
+      "name": "Sandy Hook Club Series",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
@@ -6475,6 +6445,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "1566c295b1",
+      "name": "Oakland Valley Race Park",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "a38b6369c5",
       "name": "Ohio Valley Karting Association",
       "priority": 3,
@@ -6559,6 +6536,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "dfd51a1937",
+      "name": "Toronto Racing Association of Karters",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "b957637853",
       "name": "Vancouver Island Karting Association",
       "priority": 3,
@@ -6568,6 +6552,13 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
