@@ -423,6 +423,19 @@
       "auto_import": false
     },
     {
+      "id": "ckna-canada-news",
+      "club": "Cup Karts North America Canada",
+      "country": "Canada",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Various",
+      "url": "https://www.cupkarts.com/news/",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-11-03",
+      "category": "Official CKNA news announcements; monitor for primary 2027 Canadian schedule and registration information. Watch only: do not auto-import prose dates or US events."
+    },
+    {
       "id": "kartstars-schedule",
       "club": "KartStars Canada",
       "country": "Canada",
