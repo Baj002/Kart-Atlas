@@ -1,9 +1,9 @@
 {
-  "last_attempt": "2026-11-02T14:28:23+00:00",
-  "checked": 111,
+  "last_attempt": "2026-11-03T14:25:41+00:00",
+  "checked": 106,
   "total": 136,
   "feed_additions": 0,
-  "errors": 41,
+  "errors": 45,
   "is_complete": false,
   "future_races": 103,
   "trusted_sources_reached": 66

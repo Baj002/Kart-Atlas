@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "curated_snapshot": "2026-10-16",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
   "auto_imported": 34,
@@ -2952,8 +2952,8 @@
       "pdf_page": 1,
       "id": "auto-1b9b2a76931a3cb1",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-1b9b2a76931a3cb1.ics"
     },
     {
@@ -3012,8 +3012,8 @@
       "pdf_page": 1,
       "id": "auto-f9e296631f4bb0b4",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-f9e296631f4bb0b4.ics"
     },
     {
@@ -3051,11 +3051,11 @@
       "notes": "",
       "id": "1e2d54f2db40",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
       "registration_status": "open",
       "registration_deadline": "2026-11-11T01:00:00+00:00",
-      "registration_checked_at": "2026-11-02T14:30:56+00:00",
+      "registration_checked_at": "2026-11-03T14:28:56+00:00",
       "registration_evidence": "https://raceselect.com/skusa/2026",
       "registration_reminder_url": "/reminders/1e2d54f2db40.ics"
     },
@@ -3103,8 +3103,8 @@
       "pdf_page": 1,
       "id": "auto-ee0faec5e411a5c8",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-ee0faec5e411a5c8.ics"
     },
     {
@@ -3124,7 +3124,7 @@
       "notes": "",
       "id": "5b1f9274ffb2",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/5b1f9274ffb2.ics"
     },
     {
@@ -3189,8 +3189,8 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-ce9f9a65af37f894.ics"
     },
     {
@@ -3219,8 +3219,8 @@
       "shared_source_url": true,
       "id": "auto-5ab78f8c44c0cc97",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-5ab78f8c44c0cc97.ics"
     },
     {
@@ -3249,8 +3249,8 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-0991aeb03b374650.ics"
     },
     {
@@ -3279,8 +3279,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-fee3fbd995363934.ics"
     },
     {
@@ -3309,8 +3309,8 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-f5f238bbab78f963.ics"
     },
     {
@@ -3348,7 +3348,7 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/05059067c8df.ics"
     },
     {
@@ -3377,8 +3377,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-71223f4ae77f2493.ics"
     },
     {
@@ -3407,8 +3407,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-428c82650c5b3a5b.ics"
     },
     {
@@ -3437,8 +3437,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-3a3182b25cc7ef08.ics"
     },
     {
@@ -3485,8 +3485,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-617ff44d6075f7be.ics"
     },
     {
@@ -3506,7 +3506,7 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/4208ae2b35c9.ics"
     },
     {
@@ -3564,7 +3564,7 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/8eabfebc7421.ics"
     },
     {
@@ -3584,7 +3584,7 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/78b897cddd42.ics"
     },
     {
@@ -3607,7 +3607,7 @@
         "06eeb999f02d"
       ],
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/7758fddb9bd1.ics"
     },
     {
@@ -3654,8 +3654,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-c0f9952a08360ecb.ics"
     },
     {
@@ -3723,7 +3723,7 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/90d8ad70ba29.ics"
     },
     {
@@ -3746,7 +3746,7 @@
         "1a9b14c91bd1"
       ],
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/6622456fede1.ics"
     },
     {
@@ -3784,7 +3784,7 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/69ffd03bfac4.ics"
     },
     {
@@ -3891,7 +3891,7 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/f94f8de53b17.ics"
     },
     {
@@ -3968,7 +3968,7 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/b4747467fb2a.ics"
     },
     {
@@ -4090,7 +4090,7 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/bed34054b637.ics"
     },
     {
@@ -4109,7 +4109,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "5d580cc95177",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/5d580cc95177.ics"
     },
@@ -4139,8 +4139,8 @@
       "shared_source_url": true,
       "id": "auto-5d7322315b2c3081",
       "first_seen": "2026-11-01T13:56:11+00:00",
-      "last_seen": "2026-11-02T14:28:23+00:00",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_seen": "2026-11-03T14:25:41+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/auto-5d7322315b2c3081.ics"
     },
     {
@@ -4195,7 +4195,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "e216105cbc71",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/e216105cbc71.ics"
     },
@@ -4389,7 +4389,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "1bb0a6b3dee8",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/1bb0a6b3dee8.ics"
     },
@@ -4511,7 +4511,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "352646a26717",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/352646a26717.ics"
     },
@@ -4567,7 +4567,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "Official 2027 ROK Sonoma schedule; optional Friday practice is separate from Saturday–Sunday competition.",
       "id": "45b67f87c40b",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/45b67f87c40b.ics"
     },
@@ -4725,7 +4725,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "94d7a39be9da",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/94d7a39be9da.ics"
     },
@@ -4901,7 +4901,7 @@
       "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "notes": "",
       "id": "e32c72034c7f",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/e32c72034c7f.ics"
     },
@@ -5096,7 +5096,7 @@
       "notes": "",
       "id": "e0b611ca1d97",
       "status": "scheduled",
-      "last_verified": "2026-11-02T14:28:23+00:00",
+      "last_verified": "2026-11-03T14:25:41+00:00",
       "registration_reminder_url": "/reminders/e0b611ca1d97.ics"
     }
   ]
