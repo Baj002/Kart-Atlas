@@ -1357,7 +1357,8 @@
       "city": "Multiple",
       "primary_url": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
       "source_ids": [
-        "ckna-canada"
+        "ckna-canada",
+        "ckna-canada-news"
       ],
       "scope_status": "eligible",
       "scope_reason": null,
