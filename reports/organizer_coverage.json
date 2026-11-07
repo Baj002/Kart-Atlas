@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:25:41+00:00",
+  "generated_at": "2026-11-07T16:08:05+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -1546,7 +1546,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 4,
       "seasons": [
         {
           "year": 2026,
@@ -1562,7 +1562,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "review_required",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3051,10 +3051,12 @@
       "country": "USA",
       "scope_status": "eligible",
       "source_ids": [
-        "ckna-canada"
+        "ckna-canada",
+        "ckna-canada-news"
       ],
       "sources_reached": [
-        "ckna-canada"
+        "ckna-canada",
+        "ckna-canada-news"
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
