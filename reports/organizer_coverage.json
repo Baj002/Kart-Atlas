@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:08:05+00:00",
+  "generated_at": "2026-11-08T13:58:48+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 56,
     "with_reached_sources": 50,
-    "with_health_issues": 9,
+    "with_health_issues": 11,
     "unmatched_races": 0
   },
   "organizers": [
@@ -258,10 +258,11 @@
         "wckc-events"
       ],
       "sources_reached": [
-        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "wckc"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -407,10 +408,11 @@
         "hrkc"
       ],
       "sources_reached": [
-        "hamilton-ics",
         "hrkc"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "hamilton-ics"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -1546,7 +1548,7 @@
       "sources_reached": [],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 4,
+      "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
@@ -1562,7 +1564,7 @@
         },
         {
           "year": 2027,
-          "status": "review_required",
+          "status": "no_source_configured",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -1753,8 +1755,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 5,
-          "upcoming_events": 3,
-          "recently_verified_upcoming": 3,
+          "upcoming_events": 2,
+          "recently_verified_upcoming": 2,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4218,13 +4220,11 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 1,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "auto-8001844098aeccbc"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "auto-8001844098aeccbc"
@@ -4468,13 +4468,11 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 2,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "0f56284dab4e"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "75745d76873f",
@@ -5656,20 +5654,6 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "e3b9a37938",
-      "name": "Music City Kartplex",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "f44d9b6b3e",
-      "name": "North Texas Karters",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 1
-    },
-    {
       "organizer_id": "org-aebe1a6980",
       "name": "Rotax Racing Club California",
       "priority": 2,
@@ -5828,6 +5812,13 @@
       "name": "Georgia Sprint Karting Association",
       "priority": 2,
       "reason": "source_not_configured",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "d1c9f9004d",
+      "name": "Hamilton Regional Kart Club",
+      "priority": 2,
+      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6286,6 +6277,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "741e821d81",
       "name": "West Michigan Kart Club",
       "priority": 2,
@@ -6314,13 +6312,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "eb6a0e309a",
-      "name": "Norwalk Karting Association",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 3
-    },
-    {
       "organizer_id": "03a3aabce6",
       "name": "AMR Motorplex",
       "priority": 3,
@@ -6330,6 +6321,13 @@
     {
       "organizer_id": "5b3a3e4465",
       "name": "Gulf Coast Karters",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 2
+    },
+    {
+      "organizer_id": "eb6a0e309a",
+      "name": "Norwalk Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 2
@@ -6426,6 +6424,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "e3b9a37938",
+      "name": "Music City Kartplex",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "6a07490f0e",
       "name": "National Capital Kart Club",
       "priority": 3,
@@ -6435,6 +6440,13 @@
     {
       "organizer_id": "9889ecdf35",
       "name": "New Hampshire Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "f44d9b6b3e",
+      "name": "North Texas Karters",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -6554,13 +6566,6 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0

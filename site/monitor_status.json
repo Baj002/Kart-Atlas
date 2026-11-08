@@ -1,10 +1,10 @@
 {
-  "last_attempt": "2026-11-07T16:08:05+00:00",
-  "checked": 109,
+  "last_attempt": "2026-11-08T13:58:48+00:00",
+  "checked": 104,
   "total": 137,
   "feed_additions": 0,
-  "errors": 44,
+  "errors": 50,
   "is_complete": false,
-  "future_races": 103,
-  "trusted_sources_reached": 67
+  "future_races": 100,
+  "trusted_sources_reached": 65
 }
