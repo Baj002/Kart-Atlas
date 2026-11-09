@@ -90,6 +90,23 @@
       "id": "5ff72e90d751"
     },
     {
+      "start": "2026-04-26",
+      "end": "2026-04-26",
+      "name": "Tulsa Kart Club 2026 Round 1",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "39417d4c2032"
+    },
+    {
       "start": "2026-05-01",
       "end": "2026-05-03",
       "name": "BC Regional Karting Championship Round 1",
@@ -122,6 +139,23 @@
       "source": "https://www.racingarkansas.com/kart-league/",
       "notes": "Published 2026 owner-kart points championship; historical event.",
       "id": "57655086fba1"
+    },
+    {
+      "start": "2026-05-02",
+      "end": "2026-05-02",
+      "name": "Ignite Challenge 2026 Round 1",
+      "organizer": "Ignite Challenge / Margay",
+      "venue": "61 Kartway",
+      "city": "Delmar",
+      "region": "IA",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://ignitekarting.com/ignite-challenge/",
+      "notes": "Official 2026 owner-kart Ignite Challenge round at 61 Kartway.",
+      "id": "a00d59ac66b3"
     },
     {
       "start": "2026-05-02",
@@ -258,6 +292,23 @@
       "source": "https://sites.google.com/site/westmichigankartclub/calendar",
       "notes": "Official 2026 club schedule; disputed seventh round and rain make-up date excluded.",
       "id": "4ed3c1f4d51f"
+    },
+    {
+      "start": "2026-05-17",
+      "end": "2026-05-17",
+      "name": "Tulsa Kart Club 2026 Round 2",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "0d366d1af105"
     },
     {
       "start": "2026-05-17",
@@ -549,6 +600,23 @@
       "id": "fc1f3a0c8717"
     },
     {
+      "start": "2026-05-31",
+      "end": "2026-05-31",
+      "name": "Tulsa Kart Club 2026 Round 3",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "d9d5182113f6"
+    },
+    {
       "start": "2026-06-06",
       "end": "2026-06-06",
       "name": "CKRC Championship Race 3",
@@ -703,6 +771,23 @@
     },
     {
       "start": "2026-06-13",
+      "end": "2026-06-13",
+      "name": "Ignite Challenge 2026 Round 2",
+      "organizer": "Ignite Challenge / Margay",
+      "venue": "Norway Motorsports Park",
+      "city": "Sheridan",
+      "region": "IL",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://ignitekarting.com/ignite-challenge/",
+      "notes": "Official 2026 owner-kart Ignite Challenge round at Norway Motorsports Park.",
+      "id": "70a6ea0d5e8d"
+    },
+    {
+      "start": "2026-06-13",
       "end": "2026-06-14",
       "name": "Kart Idaho Owner Series Rounds 3–4",
       "organizer": "Kart Idaho",
@@ -823,6 +908,23 @@
     {
       "start": "2026-06-14",
       "end": "2026-06-14",
+      "name": "Ignite Challenge 2026 Round 3",
+      "organizer": "Ignite Challenge / Margay",
+      "venue": "Kart Circuit Autobahn",
+      "city": "Joliet",
+      "region": "IL",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://ignitekarting.com/ignite-challenge/",
+      "notes": "Official 2026 owner-kart Ignite Challenge round at Kart Circuit Autobahn.",
+      "id": "55c3bdab56bf"
+    },
+    {
+      "start": "2026-06-14",
+      "end": "2026-06-14",
       "name": "Saskatoon Kart Racers Race 3",
       "organizer": "Saskatoon Kart Racers",
       "venue": "Martensville Speedway",
@@ -853,6 +955,23 @@
       "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
       "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
       "id": "56e047d4c463"
+    },
+    {
+      "start": "2026-06-14",
+      "end": "2026-06-14",
+      "name": "Tulsa Kart Club 2026 Round 4",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "b41a14145640"
     },
     {
       "start": "2026-06-14",
@@ -1214,6 +1333,23 @@
     {
       "start": "2026-06-28",
       "end": "2026-06-28",
+      "name": "Tulsa Kart Club 2026 Round 5",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "81da7b5df892"
+    },
+    {
+      "start": "2026-06-28",
+      "end": "2026-06-28",
       "name": "Utah Karting Championship 2026 Round 5",
       "organizer": "Utah Karting Championship",
       "venue": "Utah Motorsports Campus Kart Track",
@@ -1501,6 +1637,23 @@
       "id": "918bfb168aea"
     },
     {
+      "start": "2026-07-12",
+      "end": "2026-07-12",
+      "name": "Tulsa Kart Club 2026 Round 6",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "2cc4b12fec6d"
+    },
+    {
       "start": "2026-07-15",
       "end": "2026-07-15",
       "name": "EDKRA DD2 Race 8",
@@ -1756,6 +1909,23 @@
       "id": "03590aeecdab"
     },
     {
+      "start": "2026-07-26",
+      "end": "2026-07-26",
+      "name": "Tulsa Kart Club 2026 Round 7",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "96e7f2be8d9d"
+    },
+    {
       "start": "2026-07-29",
       "end": "2026-07-29",
       "name": "EDKRA DD2 Race 10",
@@ -1839,6 +2009,23 @@
       "source": "https://www.coloradokartingtour.com/championship-schedule/",
       "notes": "Published 2026 championship race day; practice days and unannounced Round 6 excluded.",
       "id": "f50d506f7bf3"
+    },
+    {
+      "start": "2026-08-08",
+      "end": "2026-08-08",
+      "name": "Ignite Challenge 2026 Round 4",
+      "organizer": "Ignite Challenge / Margay",
+      "venue": "Mid-State Kart Club",
+      "city": "Dawson",
+      "region": "IL",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://ignitekarting.com/ignite-challenge/",
+      "notes": "Official 2026 owner-kart Ignite Challenge round at Mid-State Kart Club.",
+      "id": "9f720629bf0c"
     },
     {
       "start": "2026-08-08",
@@ -1941,6 +2128,23 @@
       "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
       "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
       "id": "7740b2d7b013"
+    },
+    {
+      "start": "2026-08-09",
+      "end": "2026-08-09",
+      "name": "Tulsa Kart Club 2026 Round 8",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "d7bdaa58b4e1"
     },
     {
       "start": "2026-08-12",
@@ -2213,6 +2417,23 @@
       "source": "https://srakarting.com/ecole-de-pilotage/",
       "notes": "Official Ligue SRA 2026 owner-kart race calendar; classes subject to organizer entries.",
       "id": "612c2738ab61"
+    },
+    {
+      "start": "2026-08-23",
+      "end": "2026-08-23",
+      "name": "Tulsa Kart Club 2026 Round 9",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "5746b58ccee8"
     },
     {
       "start": "2026-08-23",
@@ -2572,6 +2793,23 @@
       "id": "977ed76f5027"
     },
     {
+      "start": "2026-09-13",
+      "end": "2026-09-13",
+      "name": "Tulsa Kart Club 2026 Round 10",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "460344ec6422"
+    },
+    {
       "start": "2026-09-18",
       "end": "2026-09-20",
       "name": "MKA 2026 Test & Tune / Race 11",
@@ -2689,6 +2927,23 @@
       "source": "https://sudburykartclub.com/wp-content/uploads/2026/04/SKC-Kid-Kart-Guidelines-2026.pdf",
       "notes": "2026 organizer Kid Kart guidelines; August 25 night race.",
       "id": "bb8259741cba"
+    },
+    {
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "name": "Tulsa Kart Club 2026 Round 11",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "d48e50be763c"
     },
     {
       "start": "2026-09-20",
@@ -2825,6 +3080,23 @@
       "source": "https://www.pointpeleekarting.com/PPKC/assets/pdf/2026/PPKC_2026_Schedule.pdf",
       "notes": "Official 2026 PPKC club championship schedule; historical event; excludes development days and interclub Showdown events.",
       "id": "116f028b0acf"
+    },
+    {
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "name": "Tulsa Kart Club 2026 Round 12",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "ce09a78711ce"
     },
     {
       "start": "2026-10-04",
@@ -3050,6 +3322,23 @@
       "source": "https://kartcal.com/",
       "notes": "",
       "id": "f93e2fb8ebce"
+    },
+    {
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "name": "Tulsa Kart Club 2026 Round 13",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "1420a4ab3494"
     },
     {
       "start": "2026-10-18",
@@ -3645,6 +3934,23 @@
       "notes": "",
       "id": "0883f7a4ab63",
       "registration_reminder_url": "/reminders/0883f7a4ab63.ics"
+    },
+    {
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "name": "Tulsa Kart Club 2026 Round 14",
+      "organizer": "Tulsa Kart Club",
+      "venue": "Tulsa Kart Club",
+      "city": "Tulsa",
+      "region": "OK",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "LO206; owner-kart",
+      "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
+      "id": "da3404295b53"
     },
     {
       "start": "2026-11-11",
