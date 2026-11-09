@@ -1728,6 +1728,20 @@
       "timezone": "America/Chicago",
       "verified_on": "2026-11-09",
       "category": "Scope review required: 1-mile road course layout; do not auto-publish until confirmed eligible sprint circuit rather than excluded long-circuit road racing."
+    },
+    {
+      "id": "61-kartway-iowa",
+      "club": "61 Kartway — owner kart racing",
+      "country": "USA",
+      "region": "IA",
+      "city": "Delmar",
+      "venue": "61 Kartway",
+      "url": "https://www.61kartway.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-09",
+      "category": "Owner-kart sprint races only; exclude practice and rental events."
     }
   ]
 }
