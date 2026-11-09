@@ -1770,6 +1770,20 @@
       "timezone": "America/New_York",
       "verified_on": "2026-11-09",
       "category": "Owner kart club; website still shows 2025 schedule. Do not infer 2026 or 2027 dates; wait for current official publication."
+    },
+    {
+      "id": "kcka-liberty-missouri",
+      "club": "Kansas City Karting Association — Liberty Sprint Track",
+      "country": "USA",
+      "region": "MO",
+      "city": "Liberty",
+      "venue": "Liberty Sprint Track",
+      "url": "https://www.motorsportreg.com/venues/kansas-city-karting-association-liberty-mo",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-09",
+      "category": "Official KCKA organizer-posted registration listings for Liberty Sprint Track; owner-kart circuit races only. Exclude test days, membership and oval."
     }
   ]
 }
