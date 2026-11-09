@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:58:48+00:00",
+  "generated_at": "2026-11-09T14:26:10+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 56,
     "with_reached_sources": 50,
-    "with_health_issues": 11,
+    "with_health_issues": 10,
     "unmatched_races": 0
   },
   "organizers": [
@@ -258,11 +258,10 @@
         "wckc-events"
       ],
       "sources_reached": [
+        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [
-        "wckc"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -431,7 +430,7 @@
         },
         {
           "year": 2027,
-          "status": "not_announced",
+          "status": "declaration_stale",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2569,10 +2568,10 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 3,
-          "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -4984,11 +4983,9 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 3,
-          "upcoming_events": 2,
+          "upcoming_events": 1,
           "recently_verified_upcoming": 1,
-          "unconfirmed_future_event_ids": [
-            "0883f7a4ab63"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "auto-a0e60aabbb324bc5",
@@ -5624,13 +5621,6 @@
       "priority": 2,
       "reason": "published_dates_need_reverification",
       "upcoming_events": 4
-    },
-    {
-      "organizer_id": "07d1d6e854",
-      "name": "Spring Mountain Karting Complex",
-      "priority": 2,
-      "reason": "published_dates_need_reverification",
-      "upcoming_events": 2
     },
     {
       "organizer_id": "2bc70035f8",
@@ -6277,13 +6267,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "741e821d81",
       "name": "West Michigan Kart Club",
       "priority": 2,
@@ -6340,8 +6323,8 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "3d23b5a5ed",
-      "name": "Sandy Hook Club Series",
+      "organizer_id": "07d1d6e854",
+      "name": "Spring Mountain Karting Complex",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
@@ -6522,6 +6505,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "3d23b5a5ed",
+      "name": "Sandy Hook Club Series",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "36000e0d27",
       "name": "Saskatoon Kart Racers",
       "priority": 3,
@@ -6566,6 +6556,13 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
