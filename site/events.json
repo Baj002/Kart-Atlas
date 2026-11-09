@@ -192,6 +192,23 @@
       "id": "7544eff8f1c3"
     },
     {
+      "id": "27ed1b5a4fe2",
+      "start": "2026-05-02",
+      "end": "2026-05-02",
+      "name": "KCKA 2026 Liberty Sprint Track Round 1",
+      "organizer": "Kansas City Karting Association",
+      "venue": "Liberty Sprint Track",
+      "city": "Liberty",
+      "region": "MO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206; owner-kart",
+      "source": "https://kckarting.com/",
+      "notes": "Official 2026 KCKA Liberty Sprint Track championship race; dates and venue confirmed on organizer schedule and event registration."
+    },
+    {
       "start": "2026-05-03",
       "end": "2026-05-03",
       "name": "Colorado Karting Tour 2026 Round 1",
@@ -207,6 +224,23 @@
       "source": "https://www.coloradokartingtour.com/championship-schedule/",
       "notes": "Published 2026 championship race day; practice days and unannounced Round 6 excluded.",
       "id": "be6ba2304e04"
+    },
+    {
+      "id": "f043628baaf5",
+      "start": "2026-05-03",
+      "end": "2026-05-03",
+      "name": "KCKA 2026 Liberty Sprint Track Round 2",
+      "organizer": "Kansas City Karting Association",
+      "venue": "Liberty Sprint Track",
+      "city": "Liberty",
+      "region": "MO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206; owner-kart",
+      "source": "https://kckarting.com/",
+      "notes": "Official 2026 KCKA Liberty Sprint Track championship race; dates and venue confirmed on organizer schedule and event registration."
     },
     {
       "start": "2026-05-03",
@@ -1314,6 +1348,23 @@
       "id": "e6cc64950492"
     },
     {
+      "id": "dcab02073e20",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "name": "KCKA 2026 Liberty Sprint Track Round 3",
+      "organizer": "Kansas City Karting Association",
+      "venue": "Liberty Sprint Track",
+      "city": "Liberty",
+      "region": "MO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206; owner-kart",
+      "source": "https://kckarting.com/",
+      "notes": "Official 2026 KCKA Liberty Sprint Track championship race; dates and venue confirmed on organizer schedule and event registration."
+    },
+    {
       "start": "2026-06-27",
       "end": "2026-06-27",
       "name": "Saskatoon Kart Racers Race Sask Series 1",
@@ -1346,6 +1397,23 @@
       "source": "https://sites.google.com/site/westmichigankartclub/calendar",
       "notes": "Official 2026 club schedule; disputed seventh round and rain make-up date excluded.",
       "id": "46be1ba342e1"
+    },
+    {
+      "id": "f6c5c7ffaa43",
+      "start": "2026-06-28",
+      "end": "2026-06-28",
+      "name": "KCKA 2026 Liberty Sprint Track Round 4",
+      "organizer": "Kansas City Karting Association",
+      "venue": "Liberty Sprint Track",
+      "city": "Liberty",
+      "region": "MO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206; owner-kart",
+      "source": "https://kckarting.com/",
+      "notes": "Official 2026 KCKA Liberty Sprint Track championship race; dates and venue confirmed on organizer schedule and event registration."
     },
     {
       "start": "2026-06-28",
@@ -1958,6 +2026,40 @@
       "source": "https://edkra.ca/pages/schedule-events",
       "notes": "2026 official organizer schedule; past event retained for coverage and historical reference.",
       "id": "87682948ef6a"
+    },
+    {
+      "id": "3e31d500ccf6",
+      "start": "2026-08-01",
+      "end": "2026-08-01",
+      "name": "KCKA 2026 Liberty Sprint Track Round 5",
+      "organizer": "Kansas City Karting Association",
+      "venue": "Liberty Sprint Track",
+      "city": "Liberty",
+      "region": "MO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206; owner-kart",
+      "source": "https://kckarting.com/",
+      "notes": "Official 2026 KCKA Liberty Sprint Track championship race; dates and venue confirmed on organizer schedule and event registration."
+    },
+    {
+      "id": "1cc68c7c5809",
+      "start": "2026-08-02",
+      "end": "2026-08-02",
+      "name": "KCKA 2026 Liberty Sprint Track Round 6",
+      "organizer": "Kansas City Karting Association",
+      "venue": "Liberty Sprint Track",
+      "city": "Liberty",
+      "region": "MO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206; owner-kart",
+      "source": "https://kckarting.com/",
+      "notes": "Official 2026 KCKA Liberty Sprint Track championship race; dates and venue confirmed on organizer schedule and event registration."
     },
     {
       "start": "2026-08-02",
