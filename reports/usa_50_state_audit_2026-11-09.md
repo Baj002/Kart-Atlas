@@ -67,8 +67,8 @@
 
 ## Verified additions in this pass
 
-- 66 new race records across 13 states: AR, CO, GA, ID, IA, IL, KS, MI, MO, NC, OK, OR, PA, UT. (Actual state set includes 14 states; the set is listed explicitly below.)
-- 19 newly monitored official organizer/source records, including reviewed-only sources where racing format or calendar currency needs checking.
+- 66 new race records across 14 states: AR, CO, GA, ID, IA, IL, KS, MI, MO, NC, OK, OR, PA, UT.
+- 20 newly monitored official organizer/source records, including reviewed-only sources where racing format or calendar currency needs checking.
 - Three newly added future race listings: 2026-12-05–06 Trackhouse Motorplex Karting Challenge Rounds 11–12 (NC), 2027-04-30–05-01 Cascadia Karting Cup Round 1 (OR), and 2027-10-01–03 Cascadia Karting Cup Round 3 (OR).
 - 15 existing 2027 ROK/SKUSA event records corrected using current official organizer calendars; preserved race IDs to avoid invalidating saved events.
 
