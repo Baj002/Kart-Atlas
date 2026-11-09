@@ -1383,14 +1383,14 @@
     },
     {
       "name": "ROK Sonoma Triple Crown 1 — Round 1",
-      "start": "2027-04-17",
-      "end": "2027-04-18",
+      "start": "2027-03-20",
+      "end": "2027-03-21",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|Sonoma-1",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1399,7 +1399,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1409,7 +1409,7 @@
       "id": "auto-7d42832846fb8d5f",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "Championship Race Round 1-rain make up",
@@ -1442,14 +1442,14 @@
     },
     {
       "name": "ROK Sonoma Triple Crown 1 — Round 2",
-      "start": "2027-05-01",
-      "end": "2027-05-02",
+      "start": "2027-04-16",
+      "end": "2027-04-18",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|Sonoma-2",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1458,7 +1458,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1468,7 +1468,7 @@
       "id": "auto-8dcb138c03f4c794",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "Tri-C Club Series Championship Round 4",
@@ -1501,14 +1501,14 @@
     },
     {
       "name": "ROK Sonoma Triple Crown 1 — Round 3",
-      "start": "2027-06-05",
-      "end": "2027-06-06",
+      "start": "2027-05-01",
+      "end": "2027-05-02",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|Sonoma-3",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1517,7 +1517,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1527,7 +1527,7 @@
       "id": "auto-785d19c434da0fcd",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "Tri-C Club Series Championship Round 5",
@@ -1567,7 +1567,7 @@
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|Sonoma-4",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1576,7 +1576,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1586,18 +1586,18 @@
       "id": "auto-58198061b2cea319",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "ROK Fest West",
-      "start": "2027-07-17",
-      "end": "2027-07-18",
+      "start": "2027-06-05",
+      "end": "2027-06-06",
       "organizer": "ROK Cup USA",
       "venue": "Sonoma Raceway",
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|FestWest",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1606,7 +1606,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1616,7 +1616,7 @@
       "id": "auto-a4bbb639311ff05e",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "Tri-C Club Series Championship Round 6",
@@ -1656,7 +1656,7 @@
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|Sonoma-5",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1665,7 +1665,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1675,7 +1675,7 @@
       "id": "auto-d38b6bbd7168abd9",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "Tri-C Club Series Championship Round 7",
@@ -1715,7 +1715,7 @@
       "city": "Sonoma",
       "region": "CA",
       "country": "USA",
-      "source": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
+      "source": "https://rokcupusa.com/calendar/",
       "uid": "rok-sonoma-2027-official|2027|Sonoma-6",
       "feed_id": "rok-sonoma-2027-official",
       "status": "scheduled",
@@ -1724,7 +1724,7 @@
       "level": "Regional",
       "verification": "Automated",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
+      "notes": "Current official ROK Cup USA 2027 calendar supersedes the older announcement; recheck organizer before travel.",
       "discovered_from": "https://rokcupusa.com/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/",
       "parser": "reviewed-text",
       "location_needs_review": false,
@@ -1734,7 +1734,7 @@
       "id": "auto-57f96c84a5c8be55",
       "first_seen": "2026-10-19T19:11:19+00:00",
       "last_seen": "2026-11-09T15:42:45+00:00",
-      "last_verified": "2026-11-09T15:42:45+00:00"
+      "last_verified": "2026-11-09"
     },
     {
       "name": "Tri-C Club Series Championship Round 8",
