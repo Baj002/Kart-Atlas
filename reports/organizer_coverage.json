@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:26:10+00:00",
+  "generated_at": "2026-11-09T15:42:45+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -430,7 +430,7 @@
         },
         {
           "year": 2027,
-          "status": "declaration_stale",
+          "status": "not_announced",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -438,9 +438,9 @@
           "declaration": {
             "year": 2027,
             "status": "not_announced",
-            "reviewed_on": "2026-11-01",
+            "reviewed_on": "2026-11-09",
             "evidence": "https://hamiltonkartingcomplex.com/",
-            "note": "Rechecked official Hamilton Karting Complex club-racing section on November 1, 2026: '2027 HRKC racing schedule coming soon.' This statement is limited to HRKC owner-kart club racing; separate arrive-and-drive dates are not eligible."
+            "note": "Rechecked official Hamilton Karting Complex club-racing section on November 9, 2026: '2027 HRKC racing schedule coming soon.' This statement is limited to HRKC owner-kart club racing; separate arrive-and-drive dates are not eligible."
           },
           "event_ids": []
         }
