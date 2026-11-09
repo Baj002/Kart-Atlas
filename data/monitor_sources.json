@@ -1686,6 +1686,48 @@
       "timezone": "America/Indiana/Indianapolis",
       "verified_on": "2026-11-09",
       "category": "Owner-kart competition circuit only; exclude rentals, practice, oval, dirt, vintage, and long-circuit road racing. Verify dates and venues before publishing."
+    },
+    {
+      "id": "mid-state-kart-club-il",
+      "club": "Mid-State Kart Club",
+      "country": "USA",
+      "region": "IL",
+      "city": "Dawson",
+      "venue": "Mid-State Kart Club",
+      "url": "https://www.midstatekartclub.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-09",
+      "category": "Owner-kart sprint circuit only; exclude vintage, mini moto, practice."
+    },
+    {
+      "id": "tulsa-kart-club-ok",
+      "club": "Tulsa Kart Club",
+      "country": "USA",
+      "region": "OK",
+      "city": "Tulsa",
+      "venue": "Tulsa Kart Club",
+      "url": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-09",
+      "category": "Owner-kart sprint races; exclude Round 8 if configured as oval; verify annual schedule updates."
+    },
+    {
+      "id": "ignite-nebraska-hastings",
+      "club": "Ignite Karting Nebraska / Motorsport Park Hastings",
+      "country": "USA",
+      "region": "NE",
+      "city": "Hastings",
+      "venue": "Motorsport Park Hastings",
+      "url": "https://racemph.com/karting/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-09",
+      "category": "Scope review required: 1-mile road course layout; do not auto-publish until confirmed eligible sprint circuit rather than excluded long-circuit road racing."
     }
   ]
 }
