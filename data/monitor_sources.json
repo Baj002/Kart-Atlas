@@ -1218,7 +1218,7 @@
       "timezone": "America/Los_Angeles",
       "mode": "watch",
       "auto_import": false,
-      "verified_on": "2026-10-19",
+      "verified_on": "2026-11-09",
       "text_profile": {
         "paths": [
           "/rok-sonoma-unveils-2027-schedule-featuring-dual-triple-crowns-and-the-return-of-rok-fest-west/"
@@ -1230,7 +1230,7 @@
             "row": "^Round (?P<event>\\d+): (?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})$",
             "name": "ROK Sonoma Triple Crown 1 — Round {event}",
             "identity": "Sonoma-{event}",
-            "auto_import": true,
+            "auto_import": false,
             "curated_events": {
               "2027|Sonoma-1": "5d580cc95177",
               "2027|Sonoma-2": "e216105cbc71",
@@ -1243,7 +1243,7 @@
             "row": "^Round (?P<event>\\d+): (?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2})$",
             "name": "ROK Sonoma Triple Crown 2 — Round {event}",
             "identity": "Sonoma-{event}",
-            "auto_import": true,
+            "auto_import": false,
             "curated_events": {
               "2027|Sonoma-4": "352646a26717",
               "2027|Sonoma-5": "94d7a39be9da",
@@ -1256,14 +1256,15 @@
             "row": "Returning to Sonoma Raceway on (?P<date>[A-Z][a-z]+ \\d{1,2}-\\d{1,2}), ROK Fest West",
             "name": "ROK Fest West",
             "identity": "FestWest",
-            "auto_import": true,
+            "auto_import": false,
             "curated_events": {
               "2027|FestWest": "45b67f87c40b"
             }
           }
         ]
       },
-      "html_race_pattern": "ROK (?:Sonoma Triple Crown [12] — Round \\d+|Fest West)"
+      "html_race_pattern": "ROK (?:Sonoma Triple Crown [12] — Round \\d+|Fest West)",
+      "category": "Superseded 2027 announcement; current ROK Cup USA calendar takes precedence. Do not auto-publish dates from this older bulletin."
     },
     {
       "country": "Canada",
