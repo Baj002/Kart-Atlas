@@ -1742,6 +1742,34 @@
       "timezone": "America/Chicago",
       "verified_on": "2026-11-09",
       "category": "Owner-kart sprint races only; exclude practice and rental events."
+    },
+    {
+      "id": "oreville-pa-road-course",
+      "club": "Oreville Kart Club — Asphalt Road Course only",
+      "country": "USA",
+      "region": "PA",
+      "city": "Mertztown",
+      "venue": "Oreville Kart Club 1/4-mile Road Course",
+      "url": "https://orevillekartclub.org/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "verified_on": "2026-11-09",
+      "category": "Mixed oval and road-course venue; manual review mandatory. Include only explicitly identified road-course LO206 kart races. Exclude oval, champ, microstocks, vintage."
+    },
+    {
+      "id": "vermont-shifter-rocky-ridge",
+      "club": "Vermont Shifter Karts / Rocky Ridge Raceway",
+      "country": "USA",
+      "region": "VT",
+      "city": "Williamstown",
+      "venue": "Rocky Ridge Raceway",
+      "url": "https://vtshifterkarts.com/schedule/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "verified_on": "2026-11-09",
+      "category": "Owner kart club; website still shows 2025 schedule. Do not infer 2026 or 2027 dates; wait for current official publication."
     }
   ]
 }
