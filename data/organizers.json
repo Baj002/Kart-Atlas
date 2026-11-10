@@ -929,7 +929,9 @@
       "venue": "Lamar County Speedway",
       "city": "Barnesville",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "georgia-sprint-karting"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -944,7 +946,9 @@
       "venue": "61 Kartway",
       "city": "Delmar",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "61-kartway-iowa"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -959,7 +963,9 @@
       "venue": "Motorplex at the Mill",
       "city": "Eagle",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "kart-idaho-owner-series"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1019,7 +1025,9 @@
       "venue": "Mid-State Kart Club",
       "city": "Dawson",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "mid-state-kart-club-il"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1240,7 +1248,9 @@
       "venue": "West Michigan Kart Club",
       "city": "East Lansing",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "west-michigan-kart-club"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1270,7 +1280,10 @@
       "venue": "Kansas City Karting Association",
       "city": "Grain Valley",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "kcka-liberty-missouri",
+        "kcka-kansas-sprint"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1483,7 +1496,9 @@
       "venue": "Trackhouse Motorplex",
       "city": "Mooresville",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "trackhouse-karting-challenge"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1498,7 +1513,9 @@
       "venue": "Motorsports Park Hastings",
       "city": "Hastings",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "ignite-nebraska-hastings"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1778,7 +1795,9 @@
       "venue": "Tulsa Kart Club",
       "city": "Tulsa",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "tulsa-kart-club-ok"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1843,7 +1862,9 @@
       "venue": "Oreville Kart Club",
       "city": "Mertztown",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "oreville-pa-road-course"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -1873,7 +1894,9 @@
       "venue": "Carolina Motorsports Park",
       "city": "Kershaw",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "cmp-kart-owner-sprint"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -2089,7 +2112,9 @@
       "venue": "Rocky Ridge Raceway",
       "city": "Williamstown",
       "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "source_ids": [
+        "vermont-shifter-rocky-ridge"
+      ],
       "scope_status": "needs_review",
       "scope_reason": null,
       "verification": "directory_lead",
@@ -2518,6 +2543,120 @@
       "scope_reason": "Official 2026 high-performance owner-kart league with Briggs, Rotax, DD2 and Shifter competition; SWS rental league is excluded.",
       "verification": "reviewed_organizer",
       "season_declarations": []
+    },
+    {
+      "id": "88456aedd8",
+      "name": "Central Arkansas Karting Complex",
+      "country": "USA",
+      "region": "AR",
+      "city": "Vilonia",
+      "venue": "Central Arkansas Karting Complex",
+      "primary_url": "https://www.racingarkansas.com/kart-league/",
+      "source_ids": [
+        "arkansas-kart-owner-series"
+      ],
+      "aliases": [],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.racingarkansas.com/kart-league/"
+    },
+    {
+      "id": "c0d67502e1",
+      "name": "Colorado Karting Tour",
+      "country": "USA",
+      "region": "CO",
+      "city": "",
+      "venue": "Multiple Colorado sprint tracks",
+      "primary_url": "https://www.coloradokartingtour.com/championship-schedule/",
+      "source_ids": [
+        "colorado-karting-tour"
+      ],
+      "aliases": [],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.coloradokartingtour.com/championship-schedule/"
+    },
+    {
+      "id": "c148bcd648",
+      "name": "Colorado Karting Circuit",
+      "country": "USA",
+      "region": "CO",
+      "city": "",
+      "venue": "Colorado Karting Circuit",
+      "primary_url": "https://www.cokartcircuit.com/owner-karting-and-races",
+      "source_ids": [
+        "colorado-karting-circuit-owner"
+      ],
+      "aliases": [],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.cokartcircuit.com/owner-karting-and-races"
+    },
+    {
+      "id": "389c2397ae",
+      "name": "Cascadia Karting Cup",
+      "country": "USA",
+      "region": "OR",
+      "city": "",
+      "venue": "Multiple Pacific Northwest kart tracks",
+      "primary_url": "https://www.challengekarting.com/cascadia-karting-cup-expands-to-three-events-in-2027/",
+      "source_ids": [
+        "cascadia-karting-cup"
+      ],
+      "aliases": [],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.challengekarting.com/cascadia-karting-cup-expands-to-three-events-in-2027/"
+    },
+    {
+      "id": "2f0863c493",
+      "name": "Utah Karting Championship",
+      "country": "USA",
+      "region": "UT",
+      "city": "Erda",
+      "venue": "Utah Motorsports Campus Kart Track",
+      "primary_url": "https://www.utahmotorsportscampus.com/ukc-at-umc/",
+      "source_ids": [
+        "utah-karting-championship"
+      ],
+      "aliases": [],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.utahmotorsportscampus.com/ukc-at-umc/"
+    },
+    {
+      "id": "af8641685d",
+      "name": "Woodbridge Kart Club Sprint Series",
+      "country": "USA",
+      "region": "WV",
+      "city": "Summit Point",
+      "venue": "Summit Point Washington Circuit",
+      "primary_url": "https://www.woodbridgekartclub.com/sprint-racing-returning-summit-point-washington-2026/",
+      "source_ids": [
+        "woodbridge-sprint-wv"
+      ],
+      "aliases": [],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.woodbridgekartclub.com/sprint-racing-returning-summit-point-washington-2026/"
     }
   ]
 }
