@@ -696,14 +696,18 @@
       ],
       "country": "USA",
       "region": "CA",
-      "venue": "Santa Maria Karting Association",
+      "venue": "Santa Maria Kart Track",
       "city": "Santa Maria",
-      "primary_url": "https://kartdirectory.racing/us/events/",
-      "source_ids": [],
-      "scope_status": "needs_review",
+      "primary_url": "https://www.smka.org/the-track/race-day-info/",
+      "source_ids": [
+        "smka-2026-official"
+      ],
+      "scope_status": "eligible",
       "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.smka.org/the-track/race-day-info/"
     },
     {
       "id": "49a6e0d3b5",
@@ -1059,12 +1063,16 @@
       "region": "IN",
       "venue": "New Castle Motorsports Park",
       "city": "New Castle",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
+      "primary_url": "https://newcastlemotorsportspark.com/schedule",
+      "source_ids": [
+        "new-castle-kra"
+      ],
+      "scope_status": "eligible",
       "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://newcastlemotorsportspark.com/schedule"
     },
     {
       "id": "0bf22ddb4e",
@@ -1357,15 +1365,19 @@
       "region": "Multi",
       "venue": "Multiple",
       "city": "Multiple",
-      "primary_url": "https://www.cupkarts.com/ckna-news/reflecting-on-grandsx-and-the-start-of-2027/",
+      "primary_url": "https://www.cupkarts.com/schedule/",
       "source_ids": [
         "ckna-canada",
-        "ckna-canada-news"
+        "ckna-canada-news",
+        "ckna-mississippi-2026",
+        "ckna-njmp-official"
       ],
       "scope_status": "eligible",
       "scope_reason": null,
       "verification": "reviewed_organizer",
-      "season_declarations": []
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.cupkarts.com/schedule/"
     },
     {
       "id": "d460c1ee4c",
@@ -2002,18 +2014,26 @@
     },
     {
       "id": "d9d74cf17f",
-      "name": "Texas Sprint Racing Series / Speedsportz",
-      "aliases": [],
+      "name": "Texas Sprint Racing Series",
+      "aliases": [
+        "Texas Sprint Racing Series / Speedsportz"
+      ],
       "country": "USA",
       "region": "TX",
       "venue": "Speedsportz Racing Park",
       "city": "New Caney",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
+      "primary_url": "https://www.texassprintseries.com/",
+      "source_ids": [
+        "tsrs-2027-official",
+        "tsrs-louisiana-2027",
+        "tsrs-oklahoma-2027"
+      ],
+      "scope_status": "eligible",
       "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.texassprintseries.com/"
     },
     {
       "id": "cb561ba25a",
