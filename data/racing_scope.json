@@ -230,6 +230,17 @@
         "source": "https://www.superkartsusa.com/event-schedules.html",
         "notes": "2027 date and venue confirmed on current official SKUSA schedule 2026-11-09; earlier TBA location superseded."
       }
+    },
+    "ba1bef3716cc": {
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://www.smka.org/the-track/race-day-info/",
+      "fields": {
+        "start": "2026-10-18",
+        "end": "2026-10-18",
+        "source": "https://www.smka.org/the-track/race-day-info/",
+        "classes": "Briggs LO206; KA100; TAG; Shifter; Kid Kart",
+        "notes": "Official updated 2026 SMKA race-day information confirms Round 8 October 18 (earlier secondary listing incorrectly said October 25)."
+      }
     }
   },
   "duplicate_events": {
