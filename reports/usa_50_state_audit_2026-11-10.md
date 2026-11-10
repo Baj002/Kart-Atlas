@@ -35,9 +35,9 @@ Individual round pages: https://www.texassprintseries.com/round-4/ and https://w
 
 ## Data integrity and publication
 
-- Files updated: `data/races.csv`, `site/events.json`, `data/monitor_sources.json`, `data/racing_scope.json`.
+- Files updated: `data/races.csv`, `site/events.json`, `data/monitor_sources.json`, `data/organizers.json`, `data/racing_scope.json`, and `scripts/build_site.py` (curated snapshot date).
 - Newly added race IDs were generated using the same SHA-1 start-date/name/venue key as the repository's `scripts/build_site.py`.
-- Existing event IDs were checked; **zero duplicate event IDs** after this pass.
+- Existing event IDs were checked; **zero duplicate event IDs** after this pass. The 47 new CSV records were cross-checked against the published JSON by event name, date and venue, with no missing mappings. Four official organizer records were verified or rebound to monitored sources.
 - Source-specific dates and venues were verified against organizer or track schedules; no 2027 date was inferred from a 2026 recurrence.
 - The two-day CKNA Biloxi event is represented as Feb 20–22 per the official CKNA calendar; RaceSelect's wider administrative date window extends through Feb 24. Event/race-day schedule is the authoritative source.
 - No CI test execution or Cloudflare deployment status was independently confirmed. The repository may rebuild `site/events.json` and reminder calendars on its next workflow run.
