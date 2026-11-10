@@ -53,10 +53,12 @@
       "city": "Quesnel",
       "primary_url": "https://www.westcoastkartclub.ca/schedule",
       "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "scope_status": "eligible",
+      "scope_reason": "Official BC Regional Karting Championship calendars identify Cariboo Kart Racers in Quesnel as host of the June 27–28, 2026 owner-kart races (June 26 practice). This verifies an eligible competition venue/host, not a published 2027 schedule; an independent Cariboo 2027 calendar remains unverified.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-10",
+      "evidence": "https://vika.ca/bc-regional-races/"
     },
     {
       "id": "2a75fb40bd",
