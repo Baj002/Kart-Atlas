@@ -7,7 +7,7 @@
 - Indexed events (all North America): **379**.
 - U.S. events: **226** across **30** states.
 - U.S. upcoming events from November 10, 2026: **95**.
-- U.S. state-specific monitored official sources: **54** across **35** states (national/multi-state sources excluded from state count).
+- U.S. state-tagged monitored official-source entries: **54** across **35** states (national/multi-state registry entries excluded from state count; some state-tagged records point to a particular race on a multi-state organizer schedule).
 - New U.S. curated race records this pass: **47**, including **5 future 2027 Texas Sprint Racing Series rounds** and **42 verified historical 2026 events**.
 - New state race coverage: **Mississippi, New Jersey, Washington**. The Louisiana 2027 TSRS event also has a newly monitored official source.
 - New official monitoring entries: **6** (all watch-only; no speculative automatic publication).
@@ -37,7 +37,7 @@ Individual round pages: https://www.texassprintseries.com/round-4/ and https://w
 
 - Files updated: `data/races.csv`, `site/events.json`, `data/monitor_sources.json`, `data/organizers.json`, `data/racing_scope.json`, and `scripts/build_site.py` (curated snapshot date).
 - Newly added race IDs were generated using the same SHA-1 start-date/name/venue key as the repository's `scripts/build_site.py`.
-- Existing event IDs were checked; **zero duplicate event IDs** after this pass. The 47 new CSV records were cross-checked against the published JSON by event name, date and venue, with no missing mappings. Four official organizer records were verified or rebound to monitored sources.
+- Existing event IDs were checked; **zero duplicate event IDs** after this pass. The 47 new CSV records were cross-checked against the published JSON by event name, date and venue, with no missing mappings. Four official organizer records were verified or rebound to monitored sources. An additional 19 pre-existing unbound monitoring entries were repaired by binding them to 13 existing and six newly registered organizers; all 105 monitoring IDs now have exactly one organizer binding, with no alias collisions.
 - Source-specific dates and venues were verified against organizer or track schedules; no 2027 date was inferred from a 2026 recurrence.
 - The two-day CKNA Biloxi event is represented as Feb 20–22 per the official CKNA calendar; RaceSelect's wider administrative date window extends through Feb 24. Event/race-day schedule is the authoritative source.
 - No CI test execution or Cloudflare deployment status was independently confirmed. The repository may rebuild `site/events.json` and reminder calendars on its next workflow run.
