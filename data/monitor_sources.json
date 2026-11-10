@@ -1784,6 +1784,78 @@
       "timezone": "America/Chicago",
       "verified_on": "2026-11-09",
       "category": "Official KCKA organizer-posted registration listings for Liberty Sprint Track; owner-kart circuit races only. Exclude test days, membership and oval."
+    },
+    {
+      "id": "tsrs-2027-official",
+      "club": "Texas Sprint Racing Series — 2027 Official Schedule",
+      "country": "USA",
+      "region": "TX",
+      "city": "New Caney",
+      "venue": "Multiple TX/LA/OK tracks",
+      "url": "https://www.texassprintseries.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "category": "Official 2027 owner-kart sprint series; verify individual round dates and venues before publication"
+    },
+    {
+      "id": "tsrs-louisiana-2027",
+      "club": "Texas Sprint Racing Series — NOLA Round",
+      "country": "USA",
+      "region": "LA",
+      "city": "Avondale",
+      "venue": "NOLA Motorsports Park Kart Track",
+      "url": "https://www.texassprintseries.com/round-4/",
+      "mode": "watch",
+      "auto_import": false,
+      "category": "Official 2027 Louisiana owner-kart sprint event; monitor registration details"
+    },
+    {
+      "id": "tsrs-oklahoma-2027",
+      "club": "Texas Sprint Racing Series — Oklahoma Round",
+      "country": "USA",
+      "region": "OK",
+      "city": "Norman",
+      "venue": "Oklahoma Motorsports Complex",
+      "url": "https://www.texassprintseries.com/round-5/",
+      "mode": "watch",
+      "auto_import": false,
+      "category": "Official 2027 Oklahoma owner-kart sprint event; monitor registration details"
+    },
+    {
+      "id": "ckna-mississippi-2026",
+      "club": "Cup Karts North America — Biloxi Mississippi Round",
+      "country": "USA",
+      "region": "MS",
+      "city": "Biloxi",
+      "venue": "Finishline Performance Karting",
+      "url": "https://www.cupkarts.com/schedule/",
+      "mode": "watch",
+      "auto_import": false,
+      "category": "2026 Mississippi owner-kart sprint round on official multi-state CKNA schedule; review future calendars; exclude rental leagues"
+    },
+    {
+      "id": "ckna-njmp-official",
+      "club": "Cup Karts North America — New Jersey Motorsports Park",
+      "country": "USA",
+      "region": "NJ",
+      "city": "Millville",
+      "venue": "NJMP Liberator Kart Track",
+      "url": "https://njmp.com/event/cup-karts-liberator/",
+      "mode": "watch",
+      "auto_import": false,
+      "category": "2026 owner-kart CKNA sprint event confirmed by NJMP venue; watch future schedules"
+    },
+    {
+      "id": "smka-2026-official",
+      "club": "Santa Maria Karting Association — Club Racing",
+      "country": "USA",
+      "region": "CA",
+      "city": "Santa Maria",
+      "venue": "Santa Maria Kart Track",
+      "url": "https://www.smka.org/the-track/race-day-info/",
+      "mode": "watch",
+      "auto_import": false,
+      "category": "Owner-kart sprint club; exclude optional arrive-and-drive class"
     }
   ]
 }
