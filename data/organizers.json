@@ -1340,14 +1340,18 @@
       "aliases": [],
       "country": "USA",
       "region": "MT",
-      "venue": "Montana Karting Association",
+      "venue": "Rocky Mountain Emergency Services Training Center Road Course",
       "city": "Helena",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
+      "primary_url": "https://montanakarting.com/race-dates/",
+      "source_ids": [
+        "montana-karting-2026"
+      ],
+      "scope_status": "eligible",
       "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-11",
+      "evidence": "https://montanakarting.com/race-dates/"
     },
     {
       "id": "944deae24f",
@@ -2079,14 +2083,18 @@
       "aliases": [],
       "country": "USA",
       "region": "VA",
-      "venue": "Langley Speedway",
+      "venue": "Langley Speedway Kart Course",
       "city": "Hampton",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
+      "primary_url": "https://www.hrkc.com/schedule/",
+      "source_ids": [
+        "hampton-roads-kart-club-va"
+      ],
       "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "scope_reason": "Road-course dates must be differentiated from oval races; official page currently headed 2025",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-11",
+      "evidence": "https://www.hrkc.com/schedule/"
     },
     {
       "id": "a8155483a7",
@@ -2657,6 +2665,27 @@
       "season_declarations": [],
       "reviewed_on": "2026-11-10",
       "evidence": "https://www.woodbridgekartclub.com/sprint-racing-returning-summit-point-washington-2026/"
+    },
+    {
+      "id": "f4a36b6979",
+      "name": "Maui Go Karters Association",
+      "aliases": [
+        "MGKA"
+      ],
+      "country": "USA",
+      "region": "HI",
+      "city": "Puunene",
+      "venue": "Maui Motorsports Park Sprint Circuit",
+      "primary_url": "https://mauigokart.com/",
+      "source_ids": [
+        "maui-go-karters-hi"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-11",
+      "evidence": "https://mauigokart.com/"
     }
   ]
 }
