@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-09T15:42:45+00:00",
+  "generated_at": "2026-11-11T14:26:51+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 147,
+    "organizers": 153,
     "by_scope": {
-      "eligible": 55,
-      "needs_review": 90,
+      "eligible": 65,
+      "needs_review": 86,
       "excluded": 2
     },
-    "with_configured_sources": 56,
-    "with_reached_sources": 50,
-    "with_health_issues": 10,
-    "unmatched_races": 0
+    "with_configured_sources": 77,
+    "with_reached_sources": 68,
+    "with_health_issues": 15,
+    "unmatched_races": 26
   },
   "organizers": [
     {
@@ -138,7 +138,7 @@
       "organizer_id": "86c4970101",
       "name": "Cariboo Kart Racers",
       "country": "Canada",
-      "scope_status": "needs_review",
+      "scope_status": "eligible",
       "source_ids": [],
       "sources_reached": [],
       "unhealthy_sources": [],
@@ -412,7 +412,9 @@
       "unhealthy_sources": [
         "hamilton-ics"
       ],
-      "stale_sources": [],
+      "stale_sources": [
+        "hamilton-ics"
+      ],
       "review_candidates": 0,
       "seasons": [
         {
@@ -1542,9 +1544,13 @@
       "organizer_id": "5ce320a5b9",
       "name": "Santa Maria Karting Association",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "smka-2026-official"
+      ],
+      "sources_reached": [
+        "smka-2026-official"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
@@ -1552,18 +1558,25 @@
         {
           "year": 2026,
           "status": "past_events_only",
-          "indexed_events": 1,
+          "indexed_events": 8,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
-            "ba1bef3716cc"
+            "c127afb3037a",
+            "0480827c2ced",
+            "78f40460461a",
+            "0ed4e84fb283",
+            "8e19bf256586",
+            "78c5e67050cc",
+            "ba1bef3716cc",
+            "9f3003496364"
           ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2059,25 +2072,31 @@
       "name": "Georgia Sprint Karting Association",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "georgia-sprint-karting"
+      ],
+      "sources_reached": [
+        "georgia-sprint-karting"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 1,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "7871a68fae2d"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2092,15 +2111,19 @@
       "name": "61 Kartway",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "61-kartway-iowa"
+      ],
+      "sources_reached": [
+        "61-kartway-iowa"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2110,7 +2133,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2125,25 +2148,33 @@
       "name": "Kart Idaho",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
+      "source_ids": [
+        "kart-idaho-owner-series"
+      ],
       "sources_reached": [],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "kart-idaho-owner-series"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 3,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "7544eff8f1c3",
+            "7cc5a0086d66",
+            "9b5dad9df8b9"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2257,15 +2288,19 @@
       "name": "Mid-State Kart Club",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "mid-state-kart-club-il"
+      ],
+      "sources_reached": [
+        "mid-state-kart-club-il"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2275,7 +2310,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2355,16 +2390,20 @@
       "organizer_id": "ae2f60ee4f",
       "name": "New Castle Motorsports Park",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "new-castle-kra"
+      ],
+      "sources_reached": [
+        "new-castle-kra"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2374,7 +2413,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2731,25 +2770,36 @@
       "name": "West Michigan Kart Club",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "west-michigan-kart-club"
+      ],
+      "sources_reached": [
+        "west-michigan-kart-club"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 6,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "4ed3c1f4d51f",
+            "b2f8aa024817",
+            "bac97e7141ee",
+            "46be1ba342e1",
+            "86167eb8677e",
+            "2920d20f3548"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2797,25 +2847,42 @@
       "name": "Kansas City Karting Association",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
-      "unhealthy_sources": [],
+      "source_ids": [
+        "kcka-liberty-missouri",
+        "kcka-kansas-sprint"
+      ],
+      "sources_reached": [
+        "kcka-liberty-missouri"
+      ],
+      "unhealthy_sources": [
+        "kcka-kansas-sprint"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 9,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "27ed1b5a4fe2",
+            "f043628baaf5",
+            "dcab02073e20",
+            "f6c5c7ffaa43",
+            "3e31d500ccf6",
+            "1cc68c7c5809",
+            "48dc732071ee",
+            "bdbf6bb6383e",
+            "56a8245a38d5"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3053,26 +3120,43 @@
       "scope_status": "eligible",
       "source_ids": [
         "ckna-canada",
-        "ckna-canada-news"
+        "ckna-canada-news",
+        "ckna-mississippi-2026",
+        "ckna-njmp-official"
       ],
       "sources_reached": [
         "ckna-canada",
-        "ckna-canada-news"
+        "ckna-canada-news",
+        "ckna-mississippi-2026"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "ckna-njmp-official"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
           "status": "past_events_only",
-          "indexed_events": 1,
+          "indexed_events": 13,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
-            "3e13a214e920"
+            "1e5d585b2bbb",
+            "3a6d2cbc3c10",
+            "637fb0e778b4",
+            "73968ac1288a",
+            "3b78eb9e46f1",
+            "3e13a214e920",
+            "ed39fc4bc28f",
+            "a6ac2da60f03",
+            "6b4e4b4fea9c",
+            "b1c4c98c3ac1",
+            "ab02f58a31fb",
+            "3312790bdd51",
+            "b6c7263544fe"
           ]
         },
         {
@@ -3114,7 +3198,7 @@
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
-      "review_candidates": 0,
+      "review_candidates": 7,
       "seasons": [
         {
           "year": 2026,
@@ -3133,11 +3217,18 @@
           "status": "indexed_future_events",
           "indexed_events": 11,
           "upcoming_events": 11,
-          "recently_verified_upcoming": 7,
+          "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [
             "27401066f4a3",
             "c221825c977a",
             "f6380f404a97",
+            "5d580cc95177",
+            "e216105cbc71",
+            "1bb0a6b3dee8",
+            "45b67f87c40b",
+            "352646a26717",
+            "94d7a39be9da",
+            "e32c72034c7f",
             "5c0bea37776d"
           ],
           "declaration": null,
@@ -3148,8 +3239,8 @@
             "5d580cc95177",
             "e216105cbc71",
             "1bb0a6b3dee8",
-            "352646a26717",
             "45b67f87c40b",
+            "352646a26717",
             "94d7a39be9da",
             "e32c72034c7f",
             "5c0bea37776d"
@@ -3349,25 +3440,33 @@
       "name": "Trackhouse Motorplex",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "trackhouse-karting-challenge"
+      ],
+      "sources_reached": [
+        "trackhouse-karting-challenge"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
-          "upcoming_events": 0,
+          "status": "indexed_future_events",
+          "indexed_events": 1,
+          "upcoming_events": 1,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [],
+          "unconfirmed_future_event_ids": [
+            "2b91ac848c73"
+          ],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "2b91ac848c73"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3382,15 +3481,19 @@
       "name": "Ignite Karting Nebraska",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "ignite-nebraska-hastings"
+      ],
+      "sources_reached": [
+        "ignite-nebraska-hastings"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3400,7 +3503,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3968,25 +4071,44 @@
       "name": "Tulsa Kart Club",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
+      "source_ids": [
+        "tulsa-kart-club-ok"
+      ],
       "sources_reached": [],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "tulsa-kart-club-ok"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 14,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "39417d4c2032",
+            "0d366d1af105",
+            "d9d5182113f6",
+            "b41a14145640",
+            "81da7b5df892",
+            "2cc4b12fec6d",
+            "96e7f2be8d9d",
+            "d7bdaa58b4e1",
+            "5746b58ccee8",
+            "460344ec6422",
+            "d48e50be763c",
+            "ce09a78711ce",
+            "1420a4ab3494",
+            "da3404295b53"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4108,25 +4230,33 @@
       "name": "Oreville Kart Club",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "oreville-pa-road-course"
+      ],
+      "sources_reached": [
+        "oreville-pa-road-course"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 3,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "9607827bd003",
+            "148de86a9ccf",
+            "7e322842f2e9"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4174,15 +4304,19 @@
       "name": "Carolina Motorsports Park Karting",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "cmp-kart-owner-sprint"
+      ],
+      "sources_reached": [
+        "cmp-kart-owner-sprint"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4192,7 +4326,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4492,18 +4626,26 @@
     },
     {
       "organizer_id": "d9d74cf17f",
-      "name": "Texas Sprint Racing Series / Speedsportz",
+      "name": "Texas Sprint Racing Series",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "tsrs-2027-official",
+        "tsrs-louisiana-2027",
+        "tsrs-oklahoma-2027"
+      ],
+      "sources_reached": [
+        "tsrs-2027-official",
+        "tsrs-louisiana-2027",
+        "tsrs-oklahoma-2027"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4513,13 +4655,25 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
-          "indexed_events": 0,
-          "upcoming_events": 0,
+          "status": "indexed_future_events",
+          "indexed_events": 5,
+          "upcoming_events": 5,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [],
+          "unconfirmed_future_event_ids": [
+            "f7f4e85af195",
+            "37dff5488c6f",
+            "67be2bafce1d",
+            "d1b4a376b379",
+            "d2d2066c1a41"
+          ],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "f7f4e85af195",
+            "37dff5488c6f",
+            "67be2bafce1d",
+            "d1b4a376b379",
+            "d2d2066c1a41"
+          ]
         }
       ]
     },
@@ -4627,15 +4781,19 @@
       "name": "Vermont Shifter Karts",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "source_ids": [
+        "vermont-shifter-rocky-ridge"
+      ],
+      "sources_reached": [
+        "vermont-shifter-rocky-ridge"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4645,7 +4803,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4705,13 +4863,22 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "no_dates_verified",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 8,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "bd084d414cc7",
+            "d399d829703b",
+            "accaeb9c2687",
+            "47e189ff52ec",
+            "38bdfb8f603f",
+            "e94da5c82892",
+            "28bb8deac762",
+            "3e9ca1b90047"
+          ]
         },
         {
           "year": 2027,
@@ -5556,6 +5723,254 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "88456aedd8",
+      "name": "Central Arkansas Karting Complex",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "arkansas-kart-owner-series"
+      ],
+      "sources_reached": [
+        "arkansas-kart-owner-series"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "past_events_only",
+          "indexed_events": 8,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": [
+            "a513cfb39d21",
+            "57655086fba1",
+            "e24ffcef5ab4",
+            "f94e4a707d5b",
+            "82614c00ef6b",
+            "80d2be015575",
+            "14e76cb34d28",
+            "6ff2a8d474f3"
+          ]
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "organizer_id": "c0d67502e1",
+      "name": "Colorado Karting Tour",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "colorado-karting-tour"
+      ],
+      "sources_reached": [
+        "colorado-karting-tour"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "past_events_only",
+          "indexed_events": 5,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": [
+            "be6ba2304e04",
+            "c0e1347e5e7c",
+            "86f7413d4245",
+            "f50d506f7bf3",
+            "64620f1f7175"
+          ]
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "organizer_id": "c148bcd648",
+      "name": "Colorado Karting Circuit",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "colorado-karting-circuit-owner"
+      ],
+      "sources_reached": [
+        "colorado-karting-circuit-owner"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "organizer_id": "389c2397ae",
+      "name": "Cascadia Karting Cup",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "cascadia-karting-cup"
+      ],
+      "sources_reached": [
+        "cascadia-karting-cup"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "organizer_id": "2f0863c493",
+      "name": "Utah Karting Championship",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "utah-karting-championship"
+      ],
+      "sources_reached": [],
+      "unhealthy_sources": [
+        "utah-karting-championship"
+      ],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "past_events_only",
+          "indexed_events": 10,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": [
+            "93a36aaba96b",
+            "0e8fca22a8fc",
+            "db16ab3c281f",
+            "071970eb923a",
+            "e95b75ec72a0",
+            "d35d5e365109",
+            "32a3f7576f9e",
+            "bd1b285afc6f",
+            "a1e8eda1140c",
+            "8632180767d4"
+          ]
+        },
+        {
+          "year": 2027,
+          "status": "source_unreachable",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
+    },
+    {
+      "organizer_id": "af8641685d",
+      "name": "Woodbridge Kart Club Sprint Series",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "woodbridge-sprint-wv"
+      ],
+      "sources_reached": [
+        "woodbridge-sprint-wv"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -5565,6 +5980,13 @@
       "priority": 1,
       "reason": "source_health",
       "upcoming_events": 11
+    },
+    {
+      "organizer_id": "1ac7f4a39f",
+      "name": "Cup Karts North America",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 5
     },
     {
       "organizer_id": "6958e0e3cd",
@@ -5605,12 +6027,12 @@
       "organizer_id": "d460c1ee4c",
       "name": "ROK Cup USA",
       "priority": 2,
-      "reason": "published_dates_need_reverification",
+      "reason": "event_review",
       "upcoming_events": 11
     },
     {
-      "organizer_id": "1ac7f4a39f",
-      "name": "Cup Karts North America",
+      "organizer_id": "d9d74cf17f",
+      "name": "Texas Sprint Racing Series",
       "priority": 2,
       "reason": "published_dates_need_reverification",
       "upcoming_events": 5
@@ -5651,15 +6073,15 @@
       "upcoming_events": 1
     },
     {
-      "organizer_id": "690b3769fe",
-      "name": "201 Go Kart Speedway",
+      "organizer_id": "3ee95e7c6e",
+      "name": "Trackhouse Motorplex",
       "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 1
     },
     {
-      "organizer_id": "19482f177c",
-      "name": "61 Kartway",
+      "organizer_id": "690b3769fe",
+      "name": "201 Go Kart Speedway",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -5709,13 +6131,6 @@
     {
       "organizer_id": "86c4970101",
       "name": "Cariboo Kart Racers",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "0ed44cd184",
-      "name": "Carolina Motorsports Park Karting",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -5798,13 +6213,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "3501debe79",
-      "name": "Georgia Sprint Karting Association",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "d1c9f9004d",
       "name": "Hamilton Regional Kart Club",
       "priority": 2,
@@ -5840,13 +6248,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "db0d205d87",
-      "name": "Ignite Karting Nebraska",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "org-135e8cffe3",
       "name": "International Kart Federation",
       "priority": 2,
@@ -5857,7 +6258,7 @@
       "organizer_id": "3f5bb0a5e6",
       "name": "Kansas City Karting Association",
       "priority": 2,
-      "reason": "source_not_configured",
+      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -5871,7 +6272,7 @@
       "organizer_id": "6bd52bf314",
       "name": "Kart Idaho",
       "priority": 2,
-      "reason": "source_not_configured",
+      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -5931,13 +6332,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "5dab38a82d",
-      "name": "Mid-State Kart Club",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "cb214a3dfc",
       "name": "Mississippi Karters Association",
       "priority": 2,
@@ -5975,13 +6369,6 @@
     {
       "organizer_id": "f128eda1f0",
       "name": "NOLA Karting",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "ae2f60ee4f",
-      "name": "New Castle Motorsports Park",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6031,13 +6418,6 @@
     {
       "organizer_id": "0728774bf8",
       "name": "Oklahoma Motorsports Complex",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "3987727282",
-      "name": "Oreville Kart Club",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6141,13 +6521,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "5ce320a5b9",
-      "name": "Santa Maria Karting Association",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "d9c03351d3",
       "name": "Snake River Karters",
       "priority": 2,
@@ -6190,22 +6563,8 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "d9d74cf17f",
-      "name": "Texas Sprint Racing Series / Speedsportz",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "51eb5404a0",
       "name": "Thompson Kart Raceway",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "3ee95e7c6e",
-      "name": "Trackhouse Motorplex",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6228,7 +6587,7 @@
       "organizer_id": "9095362e99",
       "name": "Tulsa Kart Club",
       "priority": 2,
-      "reason": "source_not_configured",
+      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6246,6 +6605,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "2f0863c493",
+      "name": "Utah Karting Championship",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "cb561ba25a",
       "name": "Utah Motorsports Campus",
       "priority": 2,
@@ -6253,22 +6619,8 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "a2f436bf07",
-      "name": "Vermont Shifter Karts",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "b6bc393f2d",
       "name": "WKA / Local organizers",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "741e821d81",
-      "name": "West Michigan Kart Club",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6330,6 +6682,13 @@
       "upcoming_events": 1
     },
     {
+      "organizer_id": "19482f177c",
+      "name": "61 Kartway",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "d81434ea35",
       "name": "Atlantic Motorsport Karters Association",
       "priority": 3,
@@ -6365,10 +6724,59 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "0ed44cd184",
+      "name": "Carolina Motorsports Park Karting",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "389c2397ae",
+      "name": "Cascadia Karting Cup",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "88456aedd8",
+      "name": "Central Arkansas Karting Complex",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "c6c07bf0f1",
       "name": "Club Karting Trois-Rivières",
       "priority": 3,
       "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "c148bcd648",
+      "name": "Colorado Karting Circuit",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "c0d67502e1",
+      "name": "Colorado Karting Tour",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "3501debe79",
+      "name": "Georgia Sprint Karting Association",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "db0d205d87",
+      "name": "Ignite Karting Nebraska",
+      "priority": 3,
+      "reason": "organizer_scope_review",
       "upcoming_events": 0
     },
     {
@@ -6400,6 +6808,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "5dab38a82d",
+      "name": "Mid-State Kart Club",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "3c78c917ed",
       "name": "Mosport International Karting Association",
       "priority": 3,
@@ -6416,6 +6831,13 @@
     {
       "organizer_id": "6a07490f0e",
       "name": "National Capital Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "ae2f60ee4f",
+      "name": "New Castle Motorsports Park",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -6453,6 +6875,13 @@
       "name": "Ohio Valley Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "3987727282",
+      "name": "Oreville Kart Club",
+      "priority": 3,
+      "reason": "organizer_scope_review",
       "upcoming_events": 0
     },
     {
@@ -6512,6 +6941,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "5ce320a5b9",
+      "name": "Santa Maria Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "36000e0d27",
       "name": "Saskatoon Kart Racers",
       "priority": 3,
@@ -6554,6 +6990,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "a2f436bf07",
+      "name": "Vermont Shifter Karts",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
       "priority": 3,
@@ -6566,7 +7009,152 @@
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
+    },
+    {
+      "organizer_id": "741e821d81",
+      "name": "West Michigan Kart Club",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "af8641685d",
+      "name": "Woodbridge Kart Club Sprint Series",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
     }
   ],
-  "unmatched_races": []
+  "unmatched_races": [
+    {
+      "id": "7ddf635412e1",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "db0a8cbffc60",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "a00d59ac66b3",
+      "organizer": "Ignite Challenge / Margay",
+      "source": "https://ignitekarting.com/ignite-challenge/"
+    },
+    {
+      "id": "90807cb09cef",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "516fdac343e3",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "70a6ea0d5e8d",
+      "organizer": "Ignite Challenge / Margay",
+      "source": "https://ignitekarting.com/ignite-challenge/"
+    },
+    {
+      "id": "55c3bdab56bf",
+      "organizer": "Ignite Challenge / Margay",
+      "source": "https://ignitekarting.com/ignite-challenge/"
+    },
+    {
+      "id": "ccc339d5c6fb",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "f095ca4691fe",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "0a9565e50bd3",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "1fa27400b402",
+      "organizer": "Northwest Karting Association",
+      "source": "https://psgka.com/psgka-racing/"
+    },
+    {
+      "id": "9f720629bf0c",
+      "organizer": "Ignite Challenge / Margay",
+      "source": "https://ignitekarting.com/ignite-challenge/"
+    },
+    {
+      "id": "a3a548689327",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "aef18afd5bcf",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "563964f31cbd",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "8652670103b3",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "abdc49118c1d",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "9c6e4b0f04f6",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "c30d60493830",
+      "organizer": "New Castle Motorsports Park — KRA",
+      "source": "https://newcastlemotorsportspark.com/schedule"
+    },
+    {
+      "id": "auto-a39b025c2471dfea",
+      "organizer": "Texas Sprint Racing Series — 2027 Official Schedule",
+      "source": "https://www.texassprintseries.com/"
+    },
+    {
+      "id": "auto-8ed6657270a44088",
+      "organizer": "Texas Sprint Racing Series — 2027 Official Schedule",
+      "source": "https://www.texassprintseries.com/"
+    },
+    {
+      "id": "75f9b7d1de30",
+      "organizer": "Cascadia Karting Cup / FTK Promotions",
+      "source": "https://www.challengekarting.com/cascadia-karting-cup-expands-to-three-events-in-2027/"
+    },
+    {
+      "id": "auto-6366183d10919ea7",
+      "organizer": "Texas Sprint Racing Series — 2027 Official Schedule",
+      "source": "https://www.texassprintseries.com/"
+    },
+    {
+      "id": "auto-fdeb4cc265dd5e87",
+      "organizer": "Texas Sprint Racing Series — 2027 Official Schedule",
+      "source": "https://www.texassprintseries.com/"
+    },
+    {
+      "id": "auto-53bff9b90360d4ab",
+      "organizer": "Texas Sprint Racing Series — 2027 Official Schedule",
+      "source": "https://www.texassprintseries.com/"
+    },
+    {
+      "id": "e22f68dc8fa5",
+      "organizer": "Cascadia Karting Cup / FTK Promotions",
+      "source": "https://www.challengekarting.com/cascadia-karting-cup-expands-to-three-events-in-2027/"
+    }
+  ]
 }

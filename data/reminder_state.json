@@ -6,8 +6,8 @@
       "registration_url": "https://raceselect.com/skusa/2026-skusa-snats29/registration",
       "registration_deadline": "2026-11-11T01:00:00+00:00",
       "id": "1e2d54f2db40",
-      "sequence": 0,
-      "cancelled": false
+      "sequence": 1,
+      "cancelled": true
     },
     "9737e6db2c46": {
       "id": "9737e6db2c46",
@@ -1075,6 +1075,123 @@
       "id": "auto-5d7322315b2c3081",
       "name": "Championship Race Round 1-rain make up",
       "source": "https://pkra.com/racing-schedule/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "2b91ac848c73": {
+      "id": "2b91ac848c73",
+      "name": "Trackhouse Karting Challenge 2026 Rounds 11–12",
+      "source": "https://trackhousemotorplex.com/events/2026-karting-challenge/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-a39b025c2471dfea": {
+      "id": "auto-a39b025c2471dfea",
+      "name": "Championship Race Round 1",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "f7f4e85af195": {
+      "id": "f7f4e85af195",
+      "name": "Texas Sprint Racing Series 2027 Round 1",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-8ed6657270a44088": {
+      "id": "auto-8ed6657270a44088",
+      "name": "Championship Race Round 2",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "37dff5488c6f": {
+      "id": "37dff5488c6f",
+      "name": "Texas Sprint Racing Series 2027 Round 2",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "75f9b7d1de30": {
+      "id": "75f9b7d1de30",
+      "name": "Cascadia Karting Cup 2027 Round 1",
+      "source": "https://www.challengekarting.com/cascadia-karting-cup-expands-to-three-events-in-2027/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-6366183d10919ea7": {
+      "id": "auto-6366183d10919ea7",
+      "name": "Championship Race Round 3",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "67be2bafce1d": {
+      "id": "67be2bafce1d",
+      "name": "Texas Sprint Racing Series 2027 Round 3",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-fdeb4cc265dd5e87": {
+      "id": "auto-fdeb4cc265dd5e87",
+      "name": "Championship Race Round 4",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "d1b4a376b379": {
+      "id": "d1b4a376b379",
+      "name": "Texas Sprint Racing Series 2027 Round 4",
+      "source": "https://www.texassprintseries.com/round-4/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "auto-53bff9b90360d4ab": {
+      "id": "auto-53bff9b90360d4ab",
+      "name": "Championship Race Round 5",
+      "source": "https://www.texassprintseries.com/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "d2d2066c1a41": {
+      "id": "d2d2066c1a41",
+      "name": "Texas Sprint Racing Series 2027 Round 5",
+      "source": "https://www.texassprintseries.com/round-5/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e22f68dc8fa5": {
+      "id": "e22f68dc8fa5",
+      "name": "Cascadia Karting Cup 2027 Round 3",
+      "source": "https://www.challengekarting.com/cascadia-karting-cup-expands-to-three-events-in-2027/",
       "registration_url": "",
       "registration_deadline": "",
       "sequence": 1,
