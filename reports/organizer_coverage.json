@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-12T14:26:24+00:00",
+  "generated_at": "2026-11-12T15:43:52+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
     "organizers": 154,
     "by_scope": {
-      "eligible": 67,
-      "needs_review": 85,
+      "eligible": 68,
+      "needs_review": 84,
       "excluded": 2
     },
-    "with_configured_sources": 80,
-    "with_reached_sources": 70,
+    "with_configured_sources": 81,
+    "with_reached_sources": 71,
     "with_health_issues": 16,
     "unmatched_races": 26
   },
@@ -890,16 +890,20 @@
       "organizer_id": "0881b89dc0",
       "name": "SH Karting",
       "country": "Canada",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "sh-karting-calendar"
+      ],
+      "sources_reached": [
+        "sh-karting-calendar"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -909,7 +913,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6548,13 +6552,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "0881b89dc0",
-      "name": "SH Karting",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "6267c084d2",
       "name": "SIMA Series",
       "priority": 2,
@@ -6993,6 +6990,13 @@
       "name": "SC Performance Karting Club",
       "priority": 3,
       "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "0881b89dc0",
+      "name": "SH Karting",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
       "upcoming_events": 0
     },
     {

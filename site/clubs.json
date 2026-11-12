@@ -294,7 +294,7 @@
       "schedule_url": "https://www.shkarting.com/",
       "source_description": "Official website / calendar",
       "notes": "Organizer source",
-      "monitor_id": null
+      "monitor_id": "sh-karting-calendar"
     },
     {
       "id": "0d293fa1c5",
