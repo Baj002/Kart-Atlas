@@ -1906,6 +1906,20 @@
       "timezone": "America/Toronto",
       "verified_on": "2026-11-12",
       "category": "Official SH Karting calendar for a venue offering owner-kart competition; watch for explicitly dated eligible owner-kart events only. Exclude recreational/rental sessions; no 2027 race date verified."
+    },
+    {
+      "id": "stockholm-karting-center-mn",
+      "club": "Stockholm Karting Center — SKC Racing Series",
+      "country": "USA",
+      "region": "MN",
+      "city": "Cokato",
+      "venue": "Stockholm Karting Center",
+      "url": "https://stockholmkartingcenter.com/events/category/upcoming-events/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-12",
+      "category": "Official track-operated owner-kart sprint racing calendar. 18 completed 2026 race days verified; monitor for 2027 publication. Exclude rentals, open track and practice."
     }
   ]
 }
