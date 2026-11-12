@@ -1920,6 +1920,20 @@
       "timezone": "America/Chicago",
       "verified_on": "2026-11-12",
       "category": "Official track-operated owner-kart sprint racing calendar. 18 completed 2026 race days verified; monitor for 2027 publication. Exclude rentals, open track and practice."
+    },
+    {
+      "id": "formula-kfx-rrcc-2027",
+      "club": "Rotax Racing Club California — Formula KFX",
+      "country": "USA",
+      "region": "CA",
+      "city": "Marina",
+      "venue": "Multiple tracks; individual 2027 venues not yet confirmed",
+      "url": "https://formulakfx.com/formula-kfx-announces-2027-rotax-racing-club-california-championship-schedule/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Los_Angeles",
+      "verified_on": "2026-11-12",
+      "category": "Official 2027 NorCal and SoCal Rotax championship schedule gives city/date but not exact circuit for each round; Sept 11, Aug 21 and Oct 8-10 provisional. Watch for confirmed venue and date before publishing race records; exclude practice/testing."
     }
   ]
 }
