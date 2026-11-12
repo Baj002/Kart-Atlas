@@ -2459,11 +2459,16 @@
       "region": "CA",
       "venue": "Various",
       "city": "Various",
-      "primary_url": "",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "verification": "research_target",
-      "season_declarations": []
+      "primary_url": "https://formulakfx.com/",
+      "source_ids": [
+        "formula-kfx-rrcc-2027"
+      ],
+      "scope_status": "eligible",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "scope_reason": null,
+      "reviewed_on": "2026-11-12",
+      "evidence": "https://formulakfx.com/formula-kfx-announces-2027-rotax-racing-club-california-championship-schedule/"
     },
     {
       "id": "org-f298686f1d",
