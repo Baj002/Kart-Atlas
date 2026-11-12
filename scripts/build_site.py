@@ -122,7 +122,7 @@ def build(root=ROOT):
             if field in registration:event[field]=registration[field]
     races=sorted(curated+imported,key=lambda e:(e['start'],e['name']))
     build_reminder_calendars(root,races)
-    snap={'updated':datetime.now(timezone.utc).date().isoformat(),'curated_snapshot':'2026-11-11','coverage_note':'Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.', 'auto_imported':len(imported),'events':races}
+    snap={'updated':datetime.now(timezone.utc).date().isoformat(),'curated_snapshot':'2026-11-12','coverage_note':'Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.', 'auto_imported':len(imported),'events':races}
     (root/'site/events.json').write_text(json.dumps(snap,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     directory=json.loads((root/'data/clubs.json').read_text())
     excluded_clubs=[dict(c,scope_reason=source_scope_reason(c,policy)) for c in directory['clubs'] if source_scope_reason(c,policy)]
