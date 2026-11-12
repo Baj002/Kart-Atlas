@@ -413,11 +413,15 @@
       "venue": "SH Karting",
       "city": "Mont-Saint-Hilaire",
       "primary_url": "https://www.shkarting.com/",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "source_ids": [
+        "sh-karting-calendar"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official SH Karting site expressly offers Karting Compétition for kart owners; the 2026 Coupe de Montréal schedule independently lists a Mont-Saint-Hilaire round. This verifies an eligible owner-kart venue/host, not a standalone 2027 championship schedule.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-12",
+      "evidence": "https://www.shkarting.com/about"
     },
     {
       "id": "0d293fa1c5",

@@ -1892,6 +1892,20 @@
       "mode": "watch",
       "auto_import": false,
       "category": "Owner-kart club with both road-course and oval formats; watch for explicitly dated 2026/2027 road-course races only; current official page still labeled 2025"
+    },
+    {
+      "id": "sh-karting-calendar",
+      "club": "SH Karting",
+      "country": "Canada",
+      "region": "QC",
+      "city": "Saint-Charles-sur-Richelieu",
+      "venue": "SH Karting",
+      "url": "https://www.shkarting.com/about/calendrier",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Toronto",
+      "verified_on": "2026-11-12",
+      "category": "Official SH Karting calendar for a venue offering owner-kart competition; watch for explicitly dated eligible owner-kart events only. Exclude recreational/rental sessions; no 2027 race date verified."
     }
   ]
 }
