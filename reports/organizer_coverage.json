@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-11T14:26:51+00:00",
+  "generated_at": "2026-11-12T14:26:24+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 153,
+    "organizers": 154,
     "by_scope": {
-      "eligible": 65,
-      "needs_review": 86,
+      "eligible": 67,
+      "needs_review": 85,
       "excluded": 2
     },
-    "with_configured_sources": 77,
-    "with_reached_sources": 68,
-    "with_health_issues": 15,
+    "with_configured_sources": 80,
+    "with_reached_sources": 70,
+    "with_health_issues": 16,
     "unmatched_races": 26
   },
   "organizers": [
@@ -2995,26 +2995,40 @@
       "organizer_id": "33031c4fc3",
       "name": "Montana Karting Association",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "montana-karting-2026"
+      ],
+      "sources_reached": [
+        "montana-karting-2026"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 9,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "f4da9096125a",
+            "4815865d0327",
+            "bcc0de1815e4",
+            "7f6162548e5f",
+            "b7873f4f3680",
+            "76b614596a24",
+            "c81203c8803a",
+            "feeb16ea5361",
+            "473daf8a79e8"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4715,15 +4729,19 @@
       "name": "Hampton Roads Kart Club",
       "country": "USA",
       "scope_status": "needs_review",
-      "source_ids": [],
+      "source_ids": [
+        "hampton-roads-kart-club-va"
+      ],
       "sources_reached": [],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "hampton-roads-kart-club-va"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4733,7 +4751,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5971,6 +5989,43 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "f4a36b6979",
+      "name": "Maui Go Karters Association",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "maui-go-karters-hi"
+      ],
+      "sources_reached": [
+        "maui-go-karters-hi"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -6223,7 +6278,7 @@
       "organizer_id": "f231ad13fa",
       "name": "Hampton Roads Kart Club",
       "priority": 2,
-      "reason": "source_not_configured",
+      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6334,13 +6389,6 @@
     {
       "organizer_id": "cb214a3dfc",
       "name": "Mississippi Karters Association",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "33031c4fc3",
-      "name": "Montana Karting Association",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 0
@@ -6808,10 +6856,24 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "f4a36b6979",
+      "name": "Maui Go Karters Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "5dab38a82d",
       "name": "Mid-State Kart Club",
       "priority": 3,
       "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "33031c4fc3",
+      "name": "Montana Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
       "upcoming_events": 0
     },
     {
