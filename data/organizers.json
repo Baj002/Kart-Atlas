@@ -1268,12 +1268,16 @@
       "region": "MN",
       "venue": "Stockholm Karting Center",
       "city": "Cokato",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
+      "primary_url": "https://stockholmkartingcenter.com/",
+      "source_ids": [
+        "stockholm-karting-center-mn"
+      ],
+      "scope_status": "eligible",
       "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-12",
+      "evidence": "https://stockholmkartingcenter.com/events/category/upcoming-events/"
     },
     {
       "id": "3f5bb0a5e6",
