@@ -2243,12 +2243,16 @@
       "region": "WI",
       "venue": "Briggs & Stratton Motorplex at Road America",
       "city": "Elkhart Lake",
-      "primary_url": "https://forums.kartpulse.com/t/sprint-kart-calendar/8718",
-      "source_ids": [],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
-      "season_declarations": []
+      "primary_url": "https://www.roadamerica.com/karting-club",
+      "source_ids": [
+        "road-america-kart-club-2026-results"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official Road America Karting Club runs competition sprint races at Briggs & Stratton Motorplex; 2026 weekend and weeknight race results published. Some arrive-and-drive entries may compete in mixed owner-kart classes; exclude rental-only events.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-13",
+      "evidence": "https://www.roadamerica.com/karting-club"
     },
     {
       "id": "4eb3d849f8",
