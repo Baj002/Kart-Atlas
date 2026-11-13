@@ -1934,6 +1934,20 @@
       "timezone": "America/Los_Angeles",
       "verified_on": "2026-11-12",
       "category": "Official 2027 NorCal and SoCal Rotax championship schedule gives city/date but not exact circuit for each round; Sept 11, Aug 21 and Oct 8-10 provisional. Watch for confirmed venue and date before publishing race records; exclude practice/testing."
+    },
+    {
+      "id": "rok-fwt-2027-orlando-confirmation",
+      "club": "ROK Cup USA",
+      "country": "USA",
+      "region": "FL",
+      "city": "Orlando",
+      "venue": "Orlando Kart Center",
+      "url": "https://rokcupusa.com/rok-cup-usa-confirms-orlando-kart-center-for-rounds-2-and-3-of-the-2027-florida-winter-tour/",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "verified_on": "2026-11-13",
+      "category": "Official November 12 2026 announcement confirms 2027 Florida Winter Tour rounds 2 and 3 at Orlando Kart Center. More recent than still-stale organizer calendar; do not infer additional dates."
     }
   ]
 }
