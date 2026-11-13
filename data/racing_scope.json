@@ -18,6 +18,12 @@
       "evidence": "https://amp.motorsportreg.com/events/2026-amp-kart-racing-4-hour-halloween-enduro-atlanta-motorsports-park-events-506928",
       "reviewed_on": "2026-10-19",
       "note": "Organizer explicitly supplies concession karts; arrive-and-drive event."
+    },
+    "auto-5d7322315b2c3081": {
+      "reason": "conditional_rain_date_not_a_confirmed_race",
+      "evidence": "https://pkra.com/racing-schedule/",
+      "reviewed_on": "2026-11-13",
+      "note": "April 18, 2027 is explicitly a rain make-up contingency, not a confirmed championship race. Do not publish until a postponement is officially announced."
     }
   },
   "excluded_sources": {
