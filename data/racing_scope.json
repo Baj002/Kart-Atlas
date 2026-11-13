@@ -262,5 +262,17 @@
       "reviewed_on": "2026-10-19",
       "reason": "Same officially numbered Florida Winter Tour round and dates; both records have unannounced venue."
     }
+  },
+  "stable_event_ids": {
+    "de5785f14a87": "c221825c977a",
+    "14562e2c98cb": "f6380f404a97"
+  },
+  "preserved_alias_ids": {
+    "c221825c977a": [
+      "37b174ec9bb3"
+    ],
+    "f6380f404a97": [
+      "f998c938c8b8"
+    ]
   }
 }
