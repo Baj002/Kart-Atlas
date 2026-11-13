@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-12T15:43:52+00:00",
+  "generated_at": "2026-11-13T14:25:53+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
     "organizers": 154,
     "by_scope": {
-      "eligible": 68,
-      "needs_review": 84,
+      "eligible": 70,
+      "needs_review": 82,
       "excluded": 2
     },
-    "with_configured_sources": 81,
-    "with_reached_sources": 71,
+    "with_configured_sources": 83,
+    "with_reached_sources": 73,
     "with_health_issues": 16,
     "unmatched_races": 26
   },
@@ -2817,26 +2817,49 @@
       "organizer_id": "0d4afb9bb6",
       "name": "Stockholm Karting Center",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "stockholm-karting-center-mn"
+      ],
+      "sources_reached": [
+        "stockholm-karting-center-mn"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 18,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "d10df485a2b2",
+            "8b33125e6e61",
+            "dc0448cde9ea",
+            "4d7c991a3bef",
+            "4e85d3df8454",
+            "d2eaf4eef611",
+            "77cf21fc3cbd",
+            "2a6ac67df22a",
+            "95d33d083032",
+            "a46e2674c7d6",
+            "9cc7590ba399",
+            "b9156a165ecf",
+            "79f35d65582f",
+            "521d96a13fbc",
+            "e91750e27b51",
+            "b5435421315a",
+            "533a7a74b5af",
+            "035e659d46e2"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3337,17 +3360,17 @@
         "uspks",
         "uspks-2027-recap"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "uspks",
         "uspks-2027-recap"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5518,10 +5541,14 @@
       "organizer_id": "org-aebe1a6980",
       "name": "Rotax Racing Club California",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "formula-kfx-rrcc-2027"
+      ],
       "sources_reached": [],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "formula-kfx-rrcc-2027"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5542,7 +5569,7 @@
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6048,15 +6075,15 @@
       "upcoming_events": 5
     },
     {
-      "organizer_id": "6958e0e3cd",
-      "name": "United States Pro Kart Series",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 5
-    },
-    {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
+      "priority": 1,
+      "reason": "source_health",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "org-aebe1a6980",
+      "name": "Rotax Racing Club California",
       "priority": 1,
       "reason": "source_health",
       "upcoming_events": 1
@@ -6097,6 +6124,13 @@
       "upcoming_events": 5
     },
     {
+      "organizer_id": "6958e0e3cd",
+      "name": "United States Pro Kart Series",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 5
+    },
+    {
       "organizer_id": "5cc7da7713",
       "name": "Champions of the Future Mexico",
       "priority": 2,
@@ -6120,13 +6154,6 @@
     {
       "organizer_id": "dfa9031c7e",
       "name": "Karting Club México",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "org-aebe1a6980",
-      "name": "Rotax Racing Club California",
       "priority": 2,
       "reason": "source_not_configured",
       "upcoming_events": 1
@@ -6587,13 +6614,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "0d4afb9bb6",
-      "name": "Stockholm Karting Center",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "4eb3d849f8",
       "name": "Sugar River Raceway",
       "priority": 2,
@@ -7023,6 +7043,13 @@
     {
       "organizer_id": "7cf3364e46",
       "name": "South Sask Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "0d4afb9bb6",
+      "name": "Stockholm Karting Center",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
