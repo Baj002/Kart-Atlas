@@ -1948,6 +1948,20 @@
       "timezone": "America/New_York",
       "verified_on": "2026-11-13",
       "category": "Official November 12 2026 announcement confirms 2027 Florida Winter Tour rounds 2 and 3 at Orlando Kart Center. More recent than still-stale organizer calendar; do not infer additional dates."
+    },
+    {
+      "id": "road-america-kart-club-2026-results",
+      "club": "Road America Karting Club",
+      "country": "USA",
+      "region": "WI",
+      "city": "Plymouth",
+      "venue": "Briggs & Stratton Motorplex",
+      "url": "https://www.roadamerica.com/karting-club",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/Chicago",
+      "verified_on": "2026-11-13",
+      "category": "Official Road America Karting Club owner-kart weekend and weeknight results; monitor for 2027 schedules. Mixed arrive-and-drive participation does not make all club races rental-only. Exclude rainouts and unverified registration windows."
     }
   ]
 }
