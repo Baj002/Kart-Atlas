@@ -79,12 +79,16 @@ def build(root=ROOT):
             if not e['name'] or not e['start']:continue
             e['region']=region_code(e['region'],e['country'])
             date.fromisoformat(e['start']); e['end']=e['end'] or e['start'];date.fromisoformat(e['end'])
-            e['id']=hashlib.sha1(key(e).encode()).hexdigest()[:12]
+            computed_id=hashlib.sha1(key(e).encode()).hexdigest()[:12]
+            e['id']=policy.get('stable_event_ids',{}).get(computed_id,computed_id)
             e=apply_reviewed_override(e,policy)
             reason=event_scope_reason(e,policy)
             if reason:excluded.append(dict(e,scope_reason=reason));continue
             original.append(e)
     originals={(key(e)):e for e in original}; curated=merge_reviewed_duplicates(merge_curated_duplicates(list(originals.values())),policy)
+    for e in curated:
+        aliases=policy.get('preserved_alias_ids',{}).get(e['id'],[])
+        if aliases:e['alias_ids']=list(dict.fromkeys(e.get('alias_ids',[])+aliases))
     auto=json.loads((root/'data/automated_events.json').read_text()).get('events',[])
     imported=[]
     for e in auto:
