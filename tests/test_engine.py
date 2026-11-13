@@ -66,6 +66,17 @@ class ExtractionTests(unittest.TestCase):
     def test_private_and_unsafe_urls(self):
         for url in ('file:///etc/passwd','http://127.0.0.1/x','http://169.254.169.254/','https://localhost/','https://a.internal/','https://u:p@club.example/','https://club.example:22/'):
             self.assertEqual(clean_url(url),'',url)
+    def test_unicode_urls_are_safe_for_http_requests(self):
+        self.assertEqual(
+            clean_url('https://www.shkarting.com/karting-compétition/sh_racing_team'),
+            'https://www.shkarting.com/karting-comp%C3%A9tition/sh_racing_team')
+        self.assertEqual(
+            clean_url('https://club.example/events?name=Coupe de Montréal&year=2027'),
+            'https://club.example/events?name=Coupe%20de%20Montr%C3%A9al&year=2027')
+        self.assertEqual(
+            clean_url('https://club.example/a%20b/hello%2Fworld'),
+            'https://club.example/a%20b/hello%2Fworld')
+    
     def test_discovery_leads_do_not_inherit_trust(self):
         source=dict(SOURCE,directory=True)
         found=extract_page('<a href="https://newclub.example/">New Kart Club</a><a href="https://facebook.com/kart">Kart</a>',source,TODAY)
