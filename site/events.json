@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-14",
-  "curated_snapshot": "2026-11-13",
+  "curated_snapshot": "2026-11-14",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
   "auto_imported": 38,
   "events": [
@@ -6213,6 +6213,24 @@
       "registration_reminder_url": "/reminders/27401066f4a3.ics"
     },
     {
+      "start": "2027-01-22",
+      "end": "2027-01-24",
+      "name": "RMC Winter Trophy 2027 Rounds 1 & 2",
+      "organizer": "Race Rotax USA",
+      "venue": "Orlando Kart Center",
+      "city": "Orlando",
+      "region": "FL",
+      "country": "USA",
+      "level": "National",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Rotax Micro MAX, Mini MAX, Junior MAX, Senior MAX, DD2 and Masters",
+      "source": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes",
+      "notes": "Official Race Rotax USA 2027 schedule confirms Jan 22–24 and Orlando Kart Center; two championship rounds in one race weekend. Session timetable and registration deadlines not yet published.",
+      "id": "9d51b4cf0d38",
+      "registration_reminder_url": "/reminders/9d51b4cf0d38.ics"
+    },
+    {
       "name": "Tri-C Chill Challenge Blizzard 3",
       "start": "2027-01-23",
       "end": "2027-01-23",
@@ -6350,6 +6368,24 @@
       "notes": "",
       "id": "c4b7d49a5613",
       "registration_reminder_url": "/reminders/c4b7d49a5613.ics"
+    },
+    {
+      "start": "2027-02-19",
+      "end": "2027-02-21",
+      "name": "RMC Winter Trophy 2027 Rounds 3 & 4",
+      "organizer": "Race Rotax USA",
+      "venue": "Orlando Kart Center",
+      "city": "Orlando",
+      "region": "FL",
+      "country": "USA",
+      "level": "National",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Rotax Micro MAX, Mini MAX, Junior MAX, Senior MAX, DD2 and Masters",
+      "source": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes",
+      "notes": "Official Race Rotax USA 2027 schedule confirms Feb 19–21 and Orlando Kart Center; two championship rounds in one race weekend. Session timetable and registration deadlines not yet published.",
+      "id": "cf8994cf05e9",
+      "registration_reminder_url": "/reminders/cf8994cf05e9.ics"
     },
     {
       "start": "2027-02-21",
