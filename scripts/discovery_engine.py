@@ -68,9 +68,10 @@ def clean_url(url, base=''):
         try:
             if not ipaddress.ip_address(h).is_global:return ''
         except ValueError:pass
-        # HTTP request targets must be ASCII; preserve existing percent-encoded escapes.
-        path=quote(u.path or '/',safe="/%:@!        return urlunsplit((u.scheme,u.netloc.lower(),u.path or '/',u.query,''))'()*+,;=-._~")
-        query=quote(u.query,safe="=&?/:;+,%@!
+        # Encode Unicode in HTTP request targets without double-encoding existing escapes.
+        path=quote(u.path or '/',safe="/%:@!$&'()*+,;=-._~")
+        query=quote(u.query,safe="=&?/:;+,%@!$'()*-._~")
+        return urlunsplit((u.scheme,u.netloc.lower(),path,query,''))
     except (ValueError,TypeError):return ''
 
 def feed_url(url):
