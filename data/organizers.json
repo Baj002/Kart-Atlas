@@ -2704,6 +2704,49 @@
       "season_declarations": [],
       "reviewed_on": "2026-11-11",
       "evidence": "https://mauigokart.com/"
+    },
+    {
+      "id": "org-rmc-usa-2027",
+      "name": "Race Rotax USA",
+      "aliases": [
+        "RMC Winter Trophy",
+        "Rotax MAX Challenge USA"
+      ],
+      "country": "USA",
+      "region": "FL",
+      "city": "Orlando",
+      "venue": "Orlando Kart Center",
+      "primary_url": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes",
+      "source_ids": [
+        "race-rotax-usa-2027"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-14",
+      "evidence": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes"
+    },
+    {
+      "id": "org-stars-2027",
+      "name": "Stars Championship Series",
+      "aliases": [
+        "STARS Championship Series"
+      ],
+      "country": "USA",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Multiple US kart circuits",
+      "primary_url": "https://www.starschampionshipseries.com/",
+      "source_ids": [
+        "stars-championship-2027"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": null,
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-14",
+      "evidence": "https://www.starschampionshipseries.com/"
     }
   ]
 }
