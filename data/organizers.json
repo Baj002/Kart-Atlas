@@ -397,11 +397,11 @@
       "source_ids": [
         "scperformance-coupe-montreal"
       ],
-      "scope_status": "needs_review",
-      "scope_reason": null,
-      "verification": "directory_lead",
+      "scope_status": "eligible",
+      "scope_reason": "Official SC Performance page identifies Coupe de Montréal owner-kart competition at Saint-Célestin, corroborated by the official Coupe de Montréal 2026 championship calendar. Its SWS Sprint/Enduro Cup events are rental karting and excluded. 2027 club membership/licence forms do not establish 2027 race dates.",
+      "verification": "reviewed_organizer",
       "season_declarations": [],
-      "reviewed_on": "2026-10-28",
+      "reviewed_on": "2026-11-14",
       "evidence": "https://scperformance.ca/karting/karting-courses-et-evenements/"
     },
     {
