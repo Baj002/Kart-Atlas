@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-13T14:25:53+00:00",
+  "generated_at": "2026-11-14T15:24:37+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
     "organizers": 154,
     "by_scope": {
-      "eligible": 70,
-      "needs_review": 82,
+      "eligible": 72,
+      "needs_review": 80,
       "excluded": 2
     },
-    "with_configured_sources": 83,
-    "with_reached_sources": 73,
+    "with_configured_sources": 84,
+    "with_reached_sources": 74,
     "with_health_issues": 16,
     "unmatched_races": 26
   },
@@ -853,7 +853,7 @@
       "organizer_id": "81de8ba0b6",
       "name": "SC Performance Karting Club",
       "country": "Canada",
-      "scope_status": "needs_review",
+      "scope_status": "eligible",
       "source_ids": [
         "scperformance-coupe-montreal"
       ],
@@ -1251,9 +1251,9 @@
         {
           "year": 2027,
           "status": "indexed_future_events",
-          "indexed_events": 8,
-          "upcoming_events": 8,
-          "recently_verified_upcoming": 8,
+          "indexed_events": 7,
+          "upcoming_events": 7,
+          "recently_verified_upcoming": 7,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -1263,8 +1263,7 @@
             "69ffd03bfac4",
             "f94f8de53b17",
             "b4747467fb2a",
-            "bed34054b637",
-            "auto-5d7322315b2c3081"
+            "bed34054b637"
           ]
         }
       ]
@@ -3231,11 +3230,13 @@
       "scope_status": "eligible",
       "source_ids": [
         "rok-usa-calendar",
-        "rok-sonoma-2027-official"
+        "rok-sonoma-2027-official",
+        "rok-fwt-2027-orlando-confirmation"
       ],
       "sources_reached": [
         "rok-usa-calendar",
-        "rok-sonoma-2027-official"
+        "rok-sonoma-2027-official",
+        "rok-fwt-2027-orlando-confirmation"
       ],
       "unhealthy_sources": [],
       "stale_sources": [],
@@ -5079,26 +5080,50 @@
       "organizer_id": "9164f69af7",
       "name": "Road America Karting Club",
       "country": "USA",
-      "scope_status": "needs_review",
-      "source_ids": [],
-      "sources_reached": [],
+      "scope_status": "eligible",
+      "source_ids": [
+        "road-america-kart-club-2026-results"
+      ],
+      "sources_reached": [
+        "road-america-kart-club-2026-results"
+      ],
       "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_source_configured",
-          "indexed_events": 0,
+          "status": "past_events_only",
+          "indexed_events": 19,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
-          "event_ids": []
+          "event_ids": [
+            "6ebff2a08751",
+            "085722781c65",
+            "c597e83d4c50",
+            "ecdee1c2212b",
+            "5fdb486e1281",
+            "261a0d0d7f5d",
+            "9f3dd76fe544",
+            "4335e807aee1",
+            "a650741a890f",
+            "aa9a8c001f30",
+            "c3252b303678",
+            "48a3b8b30f7c",
+            "b140a1b20936",
+            "6cd09d2712c6",
+            "cca2db68ff53",
+            "d5a4629e9b49",
+            "660ab1e46f4a",
+            "fa3a903ba9be",
+            "2510918563d8"
+          ]
         },
         {
           "year": 2027,
-          "status": "no_source_configured",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6558,13 +6583,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "9164f69af7",
-      "name": "Road America Karting Club",
-      "priority": 2,
-      "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "org-5985dc813f",
       "name": "Rotax MAX Challenge Canada",
       "priority": 2,
@@ -6999,6 +7017,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "9164f69af7",
+      "name": "Road America Karting Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "rmc-ontario",
       "name": "Rotax MAX Challenge Ontario",
       "priority": 3,
@@ -7009,7 +7034,7 @@
       "organizer_id": "81de8ba0b6",
       "name": "SC Performance Karting Club",
       "priority": 3,
-      "reason": "organizer_scope_review",
+      "reason": "season_dates_not_verified",
       "upcoming_events": 0
     },
     {
