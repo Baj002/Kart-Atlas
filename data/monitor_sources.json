@@ -1962,6 +1962,33 @@
       "timezone": "America/Chicago",
       "verified_on": "2026-11-13",
       "category": "Official Road America Karting Club owner-kart weekend and weeknight results; monitor for 2027 schedules. Mixed arrive-and-drive participation does not make all club races rental-only. Exclude rainouts and unverified registration windows."
+    },
+    {
+      "id": "race-rotax-usa-2027",
+      "club": "Race Rotax USA",
+      "country": "USA",
+      "region": "FL",
+      "city": "Orlando",
+      "venue": "Orlando Kart Center",
+      "url": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes",
+      "mode": "watch",
+      "auto_import": false,
+      "timezone": "America/New_York",
+      "verified_on": "2026-11-14",
+      "category": "Official 2027 Rotax MAX Challenge US announcement; Winter Trophy Jan 22–24 and Feb 19–21 confirmed at Orlando. Other 2027 RMC dates have unannounced venues and must not be assigned a location."
+    },
+    {
+      "id": "stars-championship-2027",
+      "club": "Stars Championship Series",
+      "country": "USA",
+      "region": "Multi",
+      "city": "Various",
+      "venue": "Multiple venues; confirm each from official schedule image",
+      "url": "https://www.starschampionshipseries.com/",
+      "mode": "watch",
+      "auto_import": false,
+      "verified_on": "2026-11-14",
+      "category": "Official organizer publishes 2027 schedule as image, not machine-readable text. Monitor for verified event-specific dates and venues; no events imported from a secondary team calendar."
     }
   ]
 }
