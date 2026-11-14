@@ -1196,6 +1196,24 @@
       "registration_deadline": "",
       "sequence": 1,
       "cancelled": true
+    },
+    "9d51b4cf0d38": {
+      "id": "9d51b4cf0d38",
+      "name": "RMC Winter Trophy 2027 Rounds 1 & 2",
+      "source": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "cf8994cf05e9": {
+      "id": "cf8994cf05e9",
+      "name": "RMC Winter Trophy 2027 Rounds 3 & 4",
+      "source": "https://www.racerotax.com/2027-rmc-season-update-winter-trophy-location-grand-finals-tickets-and-prizes",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
     }
   }
 }
