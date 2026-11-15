@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-14T15:24:37+00:00",
+  "generated_at": "2026-11-15T14:03:19+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
-    "organizers": 154,
+    "organizers": 156,
     "by_scope": {
-      "eligible": 72,
+      "eligible": 74,
       "needs_review": 80,
       "excluded": 2
     },
-    "with_configured_sources": 84,
-    "with_reached_sources": 74,
-    "with_health_issues": 16,
+    "with_configured_sources": 86,
+    "with_reached_sources": 75,
+    "with_health_issues": 18,
     "unmatched_races": 26
   },
   "organizers": [
@@ -258,10 +258,11 @@
         "wckc-events"
       ],
       "sources_reached": [
-        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "wckc"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -1770,8 +1771,8 @@
           "year": 2026,
           "status": "indexed_future_events",
           "indexed_events": 5,
-          "upcoming_events": 2,
-          "recently_verified_upcoming": 2,
+          "upcoming_events": 1,
+          "recently_verified_upcoming": 1,
           "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
@@ -2294,16 +2295,16 @@
       "source_ids": [
         "mid-state-kart-club-il"
       ],
-      "sources_reached": [
+      "sources_reached": [],
+      "unhealthy_sources": [
         "mid-state-kart-club-il"
       ],
-      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -2313,7 +2314,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5579,13 +5580,11 @@
       "seasons": [
         {
           "year": 2026,
-          "status": "indexed_future_events",
+          "status": "past_events_only",
           "indexed_events": 2,
-          "upcoming_events": 1,
+          "upcoming_events": 0,
           "recently_verified_upcoming": 0,
-          "unconfirmed_future_event_ids": [
-            "9409dda1f951"
-          ],
+          "unconfirmed_future_event_ids": [],
           "declaration": null,
           "event_ids": [
             "cf7df8dc04d3",
@@ -6082,6 +6081,86 @@
           "event_ids": []
         }
       ]
+    },
+    {
+      "organizer_id": "org-rmc-usa-2027",
+      "name": "Race Rotax USA",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "race-rotax-usa-2027"
+      ],
+      "sources_reached": [
+        "race-rotax-usa-2027"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "indexed_future_events",
+          "indexed_events": 2,
+          "upcoming_events": 2,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [
+            "9d51b4cf0d38",
+            "cf8994cf05e9"
+          ],
+          "declaration": null,
+          "event_ids": [
+            "9d51b4cf0d38",
+            "cf8994cf05e9"
+          ]
+        }
+      ]
+    },
+    {
+      "organizer_id": "org-stars-2027",
+      "name": "Stars Championship Series",
+      "country": "USA",
+      "scope_status": "eligible",
+      "source_ids": [
+        "stars-championship-2027"
+      ],
+      "sources_reached": [
+        "stars-championship-2027"
+      ],
+      "unhealthy_sources": [],
+      "stale_sources": [],
+      "review_candidates": 0,
+      "seasons": [
+        {
+          "year": 2026,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        },
+        {
+          "year": 2027,
+          "status": "no_dates_verified",
+          "indexed_events": 0,
+          "upcoming_events": 0,
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [],
+          "declaration": null,
+          "event_ids": []
+        }
+      ]
     }
   ],
   "priorities": [
@@ -6102,13 +6181,6 @@
     {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "org-aebe1a6980",
-      "name": "Rotax Racing Club California",
       "priority": 1,
       "reason": "source_health",
       "upcoming_events": 1
@@ -6161,6 +6233,13 @@
       "priority": 2,
       "reason": "published_dates_need_reverification",
       "upcoming_events": 4
+    },
+    {
+      "organizer_id": "org-rmc-usa-2027",
+      "name": "Race Rotax USA",
+      "priority": 2,
+      "reason": "published_dates_need_reverification",
+      "upcoming_events": 2
     },
     {
       "organizer_id": "2bc70035f8",
@@ -6443,6 +6522,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "5dab38a82d",
+      "name": "Mid-State Kart Club",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "cb214a3dfc",
       "name": "Mississippi Karters Association",
       "priority": 2,
@@ -6590,6 +6676,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "org-aebe1a6980",
+      "name": "Rotax Racing Club California",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "7923ed4d36",
       "name": "SBR Motorsports Park",
       "priority": 2,
@@ -6709,6 +6802,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "a3e97ab569",
       "name": "Western Slope Kart Club",
       "priority": 2,
@@ -6744,15 +6844,15 @@
       "upcoming_events": 2
     },
     {
-      "organizer_id": "eb6a0e309a",
-      "name": "Norwalk Karting Association",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "c4eb0bca48",
       "name": "Campeonato Kart Monterrey",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "eb6a0e309a",
+      "name": "Norwalk Karting Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
@@ -6895,13 +6995,6 @@
       "name": "Maui Go Karters Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "5dab38a82d",
-      "name": "Mid-State Kart Club",
-      "priority": 3,
-      "reason": "organizer_scope_review",
       "upcoming_events": 0
     },
     {
@@ -7073,6 +7166,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "org-stars-2027",
+      "name": "Stars Championship Series",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "0d4afb9bb6",
       "name": "Stockholm Karting Center",
       "priority": 3,
@@ -7117,13 +7217,6 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
