@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:42:35+00:00",
+  "generated_at": "2026-11-17T21:47:18+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -10,8 +10,8 @@
       "excluded": 2
     },
     "with_configured_sources": 86,
-    "with_reached_sources": 75,
-    "with_health_issues": 17,
+    "with_reached_sources": 76,
+    "with_health_issues": 15,
     "unmatched_races": 26
   },
   "organizers": [
@@ -77,11 +77,10 @@
         "edkra-home"
       ],
       "sources_reached": [
+        "edkra",
         "edkra-home"
       ],
-      "unhealthy_sources": [
-        "edkra"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -4491,10 +4490,10 @@
       "source_ids": [
         "gulf-coast-races"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "gulf-coast-races"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -4515,7 +4514,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6178,13 +6177,6 @@
       "upcoming_events": 5
     },
     {
-      "organizer_id": "5b3a3e4465",
-      "name": "Gulf Coast Karters",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
       "priority": 1,
@@ -6364,13 +6356,6 @@
       "name": "East Lansing Kart Club",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "fd4250c918",
-      "name": "Edmonton & District Kart Racing Association",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6829,6 +6814,13 @@
       "upcoming_events": 2
     },
     {
+      "organizer_id": "5b3a3e4465",
+      "name": "Gulf Coast Karters",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 2
+    },
+    {
       "organizer_id": "c4eb0bca48",
       "name": "Campeonato Kart Monterrey",
       "priority": 3,
@@ -6929,6 +6921,13 @@
     {
       "organizer_id": "c0d67502e1",
       "name": "Colorado Karting Tour",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "fd4250c918",
+      "name": "Edmonton & District Kart Racing Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
