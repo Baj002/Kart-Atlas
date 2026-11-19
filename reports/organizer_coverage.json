@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:27:26+00:00",
+  "generated_at": "2026-11-19T21:37:43+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -10,8 +10,8 @@
       "excluded": 2
     },
     "with_configured_sources": 86,
-    "with_reached_sources": 59,
-    "with_health_issues": 32,
+    "with_reached_sources": 76,
+    "with_health_issues": 15,
     "unmatched_races": 26
   },
   "organizers": [
@@ -535,16 +535,16 @@
       "source_ids": [
         "nckc"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "nckc"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -554,7 +554,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -620,11 +620,11 @@
         "goodwood-ics",
         "goodwood-trak"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "goodwood-ics",
         "goodwood-trak"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -643,7 +643,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -661,16 +661,16 @@
       "source_ids": [
         "wrkc"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "wrkc"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -680,7 +680,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -698,10 +698,10 @@
       "source_ids": [
         "ck3r-official-races"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "ck3r-official-races"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -721,7 +721,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -856,16 +856,16 @@
       "source_ids": [
         "scperformance-coupe-montreal"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "scperformance-coupe-montreal"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -875,7 +875,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3163,11 +3163,12 @@
         "ckna-mississippi-2026",
         "ckna-njmp-official"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "ckna-canada",
         "ckna-canada-news",
-        "ckna-mississippi-2026",
+        "ckna-mississippi-2026"
+      ],
+      "unhealthy_sources": [
         "ckna-njmp-official"
       ],
       "stale_sources": [],
@@ -3524,16 +3525,16 @@
       "source_ids": [
         "ignite-nebraska-hastings"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "ignite-nebraska-hastings"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -3543,7 +3544,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4489,10 +4490,10 @@
       "source_ids": [
         "gulf-coast-races"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "gulf-coast-races"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -4513,7 +4514,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4631,11 +4632,11 @@
         "ntk",
         "ntk-fall5-export"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "ntk",
         "ntk-fall5-export"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -4654,7 +4655,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4828,16 +4829,16 @@
       "source_ids": [
         "vermont-shifter-rocky-ridge"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "vermont-shifter-rocky-ridge"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -4847,7 +4848,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5043,10 +5044,10 @@
       "source_ids": [
         "badger"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "badger"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5064,7 +5065,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5207,11 +5208,10 @@
         "spring-mountain-schedule"
       ],
       "sources_reached": [
-        "spring-mountain-pdf"
-      ],
-      "unhealthy_sources": [
+        "spring-mountain-pdf",
         "spring-mountain-schedule"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5358,10 +5358,10 @@
       "source_ids": [
         "point-pelee-official"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "point-pelee-official"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5396,7 +5396,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5454,17 +5454,17 @@
         "kartstars-canada",
         "kartstars-schedule"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "kartstars-canada",
         "kartstars-schedule"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5474,7 +5474,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5849,10 +5849,10 @@
       "source_ids": [
         "colorado-karting-tour"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "colorado-karting-tour"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -5874,7 +5874,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5929,16 +5929,16 @@
       "source_ids": [
         "cascadia-karting-cup"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "cascadia-karting-cup"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5948,7 +5948,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6014,16 +6014,16 @@
       "source_ids": [
         "woodbridge-sprint-wv"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "woodbridge-sprint-wv"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6033,7 +6033,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6051,16 +6051,16 @@
       "source_ids": [
         "maui-go-karters-hi"
       ],
-      "sources_reached": [],
-      "unhealthy_sources": [
+      "sources_reached": [
         "maui-go-karters-hi"
       ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6070,7 +6070,7 @@
         },
         {
           "year": 2027,
-          "status": "source_unreachable",
+          "status": "no_dates_verified",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6177,22 +6177,8 @@
       "upcoming_events": 5
     },
     {
-      "organizer_id": "5b3a3e4465",
-      "name": "Gulf Coast Karters",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 2
-    },
-    {
       "organizer_id": "1ff268557b",
       "name": "FIA México Karting Championship",
-      "priority": 1,
-      "reason": "source_health",
-      "upcoming_events": 1
-    },
-    {
-      "organizer_id": "07d1d6e854",
-      "name": "Spring Mountain Karting Complex",
       "priority": 1,
       "reason": "source_health",
       "upcoming_events": 1
@@ -6303,13 +6289,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "163cbaed0b",
-      "name": "Badger Kart Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "06691df25d",
       "name": "Bakersfield Kart Raceway",
       "priority": 2,
@@ -6345,24 +6324,10 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "389c2397ae",
-      "name": "Cascadia Karting Cup",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "c74e178fcb",
       "name": "Charlotte Motor Speedway karting",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "c6c07bf0f1",
-      "name": "Club Karting Trois-Rivières",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6377,13 +6342,6 @@
       "name": "Club de Karting de Québec",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "c0d67502e1",
-      "name": "Colorado Karting Tour",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6471,13 +6429,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "db0d205d87",
-      "name": "Ignite Karting Nebraska",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "org-135e8cffe3",
       "name": "International Kart Federation",
       "priority": 2,
@@ -6510,13 +6461,6 @@
       "name": "KartMoto",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "org-1fa412ba78",
-      "name": "KartStars Canada",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6562,13 +6506,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "f4a36b6979",
-      "name": "Maui Go Karters Association",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "99b3f12357",
       "name": "Michiana Raceway Park",
       "priority": 2,
@@ -6611,13 +6548,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "6a07490f0e",
-      "name": "National Capital Kart Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "0eb7f308e9",
       "name": "New England Karting Challenge",
       "priority": 2,
@@ -6643,13 +6573,6 @@
       "name": "North Florida Kart Club",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "f44d9b6b3e",
-      "name": "North Texas Karters",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6709,13 +6632,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "f7a8ec675f",
-      "name": "Point Pelee Karting Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "dca7870ad0",
       "name": "ROK México",
       "priority": 2,
@@ -6755,13 +6671,6 @@
       "name": "SBR Motorsports Park",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "81de8ba0b6",
-      "name": "SC Performance Karting Club",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6821,13 +6730,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "dfd51a1937",
-      "name": "Toronto Racing Association of Karters",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "b9681047f9",
       "name": "Tri-City Kart Club",
       "priority": 2,
@@ -6877,24 +6779,10 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "a2f436bf07",
-      "name": "Vermont Shifter Karts",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "b6bc393f2d",
       "name": "WKA / Local organizers",
       "priority": 2,
       "reason": "source_not_configured",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "938e9cfd1c",
-      "name": "Waterloo Regional Kart Club",
-      "priority": 2,
-      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6919,15 +6807,15 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "af8641685d",
-      "name": "Woodbridge Kart Club Sprint Series",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "03a3aabce6",
       "name": "AMR Motorplex",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 2
+    },
+    {
+      "organizer_id": "5b3a3e4465",
+      "name": "Gulf Coast Karters",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 2
@@ -6942,6 +6830,13 @@
     {
       "organizer_id": "eb6a0e309a",
       "name": "Norwalk Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 1
+    },
+    {
+      "organizer_id": "07d1d6e854",
+      "name": "Spring Mountain Karting Complex",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 1
@@ -6968,6 +6863,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "163cbaed0b",
+      "name": "Badger Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "bsc-ontario",
       "name": "Briggs & Stratton Challenge Ontario",
       "priority": 3,
@@ -6989,6 +6891,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "389c2397ae",
+      "name": "Cascadia Karting Cup",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "88456aedd8",
       "name": "Central Arkansas Karting Complex",
       "priority": 3,
@@ -6996,8 +6905,22 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "c6c07bf0f1",
+      "name": "Club Karting Trois-Rivières",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "c148bcd648",
       "name": "Colorado Karting Circuit",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "c0d67502e1",
+      "name": "Colorado Karting Tour",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -7017,6 +6940,20 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "db0d205d87",
+      "name": "Ignite Karting Nebraska",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "org-1fa412ba78",
+      "name": "KartStars Canada",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "2a75fb40bd",
       "name": "Kartplex at Area 27",
       "priority": 3,
@@ -7033,6 +6970,13 @@
     {
       "organizer_id": "d86e08e4b8",
       "name": "Manitoba Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "f4a36b6979",
+      "name": "Maui Go Karters Association",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -7066,6 +7010,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "6a07490f0e",
+      "name": "National Capital Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "ae2f60ee4f",
       "name": "New Castle Motorsports Park",
       "priority": 3,
@@ -7075,6 +7026,13 @@
     {
       "organizer_id": "9889ecdf35",
       "name": "New Hampshire Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "f44d9b6b3e",
+      "name": "North Texas Karters",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -7115,6 +7073,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "f7a8ec675f",
+      "name": "Point Pelee Karting Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "4677186fd6",
       "name": "Portland Karting Association",
       "priority": 3,
@@ -7145,6 +7110,13 @@
     {
       "organizer_id": "rmc-ontario",
       "name": "Rotax MAX Challenge Ontario",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "81de8ba0b6",
+      "name": "SC Performance Karting Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -7213,8 +7185,29 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "dfd51a1937",
+      "name": "Toronto Racing Association of Karters",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "b957637853",
       "name": "Vancouver Island Karting Association",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "a2f436bf07",
+      "name": "Vermont Shifter Karts",
+      "priority": 3,
+      "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "938e9cfd1c",
+      "name": "Waterloo Regional Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
@@ -7231,6 +7224,13 @@
       "name": "West Michigan Kart Club",
       "priority": 3,
       "reason": "organizer_scope_review",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "af8641685d",
+      "name": "Woodbridge Kart Club Sprint Series",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
       "upcoming_events": 0
     }
   ],
