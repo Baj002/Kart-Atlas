@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:09:41+00:00",
+  "generated_at": "2026-11-21T16:54:43+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 86,
     "with_reached_sources": 76,
-    "with_health_issues": 15,
+    "with_health_issues": 16,
     "unmatched_races": 26
   },
   "organizers": [
@@ -257,10 +257,11 @@
         "wckc-events"
       ],
       "sources_reached": [
-        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [],
+      "unhealthy_sources": [
+        "wckc"
+      ],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -1625,26 +1626,26 @@
           "upcoming_events": 9,
           "recently_verified_upcoming": 1,
           "unconfirmed_future_event_ids": [
-            "auto-848b4674958d8a2c",
-            "auto-7f743ae877800c6a",
-            "auto-6188fc3542bffd68",
-            "auto-130e269a27a7320a",
-            "auto-5ce58e5ac05d3599",
-            "auto-af58ed7d7f82f348",
-            "auto-e5a00bbe9cc1a217",
-            "auto-7204c453b328d0fb"
+            "738890cea2e9",
+            "343da4db8f27",
+            "6fdf655644b7",
+            "e4a33b51a71b",
+            "ded42368c5ba",
+            "2dc493468b95",
+            "b20d9781dd51",
+            "a24e96270c59"
           ],
           "declaration": null,
           "event_ids": [
             "auto-c0f9952a08360ecb",
-            "auto-848b4674958d8a2c",
-            "auto-7f743ae877800c6a",
-            "auto-6188fc3542bffd68",
-            "auto-130e269a27a7320a",
-            "auto-5ce58e5ac05d3599",
-            "auto-af58ed7d7f82f348",
-            "auto-e5a00bbe9cc1a217",
-            "auto-7204c453b328d0fb"
+            "738890cea2e9",
+            "343da4db8f27",
+            "6fdf655644b7",
+            "e4a33b51a71b",
+            "ded42368c5ba",
+            "2dc493468b95",
+            "b20d9781dd51",
+            "a24e96270c59"
           ]
         }
       ]
@@ -6786,6 +6787,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "a3e97ab569",
       "name": "Western Slope Kart Club",
       "priority": 2,
@@ -7208,13 +7216,6 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0

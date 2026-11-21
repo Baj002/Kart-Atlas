@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "curated_snapshot": "2026-11-14",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
-  "auto_imported": 38,
+  "auto_imported": 30,
   "events": [
     {
       "start": "2026-01-01",
@@ -5621,7 +5621,7 @@
       "status": "scheduled",
       "last_verified": "2026-11-15T14:03:19+00:00",
       "registration_status": "closed",
-      "registration_checked_at": "2026-11-20T21:12:15+00:00",
+      "registration_checked_at": "2026-11-21T16:58:00+00:00",
       "registration_evidence": "https://raceselect.com/skusa/2026",
       "registration_reminder_url": "/reminders/1e2d54f2db40.ics"
     },
@@ -5755,8 +5755,8 @@
       "pdf_page": 1,
       "id": "auto-ce9f9a65af37f894",
       "first_seen": "2026-10-19T03:05:35+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-ce9f9a65af37f894.ics"
     },
     {
@@ -5785,8 +5785,8 @@
       "shared_source_url": true,
       "id": "auto-5ab78f8c44c0cc97",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-5ab78f8c44c0cc97.ics"
     },
     {
@@ -5815,8 +5815,8 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-0991aeb03b374650.ics"
     },
     {
@@ -5845,8 +5845,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-fee3fbd995363934.ics"
     },
     {
@@ -5875,8 +5875,8 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-f5f238bbab78f963.ics"
     },
     {
@@ -5932,7 +5932,7 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/05059067c8df.ics"
     },
     {
@@ -5961,8 +5961,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-71223f4ae77f2493.ics"
     },
     {
@@ -5991,8 +5991,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-428c82650c5b3a5b.ics"
     },
     {
@@ -6021,8 +6021,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-3a3182b25cc7ef08.ics"
     },
     {
@@ -6069,8 +6069,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-617ff44d6075f7be.ics"
     },
     {
@@ -6090,7 +6090,7 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/4208ae2b35c9.ics"
     },
     {
@@ -6148,7 +6148,7 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/8eabfebc7421.ics"
     },
     {
@@ -6168,7 +6168,7 @@
       "notes": "Official lists Jan 16–17.",
       "id": "7758fddb9bd1",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "history": [
         {
           "id": "auto-7ce57f877406ac52",
@@ -6202,7 +6202,7 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/78b897cddd42.ics"
     },
     {
@@ -6267,8 +6267,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-c0f9952a08360ecb.ics"
     },
     {
@@ -6290,34 +6290,22 @@
       "registration_reminder_url": "/reminders/ba7ac3a67e8d.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 1",
       "start": "2027-02-06",
       "end": "2027-02-07",
+      "name": "Tri-C Club Series Championship Round 1",
       "organizer": "Tri-C Karters",
       "venue": "Adams Motorsports Park",
       "city": "Riverside",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 1",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-848b4674958d8a2c",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-848b4674958d8a2c.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "738890cea2e9",
+      "registration_reminder_url": "/reminders/738890cea2e9.ics"
     },
     {
       "start": "2027-02-07",
@@ -6336,7 +6324,7 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/90d8ad70ba29.ics"
     },
     {
@@ -6356,7 +6344,7 @@
       "notes": "",
       "id": "6622456fede1",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/6622456fede1.ics"
     },
     {
@@ -6412,7 +6400,7 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/69ffd03bfac4.ics"
     },
     {
@@ -6441,8 +6429,8 @@
       "shared_source_url": true,
       "id": "auto-a39b025c2471dfea",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-a39b025c2471dfea.ics"
     },
     {
@@ -6521,34 +6509,22 @@
       "registration_reminder_url": "/reminders/38439899fc72.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 2",
       "start": "2027-03-06",
       "end": "2027-03-07",
+      "name": "Tri-C Club Series Championship Round 2",
       "organizer": "Tri-C Karters",
       "venue": "Adams Motorsports Park",
       "city": "Riverside",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 2",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-7f743ae877800c6a",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-7f743ae877800c6a.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "343da4db8f27",
+      "registration_reminder_url": "/reminders/343da4db8f27.ics"
     },
     {
       "start": "2027-03-07",
@@ -6567,7 +6543,7 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/f94f8de53b17.ics"
     },
     {
@@ -6665,7 +6641,7 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/b4747467fb2a.ics"
     },
     {
@@ -6748,8 +6724,8 @@
       "shared_source_url": true,
       "id": "auto-8ed6657270a44088",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-8ed6657270a44088.ics"
     },
     {
@@ -6771,34 +6747,22 @@
       "registration_reminder_url": "/reminders/37dff5488c6f.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 3",
       "start": "2027-04-03",
       "end": "2027-04-04",
+      "name": "Tri-C Club Series Championship Round 3",
       "organizer": "Tri-C Karters",
       "venue": "Apex Racing Center",
       "city": "Perris",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 3",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-6188fc3542bffd68",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-6188fc3542bffd68.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "6fdf655644b7",
+      "registration_reminder_url": "/reminders/6fdf655644b7.ics"
     },
     {
       "start": "2027-04-09",
@@ -6836,7 +6800,7 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/bed34054b637.ics"
     },
     {
@@ -6939,8 +6903,8 @@
       "shared_source_url": true,
       "id": "auto-6366183d10919ea7",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-6366183d10919ea7.ics"
     },
     {
@@ -6982,34 +6946,22 @@
       "registration_reminder_url": "/reminders/1bb0a6b3dee8.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 4",
       "start": "2027-05-01",
       "end": "2027-05-02",
+      "name": "Tri-C Club Series Championship Round 4",
       "organizer": "Tri-C Karters",
       "venue": "Adams Motorsports Park",
       "city": "Riverside",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 4",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-130e269a27a7320a",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-130e269a27a7320a.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "e4a33b51a71b",
+      "registration_reminder_url": "/reminders/e4a33b51a71b.ics"
     },
     {
       "start": "2027-05-08",
@@ -7177,34 +7129,22 @@
       "registration_reminder_url": "/reminders/45b67f87c40b.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 5",
       "start": "2027-06-05",
       "end": "2027-06-06",
+      "name": "Tri-C Club Series Championship Round 5",
       "organizer": "Tri-C Karters",
       "venue": "Apex Racing Center",
       "city": "Perris",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 5",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-5ce58e5ac05d3599",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-5ce58e5ac05d3599.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "ded42368c5ba",
+      "registration_reminder_url": "/reminders/ded42368c5ba.ics"
     },
     {
       "start": "2027-06-11",
@@ -7325,8 +7265,8 @@
       "shared_source_url": true,
       "id": "auto-fdeb4cc265dd5e87",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-fdeb4cc265dd5e87.ics"
     },
     {
@@ -7457,34 +7397,22 @@
       "registration_reminder_url": "/reminders/b31d463c5812.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 6",
       "start": "2027-07-31",
       "end": "2027-08-01",
+      "name": "Tri-C Club Series Championship Round 6",
       "organizer": "Tri-C Karters",
       "venue": "Adams Motorsports Park",
       "city": "Riverside",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 6",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-af58ed7d7f82f348",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-af58ed7d7f82f348.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "2dc493468b95",
+      "registration_reminder_url": "/reminders/2dc493468b95.ics"
     },
     {
       "start": "2027-08-06",
@@ -7587,8 +7515,8 @@
       "shared_source_url": true,
       "id": "auto-53bff9b90360d4ab",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-20T21:09:41+00:00",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_seen": "2026-11-21T16:54:43+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/auto-53bff9b90360d4ab.ics"
     },
     {
@@ -7682,34 +7610,22 @@
       "registration_reminder_url": "/reminders/673619d90636.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 7",
       "start": "2027-09-04",
       "end": "2027-09-05",
+      "name": "Tri-C Club Series Championship Round 7",
       "organizer": "Tri-C Karters",
       "venue": "Apex Racing Center",
       "city": "Perris",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 7",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-e5a00bbe9cc1a217",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-e5a00bbe9cc1a217.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "b20d9781dd51",
+      "registration_reminder_url": "/reminders/b20d9781dd51.ics"
     },
     {
       "start": "2027-09-11",
@@ -7841,34 +7757,22 @@
       "registration_reminder_url": "/reminders/e22f68dc8fa5.ics"
     },
     {
-      "name": "Tri-C Club Series Championship Round 8",
       "start": "2027-10-02",
       "end": "2027-10-03",
+      "name": "Tri-C Club Series Championship Round 8",
       "organizer": "Tri-C Karters",
       "venue": "Apex Racing Center",
       "city": "Perris",
       "region": "CA",
       "country": "USA",
-      "source": "https://www.tri-ckarters.org/",
-      "uid": "tri-c-official|2027|Round 8",
-      "feed_id": "tri-c-official",
-      "status": "scheduled",
-      "status_explicit": false,
-      "format": "Sprint",
       "level": "Club",
-      "verification": "Automated",
+      "format": "Sprint",
+      "verification": "Official",
       "classes": "",
-      "notes": "Imported from structured organizer data. Confirm rules and registration with the organizer.",
-      "discovered_from": "https://www.tri-ckarters.org/",
-      "parser": "reviewed-text",
-      "location_needs_review": false,
-      "publication_needs_review": false,
-      "shared_source_url": true,
-      "id": "auto-7204c453b328d0fb",
-      "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-10-25T16:05:54+00:00",
-      "last_verified": "2026-10-25T16:05:54+00:00",
-      "registration_reminder_url": "/reminders/auto-7204c453b328d0fb.ics"
+      "source": "https://www.tri-ckarters.org/",
+      "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
+      "id": "a24e96270c59",
+      "registration_reminder_url": "/reminders/a24e96270c59.ics"
     },
     {
       "start": "2027-10-09",
@@ -7978,7 +7882,7 @@
       "notes": "",
       "id": "e0b611ca1d97",
       "status": "scheduled",
-      "last_verified": "2026-11-20T21:09:41+00:00",
+      "last_verified": "2026-11-21T16:54:43+00:00",
       "registration_reminder_url": "/reminders/e0b611ca1d97.ics"
     }
   ]

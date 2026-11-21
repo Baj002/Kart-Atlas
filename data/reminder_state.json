@@ -1214,6 +1214,78 @@
       "registration_deadline": "",
       "sequence": 1,
       "cancelled": true
+    },
+    "738890cea2e9": {
+      "id": "738890cea2e9",
+      "name": "Tri-C Club Series Championship Round 1",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "343da4db8f27": {
+      "id": "343da4db8f27",
+      "name": "Tri-C Club Series Championship Round 2",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "6fdf655644b7": {
+      "id": "6fdf655644b7",
+      "name": "Tri-C Club Series Championship Round 3",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "e4a33b51a71b": {
+      "id": "e4a33b51a71b",
+      "name": "Tri-C Club Series Championship Round 4",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "ded42368c5ba": {
+      "id": "ded42368c5ba",
+      "name": "Tri-C Club Series Championship Round 5",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "2dc493468b95": {
+      "id": "2dc493468b95",
+      "name": "Tri-C Club Series Championship Round 6",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "b20d9781dd51": {
+      "id": "b20d9781dd51",
+      "name": "Tri-C Club Series Championship Round 7",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
+    },
+    "a24e96270c59": {
+      "id": "a24e96270c59",
+      "name": "Tri-C Club Series Championship Round 8",
+      "source": "https://www.tri-ckarters.org/",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
     }
   }
 }
