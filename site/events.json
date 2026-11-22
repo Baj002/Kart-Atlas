@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "curated_snapshot": "2026-11-14",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
   "auto_imported": 30,
@@ -5621,7 +5621,7 @@
       "status": "scheduled",
       "last_verified": "2026-11-15T14:03:19+00:00",
       "registration_status": "closed",
-      "registration_checked_at": "2026-11-21T20:10:12+00:00",
+      "registration_checked_at": "2026-11-22T20:25:52+00:00",
       "registration_evidence": "https://raceselect.com/skusa/2026",
       "registration_reminder_url": "/reminders/1e2d54f2db40.ics"
     },
@@ -5815,8 +5815,8 @@
       "pdf_page": 1,
       "id": "auto-0991aeb03b374650",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-0991aeb03b374650.ics"
     },
     {
@@ -5845,8 +5845,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-fee3fbd995363934.ics"
     },
     {
@@ -5875,8 +5875,8 @@
       "shared_source_url": true,
       "id": "auto-f5f238bbab78f963",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-f5f238bbab78f963.ics"
     },
     {
@@ -5932,7 +5932,7 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/05059067c8df.ics"
     },
     {
@@ -5961,8 +5961,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-71223f4ae77f2493.ics"
     },
     {
@@ -5991,8 +5991,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-428c82650c5b3a5b.ics"
     },
     {
@@ -6021,8 +6021,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-3a3182b25cc7ef08.ics"
     },
     {
@@ -6069,8 +6069,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-617ff44d6075f7be.ics"
     },
     {
@@ -6090,7 +6090,7 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/4208ae2b35c9.ics"
     },
     {
@@ -6148,7 +6148,7 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/8eabfebc7421.ics"
     },
     {
@@ -6168,7 +6168,7 @@
       "notes": "Official lists Jan 16–17.",
       "id": "7758fddb9bd1",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "history": [
         {
           "id": "auto-7ce57f877406ac52",
@@ -6202,7 +6202,7 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/78b897cddd42.ics"
     },
     {
@@ -6267,8 +6267,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-c0f9952a08360ecb.ics"
     },
     {
@@ -6324,7 +6324,7 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/90d8ad70ba29.ics"
     },
     {
@@ -6344,7 +6344,7 @@
       "notes": "",
       "id": "6622456fede1",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/6622456fede1.ics"
     },
     {
@@ -6400,7 +6400,7 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/69ffd03bfac4.ics"
     },
     {
@@ -6429,8 +6429,8 @@
       "shared_source_url": true,
       "id": "auto-a39b025c2471dfea",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-a39b025c2471dfea.ics"
     },
     {
@@ -6543,7 +6543,7 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/f94f8de53b17.ics"
     },
     {
@@ -6641,7 +6641,7 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/b4747467fb2a.ics"
     },
     {
@@ -6724,8 +6724,8 @@
       "shared_source_url": true,
       "id": "auto-8ed6657270a44088",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-8ed6657270a44088.ics"
     },
     {
@@ -6800,7 +6800,7 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/bed34054b637.ics"
     },
     {
@@ -6903,8 +6903,8 @@
       "shared_source_url": true,
       "id": "auto-6366183d10919ea7",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-6366183d10919ea7.ics"
     },
     {
@@ -7265,8 +7265,8 @@
       "shared_source_url": true,
       "id": "auto-fdeb4cc265dd5e87",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-fdeb4cc265dd5e87.ics"
     },
     {
@@ -7515,8 +7515,8 @@
       "shared_source_url": true,
       "id": "auto-53bff9b90360d4ab",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-21T20:07:38+00:00",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_seen": "2026-11-22T20:22:37+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/auto-53bff9b90360d4ab.ics"
     },
     {
@@ -7882,7 +7882,7 @@
       "notes": "",
       "id": "e0b611ca1d97",
       "status": "scheduled",
-      "last_verified": "2026-11-21T20:07:38+00:00",
+      "last_verified": "2026-11-22T20:22:37+00:00",
       "registration_reminder_url": "/reminders/e0b611ca1d97.ics"
     }
   ]
