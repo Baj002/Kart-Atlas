@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:55:21+00:00",
+  "generated_at": "2026-11-24T23:02:02+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -10,8 +10,8 @@
       "excluded": 2
     },
     "with_configured_sources": 86,
-    "with_reached_sources": 76,
-    "with_health_issues": 16,
+    "with_reached_sources": 73,
+    "with_health_issues": 19,
     "unmatched_races": 26
   },
   "organizers": [
@@ -535,16 +535,16 @@
       "source_ids": [
         "nckc"
       ],
-      "sources_reached": [
+      "sources_reached": [],
+      "unhealthy_sources": [
         "nckc"
       ],
-      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -554,7 +554,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5259,8 +5259,10 @@
           "status": "indexed_future_events",
           "indexed_events": 1,
           "upcoming_events": 1,
-          "recently_verified_upcoming": 1,
-          "unconfirmed_future_event_ids": [],
+          "recently_verified_upcoming": 0,
+          "unconfirmed_future_event_ids": [
+            "auto-f5f238bbab78f963"
+          ],
           "declaration": null,
           "event_ids": [
             "auto-f5f238bbab78f963"
@@ -5927,16 +5929,16 @@
       "source_ids": [
         "cascadia-karting-cup"
       ],
-      "sources_reached": [
+      "sources_reached": [],
+      "unhealthy_sources": [
         "cascadia-karting-cup"
       ],
-      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -5946,7 +5948,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6049,16 +6051,16 @@
       "source_ids": [
         "maui-go-karters-hi"
       ],
-      "sources_reached": [
+      "sources_reached": [],
+      "unhealthy_sources": [
         "maui-go-karters-hi"
       ],
-      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
         {
           "year": 2026,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6068,7 +6070,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
@@ -6315,6 +6317,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "389c2397ae",
+      "name": "Cascadia Karting Cup",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "c74e178fcb",
       "name": "Charlotte Motor Speedway karting",
       "priority": 2,
@@ -6504,6 +6513,13 @@
       "upcoming_events": 0
     },
     {
+      "organizer_id": "f4a36b6979",
+      "name": "Maui Go Karters Association",
+      "priority": 2,
+      "reason": "source_health",
+      "upcoming_events": 0
+    },
+    {
       "organizer_id": "99b3f12357",
       "name": "Michiana Raceway Park",
       "priority": 2,
@@ -6543,6 +6559,13 @@
       "name": "NOLA Karting",
       "priority": 2,
       "reason": "source_not_configured",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "6a07490f0e",
+      "name": "National Capital Kart Club",
+      "priority": 2,
+      "reason": "source_health",
       "upcoming_events": 0
     },
     {
@@ -6875,13 +6898,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "389c2397ae",
-      "name": "Cascadia Karting Cup",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "88456aedd8",
       "name": "Central Arkansas Karting Complex",
       "priority": 3,
@@ -6966,13 +6982,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "f4a36b6979",
-      "name": "Maui Go Karters Association",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "5dab38a82d",
       "name": "Mid-State Kart Club",
       "priority": 3,
@@ -6996,13 +7005,6 @@
     {
       "organizer_id": "e3b9a37938",
       "name": "Music City Kartplex",
-      "priority": 3,
-      "reason": "season_dates_not_verified",
-      "upcoming_events": 0
-    },
-    {
-      "organizer_id": "6a07490f0e",
-      "name": "National Capital Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
