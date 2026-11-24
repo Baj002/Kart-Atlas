@@ -1286,6 +1286,15 @@
       "registration_deadline": "",
       "sequence": 1,
       "cancelled": true
+    },
+    "auto-8c214652a6a9a8aa": {
+      "id": "auto-8c214652a6a9a8aa",
+      "name": "SKUSA California ProKart Challenge Round 3/4",
+      "source": "https://www.superkartsusa.com/event-schedules.html",
+      "registration_url": "",
+      "registration_deadline": "",
+      "sequence": 1,
+      "cancelled": true
     }
   }
 }
