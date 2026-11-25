@@ -1989,6 +1989,36 @@
       "auto_import": false,
       "verified_on": "2026-11-14",
       "category": "Official organizer publishes 2027 schedule as image, not machine-readable text. Monitor for verified event-specific dates and venues; no events imported from a secondary team calendar."
+    },
+    {
+      "id": "black-river-kart-club",
+      "club": "Black River Kart Club",
+      "country": "USA",
+      "region": "OH",
+      "city": "Lorain",
+      "venue": "Lorain Ohio KartPlex",
+      "url": "https://www.blackriverkartclub.com/event-calendar",
+      "mode": "watch",
+      "auto_import": false,
+      "level": "Club",
+      "timezone": "America/New_York",
+      "verified_on": "2026-11-25",
+      "category": "Official 2027 club points calendar; subject to change."
+    },
+    {
+      "id": "grand-junction-winter",
+      "club": "Grand Junction Motor Speedway",
+      "country": "USA",
+      "region": "CO",
+      "city": "Grand Junction",
+      "venue": "Grand Junction Motor Speedway",
+      "url": "https://grandjunctionmotorspeedway.com/racing/",
+      "mode": "watch",
+      "auto_import": false,
+      "level": "Club",
+      "timezone": "America/Denver",
+      "verified_on": "2026-11-25",
+      "category": "Official winter series; owner-kart classes only; rental classes excluded."
     }
   ]
 }
