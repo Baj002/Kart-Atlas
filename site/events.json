@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "curated_snapshot": "2026-11-14",
   "coverage_note": "Coverage is expanding across Canada, USA and Mexico. Automated listings come from structured organizer calendars and event pages; check official details before travel.",
   "auto_imported": 31,
@@ -4731,6 +4731,23 @@
       "id": "8632180767d4"
     },
     {
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "name": "GJMS 2026-27 Winter Series Round 1",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "co-20261011-1"
+    },
+    {
       "start": "2026-10-16",
       "end": "2026-10-18",
       "name": "IKF Grand Nationals",
@@ -5603,6 +5620,23 @@
       "id": "da3404295b53"
     },
     {
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "name": "GJMS 2026-27 Winter Series Round 2",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "co-20261108-2"
+    },
+    {
       "start": "2026-11-11",
       "end": "2026-11-15",
       "name": "SKUSA SuperNationals 29",
@@ -5936,6 +5970,23 @@
       "registration_reminder_url": "/reminders/05059067c8df.ics"
     },
     {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "name": "GJMS 2026-27 Winter Series Round 3",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "co-20261206-3"
+    },
+    {
       "name": "Tri-C Chill Challenge Blizzard 2",
       "start": "2026-12-12",
       "end": "2026-12-12",
@@ -6152,6 +6203,23 @@
       "registration_reminder_url": "/reminders/8eabfebc7421.ics"
     },
     {
+      "start": "2027-01-10",
+      "end": "2027-01-10",
+      "name": "GJMS 2026-27 Winter Series Round 4",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "co-20270110-4"
+    },
+    {
       "start": "2027-01-15",
       "end": "2027-01-17",
       "name": "SKUSA Winter Series Rounds 1–2",
@@ -6346,6 +6414,23 @@
       "status": "scheduled",
       "last_verified": "2026-11-24T23:02:02+00:00",
       "registration_reminder_url": "/reminders/90d8ad70ba29.ics"
+    },
+    {
+      "start": "2027-02-07",
+      "end": "2027-02-07",
+      "name": "GJMS 2026-27 Winter Series Round 5",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "co-20270207-5"
     },
     {
       "start": "2027-02-12",
@@ -6595,6 +6680,23 @@
       "status": "scheduled",
       "last_verified": "2026-11-24T23:02:02+00:00",
       "registration_reminder_url": "/reminders/f94f8de53b17.ics"
+    },
+    {
+      "start": "2027-03-07",
+      "end": "2027-03-07",
+      "name": "GJMS 2026-27 Winter Series Round 6",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "co-20270307-6"
     },
     {
       "start": "2027-03-12",
@@ -6855,6 +6957,23 @@
       "registration_reminder_url": "/reminders/e216105cbc71.ics"
     },
     {
+      "start": "2027-04-17",
+      "end": "2027-04-17",
+      "name": "BRKC 2027 Championship Round 1",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270417-1"
+    },
+    {
       "start": "2027-04-24",
       "end": "2027-04-24",
       "name": "COTF Club Series Whiteland Round 2",
@@ -6995,6 +7114,40 @@
       "registration_reminder_url": "/reminders/e4a33b51a71b.ics"
     },
     {
+      "start": "2027-05-01",
+      "end": "2027-05-01",
+      "name": "BRKC 2027 Championship Round 2",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270501-2"
+    },
+    {
+      "start": "2027-05-02",
+      "end": "2027-05-02",
+      "name": "BRKC 2027 Championship Round 3",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270502-3"
+    },
+    {
       "start": "2027-05-08",
       "end": "2027-05-08",
       "name": "COTF Club Series Whiteland Round 3",
@@ -7084,6 +7237,23 @@
       "id": "2ce6eb8ed014",
       "last_verified": "2026-11-09",
       "registration_reminder_url": "/reminders/2ce6eb8ed014.ics"
+    },
+    {
+      "start": "2027-05-16",
+      "end": "2027-05-16",
+      "name": "BRKC 2027 Championship Round 4",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270516-4"
     },
     {
       "start": "2027-05-22",
@@ -7195,6 +7365,40 @@
       "id": "5ef6b208d776",
       "last_verified": "2026-11-09",
       "registration_reminder_url": "/reminders/5ef6b208d776.ics"
+    },
+    {
+      "start": "2027-06-12",
+      "end": "2027-06-12",
+      "name": "BRKC 2027 Championship Round 5",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270612-5"
+    },
+    {
+      "start": "2027-06-13",
+      "end": "2027-06-13",
+      "name": "BRKC 2027 Championship Round 6",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270613-6"
     },
     {
       "start": "2027-06-18",
@@ -7319,6 +7523,23 @@
       "registration_reminder_url": "/reminders/d1b4a376b379.ics"
     },
     {
+      "start": "2027-07-10",
+      "end": "2027-07-10",
+      "name": "BRKC 2027 Championship Round 7",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270710-7"
+    },
+    {
       "start": "2027-07-15",
       "end": "2027-07-15",
       "name": "COTF Club Series Whiteland Round 5",
@@ -7353,6 +7574,23 @@
       "notes": "",
       "id": "7866f6399c7c",
       "registration_reminder_url": "/reminders/7866f6399c7c.ics"
+    },
+    {
+      "start": "2027-07-18",
+      "end": "2027-07-18",
+      "name": "BRKC 2027 Championship Round 8",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270718-8"
     },
     {
       "start": "2027-07-23",
@@ -7519,6 +7757,40 @@
       "id": "9acd0d3268d8",
       "last_verified": "2026-11-09",
       "registration_reminder_url": "/reminders/9acd0d3268d8.ics"
+    },
+    {
+      "start": "2027-08-14",
+      "end": "2027-08-14",
+      "name": "BRKC 2027 Championship Round 9",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270814-9"
+    },
+    {
+      "start": "2027-08-15",
+      "end": "2027-08-15",
+      "name": "BRKC 2027 Championship Round 10",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270815-10"
     },
     {
       "name": "Championship Race Round 5",
@@ -7716,6 +7988,23 @@
       "registration_reminder_url": "/reminders/e32c72034c7f.ics"
     },
     {
+      "start": "2027-09-19",
+      "end": "2027-09-19",
+      "name": "BRKC 2027 Championship Round 11",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20270919-11"
+    },
+    {
       "start": "2027-09-25",
       "end": "2027-09-25",
       "name": "COTF Club Series Whiteland Round 8",
@@ -7804,6 +8093,23 @@
       "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
       "id": "a24e96270c59",
       "registration_reminder_url": "/reminders/a24e96270c59.ics"
+    },
+    {
+      "start": "2027-10-02",
+      "end": "2027-10-02",
+      "name": "BRKC 2027 Championship Round 12",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "oh-20271002-12"
     },
     {
       "start": "2027-10-09",
