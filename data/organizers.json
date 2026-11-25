@@ -2747,6 +2747,48 @@
       "season_declarations": [],
       "reviewed_on": "2026-11-14",
       "evidence": "https://www.starschampionshipseries.com/"
+    },
+    {
+      "id": "black-river-kart-club",
+      "name": "Black River Kart Club",
+      "aliases": [
+        "Black River Kart Club"
+      ],
+      "country": "USA",
+      "region": "OH",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "primary_url": "https://www.blackriverkartclub.com/event-calendar",
+      "source_ids": [
+        "black-river-kart-club"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official 2027 club points calendar; subject to change.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-25",
+      "evidence": "https://www.blackriverkartclub.com/event-calendar"
+    },
+    {
+      "id": "grand-junction-winter",
+      "name": "Grand Junction Motor Speedway",
+      "aliases": [
+        "Grand Junction Motor Speedway"
+      ],
+      "country": "USA",
+      "region": "CO",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "primary_url": "https://grandjunctionmotorspeedway.com/racing/",
+      "source_ids": [
+        "grand-junction-winter"
+      ],
+      "scope_status": "eligible",
+      "scope_reason": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "verification": "reviewed_organizer",
+      "season_declarations": [],
+      "reviewed_on": "2026-11-25",
+      "evidence": "https://grandjunctionmotorspeedway.com/racing/"
     }
   ]
 }
