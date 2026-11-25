@@ -4716,6 +4716,23 @@
     {
       "start": "2026-10-11",
       "end": "2026-10-11",
+      "name": "GJMS 2026-27 Winter Series Round 1",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "ae79484cebb7"
+    },
+    {
+      "start": "2026-10-11",
+      "end": "2026-10-11",
       "name": "Utah Karting Championship 2026 Round 10",
       "organizer": "Utah Karting Championship",
       "venue": "Utah Motorsports Campus Kart Track",
@@ -4729,23 +4746,6 @@
       "source": "https://www.utahmotorsportscampus.com/ukc-at-umc/",
       "notes": "Published 2026 Utah Karting Championship race day; practice sessions excluded.",
       "id": "8632180767d4"
-    },
-    {
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "name": "GJMS 2026-27 Winter Series Round 1",
-      "organizer": "Grand Junction Motor Speedway",
-      "venue": "Grand Junction Motor Speedway",
-      "city": "Grand Junction",
-      "region": "CO",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "Briggs LO206 Senior; Master; Cadet",
-      "source": "https://grandjunctionmotorspeedway.com/racing/",
-      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
-      "id": "co-20261011-1"
     },
     {
       "start": "2026-10-16",
@@ -5570,6 +5570,23 @@
     {
       "start": "2026-11-08",
       "end": "2026-11-08",
+      "name": "GJMS 2026-27 Winter Series Round 2",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "315e99959010"
+    },
+    {
+      "start": "2026-11-08",
+      "end": "2026-11-08",
       "name": "Santa Maria Kart Association 2026 Club Round 2",
       "organizer": "Santa Maria Kart Association",
       "venue": "Santa Maria Kart Track",
@@ -5618,23 +5635,6 @@
       "source": "https://tulsakartclub.com/wp-content/uploads/2025/12/Schedule.pdf",
       "notes": "Published official 2026 Tulsa Kart Club schedule; historical owner-kart sprint race.",
       "id": "da3404295b53"
-    },
-    {
-      "start": "2026-11-08",
-      "end": "2026-11-08",
-      "name": "GJMS 2026-27 Winter Series Round 2",
-      "organizer": "Grand Junction Motor Speedway",
-      "venue": "Grand Junction Motor Speedway",
-      "city": "Grand Junction",
-      "region": "CO",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "Briggs LO206 Senior; Master; Cadet",
-      "source": "https://grandjunctionmotorspeedway.com/racing/",
-      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
-      "id": "co-20261108-2"
     },
     {
       "start": "2026-11-11",
@@ -5952,6 +5952,24 @@
     {
       "start": "2026-12-06",
       "end": "2026-12-06",
+      "name": "GJMS 2026-27 Winter Series Round 3",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "6401b711c62b",
+      "registration_reminder_url": "/reminders/6401b711c62b.ics"
+    },
+    {
+      "start": "2026-12-06",
+      "end": "2026-12-06",
       "name": "PKRA Winter Championship Round 3",
       "organizer": "Phoenix Kart Racing Association",
       "venue": "PKRA at Adobe Dam",
@@ -5966,25 +5984,8 @@
       "notes": "",
       "id": "05059067c8df",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/05059067c8df.ics"
-    },
-    {
-      "start": "2026-12-06",
-      "end": "2026-12-06",
-      "name": "GJMS 2026-27 Winter Series Round 3",
-      "organizer": "Grand Junction Motor Speedway",
-      "venue": "Grand Junction Motor Speedway",
-      "city": "Grand Junction",
-      "region": "CO",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "Briggs LO206 Senior; Master; Cadet",
-      "source": "https://grandjunctionmotorspeedway.com/racing/",
-      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
-      "id": "co-20261206-3"
     },
     {
       "name": "Tri-C Chill Challenge Blizzard 2",
@@ -6012,8 +6013,8 @@
       "shared_source_url": true,
       "id": "auto-71223f4ae77f2493",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-71223f4ae77f2493.ics"
     },
     {
@@ -6042,8 +6043,8 @@
       "discovered_from": "https://www.racekarts.com/index.php?option=com_dpcalendar&task=ical.download&id=39",
       "parser": "ics",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-428c82650c5b3a5b.ics"
     },
     {
@@ -6072,8 +6073,8 @@
       "pdf_page": 1,
       "id": "auto-3a3182b25cc7ef08",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-3a3182b25cc7ef08.ics"
     },
     {
@@ -6120,8 +6121,8 @@
       "pdf_page": 1,
       "id": "auto-617ff44d6075f7be",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-617ff44d6075f7be.ics"
     },
     {
@@ -6141,7 +6142,7 @@
       "notes": "",
       "id": "4208ae2b35c9",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/4208ae2b35c9.ics"
     },
     {
@@ -6185,6 +6186,24 @@
     {
       "start": "2027-01-10",
       "end": "2027-01-10",
+      "name": "GJMS 2026-27 Winter Series Round 4",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "f2ec399d54ea",
+      "registration_reminder_url": "/reminders/f2ec399d54ea.ics"
+    },
+    {
+      "start": "2027-01-10",
+      "end": "2027-01-10",
       "name": "PKRA Winter Championship Round 5",
       "organizer": "Phoenix Kart Racing Association",
       "venue": "PKRA at Adobe Dam",
@@ -6199,25 +6218,8 @@
       "notes": "",
       "id": "8eabfebc7421",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/8eabfebc7421.ics"
-    },
-    {
-      "start": "2027-01-10",
-      "end": "2027-01-10",
-      "name": "GJMS 2026-27 Winter Series Round 4",
-      "organizer": "Grand Junction Motor Speedway",
-      "venue": "Grand Junction Motor Speedway",
-      "city": "Grand Junction",
-      "region": "CO",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "Briggs LO206 Senior; Master; Cadet",
-      "source": "https://grandjunctionmotorspeedway.com/racing/",
-      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
-      "id": "co-20270110-4"
     },
     {
       "start": "2027-01-15",
@@ -6236,7 +6238,7 @@
       "notes": "Official lists Jan 16–17.",
       "id": "7758fddb9bd1",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "history": [
         {
           "id": "auto-7ce57f877406ac52",
@@ -6270,7 +6272,7 @@
       "notes": "Non-championship points event.",
       "id": "78b897cddd42",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/78b897cddd42.ics"
     },
     {
@@ -6325,7 +6327,7 @@
       "source": "https://www.superkartsusa.com/event-schedules.html",
       "notes": "2027 date and venue confirmed on current official SKUSA schedule 2026-11-09; earlier TBA location superseded.",
       "id": "c36f4da0b2fd",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "status": "scheduled",
       "registration_reminder_url": "/reminders/c36f4da0b2fd.ics"
     },
@@ -6355,8 +6357,8 @@
       "shared_source_url": true,
       "id": "auto-c0f9952a08360ecb",
       "first_seen": "2026-10-19T17:56:26+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-c0f9952a08360ecb.ics"
     },
     {
@@ -6398,6 +6400,24 @@
     {
       "start": "2027-02-07",
       "end": "2027-02-07",
+      "name": "GJMS 2026-27 Winter Series Round 5",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "317528055054",
+      "registration_reminder_url": "/reminders/317528055054.ics"
+    },
+    {
+      "start": "2027-02-07",
+      "end": "2027-02-07",
       "name": "PKRA Winter Championship Round 6",
       "organizer": "Phoenix Kart Racing Association",
       "venue": "PKRA at Adobe Dam",
@@ -6412,25 +6432,8 @@
       "notes": "",
       "id": "90d8ad70ba29",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/90d8ad70ba29.ics"
-    },
-    {
-      "start": "2027-02-07",
-      "end": "2027-02-07",
-      "name": "GJMS 2026-27 Winter Series Round 5",
-      "organizer": "Grand Junction Motor Speedway",
-      "venue": "Grand Junction Motor Speedway",
-      "city": "Grand Junction",
-      "region": "CO",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "Briggs LO206 Senior; Master; Cadet",
-      "source": "https://grandjunctionmotorspeedway.com/racing/",
-      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
-      "id": "co-20270207-5"
     },
     {
       "start": "2027-02-12",
@@ -6449,7 +6452,7 @@
       "notes": "",
       "id": "6622456fede1",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/6622456fede1.ics"
     },
     {
@@ -6514,8 +6517,8 @@
       "shared_source_url": true,
       "id": "auto-8c214652a6a9a8aa",
       "first_seen": "2026-11-24T00:55:21+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-8c214652a6a9a8aa.ics"
     },
     {
@@ -6535,7 +6538,7 @@
       "notes": "",
       "id": "69ffd03bfac4",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/69ffd03bfac4.ics"
     },
     {
@@ -6564,8 +6567,8 @@
       "shared_source_url": true,
       "id": "auto-a39b025c2471dfea",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-a39b025c2471dfea.ics"
     },
     {
@@ -6664,6 +6667,24 @@
     {
       "start": "2027-03-07",
       "end": "2027-03-07",
+      "name": "GJMS 2026-27 Winter Series Round 6",
+      "organizer": "Grand Junction Motor Speedway",
+      "venue": "Grand Junction Motor Speedway",
+      "city": "Grand Junction",
+      "region": "CO",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "Briggs LO206 Senior; Master; Cadet",
+      "source": "https://grandjunctionmotorspeedway.com/racing/",
+      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
+      "id": "6e6c6b4baf90",
+      "registration_reminder_url": "/reminders/6e6c6b4baf90.ics"
+    },
+    {
+      "start": "2027-03-07",
+      "end": "2027-03-07",
       "name": "PKRA Winter Championship Round 8",
       "organizer": "Phoenix Kart Racing Association",
       "venue": "PKRA at Adobe Dam",
@@ -6678,25 +6699,8 @@
       "notes": "",
       "id": "f94f8de53b17",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/f94f8de53b17.ics"
-    },
-    {
-      "start": "2027-03-07",
-      "end": "2027-03-07",
-      "name": "GJMS 2026-27 Winter Series Round 6",
-      "organizer": "Grand Junction Motor Speedway",
-      "venue": "Grand Junction Motor Speedway",
-      "city": "Grand Junction",
-      "region": "CO",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "Briggs LO206 Senior; Master; Cadet",
-      "source": "https://grandjunctionmotorspeedway.com/racing/",
-      "notes": "Official winter series; owner-kart classes only; rental classes excluded.",
-      "id": "co-20270307-6"
     },
     {
       "start": "2027-03-12",
@@ -6774,7 +6778,7 @@
       "notes": "",
       "id": "b4747467fb2a",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/b4747467fb2a.ics"
     },
     {
@@ -6857,8 +6861,8 @@
       "shared_source_url": true,
       "id": "auto-8ed6657270a44088",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-8ed6657270a44088.ics"
     },
     {
@@ -6933,7 +6937,7 @@
       "notes": "",
       "id": "bed34054b637",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/bed34054b637.ics"
     },
     {
@@ -6971,7 +6975,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270417-1"
+      "id": "d91b5c05d9d5",
+      "registration_reminder_url": "/reminders/d91b5c05d9d5.ics"
     },
     {
       "start": "2027-04-24",
@@ -7053,8 +7058,8 @@
       "shared_source_url": true,
       "id": "auto-6366183d10919ea7",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-6366183d10919ea7.ics"
     },
     {
@@ -7074,6 +7079,24 @@
       "notes": "Published official 2027 TSRS schedule; venue confirmed 2026-11-10. Check organizer for registration status.",
       "id": "67be2bafce1d",
       "registration_reminder_url": "/reminders/67be2bafce1d.ics"
+    },
+    {
+      "start": "2027-05-01",
+      "end": "2027-05-01",
+      "name": "BRKC 2027 Championship Round 2",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "c70998fd1d60",
+      "registration_reminder_url": "/reminders/c70998fd1d60.ics"
     },
     {
       "start": "2027-05-01",
@@ -7114,23 +7137,6 @@
       "registration_reminder_url": "/reminders/e4a33b51a71b.ics"
     },
     {
-      "start": "2027-05-01",
-      "end": "2027-05-01",
-      "name": "BRKC 2027 Championship Round 2",
-      "organizer": "Black River Kart Club",
-      "venue": "Lorain Ohio KartPlex",
-      "city": "Lorain",
-      "region": "OH",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://www.blackriverkartclub.com/event-calendar",
-      "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270501-2"
-    },
-    {
       "start": "2027-05-02",
       "end": "2027-05-02",
       "name": "BRKC 2027 Championship Round 3",
@@ -7145,7 +7151,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270502-3"
+      "id": "531fbed0797e",
+      "registration_reminder_url": "/reminders/531fbed0797e.ics"
     },
     {
       "start": "2027-05-08",
@@ -7253,7 +7260,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270516-4"
+      "id": "23b5fca82a5b",
+      "registration_reminder_url": "/reminders/23b5fca82a5b.ics"
     },
     {
       "start": "2027-05-22",
@@ -7381,7 +7389,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270612-5"
+      "id": "c2ec839df36d",
+      "registration_reminder_url": "/reminders/c2ec839df36d.ics"
     },
     {
       "start": "2027-06-13",
@@ -7398,7 +7407,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270613-6"
+      "id": "ffc75e99ef35",
+      "registration_reminder_url": "/reminders/ffc75e99ef35.ics"
     },
     {
       "start": "2027-06-18",
@@ -7500,8 +7510,8 @@
       "shared_source_url": true,
       "id": "auto-fdeb4cc265dd5e87",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-fdeb4cc265dd5e87.ics"
     },
     {
@@ -7537,7 +7547,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270710-7"
+      "id": "eaa8e44eb5fa",
+      "registration_reminder_url": "/reminders/eaa8e44eb5fa.ics"
     },
     {
       "start": "2027-07-15",
@@ -7590,7 +7601,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270718-8"
+      "id": "f958b1f04724",
+      "registration_reminder_url": "/reminders/f958b1f04724.ics"
     },
     {
       "start": "2027-07-23",
@@ -7741,6 +7753,24 @@
     },
     {
       "start": "2027-08-14",
+      "end": "2027-08-14",
+      "name": "BRKC 2027 Championship Round 9",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "41f7b07cd87c",
+      "registration_reminder_url": "/reminders/41f7b07cd87c.ics"
+    },
+    {
+      "start": "2027-08-14",
       "end": "2027-08-15",
       "name": "SKUSA California ProKart Challenge Round 4",
       "organizer": "SKUSA",
@@ -7759,23 +7789,6 @@
       "registration_reminder_url": "/reminders/9acd0d3268d8.ics"
     },
     {
-      "start": "2027-08-14",
-      "end": "2027-08-14",
-      "name": "BRKC 2027 Championship Round 9",
-      "organizer": "Black River Kart Club",
-      "venue": "Lorain Ohio KartPlex",
-      "city": "Lorain",
-      "region": "OH",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://www.blackriverkartclub.com/event-calendar",
-      "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270814-9"
-    },
-    {
       "start": "2027-08-15",
       "end": "2027-08-15",
       "name": "BRKC 2027 Championship Round 10",
@@ -7790,7 +7803,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270815-10"
+      "id": "80d1dabffd82",
+      "registration_reminder_url": "/reminders/80d1dabffd82.ics"
     },
     {
       "name": "Championship Race Round 5",
@@ -7818,8 +7832,8 @@
       "shared_source_url": true,
       "id": "auto-53bff9b90360d4ab",
       "first_seen": "2026-11-11T14:26:51+00:00",
-      "last_seen": "2026-11-24T23:02:02+00:00",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_seen": "2026-11-25T17:18:14+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/auto-53bff9b90360d4ab.ics"
     },
     {
@@ -8002,7 +8016,8 @@
       "classes": "",
       "source": "https://www.blackriverkartclub.com/event-calendar",
       "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20270919-11"
+      "id": "a658f6d85dd4",
+      "registration_reminder_url": "/reminders/a658f6d85dd4.ics"
     },
     {
       "start": "2027-09-25",
@@ -8078,6 +8093,24 @@
     },
     {
       "start": "2027-10-02",
+      "end": "2027-10-02",
+      "name": "BRKC 2027 Championship Round 12",
+      "organizer": "Black River Kart Club",
+      "venue": "Lorain Ohio KartPlex",
+      "city": "Lorain",
+      "region": "OH",
+      "country": "USA",
+      "level": "Club",
+      "format": "Sprint",
+      "verification": "Official",
+      "classes": "",
+      "source": "https://www.blackriverkartclub.com/event-calendar",
+      "notes": "Official 2027 club points calendar; subject to change.",
+      "id": "0aa075beb2cc",
+      "registration_reminder_url": "/reminders/0aa075beb2cc.ics"
+    },
+    {
+      "start": "2027-10-02",
       "end": "2027-10-03",
       "name": "Tri-C Club Series Championship Round 8",
       "organizer": "Tri-C Karters",
@@ -8093,23 +8126,6 @@
       "notes": "Verified against Tri-C Karters official 2027 Club Series schedule on 2026-11-21; existing JSON record retained.",
       "id": "a24e96270c59",
       "registration_reminder_url": "/reminders/a24e96270c59.ics"
-    },
-    {
-      "start": "2027-10-02",
-      "end": "2027-10-02",
-      "name": "BRKC 2027 Championship Round 12",
-      "organizer": "Black River Kart Club",
-      "venue": "Lorain Ohio KartPlex",
-      "city": "Lorain",
-      "region": "OH",
-      "country": "USA",
-      "level": "Club",
-      "format": "Sprint",
-      "verification": "Official",
-      "classes": "",
-      "source": "https://www.blackriverkartclub.com/event-calendar",
-      "notes": "Official 2027 club points calendar; subject to change.",
-      "id": "oh-20271002-12"
     },
     {
       "start": "2027-10-09",
@@ -8219,7 +8235,7 @@
       "notes": "",
       "id": "e0b611ca1d97",
       "status": "scheduled",
-      "last_verified": "2026-11-24T23:02:02+00:00",
+      "last_verified": "2026-11-25T17:18:14+00:00",
       "registration_reminder_url": "/reminders/e0b611ca1d97.ics"
     }
   ]
