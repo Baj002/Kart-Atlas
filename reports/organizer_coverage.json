@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:35:06+00:00",
+  "generated_at": "2026-11-26T22:22:52+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -11,7 +11,7 @@
     },
     "with_configured_sources": 88,
     "with_reached_sources": 77,
-    "with_health_issues": 18,
+    "with_health_issues": 17,
     "unmatched_races": 26
   },
   "organizers": [
@@ -257,11 +257,10 @@
         "wckc-events"
       ],
       "sources_reached": [
+        "wckc",
         "wckc-events"
       ],
-      "unhealthy_sources": [
-        "wckc"
-      ],
+      "unhealthy_sources": [],
       "stale_sources": [],
       "review_candidates": 0,
       "seasons": [
@@ -6915,13 +6914,6 @@
       "upcoming_events": 0
     },
     {
-      "organizer_id": "e10cbff088",
-      "name": "West Coast Kart Club",
-      "priority": 2,
-      "reason": "source_health",
-      "upcoming_events": 0
-    },
-    {
       "organizer_id": "a3e97ab569",
       "name": "Western Slope Kart Club",
       "priority": 2,
@@ -7344,6 +7336,13 @@
     {
       "organizer_id": "938e9cfd1c",
       "name": "Waterloo Regional Kart Club",
+      "priority": 3,
+      "reason": "season_dates_not_verified",
+      "upcoming_events": 0
+    },
+    {
+      "organizer_id": "e10cbff088",
+      "name": "West Coast Kart Club",
       "priority": 3,
       "reason": "season_dates_not_verified",
       "upcoming_events": 0
