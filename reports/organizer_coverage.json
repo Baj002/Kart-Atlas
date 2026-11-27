@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T22:22:52+00:00",
+  "generated_at": "2026-11-27T21:59:28+00:00",
   "scope": "Competition circuit karting; unknown classes are not excluded",
   "coverage_note": "Registry entries are research targets, not a census. No future dates does not establish season completion or non-announcement.",
   "summary": {
@@ -10,7 +10,7 @@
       "excluded": 2
     },
     "with_configured_sources": 88,
-    "with_reached_sources": 77,
+    "with_reached_sources": 76,
     "with_health_issues": 17,
     "unmatched_races": 26
   },
@@ -5245,9 +5245,7 @@
       "source_ids": [
         "monterrey-kart"
       ],
-      "sources_reached": [
-        "monterrey-kart"
-      ],
+      "sources_reached": [],
       "unhealthy_sources": [
         "monterrey-kart"
       ],
@@ -5270,7 +5268,7 @@
         },
         {
           "year": 2027,
-          "status": "no_dates_verified",
+          "status": "source_unreachable",
           "indexed_events": 0,
           "upcoming_events": 0,
           "recently_verified_upcoming": 0,
